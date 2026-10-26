@@ -1,0 +1,9 @@
+{
+  "name": "@udi/knowledge",
+  "version": "0.1.0",
+  "private": true,
+  "private": true,
+  "description": "Curated, attributed design knowledge for UDI",
+  "license": "MIT",
+  "type": "module"
+}

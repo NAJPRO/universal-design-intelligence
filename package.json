@@ -1,0 +1,26 @@
+{
+  "name": "udi-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first design intelligence for AI coding agents",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@12.11.2",
+  "scripts": {
+    "build": "pnpm --recursive --if-present build",
+    "test": "pnpm --filter universal-design-intelligence test",
+    "lint": "eslint packages/cli/src packages/cli/test",
+    "typecheck": "pnpm --filter universal-design-intelligence typecheck",
+    "check": "pnpm lint && pnpm typecheck && pnpm test",
+    "pack:check": "pnpm --filter universal-design-intelligence build && pnpm --filter universal-design-intelligence pack --dry-run"
+  },
+  "devDependencies": {
+    "eslint": "^10.13.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.1",
+    "vitest": "^3.2.4"
+  }
+}

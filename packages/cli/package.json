@@ -1,0 +1,29 @@
+{
+  "name": "universal-design-intelligence",
+  "version": "0.1.0",
+  "description": "Universal Design Intelligence command-line interface",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "udi": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/copy-assets.mjs",
+    "test": "pnpm build && vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1"
+  }
+}

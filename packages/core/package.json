@@ -1,0 +1,12 @@
+{
+  "name": "@udi/core",
+  "version": "0.1.0",
+  "private": true,
+  "private": true,
+  "description": "Schemas, retrieval, recommendations, and agent adapters for UDI",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "zod": "^4.1.12"
+  }
+}
