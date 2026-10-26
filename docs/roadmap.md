@@ -15,13 +15,13 @@ Target release: **2026-10-31**. The deadline prioritizes an installable, tested 
 
 ## Phase 2 — Design intelligence
 
-- [ ] Define Zod-validated knowledge and profile schemas with provenance/review metadata.
-- [ ] Create a reviewed, attributed catalog (target ~100 rules and 20 profiles).
-- [ ] Implement deterministic BM25 retrieval with filters and empty-result behavior.
-- [ ] Implement recommendations and human/JSON output.
-- [ ] Add focused unit tests for retrieval and recommendation relevance.
+- [x] Define Zod-validated knowledge and profile schemas with provenance/review metadata.
+- [x] Create a reviewed, attributed catalog (80 rules, 17 profiles, 8 patterns, and 8 anti-patterns).
+- [x] Implement deterministic BM25 retrieval with filters and empty-result behavior.
+- [x] Implement recommendations and human/JSON output.
+- [x] Add focused unit tests, a 16-query relevance benchmark, and CLI integration coverage.
 
-**Acceptance:** catalog entries validate against runtime schemas; retrieval is deterministic, relevance-ranked, filter-aware, and returns a valid empty result; recommendation JSON validates against its output schema; tests cover relevance, filters, ties, and no matches; core operation requires no network access.
+**Acceptance:** met by `pnpm check` and `pnpm build`. The measured baseline is recorded in `docs/PROGRESS.md`; it is a small internal benchmark, not an external quality claim.
 
 ## Phase 3 — Agent integration
 

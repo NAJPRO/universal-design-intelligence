@@ -11,19 +11,22 @@
     "udi": "./dist/index.js"
   },
   "files": [
-    "dist",
+    "dist/index.js",
+    "dist/skills/udi-design/SKILL.md",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json && node scripts/copy-assets.mjs",
-    "test": "pnpm build && vitest run",
+    "build": "tsc -p tsconfig.json --noEmit && node scripts/bundle.mjs && node scripts/copy-assets.mjs",
+    "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
     "commander": "^14.0.2"
   },
   "devDependencies": {
-    "@types/node": "^22.19.1"
+    "@types/node": "^22.19.1",
+    "esbuild": "^0.28.2"
   }
 }

@@ -188,14 +188,24 @@ importers:
       '@types/node':
         specifier: ^22.19.1
         version: 22.20.5
+      esbuild:
+        specifier: ^0.28.2
+        version: 0.28.2
 
   packages/core:
     dependencies:
+      '@udi/knowledge':
+        specifier: workspace:*
+        version: link:../knowledge
       zod:
         specifier: ^4.1.12
         version: 4.6.7
 
-  packages/knowledge: {}
+  packages/knowledge:
+    dependencies:
+      zod:
+        specifier: ^4.1.12
+        version: 4.6.7
 
 packages:
 

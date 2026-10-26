@@ -1,9 +1,12 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist",
-    "types": ["node"]
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@udi/core": ["../core/src/index.ts"],
+      "@udi/knowledge": ["../knowledge/src/index.ts"]
+    }
   },
   "include": ["src/**/*.ts"]
 }

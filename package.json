@@ -11,9 +11,9 @@
   "packageManager": "pnpm@12.11.2",
   "scripts": {
     "build": "pnpm --recursive --if-present build",
-    "test": "pnpm --filter universal-design-intelligence test",
-    "lint": "eslint packages/cli/src packages/cli/test",
-    "typecheck": "pnpm --filter universal-design-intelligence typecheck",
+    "test": "pnpm build && vitest run",
+    "lint": "eslint packages/*/src packages/*/test",
+    "typecheck": "pnpm build && pnpm --recursive --if-present typecheck",
     "check": "pnpm lint && pnpm typecheck && pnpm test",
     "pack:check": "pnpm --filter universal-design-intelligence build && pnpm --filter universal-design-intelligence pack --dry-run"
   },

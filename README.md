@@ -1,8 +1,8 @@
 # Universal Design Intelligence (UDI)
 
-UDI is a local-first, open-source design intelligence system for AI coding agents. It aims to help agents make grounded, accessible, responsive UI decisions while preserving each project's existing framework, brand, and design system.
+UDI is a local-first, open-source design intelligence system for AI coding agents. It helps agents make explainable, accessible, responsive UI decisions while preserving each project's existing framework, brand, and design system.
 
-The repository is in its foundation phase. The current executable milestone is a tested CLI version command; knowledge retrieval and agent installation are not yet implemented.
+Phase 2 provides an offline knowledge catalog, deterministic BM25 search, structured design recommendations, and a tested CLI. Agent installation adapters remain planned.
 
 ## Requirements
 
@@ -24,16 +24,32 @@ pnpm --filter universal-design-intelligence build
 node packages/cli/dist/index.js --version
 ```
 
-## Planned CLI
+Search the local catalog:
 
-The MVP is planned to provide `udi init`, `udi search`, `udi recommend`, `udi doctor`, and `udi --version`. Only `udi --version` is implemented today. No package is published and no remote repository has been created.
+```sh
+node packages/cli/dist/index.js search "accessible form labels" --category forms --limit 5
+node packages/cli/dist/index.js search "dashboard metrics" --type dashboard --framework react --json
+```
+
+Generate a deterministic design direction:
+
+```sh
+node packages/cli/dist/index.js recommend --type saas --style premium --audience "operations teams"
+node packages/cli/dist/index.js recommend --type fintech --preserve-brand --json
+```
+
+Search and recommendations use local bundled catalog data; no API key or network connection is required. Use `--help` on either command for supported filters. No package is published and no remote repository has been created.
+
+## Knowledge and provenance
+
+The initial catalog contains 80 design rules and 17 profiles. Rules and profiles use strict Zod schemas, stable IDs, explicit applicability, actionable guidance, and provenance metadata. See [the knowledge contribution guide](docs/knowledge-contribution.md) before changing or adding catalog material.
 
 ## Project status and design decisions
 
 - [Architecture and RFC](docs/architecture.md)
 - [Competitive research](docs/research/competitive-analysis.md)
 - [Roadmap and backlog](docs/roadmap.md)
-- [Progress and blockers](docs/PROGRESS.md)
+- [Progress and remaining work](docs/PROGRESS.md)
 - [Contributing](CONTRIBUTING.md)
 
 ## License
