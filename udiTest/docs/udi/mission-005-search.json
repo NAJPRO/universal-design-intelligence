@@ -1,0 +1,227 @@
+[
+  {
+    "ruleId": "UDI-ACC-003",
+    "category": "accessibility",
+    "title": "Support zoom, reflow, and text resizing",
+    "summary": "Interfaces should remain usable when users enlarge content or view the page at a narrow effective width.",
+    "guidance": [
+      "Avoid fixed-height text containers and test content at 200% zoom and narrow viewport widths.",
+      "Let text wrap without clipping controls, labels, or essential instructions."
+    ],
+    "priority": "critical",
+    "score": 14.86839785623524,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-RSP-001",
+    "category": "responsive-design",
+    "title": "Reflow content without losing information",
+    "summary": "Responsive layouts must preserve essential content and actions at narrow widths rather than relying on horizontal page scrolling.",
+    "guidance": [
+      "At narrow viewports, reflow columns, wrap content, or provide a scoped overflow region for genuinely tabular data.",
+      "Check that headings, navigation, forms, and primary actions remain available at 320 CSS pixels and with text zoom."
+    ],
+    "priority": "critical",
+    "score": 9.470427508168388,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-TYP-003",
+    "category": "typography",
+    "title": "Use weight and size before decorative text effects",
+    "summary": "Clear typographic hierarchy remains legible across devices and does not depend on text shadows, outlines, or excessive letter spacing.",
+    "guidance": [
+      "Differentiate hierarchy with a limited set of font sizes and weights, then use color as a supporting cue.",
+      "Reserve all-caps and expanded tracking for short labels; avoid applying them to long copy or small text."
+    ],
+    "priority": "medium",
+    "score": 8.066757370829215,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-INT-001",
+    "category": "interaction-states",
+    "title": "Design default, hover, focus, active, and disabled states",
+    "summary": "A component is incomplete if it communicates only its resting appearance.",
+    "guidance": [
+      "Define state treatments for pointer, keyboard, pressed, loading, and unavailable conditions as appropriate.",
+      "Keep state changes perceivable without relying on color alone and preserve layout stability during loading."
+    ],
+    "priority": "high",
+    "score": 7.694475427064354,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-TYP-005",
+    "category": "typography",
+    "title": "Treat text truncation as an exception",
+    "summary": "Truncated labels can conceal meaning and make navigation or data difficult to identify.",
+    "guidance": [
+      "Prefer wrapping or a wider layout for meaningful content; truncate only predictable single-line labels.",
+      "When truncation is necessary, provide the full value through an accessible name and a usable disclosure mechanism."
+    ],
+    "priority": "high",
+    "score": 7.595385374009165,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-INT-003",
+    "category": "interaction-states",
+    "title": "Communicate progress for actions that take time",
+    "summary": "Visible progress and a clear completion state prevent duplicate submissions and uncertainty.",
+    "guidance": [
+      "Show a concise pending state, prevent accidental duplicate actions, and restore a usable state if the operation fails.",
+      "For indeterminate work, explain what is happening without inventing a percentage or blocking unrelated navigation."
+    ],
+    "priority": "high",
+    "score": 6.27028696956795,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-MKT-004",
+    "category": "marketing-landing-pages",
+    "title": "Use product imagery to explain the experience",
+    "summary": "Screenshots and illustrations should clarify a product workflow rather than act as generic decoration.",
+    "guidance": [
+      "Show the interface or outcome relevant to the adjacent claim and use captions when context is not self-evident.",
+      "Ensure important explanatory text is available as text and do not bake critical copy into an image."
+    ],
+    "priority": "medium",
+    "score": 5.971059889012636,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-SYS-004",
+    "category": "design-systems",
+    "title": "Document component states alongside appearance",
+    "summary": "Design-system guidance is incomplete when it shows only a static default state.",
+    "guidance": [
+      "Document keyboard focus, loading, empty, error, disabled, and responsive behavior for interactive patterns.",
+      "Add examples for long labels, localization, and high-density content where these can change the component contract."
+    ],
+    "priority": "medium",
+    "score": 5.4997579761212885,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-NAV-005",
+    "category": "navigation",
+    "title": "Make mobile navigation operable and stateful",
+    "summary": "A compact menu must communicate its state and preserve a reliable keyboard and touch interaction path.",
+    "guidance": [
+      "Give the menu trigger an accessible name and expanded state, and make dismissal and focus return predictable.",
+      "Avoid hiding the only route to a critical action or relying on hover to reveal destinations."
+    ],
+    "priority": "high",
+    "score": 5.369612594221826,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-TYP-001",
+    "category": "typography",
+    "title": "Define a compact, semantic type scale",
+    "summary": "A small type scale creates consistent hierarchy and makes responsive adjustments maintainable.",
+    "guidance": [
+      "Define named text roles for display, headings, body, labels, and supporting text rather than styling each element independently.",
+      "Use fluid sizing only within intentional minimum and maximum bounds, and preserve readable body text on narrow screens."
+    ],
+    "priority": "high",
+    "score": 5.313963052449461,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-ANT-004",
+    "category": "anti-patterns",
+    "title": "Avoid low-contrast placeholder and helper text",
+    "summary": "Muted supporting text can become unreadable when contrast is sacrificed to make a screen appear visually quiet.",
+    "guidance": [
+      "Measure contrast for helper, placeholder, caption, and disabled text against their actual backgrounds.",
+      "Reduce visual prominence with size or spacing only when minimum readability remains intact."
+    ],
+    "priority": "critical",
+    "score": 5.010878354782291,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-LAY-003",
+    "category": "spacing-layout",
+    "title": "Align related content to shared layout rails",
+    "summary": "Shared alignment helps users connect navigation, page titles, content, and actions across a product.",
+    "guidance": [
+      "Establish consistent horizontal content rails for headers, main sections, and footers.",
+      "When a data table needs a wider region, make the overflow or alternate layout intentional instead of silently shifting columns."
+    ],
+    "priority": "medium",
+    "score": 5.010329237908278,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-TYP-002",
+    "category": "typography",
+    "title": "Optimize line length for sustained reading",
+    "summary": "Long lines make it harder to track text, especially in paragraphs, documentation, and editorial content.",
+    "guidance": [
+      "Constrain paragraph width to a comfortable measure and allow headings to use a separate, wider measure when appropriate.",
+      "Check line wrapping at narrow and wide viewport sizes instead of relying on a single desktop screenshot."
+    ],
+    "priority": "medium",
+    "score": 4.851460208185563,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-SYS-001",
+    "category": "design-systems",
+    "title": "Reuse the project’s established design tokens",
+    "summary": "Existing tokens preserve product identity and reduce divergence between new and established interface areas.",
+    "guidance": [
+      "Inspect the project’s current color, typography, spacing, radius, and elevation tokens before adding styles.",
+      "Extend the existing token model with the smallest justified addition instead of introducing a competing palette."
+    ],
+    "priority": "critical",
+    "score": 4.739287819076191,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-LAY-004",
+    "category": "spacing-layout",
+    "title": "Use whitespace to expose structure, not hide content",
+    "summary": "Whitespace can clarify relationships but should not force frequent scrolling through low-density layouts.",
+    "guidance": [
+      "Use larger gaps between sections than between tightly related controls, and keep repeated cards internally consistent.",
+      "For task-oriented dashboards, prioritize compact scanability while preserving adequate target and text spacing."
+    ],
+    "priority": "medium",
+    "score": 4.685298005629285,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  }
+]

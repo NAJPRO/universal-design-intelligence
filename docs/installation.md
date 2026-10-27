@@ -1,6 +1,15 @@
 # Installing UDI as a developer tool
 
-UDI is a developer tool and AI skill system. Never add it to an application's dependencies. `init` does not run a package manager or edit application manifests, lockfiles, or `node_modules`. Node.js 22+ is required. No registry publication, network service, symlink, API key, or monorepo checkout is required at runtime.
+UDI is a developer tool and AI skill system, not an application dependency. `init` does not run a package manager or edit application manifests, lockfiles, or `node_modules`. Node.js 22+ is required. Runtime use needs no registry access, network service, symlink, API key, or monorepo checkout.
+
+After publication, install the CLI into an npm global prefix:
+
+```sh
+npm install --global universal-design-intelligence
+udi --version
+```
+
+For an offline or pre-publication setup, install a trusted tarball as described below. Do not install UDI into an application's local dependencies.
 
 ## Bootstrap from a local tarball
 

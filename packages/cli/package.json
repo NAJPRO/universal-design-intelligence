@@ -1,9 +1,26 @@
 {
   "name": "universal-design-intelligence",
   "version": "0.1.0",
-  "description": "Universal Design Intelligence command-line interface",
+  "description": "Local-first UI/UX guidance and deterministic design search for AI coding agents",
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NAJPRO/universal-design-intelligence.git",
+    "directory": "packages/cli"
+  },
+  "homepage": "https://github.com/NAJPRO/universal-design-intelligence#readme",
+  "bugs": {
+    "url": "https://github.com/NAJPRO/universal-design-intelligence/issues"
+  },
+  "keywords": [
+    "ai-agents",
+    "agent-skills",
+    "accessibility",
+    "design-systems",
+    "ui",
+    "ux"
+  ],
   "engines": {
     "node": ">=22"
   },
@@ -18,6 +35,7 @@
     "THIRD_PARTY_NOTICES.md"
   ],
   "scripts": {
+    "prepack": "npm run build",
     "build": "tsc -p tsconfig.json --noEmit && node scripts/bundle.mjs && node scripts/copy-assets.mjs",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json --noEmit"

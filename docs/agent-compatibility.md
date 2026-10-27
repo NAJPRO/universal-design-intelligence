@@ -21,7 +21,7 @@ All four integrations use the Agent Skills folder format: a folder named `udi-de
 
 The cited skill documentation establishes file layout and discovery behavior, but does not provide a consistent OS support matrix for every agent CLI/app. UDI's installer uses Node.js filesystem and path APIs and is intended to run on Node.js 22+ on Linux, macOS, and Windows. That is an implementation target, not verification that each agent product supports each OS.
 
-Static path/metadata validation is separate from host runtime discovery. This environment has Codex and Claude executables available, but no paid or remote agent session was authorized or invoked. Cursor and Antigravity executables were unavailable. Therefore, all host runtime-discovery results remain **not tested**; `udi doctor` reports this explicitly.
+Static path/metadata validation is separate from host runtime discovery. Live discovery and execution have been confirmed for Codex on Linux. Claude Code, Cursor, and Antigravity have not been live-tested; no paid or remote agent service was invoked. Cross-platform host behavior remains unverified. `udi doctor` checks files and documented paths, and reports actual runtime discovery as unverified.
 
 ## Official sources
 

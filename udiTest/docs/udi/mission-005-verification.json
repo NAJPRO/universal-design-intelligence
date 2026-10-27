@@ -1,0 +1,213 @@
+{
+  "passed": 24,
+  "failed": 0,
+  "durationMs": 57616.968,
+  "checks": [
+    {
+      "name": "WCAG text-spacing overrides reflow at 320px",
+      "status": "passed",
+      "durationMs": 2692
+    },
+    {
+      "name": "simulated 200% text-only enlargement at 320px",
+      "status": "passed",
+      "durationMs": 1736
+    },
+    {
+      "name": "WCAG text-spacing overrides reflow at 375px",
+      "status": "passed",
+      "durationMs": 1986
+    },
+    {
+      "name": "simulated 200% text-only enlargement at 375px",
+      "status": "passed",
+      "durationMs": 1756
+    },
+    {
+      "name": "native Chromium page zoom at 200% and 400%",
+      "status": "passed",
+      "durationMs": 2458
+    },
+    {
+      "name": "mobile disclosure follows trigger in keyboard order without trapping focus",
+      "status": "passed",
+      "durationMs": 820
+    },
+    {
+      "name": "active navigation resets and the hero CTA honestly targets the collection",
+      "status": "passed",
+      "durationMs": 922
+    },
+    {
+      "name": "failed model photograph retains decoded image, retries, and leaves selection usable",
+      "status": "passed",
+      "durationMs": 1465
+    },
+    {
+      "name": "story loading retains previous decoded frame and initial errors have a usable fallback",
+      "status": "passed",
+      "durationMs": 1777
+    },
+    {
+      "name": "hero delivers sufficient real pixels for 375px at DPR 1",
+      "status": "passed",
+      "durationMs": 800
+    },
+    {
+      "name": "hero delivers sufficient real pixels for 375px at DPR 2",
+      "status": "passed",
+      "durationMs": 747
+    },
+    {
+      "name": "hero delivers sufficient real pixels for 375px at DPR 3",
+      "status": "passed",
+      "durationMs": 763
+    },
+    {
+      "name": "hero delivers sufficient real pixels for 768px at DPR 2",
+      "status": "passed",
+      "durationMs": 880
+    },
+    {
+      "name": "hero delivers sufficient real pixels for 1440px at DPR 2",
+      "status": "passed",
+      "durationMs": 916
+    },
+    {
+      "name": "hero delivers sufficient real pixels for 2560px at DPR 2",
+      "status": "passed",
+      "durationMs": 981
+    },
+    {
+      "name": "asset generation never enlarges a source crop",
+      "status": "passed",
+      "durationMs": 54
+    },
+    {
+      "name": "shared content rails align at 2560px",
+      "status": "passed",
+      "durationMs": 544
+    },
+    {
+      "name": "informative captions and specification labels remain readable",
+      "status": "passed",
+      "durationMs": 649
+    },
+    {
+      "name": "reviewed visual regression at 375px",
+      "status": "passed",
+      "durationMs": 2240
+    },
+    {
+      "name": "reviewed visual regression at 1440px",
+      "status": "passed",
+      "durationMs": 4815
+    },
+    {
+      "name": "responsive layout, images, models and navigation at 375px",
+      "status": "passed",
+      "durationMs": 5534
+    },
+    {
+      "name": "responsive layout, images, models and navigation at 768px",
+      "status": "passed",
+      "durationMs": 7425
+    },
+    {
+      "name": "responsive layout, images, models and navigation at 1440px",
+      "status": "passed",
+      "durationMs": 7604
+    },
+    {
+      "name": "reduced motion, keyboard entry, reflow, and credits",
+      "status": "passed",
+      "durationMs": 2361
+    }
+  ],
+  "evidence": [
+    {
+      "name": "native-zoom-2",
+      "nativeZoom": 2,
+      "initial": {
+        "width": 1440,
+        "dpr": 1
+      },
+      "current": {
+        "width": 720,
+        "dpr": 2
+      }
+    },
+    {
+      "name": "native-zoom-4",
+      "nativeZoom": 3.9999999999999996,
+      "initial": {
+        "width": 1440,
+        "dpr": 1
+      },
+      "current": {
+        "width": 360,
+        "dpr": 4
+      }
+    },
+    {
+      "name": "cover-resolution",
+      "src": "http://127.0.0.1:3100/_next/image?url=%2Fimages%2Fhero-portrait.webp&w=640&q=85",
+      "width": 375,
+      "height": 800,
+      "dpr": 1,
+      "encodedWidth": 640,
+      "encodedHeight": 1280,
+      "scale": 0.625
+    },
+    {
+      "name": "cover-resolution",
+      "src": "http://127.0.0.1:3100/_next/image?url=%2Fimages%2Fhero-portrait.webp&w=1200&q=85",
+      "width": 375,
+      "height": 800,
+      "dpr": 2,
+      "encodedWidth": 1200,
+      "encodedHeight": 2400,
+      "scale": 0.6666666666666666
+    },
+    {
+      "name": "cover-resolution",
+      "src": "http://127.0.0.1:3100/_next/image?url=%2Fimages%2Fhero-portrait.webp&w=1920&q=85",
+      "width": 375,
+      "height": 800,
+      "dpr": 3,
+      "encodedWidth": 1920,
+      "encodedHeight": 3840,
+      "scale": 0.625
+    },
+    {
+      "name": "cover-resolution",
+      "src": "http://127.0.0.1:3100/_next/image?url=%2Fimages%2Fhero-landscape.webp&w=5120&q=85",
+      "width": 768,
+      "height": 800,
+      "dpr": 2,
+      "encodedWidth": 5120,
+      "encodedHeight": 2560,
+      "scale": 0.625
+    },
+    {
+      "name": "cover-resolution",
+      "src": "http://127.0.0.1:3100/_next/image?url=%2Fimages%2Fhero-landscape.webp&w=5120&q=85",
+      "width": 1440,
+      "height": 790,
+      "dpr": 2,
+      "encodedWidth": 5120,
+      "encodedHeight": 2560,
+      "scale": 0.6171875
+    },
+    {
+      "name": "cover-resolution",
+      "src": "http://127.0.0.1:3100/_next/image?url=%2Fimages%2Fhero-landscape.webp&w=5120&q=85",
+      "width": 2560,
+      "height": 790,
+      "dpr": 2,
+      "encodedWidth": 5120,
+      "encodedHeight": 2560,
+      "scale": 1
+    }
+  ]
+}

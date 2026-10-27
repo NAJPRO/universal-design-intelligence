@@ -1,0 +1,101 @@
+[
+  {
+    "source": "revuelto-source.jpg",
+    "output": "hero-landscape.webp",
+    "crop": {
+      "left": 0,
+      "top": 950,
+      "width": 6000,
+      "height": 3000
+    },
+    "width": 5120,
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "height": 2560,
+    "bytes": 635692
+  },
+  {
+    "source": "revuelto-source.jpg",
+    "output": "hero-portrait.webp",
+    "crop": {
+      "left": 3500,
+      "top": 0,
+      "width": 2000,
+      "height": 4000
+    },
+    "width": 1920,
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "height": 3840,
+    "bytes": 255190
+  },
+  {
+    "source": "revuelto-source.jpg",
+    "output": "revuelto-collection.webp",
+    "crop": {
+      "left": 0,
+      "top": 950,
+      "width": 6000,
+      "height": 3000
+    },
+    "width": 3840,
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "height": 1920,
+    "bytes": 422624
+  },
+  {
+    "source": "revuelto-source.jpg",
+    "output": "revuelto-detail.webp",
+    "crop": {
+      "left": 1900,
+      "top": 1950,
+      "width": 3600,
+      "height": 1800
+    },
+    "width": 3600,
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "height": 1800,
+    "bytes": 281430
+  },
+  {
+    "source": "urus-source.jpg",
+    "output": "urus-collection.webp",
+    "width": 3840,
+    "sourceWidth": 4763,
+    "sourceHeight": 2516,
+    "height": 2028,
+    "bytes": 977922
+  },
+  {
+    "source": "temerario-source.jpg",
+    "output": "temerario-collection.webp",
+    "crop": {
+      "left": 500,
+      "top": 650,
+      "width": 2350,
+      "height": 1250
+    },
+    "width": 2350,
+    "sourceWidth": 3000,
+    "sourceHeight": 2000,
+    "height": 1250,
+    "bytes": 238520
+  },
+  {
+    "source": "cockpit.jpg",
+    "output": "cockpit-detail.webp",
+    "crop": {
+      "left": 600,
+      "top": 680,
+      "width": 3368,
+      "height": 1500
+    },
+    "width": 3200,
+    "sourceWidth": 3968,
+    "sourceHeight": 2232,
+    "height": 1425,
+    "bytes": 226386
+  }
+]

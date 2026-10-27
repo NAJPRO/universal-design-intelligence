@@ -9,7 +9,6 @@ Build the package from the workspace root:
 ```sh
 pnpm --filter universal-design-intelligence build
 ```
-
 Run the built CLI with Node:
 
 ```sh

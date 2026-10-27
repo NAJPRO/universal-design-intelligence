@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.0",
+  "catalogVersion": "1.0.0",
+  "engine": "udi-deterministic",
+  "context": {
+    "type": "editorial",
+    "framework": "nextjs",
+    "audience": "luxury automotive enthusiasts",
+    "goals": [],
+    "style": "cinematic luxury, dark surfaces, expressive type, acid yellow",
+    "constraints": {
+      "preserveBrand": true,
+      "existingBrandDescription": "Existing black and acid-yellow Lamborghini editorial concept",
+      "brandColorTokens": []
+    }
+  },
+  "profile": {
+    "id": "PRO-EDITORIAL",
+    "name": "Editorial publication",
+    "reason": "Selected because this profile applies to editorial and audience “luxury automotive enthusiasts” with the requested cinematic luxury, dark surfaces, expressive type, acid yellow style; profile matching uses explicit type, audience-keyword, and style-keyword overlap."
+  },
+  "direction": {
+    "visualPrinciple": "Let the story and its structure lead, with interface chrome kept secondary.",
+    "typography": "Preserve the existing brand typography and improve hierarchy through its established type roles.",
+    "color": "Preserve the existing brand palette; improve accessible pairings and supporting cues without replacing its colors.",
+    "layout": "Constrain article width and preserve clear headings, captions, and related-content groups.",
+    "interaction": "Keep reading controls and subscription actions discoverable without interrupting comprehension."
+  },
+  "recommendations": [
+    {
+      "ruleId": "UDI-SYS-005",
+      "category": "design-systems",
+      "title": "Preserve brand decisions as an explicit constraint",
+      "guidance": [
+        "When brand preservation is requested, reuse approved assets and tokens and limit changes to layout, clarity, and accessible pairings.",
+        "If a necessary improvement would change a brand decision, explain the trade-off and request approval before replacing it."
+      ],
+      "priority": "critical",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-TYP-001",
+      "category": "typography",
+      "title": "Define a compact, semantic type scale",
+      "guidance": [
+        "Define named text roles for display, headings, body, labels, and supporting text rather than styling each element independently.",
+        "Use fluid sizing only within intentional minimum and maximum bounds, and preserve readable body text on narrow screens."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-TYP-002",
+      "category": "typography",
+      "title": "Optimize line length for sustained reading",
+      "guidance": [
+        "Constrain paragraph width to a comfortable measure and allow headings to use a separate, wider measure when appropriate.",
+        "Check line wrapping at narrow and wide viewport sizes instead of relying on a single desktop screenshot."
+      ],
+      "priority": "medium",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-LAY-002",
+      "category": "spacing-layout",
+      "title": "Constrain page content independently from the viewport",
+      "guidance": [
+        "Set a page or section maximum width and center it while keeping backgrounds free to span the viewport.",
+        "Use narrower measures for reading and forms, and wider measures only for data-heavy or multi-column tasks."
+      ],
+      "priority": "medium",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-NAV-002",
+      "category": "navigation",
+      "title": "Show users where they are in the product",
+      "guidance": [
+        "Mark the active route in navigation using more than color alone and expose the current page semantically.",
+        "For deep content structures, use breadcrumbs only when they clarify a meaningful hierarchy and each parent is actionable."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-ACC-001",
+      "category": "accessibility",
+      "title": "Use semantic structure and meaningful headings",
+      "guidance": [
+        "Use native elements for headings, navigation, buttons, lists, and main content instead of styling generic containers to imitate them.",
+        "Keep heading levels ordered by document structure, not by the font size a visual design requires."
+      ],
+      "priority": "critical",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-ACC-003",
+      "category": "accessibility",
+      "title": "Support zoom, reflow, and text resizing",
+      "guidance": [
+        "Avoid fixed-height text containers and test content at 200% zoom and narrow viewport widths.",
+        "Let text wrap without clipping controls, labels, or essential instructions."
+      ],
+      "priority": "critical",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-SYS-001",
+      "category": "design-systems",
+      "title": "Reuse the project’s established design tokens",
+      "guidance": [
+        "Inspect the project’s current color, typography, spacing, radius, and elevation tokens before adding styles.",
+        "Extend the existing token model with the smallest justified addition instead of introducing a competing palette."
+      ],
+      "priority": "critical",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-SYS-002",
+      "category": "design-systems",
+      "title": "Build components around stable semantic roles",
+      "guidance": [
+        "Define component variants around meaningful roles such as primary action, warning, or compact density.",
+        "Keep page-specific composition outside the shared component unless repeated use demonstrates a stable pattern."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-ACC-002",
+      "category": "accessibility",
+      "title": "Make keyboard focus visible and predictable",
+      "guidance": [
+        "Provide a visible focus indicator with sufficient distinction from surrounding states and avoid removing browser focus without a replacement.",
+        "Keep tab order aligned with reading order and ensure overlays manage entry, dismissal, and focus return."
+      ],
+      "priority": "critical",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-COL-005",
+      "category": "color-contrast",
+      "title": "Preserve brand colors while fixing accessible pairings",
+      "guidance": [
+        "When preserving a brand, first adjust foreground/background combinations, font weight, borders, and supporting labels.",
+        "Do not replace approved brand colors without permission; document any unavoidable contrast trade-off and affected component."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-COL-001",
+      "category": "color-contrast",
+      "title": "Verify text contrast for every semantic color role",
+      "guidance": [
+        "Check foreground and background pairs against the relevant WCAG contrast criteria at actual rendered sizes.",
+        "Test semantic states and themes separately; do not assume a color is accessible because its hue differs from the background."
+      ],
+      "priority": "critical",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-COL-003",
+      "category": "color-contrast",
+      "title": "Separate semantic colors from decorative accents",
+      "guidance": [
+        "Create separate tokens for brand emphasis, neutral surfaces, borders, and semantic feedback states.",
+        "Avoid reusing the same color for unrelated actions and alerts unless their meaning remains clear through labels and context."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "sourceRuleIds": [
+    "UDI-SYS-005",
+    "UDI-TYP-001",
+    "UDI-TYP-002",
+    "UDI-LAY-002",
+    "UDI-NAV-002",
+    "UDI-ACC-001",
+    "UDI-ACC-003",
+    "UDI-SYS-001",
+    "UDI-SYS-002",
+    "UDI-ACC-002",
+    "UDI-COL-005",
+    "UDI-COL-001",
+    "UDI-COL-003"
+  ],
+  "assumptions": []
+}

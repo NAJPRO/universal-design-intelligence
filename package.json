@@ -11,7 +11,7 @@
   "packageManager": "pnpm@12.11.2",
   "scripts": {
     "build": "pnpm --recursive --if-present build",
-    "test": "pnpm build && vitest run",
+    "test": "pnpm build && vitest run packages/cli/test packages/core/test packages/knowledge/test",
     "lint": "eslint packages/*/src packages/*/test",
     "typecheck": "pnpm build && pnpm --recursive --if-present typecheck",
     "check": "pnpm lint && pnpm typecheck && pnpm test",

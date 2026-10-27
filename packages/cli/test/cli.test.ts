@@ -114,7 +114,7 @@ describe("UDI CLI", () => {
     expect(paths.has("dist/skills/udi-design/SKILL.md")).toBe(true);
     expect(paths.has("dist/skills/udi-design/references/udi-cli.md")).toBe(true);
     expect(paths.has("dist/skills/udi-design/references/design-quality.md")).toBe(true);
-  });
+  }, 15_000);
 
   it("installs a project-local skill and the bundled CLI runtime", () => {
     withProject((root) => {

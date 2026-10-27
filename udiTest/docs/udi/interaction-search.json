@@ -1,0 +1,182 @@
+[
+  {
+    "ruleId": "UDI-ACC-005",
+    "category": "accessibility",
+    "title": "Respect reduced motion and non-text alternatives",
+    "summary": "Motion and imagery should not be required to understand essential content or complete a task.",
+    "guidance": [
+      "Offer meaningful text alternatives for informative images and hide purely decorative assets from assistive technology.",
+      "Remove non-essential movement when reduced motion is requested and avoid flashing or auto-advancing content without user control."
+    ],
+    "priority": "high",
+    "score": 18.606384845728893,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-RSP-005",
+    "category": "responsive-design",
+    "title": "Respect user motion and viewport preferences",
+    "summary": "Responsive behavior includes reducing or removing motion when users request it, not just changing geometry.",
+    "guidance": [
+      "Honor reduced-motion preferences by removing non-essential transitions and replacing animated feedback with a stable state change.",
+      "Avoid scroll-triggered movement that obscures controls or changes content position unexpectedly."
+    ],
+    "priority": "high",
+    "score": 13.638131741691433,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-NAV-005",
+    "category": "navigation",
+    "title": "Make mobile navigation operable and stateful",
+    "summary": "A compact menu must communicate its state and preserve a reliable keyboard and touch interaction path.",
+    "guidance": [
+      "Give the menu trigger an accessible name and expanded state, and make dismissal and focus return predictable.",
+      "Avoid hiding the only route to a critical action or relying on hover to reveal destinations."
+    ],
+    "priority": "high",
+    "score": 8.939787328892038,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-ACC-002",
+    "category": "accessibility",
+    "title": "Make keyboard focus visible and predictable",
+    "summary": "Keyboard users need to see where they are and reach all interactive functionality in a logical sequence.",
+    "guidance": [
+      "Provide a visible focus indicator with sufficient distinction from surrounding states and avoid removing browser focus without a replacement.",
+      "Keep tab order aligned with reading order and ensure overlays manage entry, dismissal, and focus return."
+    ],
+    "priority": "critical",
+    "score": 8.027357748563764,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-RSP-003",
+    "category": "responsive-design",
+    "title": "Keep primary tasks reachable on small screens",
+    "summary": "Mobile layouts should not hide the product’s defining action behind excessive scrolling or desktop-only controls.",
+    "guidance": [
+      "Identify the highest-value task for each screen and keep its entry point visible in the narrow layout.",
+      "Move secondary controls into a discoverable menu, but preserve labels, keyboard access, and clear open/close states."
+    ],
+    "priority": "high",
+    "score": 7.194021282654466,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-SYS-004",
+    "category": "design-systems",
+    "title": "Document component states alongside appearance",
+    "summary": "Design-system guidance is incomplete when it shows only a static default state.",
+    "guidance": [
+      "Document keyboard focus, loading, empty, error, disabled, and responsive behavior for interactive patterns.",
+      "Add examples for long labels, localization, and high-density content where these can change the component contract."
+    ],
+    "priority": "medium",
+    "score": 6.806682936899053,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-COL-004",
+    "category": "color-contrast",
+    "title": "Design dark themes as a separate contrast system",
+    "summary": "Simply inverting a light palette can create glare, weak hierarchy, and unreadable disabled or subtle states.",
+    "guidance": [
+      "Define and test foreground, surface, border, and status roles for each theme rather than mechanically inverting values.",
+      "Preserve hierarchy through measured luminance differences and verify charts and focus indicators in both themes."
+    ],
+    "priority": "high",
+    "score": 6.145029122200857,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-INT-005",
+    "category": "interaction-states",
+    "title": "Avoid hover-only affordances",
+    "summary": "Touch, keyboard, and assistive-technology users cannot depend on pointer hover to discover or operate controls.",
+    "guidance": [
+      "Expose essential actions in the resting layout or provide an equivalent focus and touch interaction.",
+      "If hover reveals supplementary detail, ensure the content can also be opened and dismissed through keyboard and touch."
+    ],
+    "priority": "high",
+    "score": 6.0088212984154605,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-INT-001",
+    "category": "interaction-states",
+    "title": "Design default, hover, focus, active, and disabled states",
+    "summary": "A component is incomplete if it communicates only its resting appearance.",
+    "guidance": [
+      "Define state treatments for pointer, keyboard, pressed, loading, and unavailable conditions as appropriate.",
+      "Keep state changes perceivable without relying on color alone and preserve layout stability during loading."
+    ],
+    "priority": "high",
+    "score": 5.486691471514845,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-RSP-001",
+    "category": "responsive-design",
+    "title": "Reflow content without losing information",
+    "summary": "Responsive layouts must preserve essential content and actions at narrow widths rather than relying on horizontal page scrolling.",
+    "guidance": [
+      "At narrow viewports, reflow columns, wrap content, or provide a scoped overflow region for genuinely tabular data.",
+      "Check that headings, navigation, forms, and primary actions remain available at 320 CSS pixels and with text zoom."
+    ],
+    "priority": "critical",
+    "score": 5.280010149056502,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-ANT-005",
+    "category": "anti-patterns",
+    "title": "Do not hide essential actions behind hover",
+    "summary": "Hover-only controls exclude touch users and are undiscoverable to many keyboard users.",
+    "guidance": [
+      "Keep task-critical actions visible or reveal them through an equivalent keyboard- and touch-operable control.",
+      "Test repeated actions in dense lists for both focus visibility and record-specific accessible names."
+    ],
+    "priority": "high",
+    "score": 5.274137413366589,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-VIS-001",
+    "category": "visual-hierarchy",
+    "title": "Give each screen one primary focal point",
+    "summary": "Make the principal task or message visually dominant so users can identify what matters before scanning secondary details.",
+    "guidance": [
+      "Choose one primary heading, action, or data summary per viewport and give it the strongest combination of position, scale, and contrast.",
+      "Reduce competing accents before adding another highlight; verify the focal point still reads at a glance."
+    ],
+    "priority": "high",
+    "score": 4.958452694821725,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  }
+]
