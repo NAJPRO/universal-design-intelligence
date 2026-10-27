@@ -46,4 +46,4 @@ Profiles require project applicability, audience and style keywords, valid rule 
 
 Do not renumber existing identifiers to close gaps. Do not add rules solely to hit a target catalog size.
 
-The exact catalog schema and submission format will be documented after the Phase 2 schema is implemented.
+The exact catalog schema and submission format are defined in `packages/knowledge/src/schemas.ts` and described above. For a skill change, edit only the canonical source in `skills/udi-design/`; concise references belong in its `references/` directory and are copied into the CLI package by `packages/cli/scripts/copy-assets.mjs`. Do not add divergent per-agent skill copies. Run the CLI package build and check the packed contents to verify every linked reference ships.

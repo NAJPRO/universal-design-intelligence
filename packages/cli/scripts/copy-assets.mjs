@@ -1,7 +1,11 @@
 import { copyFileSync, mkdirSync } from "node:fs";
 
-const source = new URL("../../../skills/udi-design/SKILL.md", import.meta.url);
+const sourceDirectory = new URL("../../../skills/udi-design/", import.meta.url);
 const destinationDirectory = new URL("../dist/skills/udi-design/", import.meta.url);
+const assets = ["SKILL.md", "references/udi-cli.md", "references/design-quality.md"];
 
-mkdirSync(destinationDirectory, { recursive: true });
-copyFileSync(source, new URL("SKILL.md", destinationDirectory));
+for (const asset of assets) {
+  const destination = new URL(asset, destinationDirectory);
+  mkdirSync(new URL(".", destination), { recursive: true });
+  copyFileSync(new URL(asset, sourceDirectory), destination);
+}

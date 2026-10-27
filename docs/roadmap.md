@@ -25,12 +25,13 @@ Target release: **2026-10-31**. The deadline prioritizes an installable, tested 
 
 ## Phase 3 — Agent integration
 
-- [ ] Implement `udi init` and `udi doctor`.
-- [ ] Add adapters for Codex, Claude Code, Cursor, and Antigravity.
-- [ ] Verify install paths, file installation, discovery behavior, and safe/idempotent installation independently.
-- [ ] Validate the canonical skill against Agent Skills format.
+- [x] Implement `udi init` and `udi doctor`.
+- [x] Add project-local adapters for Codex, Claude Code, Cursor, and Antigravity.
+- [x] Verify documented install paths and safe/idempotent static file installation independently from host activation.
+- [x] Validate canonical metadata and use progressive disclosure references.
+- [ ] Test actual runtime discovery in each host when its runtime is available and external calls are authorized.
 
-**Acceptance:** all four agent adapters install to documented project/global paths; dry-run writes nothing; repeated installation is idempotent; existing content is not overwritten without explicit `--force`; tests in temporary directories verify files and status independently of host runtime discovery.
+**Acceptance:** four project-local adapters target documented paths; dry-run writes nothing; repeated installation is idempotent; modified content is protected unless `--force` is explicit; tests verify installation independently of host runtime discovery. Global paths are documented but deferred.
 
 ## Phase 4 — Real-world validation
 
@@ -49,3 +50,11 @@ Target release: **2026-10-31**. The deadline prioritizes an installable, tested 
 - [ ] Provide exact publication instructions; publish only with explicit authorization.
 
 **Acceptance:** dependency and content license audit is recorded; `npm pack --dry-run` includes every runtime asset; CI is green; release notes and exact publication commands are ready; nothing is published without explicit authorization.
+
+## Phase 3.1 — Decoupled installation
+
+- [x] Versioned configurable shared user runtime, global/project discovery paths, and portable offline mode.
+- [x] Explicit runtime provisioning choice, ownership hashes, immutable runtime versions, and safe updates.
+- [x] Offline packed-tarball integration and application dependency mutation checks.
+- [x] Document bootstrap, exact-version upgrades, and inventory-based uninstall.
+- [ ] Live host activation and macOS/Windows execution validation remain separate from static path checks.

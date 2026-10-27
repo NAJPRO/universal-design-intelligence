@@ -17,7 +17,30 @@ node packages/cli/dist/index.js search "accessible form labels" --category forms
 node packages/cli/dist/index.js search "dashboard metrics" --type dashboard --framework react --limit 5 --json
 node packages/cli/dist/index.js recommend --type saas --style premium --audience "operations teams"
 node packages/cli/dist/index.js recommend --type fintech --preserve-brand --json
+node packages/cli/dist/index.js init --agent codex --dry-run
+node packages/cli/dist/index.js doctor --json
 ```
+
+### `udi init`
+
+Installs canonical skills for `codex`, `claude`, `cursor`, `antigravity`, or `all`, with no changes to application dependencies, manifests, lockfiles, or `node_modules`.
+
+- `udi init --global [--agent all]`: install user skills and a versioned shared runtime (all agents by default).
+- `udi init --agent codex` or `--agent all`: project skills reuse an existing exact-version user runtime.
+- `udi init --agent codex --install-runtime`: explicitly authorize installing a missing user runtime.
+- `udi init --portable --agent codex`: self-contained offline project, including its runtime.
+- `--dry-run`: preflight and preview without writes.
+- `--force`: replace reviewed manifest-owned skill files; never unrelated files or differing immutable runtimes.
+
+The runtime store defaults to `~/.udi/runtimes/<version>`; configure its base with `UDI_HOME`. Run the copied skill's `scripts/udi.mjs` with Node. Portable launchers are relocatable. Shared launchers pin a file URL to the user runtime. All required code is bundled; the tarball has no production npm dependencies.
+
+Install a local tarball with `npm install --global --offline --ignore-scripts /path/to/udi.tgz` into a user tool prefix, or extract it outside the application and invoke `node /path/to/package/dist/index.js`. Nothing needs to be published to npm. For upgrades, preview and reinstall all previously selected agents with the matching new CLI; review owned changes before using force. Keep old runtime versions until no project references them. For uninstall, inspect `.udi/installation.json` hashes and remove only reviewed managed files and unused runtime versions, preserving unrelated files and shared skill parents.
+
+### `udi doctor`
+
+Reports runtime version compatibility, each agent's skill path in the selected scope, file and metadata validity, packaged asset integrity, changed-file conflicts, and remediation. `--global` inspects user skills; project scope is the default. Human-readable output is default; `--json` returns a structured report. Static installation/path verification is not the same as actual agent runtime discovery. UDI does not claim a host loaded a skill without a real host test.
+
+See [agent compatibility](../../docs/agent-compatibility.md) for official sources, the exact path mapping, supported-format notes, and unverified runtime status.
 
 ### `udi search "<query>"`
 

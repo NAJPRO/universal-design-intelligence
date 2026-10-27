@@ -11,6 +11,18 @@ import {
   searchDesignRules
 } from "@udi/core";
 import type { Framework, ProjectType, RuleCategory, SearchRequest } from "@udi/core";
+import {
+  AGENT_IDS,
+  detectProjectRoot,
+  getDoctorReport,
+  getSkillAssets,
+  installPlan,
+  planInstall,
+  scopedAdapters,
+  userHome,
+  selectAgents
+} from "./agent-install.js";
+import type { AgentId } from "./agent-install.js";
 
 interface PackageManifest {
   version: string;
@@ -160,6 +172,95 @@ addCommonOptions(
     }
     console.log(`\nSource rules: ${recommendation.sourceRuleIds.join(", ")}`);
     console.log(`Engine: ${recommendation.engine}; schema ${recommendation.schemaVersion}`);
+  });
+
+program.command("init")
+  .description("Install UDI's canonical design skill for a supported coding agent")
+  .addOption(new Option("--agent <agent>").choices([...AGENT_IDS, "all"]))
+  .option("--global", "Install user skills and a shared runtime")
+  .option("--portable", "Copy a self-contained runtime into the project")
+  .option("--install-runtime", "Explicitly allow creating the shared user runtime")
+  .option("--dry-run", "Preview files without writing them")
+  .option("--force", "Replace modified UDI-owned installation files")
+  .action((options: { agent?: AgentId | "all"; dryRun?: boolean; force?: boolean; global?: boolean; portable?: boolean; installRuntime?: boolean }) => {
+    try {
+      const projectRoot = options.global ? userHome() : detectProjectRoot(process.cwd());
+      const selectedAgents = options.global
+        ? scopedAdapters(true).filter((adapter) => !options.agent || options.agent === "all" || adapter.id === options.agent)
+        : selectAgents(projectRoot, options.agent ?? "auto");
+      const plan = planInstall(projectRoot, selectedAgents, getSkillAssets(), options);
+      const result = installPlan(plan, options.dryRun, options.force, projectRoot);
+      console.log(`${options.dryRun ? "UDI installation preview" : "UDI installation"} (${result.agentIds.join(", ")})`);
+      console.log(`Scope: ${options.global ? "global" : "project"}; root: ${result.projectRoot}`);
+      if (result.written.length > 0) {
+        console.log(`${options.dryRun ? "Planned" : "Created/updated"} files:`);
+        for (const file of result.written) console.log(`- ${file}`);
+      }
+      if (result.unchanged.length > 0) {
+        console.log("Unchanged files:");
+        for (const file of result.unchanged) console.log(`- ${file}`);
+      }
+      if (options.dryRun) console.log("Dry run: no files were written.");
+      else console.log(`Verify the installation with: udi doctor${options.global ? " --global" : ""}`);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.error(`udi init: ${message}`);
+      process.exitCode = 1;
+    }
+  });
+
+program.command("doctor")
+  .description("Check UDI installation files and static agent skill paths")
+  .option("--global", "Check user-level skill installation")
+  .option("--json", "Print machine-readable diagnostics")
+  .action((options: { json?: boolean; global?: boolean }) => {
+    try {
+      const projectRoot = options.global ? userHome() : detectProjectRoot(process.cwd());
+      const report = getDoctorReport(projectRoot, options.global);
+      const invalidInstall = report.installations.some(({ installed, valid }) => installed && !valid);
+      const missingInstalledRuntime = report.installations.some(({ installed }) => installed) &&
+        !report.installationVerified;
+      if (!report.runtime.compatible || !report.packageAssets.valid || invalidInstall || missingInstalledRuntime) {
+        process.exitCode = 1;
+      }
+      if (options.json) {
+        console.log(JSON.stringify(report, null, 2));
+        return;
+      }
+      console.log(`UDI doctor ${report.version}`);
+      console.log(`Node.js: ${report.runtime.currentNode} (requires ${report.runtime.requiredNode}; ${report.runtime.compatible ? "compatible" : "incompatible"})`);
+      console.log(`Scope: ${report.scope}; root: ${projectRoot}`);
+      console.log(`Runtime: ${report.runtime.path ?? "not installed"}`);
+      console.log(`Available adapters: ${report.availableAdapters.join(", ")}`);
+      console.log("\nSkill installations:");
+      for (const installation of report.installations) {
+        const status = installation.installed
+          ? installation.valid ? "valid" : "malformed"
+          : "not installed";
+        console.log(`- ${installation.agentId}: ${installation.skillPath} (${status})`);
+        for (const issue of installation.issues) console.log(`  Issue: ${issue}`);
+      }
+      console.log(`\nPackaged assets: ${report.packageAssets.valid ? "valid" : "invalid"}`);
+      for (const issue of report.packageAssets.issues) console.log(`- ${issue}`);
+      console.log(`Configuration conflicts: ${report.configurationConflicts.length}`);
+      for (const conflict of report.configurationConflicts) console.log(`- ${conflict}`);
+      console.log(`Static discovery configuration: ${report.runtimeDiscovery.staticDiscoveryVerified ? "verified" : "not verified"}`);
+      console.log(`UDI installation files: ${report.installationVerified ? "verified" : "not verified"}`);
+      console.log(`Actual agent runtime discovery: not tested`);
+      console.log(report.runtimeDiscovery.note);
+      if (!report.runtime.compatible || !report.packageAssets.valid || invalidInstall || missingInstalledRuntime) {
+        console.log("\nRemediation:");
+        for (const item of report.remediation) console.log(`- ${item}`);
+        process.exitCode = 1;
+      } else if (!report.installations.some(({ installed }) => installed)) {
+        console.log("\nRemediation:");
+        for (const item of report.remediation) console.log(`- ${item}`);
+      }
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.error(`udi doctor: ${message}`);
+      process.exitCode = 1;
+    }
   });
 
 program.parse();

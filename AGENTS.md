@@ -11,4 +11,10 @@ UDI is a local-first TypeScript monorepo for reusable UI/UX guidance and AI-agen
 - Preserve user projects during skill installation: preview first, never overwrite by default, and make destructive behavior explicit.
 - Attribute external knowledge and verify its license before incorporating content.
 
+## Git ownership
+
+- The repository owner manages all Git state changes manually. Agents must not run `git add`, `git commit`, `git push`, `git tag`, `git merge`, `git rebase`, or any other command that changes repository state.
+- Read-only commands such as `git status` and `git diff` are permitted.
+- Do not publish packages, create releases, or perform remote repository operations.
+
 See [docs/architecture.md](docs/architecture.md), [docs/PROGRESS.md](docs/PROGRESS.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
