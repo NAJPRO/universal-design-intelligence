@@ -1,0 +1,25 @@
+{
+  "node": "v22.23.1",
+  "platform": "linux",
+  "arch": "x64",
+  "cpu": "Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz",
+  "v1RankingMs": {
+    "median": 3.342993999999976,
+    "p95": 6.587887000000023
+  },
+  "rssBytes": 99684352,
+  "maxRssKiB": 97348,
+  "samples": {
+    "startup": 20,
+    "ranking": 100
+  },
+  "package": {
+    "compressedBytes": 181079,
+    "unpackedBytes": 1024496,
+    "bundleBytes": 1009829
+  },
+  "startupMs": {
+    "median": 114.26102049881592,
+    "p95": 124.61646200972609
+  }
+}

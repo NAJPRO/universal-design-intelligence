@@ -1,8 +1,22 @@
 # UDI progress
 
-**Updated:** 2026-10-27
+**Updated:** 2026-10-28
 
 ## Completed
+
+### Mission 008.1 — Performance and release readiness
+
+- Profiled eager initialization and deferred schema/catalog loading until the selected command needs it, while preserving the single-file offline bundle and root APIs.
+- Repeated paired process measurements reduced metadata startup median from 119.64 to 75.14 ms; search/recommendations showed no demonstrated speedup. Original Mission 008 timing magnitude was not reproduced under comparable conditions.
+- Standard parallel `pnpm check` passed with **102 tests across 11 files**, including exact-output/error compatibility, V8 lazy-initialization checks, packed offline execution and immutable version boundaries.
+- Catalog, canonical workflow, installer and dependencies remain unchanged. Release requires a fresh maintainer-selected version; no publication or Git state changes were performed. See [Mission 008.1](MISSION-008.1.md) for measurements, limitations and readiness assessment.
+
+### Mission 008 — Opt-in evidence-aware retrieval
+
+- Added strict context/output schema 2.0 and an independent deterministic recommendation path. Default v1 behavior and catalog editorial records remain unchanged.
+- Added ranked profile candidates, uniform applicability gates, first-class pattern/anti-pattern retrieval, category coverage accounting, scoped constraint diagnostics, bounded packets and context-bound expansion.
+- Added preimplementation CLI JSON fixtures, context-discrimination and conflict tests, standalone offline smoke verification, runtime/package measurements, and migration/fallback guidance.
+- See [Mission 008 report](MISSION-008.md) for exact validation results, measured impact, limits, and proposed follow-up. No component/domain packs, scanner, installer redesign, publication or Git state changes are included.
 
 ### Phase 1 — Foundations
 

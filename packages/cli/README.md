@@ -67,3 +67,13 @@ Creates a versioned recommendation using explicit deterministic heuristics. Opti
 Supported project types: `marketing-site`, `saas`, `dashboard`, `fintech`, `developer-tools`, `professional-services`, `ecommerce`, `editorial`, `web-app`, `marketplace`, and `education`.
 
 The recommendation engine is rule-based; it does not call or simulate an LLM. All knowledge is bundled locally, so these commands work offline.
+
+### Experimental schema 2.0
+
+Default recommendations retain schema 1.0. Opt in with a strict evidence context file:
+
+```sh
+udi recommend --schema-version 2.0 --context brief.json --json
+```
+
+V2 separates industry/application/role/task evidence, ranks up to three eligible profiles, selects existing rules/patterns/anti-patterns, and reports coverage gaps and conflicts. It adds no domain packs or component implementations. `--budget-bytes` (default 24576), `--entity-limit` and context-bound `--expand` control bounded packets; `--explain` expands readable output. Scores are deterministic heuristics, not probabilities or visual-quality scores. See the [context, migration and fallback guide](../../docs/recommendation-v2.md). Check `recommend --help` before using these flags through an older runtime.

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "2.0",
+  "industry": {
+    "value": "ecommerce",
+    "status": "explicit",
+    "evidenceRefs": [
+      "brief:primary"
+    ]
+  },
+  "tasks": {
+    "primary": {
+      "value": "product-administration",
+      "status": "explicit",
+      "evidenceRefs": [
+        "brief:primary"
+      ]
+    }
+  }
+}

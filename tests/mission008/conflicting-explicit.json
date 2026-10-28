@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "2.0",
+  "applicationType": {
+    "value": "storefront",
+    "status": "explicit",
+    "evidenceRefs": [
+      "brief:primary"
+    ]
+  },
+  "observations": [
+    {
+      "field": "applicationType",
+      "evidence": {
+        "value": "operations-workspace",
+        "status": "explicit",
+        "evidenceRefs": [
+          "brief:primary"
+        ]
+      }
+    }
+  ]
+}

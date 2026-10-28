@@ -2,14 +2,7 @@
 
 import { readFileSync } from "node:fs";
 import { Command, InvalidArgumentError, Option } from "commander";
-import {
-  FRAMEWORKS,
-  PROJECT_TYPES,
-  RULE_CATEGORIES,
-  designRules,
-  recommendDesign,
-  searchDesignRules
-} from "@udi/core";
+import { FRAMEWORKS, PROJECT_TYPES, RULE_CATEGORIES } from "@udi/knowledge/constants";
 import type { Framework, ProjectType, RuleCategory, SearchRequest } from "@udi/core";
 import {
   AGENT_IDS,
@@ -23,6 +16,7 @@ import {
   selectAgents
 } from "./agent-install.js";
 import type { AgentId } from "./agent-install.js";
+import type { V2CliOptions } from "./recommend-v2.js";
 
 interface PackageManifest {
   version: string;
@@ -64,7 +58,7 @@ addCommonOptions(
   .addOption(new Option("--category <category>").choices([...RULE_CATEGORIES]))
   .addOption(new Option("--type <type>").choices([...PROJECT_TYPES]))
   .option("--limit <number>", "Maximum results (1–100)", parseLimit, 10)
-  .action((query: string, options: {
+  .action(async (query: string, options: {
     category?: RuleCategory;
     type?: ProjectType;
     framework?: Framework;
@@ -78,6 +72,7 @@ addCommonOptions(
       ...(options.type ? { projectType: options.type } : {}),
       ...(options.framework ? { framework: options.framework } : {})
     };
+    const { designRules, searchDesignRules } = await import("@udi/core/legacy");
     const results = searchDesignRules(designRules, request);
     if (options.json) {
       console.log(JSON.stringify(results.map(({ rule, score, sourceIds }) => ({
@@ -116,7 +111,13 @@ addCommonOptions(
   .option("--preserve-brand", "Preserve existing brand and design-system choices")
   .option("--brand-description <description>", "Short description of the existing brand")
   .option("--design-system <name>", "Name of the existing design system")
-  .action((options: {
+  .addOption(new Option("--schema-version <version>", "Recommendation schema (v2 is opt-in)").choices(["1.0", "2.0"]).default("1.0"))
+  .option("--context <file>", "Schema 2.0 evidence context JSON")
+  .option("--budget-bytes <number>", "V2 compact JSON byte budget including newline (default 24576)")
+  .option("--entity-limit <number>", "V2 maximum selected entities (1–100)")
+  .option("--expand <key>", "V2 context-bound expansion cursor")
+  .option("--explain", "Explain v2 ranking and conflicts in text output (always included in JSON)")
+  .action(async (options: {
     type?: ProjectType;
     framework?: Framework;
     style?: string;
@@ -125,7 +126,30 @@ addCommonOptions(
     brandDescription?: string;
     designSystem?: string;
     json?: boolean;
+    schemaVersion?: string;
+    context?: string;
+    budgetBytes?: string;
+    entityLimit?: string;
+    expand?: string;
+    explain?: boolean;
   }) => {
+    if (options.schemaVersion === "2.0") {
+      try {
+        if (options.style || options.audience || options.brandDescription || options.designSystem || options.preserveBrand) throw new Error("For schema 2.0 supply roles, brand and design-system evidence in --context; v1 style/audience/brand flags cannot be combined.");
+        const { printRecommendationV2 } = await import("./recommend-v2.js");
+        printRecommendationV2(options as V2CliOptions);
+      } catch (error) {
+        console.error(`udi recommend: ${error instanceof Error ? error.message : String(error)}`);
+        process.exitCode = 1;
+      }
+      return;
+    }
+    if (options.context || options.budgetBytes || options.entityLimit || options.expand || options.explain) {
+      console.error("udi recommend: context/budget/expansion/explain options require --schema-version 2.0.");
+      process.exitCode = 1;
+      return;
+    }
+    const { recommendDesign } = await import("@udi/core/legacy");
     const recommendation = recommendDesign({
       ...(options.type ? { type: options.type } : {}),
       ...(options.framework ? { framework: options.framework } : {}),
@@ -263,4 +287,4 @@ program.command("doctor")
     }
   });
 
-program.parse();
+await program.parseAsync();

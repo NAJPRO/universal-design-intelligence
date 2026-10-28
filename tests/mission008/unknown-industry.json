@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "2.0",
+  "industry": {
+    "value": "orbital-salvage",
+    "status": "explicit",
+    "evidenceRefs": [
+      "brief:primary"
+    ]
+  },
+  "applicationType": {
+    "value": "operations-workspace",
+    "status": "explicit",
+    "evidenceRefs": [
+      "brief:primary"
+    ]
+  },
+  "tasks": {
+    "primary": {
+      "value": "product-administration",
+      "status": "explicit",
+      "evidenceRefs": [
+        "brief:primary"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "value": "operator",
+      "status": "explicit",
+      "evidenceRefs": [
+        "brief:primary"
+      ]
+    }
+  ],
+  "framework": {
+    "value": "react",
+    "status": "observed",
+    "evidenceRefs": [
+      "package.json"
+    ]
+  },
+  "brand": {
+    "preserve": true,
+    "identity": {
+      "value": "Existing project tokens",
+      "status": "observed",
+      "evidenceRefs": [
+        "src/tokens.css"
+      ]
+    },
+    "tokens": [
+      "--brand-primary",
+      "--surface"
+    ]
+  }
+}

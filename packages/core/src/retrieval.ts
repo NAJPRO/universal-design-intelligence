@@ -7,7 +7,7 @@ import {
   type Framework,
   type ProjectType,
   type RuleCategory
-} from "@udi/knowledge";
+} from "@udi/knowledge/legacy";
 
 const SearchRequestSchema = z.object({
   query: z.string().max(1000),

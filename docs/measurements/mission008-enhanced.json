@@ -1,0 +1,32 @@
+{
+  "node": "v22.23.1",
+  "platform": "linux",
+  "arch": "x64",
+  "cpu": "Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz",
+  "v1RankingMs": {
+    "median": 7.360384000000067,
+    "p95": 11.693073000000027
+  },
+  "v1RssBytes": 83632128,
+  "v1MaxRssKiB": 83196,
+  "v2RankingMs": {
+    "median": 26.077017999999953,
+    "p95": 38.06613200000038
+  },
+  "v2PacketBytes": 24199,
+  "rssBytes": 103813120,
+  "maxRssKiB": 104336,
+  "samples": {
+    "startup": 20,
+    "ranking": 100
+  },
+  "package": {
+    "compressedBytes": 191521,
+    "unpackedBytes": 1067912,
+    "bundleBytes": 1052439
+  },
+  "startupMs": {
+    "median": 267.6798875036184,
+    "p95": 345.3066770161968
+  }
+}

@@ -1,0 +1,153 @@
+[
+  {
+    "args": [
+      "recommend",
+      "--schema-version",
+      "2.0",
+      "--context",
+      "tests/mission008/commerce-admin.json",
+      "--json"
+    ],
+    "status": 0,
+    "stdoutSha256": "ec5042dbbd3c8c13789c997766b9d773df6ab33540fb6a5a58ca6ed9ed59a1bb",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "recommend",
+      "--schema-version",
+      "2.0",
+      "--context",
+      "tests/mission008/commerce-storefront.json",
+      "--json"
+    ],
+    "status": 0,
+    "stdoutSha256": "7384f4d909d5693c8ab926bebafef68cd8c0eeb8ce10ce1ca05cced6cff46171",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "recommend",
+      "--schema-version",
+      "2.0",
+      "--context",
+      "tests/mission008/healthcare-public.json",
+      "--json"
+    ],
+    "status": 0,
+    "stdoutSha256": "7a8d10142feb030a279612ecb28b603034e304662af15d74fe412ab1840eaa6d",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "recommend",
+      "--schema-version",
+      "2.0",
+      "--context",
+      "tests/mission008/healthcare-scheduling.json",
+      "--json"
+    ],
+    "status": 0,
+    "stdoutSha256": "58e70ed24ba7d616c29275449e567b4f679b9044f9867c3f09cb7cd3a0d6975b",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "recommend",
+      "--schema-version",
+      "2.0",
+      "--context",
+      "tests/mission008/unknown-industry.json",
+      "--json"
+    ],
+    "status": 0,
+    "stdoutSha256": "02cb8603e97b8ae1b1055e1c15c348707e68e63836922773bb931f913fb29e6b",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "recommend",
+      "--schema-version",
+      "2.0",
+      "--context",
+      "tests/mission008/missing-application.json",
+      "--json"
+    ],
+    "status": 0,
+    "stdoutSha256": "f077f26c1335921fe8bcbd4e52ca88a378ace29281e998cd1b8640e06d86aa8d",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "recommend",
+      "--schema-version",
+      "2.0",
+      "--context",
+      "tests/mission008/conflicting-explicit.json",
+      "--json"
+    ],
+    "status": 1,
+    "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "udi recommend: Conflicting explicit context for applicationType; supply one scope-specific context.\n"
+  },
+  {
+    "args": [
+      "recommend",
+      "--context",
+      "tests/mission008/commerce-admin.json",
+      "--json"
+    ],
+    "status": 1,
+    "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "udi recommend: context/budget/expansion/explain options require --schema-version 2.0.\n"
+  },
+  {
+    "args": [
+      "recommend",
+      "--schema-version",
+      "2.0",
+      "--json"
+    ],
+    "status": 1,
+    "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "udi recommend: Schema 2.0 requires --context <file>.\n"
+  },
+  {
+    "args": [
+      "search",
+      "focus",
+      "--limit",
+      "0",
+      "--json"
+    ],
+    "status": 1,
+    "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "error: option '--limit <number>' argument '0' is invalid. limit must be a whole number between 1 and 100\n\nUsage: udi search [options] <query>\n\nSearch the local, curated design knowledge catalog\n\nArguments:\n  query                    Words describing the design problem or guidance\n\nOptions:\n  --framework <framework>  (choices: \"framework-agnostic\", \"nextjs\", \"react\",\n                           \"vue\", \"nuxt\", \"angular\", \"svelte\", \"sveltekit\",\n                           \"astro\", \"remix\", \"html-css\")\n  --json                   Print machine-readable JSON\n  --category <category>    (choices: \"visual-hierarchy\", \"typography\",\n                           \"color-contrast\", \"spacing-layout\",\n                           \"responsive-design\", \"navigation\",\n                           \"marketing-landing-pages\", \"saas-dashboards\",\n                           \"tables-data-visualization\", \"forms\",\n                           \"pricing-pages\", \"accessibility\",\n                           \"interaction-states\", \"design-systems\",\n                           \"anti-patterns\")\n  --type <type>            (choices: \"marketing-site\", \"saas\", \"dashboard\",\n                           \"fintech\", \"developer-tools\",\n                           \"professional-services\", \"ecommerce\", \"editorial\",\n                           \"web-app\", \"marketplace\", \"education\")\n  --limit <number>         Maximum results (1\u2013100) (default: 10)\n  -h, --help               display help for command\n"
+  },
+  {
+    "args": [
+      "recommend",
+      "--type",
+      "not-a-type",
+      "--json"
+    ],
+    "status": 1,
+    "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "error: option '--type <type>' argument 'not-a-type' is invalid. Allowed choices are marketing-site, saas, dashboard, fintech, developer-tools, professional-services, ecommerce, editorial, web-app, marketplace, education.\n\nUsage: udi recommend [options]\n\nGenerate a deterministic, context-aware design direction\n\nOptions:\n  --framework <framework>            (choices: \"framework-agnostic\", \"nextjs\",\n                                     \"react\", \"vue\", \"nuxt\", \"angular\",\n                                     \"svelte\", \"sveltekit\", \"astro\", \"remix\",\n                                     \"html-css\")\n  --json                             Print machine-readable JSON\n  --type <type>                      (choices: \"marketing-site\", \"saas\",\n                                     \"dashboard\", \"fintech\", \"developer-tools\",\n                                     \"professional-services\", \"ecommerce\",\n                                     \"editorial\", \"web-app\", \"marketplace\",\n                                     \"education\")\n  --style <style>                    Preferred visual style\n  --audience <audience>              Intended users or buyers\n  --preserve-brand                   Preserve existing brand and design-system\n                                     choices\n  --brand-description <description>  Short description of the existing brand\n  --design-system <name>             Name of the existing design system\n  --schema-version <version>         Recommendation schema (v2 is opt-in)\n                                     (choices: \"1.0\", \"2.0\", default: \"1.0\")\n  --context <file>                   Schema 2.0 evidence context JSON\n  --budget-bytes <number>            V2 compact JSON byte budget including\n                                     newline (default 24576)\n  --entity-limit <number>            V2 maximum selected entities (1\u2013100)\n  --expand <key>                     V2 context-bound expansion cursor\n  --explain                          Explain v2 ranking and conflicts in text\n                                     output (always included in JSON)\n  -h, --help                         display help for command\n"
+  },
+  {
+    "args": [
+      "recommend",
+      "--schema-version",
+      "2.0",
+      "--context",
+      "tests/mission008/commerce-admin.json",
+      "--budget-bytes",
+      "64",
+      "--json"
+    ],
+    "status": 1,
+    "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "udi recommend: Recommendation budget too small for context and coverage envelope (3806 bytes required); increase --budget-bytes.\n"
+  }
+]

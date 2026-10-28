@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "2.0",
+  "industry": {
+    "value": "healthcare",
+    "status": "explicit",
+    "evidenceRefs": [
+      "brief:primary"
+    ]
+  },
+  "applicationType": {
+    "value": "scheduling",
+    "status": "explicit",
+    "evidenceRefs": [
+      "brief:primary"
+    ]
+  },
+  "tasks": {
+    "primary": {
+      "value": "staff-scheduling",
+      "status": "explicit",
+      "evidenceRefs": [
+        "brief:primary"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "value": "receptionist",
+      "status": "explicit",
+      "evidenceRefs": [
+        "brief:primary"
+      ]
+    }
+  ],
+  "framework": {
+    "value": "react",
+    "status": "observed",
+    "evidenceRefs": [
+      "package.json"
+    ]
+  },
+  "brand": {
+    "preserve": true,
+    "identity": {
+      "value": "Existing project tokens",
+      "status": "observed",
+      "evidenceRefs": [
+        "src/tokens.css"
+      ]
+    },
+    "tokens": [
+      "--brand-primary",
+      "--surface"
+    ]
+  }
+}

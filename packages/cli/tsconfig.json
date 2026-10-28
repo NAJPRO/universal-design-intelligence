@@ -5,7 +5,9 @@
     "baseUrl": ".",
     "paths": {
       "@udi/core": ["../core/src/index.ts"],
-      "@udi/knowledge": ["../knowledge/src/index.ts"]
+      "@udi/knowledge": ["../knowledge/src/index.ts"],
+      "@udi/core/*": ["../core/src/*.ts"],
+      "@udi/knowledge/*": ["../knowledge/src/*.ts"]
     }
   },
   "include": ["src/**/*.ts"]

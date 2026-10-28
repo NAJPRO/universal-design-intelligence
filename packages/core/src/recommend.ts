@@ -7,8 +7,8 @@ import {
   type Priority,
   type ProjectContext,
   type ProjectContextInput
-} from "@udi/knowledge";
-import { antiPatterns, catalogVersion, designProfiles, designRules, validateCatalog } from "@udi/knowledge";
+} from "@udi/knowledge/legacy";
+import { antiPatterns, catalogVersion, designProfiles, designRules, validateCatalog } from "@udi/knowledge/legacy";
 import { Bm25Retriever } from "./retrieval.js";
 
 const priorityRank: Record<Priority, number> = {

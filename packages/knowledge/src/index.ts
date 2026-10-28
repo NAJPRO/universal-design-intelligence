@@ -1,3 +1,2 @@
-export * from "./schemas.js";
-export * from "./catalog.js";
-export * from "./integrity.js";
+export * from "./legacy.js";
+export * from "./v2-schemas.js";
