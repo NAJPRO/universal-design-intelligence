@@ -1,0 +1,10 @@
+{
+  "pnpm-lock.yaml": "db82c2c8923403f0162ef8c3db567ac625266352bfd069c30390735abfbfcde3",
+  "packages/cli/src/agent-install.ts": "12be7f6ae5e0504e7bf3803d88a8f384cb249e02c9213be93ab7e2dd1dd07190",
+  "packages/knowledge/src/catalog.ts": "2bfba057959bc374863570854aba785723dc7b7df5c4fce4ed15043ac08e8962",
+  "packages/core/src/recommend-v2.ts": "4c724221314e3a0c32c4a2ed405a7bcadea821ebb7d0bfa6e75c9b55244914af",
+  "packages/knowledge/src/v2-schemas.ts": "6bc096614ce2d4013693bed48fa70e3d0fb43ca5fffb3465e8a60fb237fedcaf",
+  "skills/udi-design/SKILL.md": "e23b956bbc47d6f114fe20f65e11b8e7094a282f62b2eea8efdd7ff083340b8f",
+  "skills/udi-design/references/udi-cli.md": "70f24372e3d3c5f7cb195c3bb803a4675eb62aeddc0b9a874a2383d42aa7e1bc",
+  "skills/udi-design/references/design-quality.md": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9"
+}

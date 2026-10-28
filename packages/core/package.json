@@ -15,6 +15,10 @@
     "./legacy": {
       "types": "./dist/legacy.d.ts",
       "import": "./dist/legacy.js"
+    },
+    "./components": {
+      "types": "./dist/components.d.ts",
+      "import": "./dist/components.js"
     }
   },
   "scripts": {

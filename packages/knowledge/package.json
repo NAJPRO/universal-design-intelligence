@@ -19,6 +19,18 @@
     "./constants": {
       "types": "./dist/constants.d.ts",
       "import": "./dist/constants.js"
+    },
+    "./components": {
+      "types": "./dist/components.d.ts",
+      "import": "./dist/components.js"
+    },
+    "./component-schemas": {
+      "types": "./dist/component-schemas.d.ts",
+      "import": "./dist/component-schemas.js"
+    },
+    "./v21-schemas": {
+      "types": "./dist/v21-schemas.d.ts",
+      "import": "./dist/v21-schemas.js"
     }
   },
   "scripts": {

@@ -1,0 +1,32 @@
+{
+  "scope": "isolated temporary HOME, project and runtime store",
+  "runtimeVersion": "0.1.0",
+  "runtimeSha256": "8064e4d98eb31ce4fd9eb9e55ca0bc9d51963e7b6f9193d2fe0a156dadec0674",
+  "sameVersionRefusals": [
+    {
+      "args": [
+        "init",
+        "--global",
+        "--agent",
+        "codex",
+        "--force"
+      ],
+      "status": 1,
+      "reason": "immutable same-version content refused before writes"
+    },
+    {
+      "args": [
+        "init",
+        "--agent",
+        "codex",
+        "--install-runtime",
+        "--force"
+      ],
+      "status": 1,
+      "reason": "immutable same-version content refused before writes"
+    }
+  ],
+  "originalLauncherVersion": "0.1.0",
+  "originalDoctorInstallationVerified": true,
+  "allFilesUnchanged": true
+}

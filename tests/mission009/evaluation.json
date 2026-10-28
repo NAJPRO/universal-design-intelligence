@@ -1,0 +1,1024 @@
+[
+  {
+    "id": "commerce-operations",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "ecommerce",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "operations-workspace",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "merchant operator",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Review product rows by stock and publication status",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        },
+        "secondary": [
+          {
+            "value": "Edit product details",
+            "status": "explicit",
+            "evidenceRefs": [
+              "synthetic:brief"
+            ]
+          }
+        ]
+      }
+    },
+    "expected": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "forbidden": [],
+    "states": [
+      "loading",
+      "empty-filtered",
+      "permission-limited",
+      "partial-result",
+      "retry"
+    ],
+    "data": [
+      {
+        "id": "SKU-A104",
+        "label": "Very long bilingual replacement cartridge — édition professionnelle",
+        "status": "partially published",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "commerce-public",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "ecommerce",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "public-information",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "visitor",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Read a public introduction and browse editorial stories",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [
+      "long-content"
+    ],
+    "data": []
+  },
+  {
+    "id": "healthcare-operations",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "healthcare",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "operations-workspace",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "appointment administrator",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Review appointment rows by clinic and appointment status",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        },
+        "secondary": [
+          {
+            "value": "Reschedule appointment details",
+            "status": "explicit",
+            "evidenceRefs": [
+              "synthetic:brief"
+            ]
+          }
+        ]
+      }
+    },
+    "expected": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "forbidden": [],
+    "states": [
+      "loading",
+      "empty-filtered",
+      "permission-limited",
+      "partial-result",
+      "retry"
+    ],
+    "data": [
+      {
+        "id": "APT-204",
+        "label": "Mina Testperson — fictional appointment administrative record",
+        "status": "stale slot",
+        "timezone": "Africa/Douala"
+      }
+    ]
+  },
+  {
+    "id": "healthcare-public",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "healthcare",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "public-information",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "visitor",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Read a public introduction and browse editorial stories",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [
+      "long-content"
+    ],
+    "data": []
+  },
+  {
+    "id": "banking-operations",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "banking-finance",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "operations-workspace",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "transaction reviewer",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Review transaction rows by account and booking status",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        },
+        "secondary": [
+          {
+            "value": "Record review decision",
+            "status": "explicit",
+            "evidenceRefs": [
+              "synthetic:brief"
+            ]
+          }
+        ]
+      }
+    },
+    "expected": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "forbidden": [],
+    "states": [
+      "loading",
+      "empty-filtered",
+      "permission-limited",
+      "partial-result",
+      "retry"
+    ],
+    "data": [
+      {
+        "id": "TX-304",
+        "label": "Synthetic duplicate-looking transaction with distinct reference",
+        "status": "pending",
+        "amount": "1200.00",
+        "currency": "XAF"
+      }
+    ]
+  },
+  {
+    "id": "banking-public",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "banking-finance",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "public-information",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "visitor",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Read a public introduction and browse editorial stories",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [
+      "long-content"
+    ],
+    "data": []
+  },
+  {
+    "id": "education-operations",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "education",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "operations-workspace",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "teacher",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Review grade records by course and assessment status",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        },
+        "secondary": [
+          {
+            "value": "Edit grade feedback",
+            "status": "explicit",
+            "evidenceRefs": [
+              "synthetic:brief"
+            ]
+          }
+        ]
+      }
+    },
+    "expected": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "forbidden": [],
+    "states": [
+      "loading",
+      "empty-filtered",
+      "permission-limited",
+      "partial-result",
+      "retry"
+    ],
+    "data": [
+      {
+        "id": "GR-404",
+        "label": "Fictional learner with a deliberately long display name",
+        "status": "missing",
+        "grade": null,
+        "distinguishFrom": 0
+      }
+    ]
+  },
+  {
+    "id": "education-public",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "education",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "public-information",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "visitor",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Read a public introduction and browse editorial stories",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [
+      "long-content"
+    ],
+    "data": []
+  },
+  {
+    "id": "property-operations",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "real-estate",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "operations-workspace",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "property operations manager",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Review maintenance rows by property and work order status",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        },
+        "secondary": [
+          {
+            "value": "Edit work order details",
+            "status": "explicit",
+            "evidenceRefs": [
+              "synthetic:brief"
+            ]
+          }
+        ]
+      }
+    },
+    "expected": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "forbidden": [],
+    "states": [
+      "loading",
+      "empty-filtered",
+      "permission-limited",
+      "partial-result",
+      "retry"
+    ],
+    "data": [
+      {
+        "id": "WO-504",
+        "label": "Building Cedar — west stairwell access repair request",
+        "status": "restricted attachment",
+        "unit": "C-14"
+      }
+    ]
+  },
+  {
+    "id": "property-public",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "real-estate",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "public-information",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "visitor",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Read a public introduction and browse editorial stories",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [
+      "long-content"
+    ],
+    "data": []
+  },
+  {
+    "id": "sports-operations",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "sports",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "operations-workspace",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "competition administrator",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Review fixture rows by round and result status",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        },
+        "secondary": [
+          {
+            "value": "Correct fixture result",
+            "status": "explicit",
+            "evidenceRefs": [
+              "synthetic:brief"
+            ]
+          }
+        ]
+      }
+    },
+    "expected": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "forbidden": [],
+    "states": [
+      "loading",
+      "empty-filtered",
+      "permission-limited",
+      "partial-result",
+      "retry"
+    ],
+    "data": [
+      {
+        "id": "FIX-604",
+        "label": "North Trial Team versus South Demonstration Team",
+        "status": "provisional",
+        "round": 8
+      }
+    ]
+  },
+  {
+    "id": "sports-public",
+    "context": {
+      "schemaVersion": "2.0",
+      "industry": {
+        "value": "sports",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "applicationType": {
+        "value": "public-information",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "roles": [
+        {
+          "value": "visitor",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ],
+      "tasks": {
+        "primary": {
+          "value": "Read a public introduction and browse editorial stories",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [
+      "long-content"
+    ],
+    "data": []
+  },
+  {
+    "id": "single-record",
+    "context": {
+      "schemaVersion": "2.0",
+      "applicationType": {
+        "value": "self-service-portal",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "tasks": {
+        "primary": {
+          "value": "Edit my contact details",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [
+      "CMP-RECOVERABLE-FORM"
+    ],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [],
+    "data": []
+  },
+  {
+    "id": "analytics-overview",
+    "context": {
+      "schemaVersion": "2.0",
+      "applicationType": {
+        "value": "analytics",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "tasks": {
+        "primary": {
+          "value": "Read a trend summary",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [],
+    "data": []
+  },
+  {
+    "id": "storefront-cards",
+    "context": {
+      "schemaVersion": "2.0",
+      "applicationType": {
+        "value": "storefront",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "tasks": {
+        "primary": {
+          "value": "Browse product cards",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [],
+    "data": []
+  },
+  {
+    "id": "filter-only",
+    "context": {
+      "schemaVersion": "2.0",
+      "applicationType": {
+        "value": "storefront",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "tasks": {
+        "primary": {
+          "value": "Filter products by category and availability",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [
+      "CMP-FILTER-WORKSPACE"
+    ],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [],
+    "data": []
+  },
+  {
+    "id": "readonly-review",
+    "context": {
+      "schemaVersion": "2.0",
+      "applicationType": {
+        "value": "analytics",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "tasks": {
+        "primary": {
+          "value": "Compare transaction rows",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [
+      "CMP-OPERATIONAL-TABLE"
+    ],
+    "forbidden": [
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [],
+    "data": []
+  },
+  {
+    "id": "form-only",
+    "context": {
+      "schemaVersion": "2.0",
+      "applicationType": {
+        "value": "authoring",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "tasks": {
+        "primary": {
+          "value": "Write and save an article",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [
+      "CMP-RECOVERABLE-FORM"
+    ],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [],
+    "data": []
+  },
+  {
+    "id": "generic-dashboard",
+    "context": {
+      "schemaVersion": "2.0",
+      "applicationType": {
+        "value": "operations-workspace",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "tasks": {
+        "primary": {
+          "value": "View dashboard overview",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [],
+    "data": []
+  },
+  {
+    "id": "unrelated",
+    "context": {
+      "schemaVersion": "2.0",
+      "applicationType": {
+        "value": "operations-workspace",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "tasks": {
+        "primary": {
+          "value": "Explore celestial mythology",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [],
+    "data": []
+  },
+  {
+    "id": "missing-application",
+    "context": {
+      "schemaVersion": "2.0",
+      "tasks": {
+        "primary": {
+          "value": "Review product rows and edit details",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      }
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "states": [],
+    "data": []
+  },
+  {
+    "id": "unsupported-calendar",
+    "context": {
+      "schemaVersion": "2.0",
+      "applicationType": {
+        "value": "scheduling",
+        "status": "explicit",
+        "evidenceRefs": [
+          "synthetic:brief"
+        ]
+      },
+      "components": [
+        {
+          "value": "calendar",
+          "status": "explicit",
+          "evidenceRefs": [
+            "synthetic:brief"
+          ]
+        }
+      ]
+    },
+    "expected": [],
+    "forbidden": [
+      "CMP-OPERATIONAL-TABLE",
+      "CMP-FILTER-WORKSPACE",
+      "CMP-RECOVERABLE-FORM",
+      "COM-OPERATIONAL-MANAGEMENT"
+    ],
+    "unsupported": [
+      "component:calendar"
+    ],
+    "states": [
+      "collision"
+    ],
+    "data": []
+  }
+]

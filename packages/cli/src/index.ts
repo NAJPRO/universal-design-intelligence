@@ -111,7 +111,7 @@ addCommonOptions(
   .option("--preserve-brand", "Preserve existing brand and design-system choices")
   .option("--brand-description <description>", "Short description of the existing brand")
   .option("--design-system <name>", "Name of the existing design system")
-  .addOption(new Option("--schema-version <version>", "Recommendation schema (v2 is opt-in)").choices(["1.0", "2.0"]).default("1.0"))
+  .addOption(new Option("--schema-version <version>", "Recommendation schema (v2 is opt-in)").choices(["1.0", "2.0", "2.1"]).default("1.0"))
   .option("--context <file>", "Schema 2.0 evidence context JSON")
   .option("--budget-bytes <number>", "V2 compact JSON byte budget including newline (default 24576)")
   .option("--entity-limit <number>", "V2 maximum selected entities (1–100)")
@@ -133,6 +133,17 @@ addCommonOptions(
     expand?: string;
     explain?: boolean;
   }) => {
+    if (options.schemaVersion === "2.1") {
+      try {
+        if (options.style || options.audience || options.brandDescription || options.designSystem || options.preserveBrand) throw new Error("For schema 2.1 supply role/brand evidence in --context; v1 style/audience/brand flags cannot be combined.");
+        const { printComponentRecommendation } = await import("./recommend-components.js");
+        printComponentRecommendation(options as V2CliOptions);
+      } catch (error) {
+        console.error(`udi recommend: ${error instanceof Error ? error.message : String(error)}`);
+        process.exitCode = 1;
+      }
+      return;
+    }
     if (options.schemaVersion === "2.0") {
       try {
         if (options.style || options.audience || options.brandDescription || options.designSystem || options.preserveBrand) throw new Error("For schema 2.0 supply roles, brand and design-system evidence in --context; v1 style/audience/brand flags cannot be combined.");
@@ -283,6 +294,20 @@ program.command("doctor")
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       console.error(`udi doctor: ${message}`);
+      process.exitCode = 1;
+    }
+  });
+
+program.command("inspect")
+  .description("Print a complete local component or composition specification by stable ID")
+  .argument("<id>", "CMP-... or COM-... specification ID")
+  .option("--json", "Print compact machine-readable JSON")
+  .action(async (id: string, options: { json?: boolean }) => {
+    try {
+      const { printComponentSpec } = await import("./recommend-components.js");
+      printComponentSpec(id, options.json);
+    } catch (error) {
+      console.error(`udi inspect: ${error instanceof Error ? error.message : String(error)}`);
       process.exitCode = 1;
     }
   });

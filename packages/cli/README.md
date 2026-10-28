@@ -77,3 +77,17 @@ udi recommend --schema-version 2.0 --context brief.json --json
 ```
 
 V2 separates industry/application/role/task evidence, ranks up to three eligible profiles, selects existing rules/patterns/anti-patterns, and reports coverage gaps and conflicts. It adds no domain packs or component implementations. `--budget-bytes` (default 24576), `--entity-limit` and context-bound `--expand` control bounded packets; `--explain` expands readable output. Scores are deterministic heuristics, not probabilities or visual-quality scores. See the [context, migration and fallback guide](../../docs/recommendation-v2.md). Check `recommend --help` before using these flags through an older runtime.
+
+## Professional component contracts (opt-in)
+
+Recommendation output 2.1 adds original operational table, filter workspace and recoverable form specifications, plus a conditional operational workspace composition. It accepts the existing schema 2.0 context and leaves default v1/explicit 2.0 output intact.
+
+```sh
+udi recommend --schema-version 2.1 --context brief.json --json
+udi inspect CMP-OPERATIONAL-TABLE --json
+udi inspect CMP-FILTER-WORKSPACE --json
+udi inspect CMP-RECOVERABLE-FORM --json
+udi inspect COM-OPERATIONAL-MANAGEMENT --json
+```
+
+Recommendation packets contain bounded summaries and complete required references. Inspect the ID to read anatomy, variants, state transitions, keyboard, visual and recovery requirements. Unknown requirements remain explicit coverage gaps. Use the same context and returned `--expand` key for later pages. These are framework-neutral knowledge contracts, not frontend code or evidence of rendered visual superiority. Older runtimes require their existing commands; no automatic upgrade occurs.

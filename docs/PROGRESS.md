@@ -4,6 +4,14 @@
 
 ## Completed
 
+### Mission 009 — Professional Component Intelligence
+
+- Added strict original contracts for operational tables, advanced filter workspaces and recoverable forms, with one conditional operational management composition. State/reference/variant/dependency integrity is validated at build time.
+- Added explicit output schema 2.1 using unchanged context 2.0, deterministic evidence gates, atomic dependencies, coverage/budgets, context-bound expansion and `inspect <ID>` for full specifications. Default v1 and explicit 2.0 outputs remain compatible; help now advertises 2.1.
+- Final standard `pnpm check` passed **167 tests across 14 files**. All 22 pre-content synthetic fixtures match their expected selections (28 specifications, zero false suggestions on this set); no independent reviewer or rendered-interface superiority claim.
+- Measured compressed growth of 21,906 bytes; default packets remain at most 24,576 bytes. New 2.1 has material validation/indexing/packing overhead, documented with cold/warm measurements. Offline tarball and immutable-runtime checks pass.
+- No canonical skill, legacy catalog, installer or dependency changes; no publication/Git state operations. New-version release validation remains the owner's responsibility. Mission 010 has not started. See [Mission 009](MISSION-009.md) and [usage guide](component-intelligence.md).
+
 ### Mission 008.1 — Performance and release readiness
 
 - Profiled eager initialization and deferred schema/catalog loading until the selected command needs it, while preserving the single-file offline bundle and root APIs.

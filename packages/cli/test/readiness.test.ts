@@ -41,14 +41,20 @@ describe("Mission 008.1 release readiness", () => {
     const result = run(entry, sample.args);
     expect(result.status, result.stderr).toBe(sample.status);
     expect(hash(result.stdout)).toBe(sample.stdoutSha256);
-    expect(result.stderr).toBe(sample.stderr);
+    // Mission 009 intentionally adds one advertised output schema. Historical fixture stays immutable.
+    const expectedStderr = sample.stderr.replace(
+      '(choices: "1.0", "2.0", default: "1.0")',
+      '(choices: "1.0", "2.0", "2.1", default:\n                                     "1.0")'
+    );
+    expect(result.stderr).toBe(expectedStderr);
   });
 
   it.each([
     { args: ["--version"], legacy: 0, enhanced: 0 },
     { args: ["search", "keyboard focus", "--json"], legacy: 1, enhanced: 0 },
     { args: ["recommend", "--type", "dashboard", "--json"], legacy: 1, enhanced: 0 },
-    { args: v2, legacy: 1, enhanced: 1 }
+    { args: v2, legacy: 1, enhanced: 1 },
+    { args: v2.map(arg => arg === "2.0" ? "2.1" : arg), legacy: 1, enhanced: 1 }
   ])("initializes only the selected command's schemas: $args", sample => {
     const root = mkdtempSync(join(tmpdir(), "udi-lazy-"));
     try {
@@ -65,6 +71,8 @@ describe("Mission 008.1 release readiness", () => {
       expect(count("schemas")).toBe(sample.legacy);
       expect(count("catalog")).toBe(sample.legacy);
       expect(count("v2-schemas")).toBe(sample.enhanced);
+      expect(count("component-schemas")).toBe(sample.args.includes("2.1") ? 1 : 0);
+      expect(count("components")).toBe(sample.args.includes("2.1") ? 1 : 0);
     } finally { rmSync(root, { recursive: true, force: true }); }
   });
 
