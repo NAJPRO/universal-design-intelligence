@@ -1,0 +1,6 @@
+{
+  "reason": "Pre-final focus validation prompted preservation of focused record identity when CSS changes representation before the matchMedia callback. The initial harness also attempted to focus a hidden alternate representation; the final test explicitly targets a visible record action. The initial false result alone did not prove an application defect.",
+  "path": "fixture/after/app.js",
+  "previousSha256": "aa15587118379aa01d2eefd92fc5076bf816c3eeca04f19bb65bc167833a1015",
+  "finalSha256": "7cbeb84c60495ca79187f43e04029aa9ce1f115b87c16a717604fa1cd101cd55"
+}

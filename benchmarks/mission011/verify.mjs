@@ -1,0 +1,10 @@
+import {readFile,readdir,writeFile}from'node:fs/promises';import{createHash}from'node:crypto';
+const hash=b=>createHash('sha256').update(b).digest('hex');const root=new URL('./',import.meta.url);
+const frozen=JSON.parse(await readFile(new URL('evidence/frozen-inputs.json',root),'utf8'));const checks=[];
+for(const[path,expected]of Object.entries(frozen))checks.push({path,passed:hash(await readFile(new URL(path,root)))===expected});
+const mission=JSON.parse(await readFile(new URL('evidence/mission010-before.json',root),'utf8'));
+const files=[];async function walk(path){for(const e of await readdir(path,{withFileTypes:true})){const p=path+'/'+e.name;if(e.isDirectory())await walk(p);else files.push(p);}}await walk('tests/mission010');
+const same=files.length===Object.keys(mission).length&&files.every(p=>p in mission);checks.push({path:'Mission 010 file set unchanged',passed:same});
+for(const[path,expected]of Object.entries(mission))checks.push({path,passed:hash(await readFile(path))===expected});
+for(const file of ['data.js','tokens.css'])checks.push({path:`paired fixture ${file}`,passed:hash(await readFile(new URL(`fixture/before/${file}`,root)))===hash(await readFile(new URL(`fixture/after/${file}`,root)))});
+await writeFile(new URL('evidence/integrity.json',root),JSON.stringify({passed:checks.every(c=>c.passed),checks},null,2)+'\n');console.log(`${checks.filter(c=>c.passed).length}/${checks.length} checks passed; frozen Mission 010 preserved.`);if(checks.some(c=>!c.passed))process.exitCode=1;

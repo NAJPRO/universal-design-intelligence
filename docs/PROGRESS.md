@@ -4,6 +4,14 @@
 
 ## Completed
 
+### Mission 011 — Responsive component intelligence and scroll behavior
+
+- Audited existing capabilities, then revised the four existing component/composition contracts (catalog 1.1.0, revisions 2) and compact responsive guidance without new families, schemas or dependencies.
+- Documented seven contextual scroll policies and measured-failure versus review-warning criteria. Default v1 and explicit 2.0 recommendation replay remains byte-identical.
+- Retained 45 actual screenshots and reproducible paired reference fixtures. Essential-action horizontal travel falls from 603.61/224.72px to zero at 375/768px; this is a controller-authored adaptation, not an independent agent or aesthetic-superiority experiment.
+- Final checks pass **181 tests across 15 files**. Frozen Mission 010 evidence is preserved. Physical touch, assistive technology and controlled agent generation remain unvalidated. See [Mission 011](MISSION-011.md).
+
+
 ### Mission 010 — Agent integration and visual benchmark
 
 - Updated the canonical skill with runtime capability probes, schema 2.1/context 2.0 recommendations, selective contract inspection, explicit ID-to-decision reporting and 2.0/legacy fallback.

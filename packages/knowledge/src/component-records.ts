@@ -1,10 +1,10 @@
-// Original UDI Mission 009 content. MIT; citation-only external references.
+// Original UDI Mission 009 contracts, revised by Mission 011. MIT; citation-only external references.
 export const componentRecords: unknown = {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "components": [
     {
       "schemaVersion": "1.0",
-      "revision": 1,
+      "revision": 2,
       "id": "CMP-OPERATIONAL-TABLE",
       "name": "Operational Data Table",
       "purpose": "Compare identifiable records and act on an explicitly scoped result set without confusing missing data, permission or selection.",
@@ -40,7 +40,7 @@ export const componentRecords: unknown = {
         "sourceName": "UDI original professional component contracts",
         "organization": "UDI contributors",
         "license": "MIT",
-        "attribution": "Original UDI Mission 009 specifications; external documentation cited for comparison only, no code, assets or documentation reproduced.",
+        "attribution": "Original UDI Mission 009 contracts revised by Mission 011; no external code, prose or assets reproduced.",
         "references": [
           {
             "name": "WAI APG table and grid distinction",
@@ -53,13 +53,21 @@ export const componentRecords: unknown = {
           {
             "name": "PatternFly operational table reference",
             "url": "https://www.patternfly.org/components/table/design-guidelines/"
+          },
+          {
+            "name": "W3C WAI Reflow",
+            "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+          },
+          {
+            "name": "MDN scrollbar-width reference",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width"
           }
         ],
         "reviewedBy": [
           "UDI author (automated structural review; no independent expert sign-off)"
         ],
         "reviewStatus": "pending",
-        "reviewedAt": "2026-10-28"
+        "reviewedAt": "2026-10-30"
       },
       "evidence": [
         {
@@ -90,6 +98,30 @@ export const componentRecords: unknown = {
           "artifact": "PatternFly operational table reference",
           "url": "https://www.patternfly.org/components/table/design-guidelines/",
           "accessedAt": "2026-10-28",
+          "relationship": "supports",
+          "licenseStatus": "reference-only",
+          "licenseExpression": null
+        },
+        {
+          "artifact": "Original UDI Mission 011 responsive and scroll revision",
+          "url": null,
+          "accessedAt": "2026-10-30",
+          "relationship": "original",
+          "licenseStatus": "verified",
+          "licenseExpression": "MIT"
+        },
+        {
+          "artifact": "W3C WAI Reflow",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+          "accessedAt": "2026-10-30",
+          "relationship": "supports",
+          "licenseStatus": "reference-only",
+          "licenseExpression": null
+        },
+        {
+          "artifact": "MDN scrollbar-width reference",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width",
+          "accessedAt": "2026-10-30",
           "relationship": "supports",
           "licenseStatus": "reference-only",
           "licenseExpression": null
@@ -146,6 +178,55 @@ export const componentRecords: unknown = {
           "method": "browser",
           "severity": "critical",
           "passEvidence": "Inject failure, retry and confirm identity, entered values and focus remain coherent."
+        },
+        {
+          "id": "page-overflow",
+          "requirement": "Failure when ordinary page content produces unintended horizontal overflow; a declared two-dimensional comparison region is evaluated separately.",
+          "method": "browser",
+          "severity": "high",
+          "passEvidence": "At 375, 768 and 1440 CSS px and enlarged text, measure document width and locate the offending node; repair its layout instead of globally clipping overflow."
+        },
+        {
+          "id": "scroll-discovery",
+          "requirement": "Review each genuinely overflowing region for a perceptible cue or reachable alternative control, plus keyboard and touch access.",
+          "method": "keyboard",
+          "severity": "high",
+          "passEvidence": "Record axis, task, accessible name, focus path and cue/control; test keyboard scrolling or equivalent navigation and swipe. Hidden scrollbar alone is neither pass nor failure."
+        },
+        {
+          "id": "nested-scroll",
+          "requirement": "Review multiple scroll owners; unnecessary same-axis nesting can strand focus, wheel or touch input.",
+          "method": "browser",
+          "severity": "medium",
+          "passEvidence": "Inventory page, collection, filter and dialog scroll owners; justify containment per task and exercise boundaries. Region count alone cannot determine a failure."
+        },
+        {
+          "id": "focus-reflow",
+          "requirement": "Failure when a layout change loses the focused record/field, enters a hidden duplicate or changes keyboard task order incoherently.",
+          "method": "keyboard",
+          "severity": "high",
+          "passEvidence": "Resize with a field or row action focused; preserve identity, draft/query and logical order, then complete the task in both Tab directions."
+        },
+        {
+          "id": "priority-action",
+          "requirement": "Failure when a declared essential row action cannot be reached without horizontal travel in a narrow viewport.",
+          "method": "browser",
+          "severity": "high",
+          "passEvidence": "At 375 CSS px and scrollLeft zero, locate and operate the frequent permitted action; verify a denied record exposes a reason and no unauthorized action. Repeat at 768 and 1440."
+        },
+        {
+          "id": "truncation-access",
+          "requirement": "Failure when critical identity/value is clipped without an operable full-content route.",
+          "method": "browser",
+          "severity": "high",
+          "passEvidence": "Use long names, text enlargement and missing values; demonstrate wrap or keyboard/touch-accessible detail. Title-only hover text does not suffice."
+        },
+        {
+          "id": "comparison-or-summary",
+          "requirement": "Review the responsive strategy against the actual task; hidden priority columns and automatic card conversion can impair comparison.",
+          "method": "expert",
+          "severity": "high",
+          "passEvidence": "Declare which values/actions are essential; complete both single-record work and cross-record comparison, recording any extra disclosure cost."
         }
       ],
       "family": "operational-table",
@@ -485,7 +566,7 @@ export const componentRecords: unknown = {
         "emphasis": "Reserve strongest emphasis for record identity and the current task action; selection uses an additional labeled marker.",
         "surfaces": "Use subtle row separators for tracking across columns; avoid a separate elevated card around every cell.",
         "proportions": "Give identity and long names flexible width; keep status and numeric columns readable; wrap important names or expose full text accessibly.",
-        "discoverability": "Keep the frequent row action visible; name overflow controls with record identity and show bulk controls with selected count.",
+        "discoverability": "Anchor the frequent permitted action near record identity, reachable at horizontal origin on narrow screens; secondary values/actions may use named details/overflow with a permission reason. Native scrollbar auto is the comparison default; additional controls and cues must be verified before considering local concealment.",
         "states": "Show missing as unknown or unavailable rather than zero; status includes words, freshness and units where relevant.",
         "brand": "Reuse existing text, border, status and focus tokens; do not invent an industry palette.",
         "tokenRoles": [
@@ -499,15 +580,35 @@ export const componentRecords: unknown = {
       },
       "responsive": [
         {
-          "condition": "Columns no longer fit at readable size or text is enlarged.",
-          "restructure": "Choose labeled scoped horizontal scrolling for comparison, or labeled stacked records for task scanning; expose all secondary values in reachable detail.",
+          "condition": "Column comparison is the primary task and readable columns exceed available width, including tablet or enlarged text.",
+          "restructure": "Keep a semantic table in one named horizontal scroll region with native scrollbar visibility (auto); preserve row identity and place the frequent authorized action beside the identity or in a persistent, non-overlapping action area without horizontal travel. Do not convert comparison tasks to cards automatically.",
           "preservedInformation": [
-            "Record identity",
-            "Status and units",
-            "Selected count and selection scope",
-            "Authorized actions and all column values"
+            "Record identity and full name access",
+            "Critical status, permission and units",
+            "Every comparable column and selected scope",
+            "Prioritized authorized action without horizontal travel"
           ],
-          "focusContinuity": "Keep selected IDs and sort state; restore focus to the same record action after detail navigation, or the collection heading if removed."
+          "focusContinuity": "Retain record IDs, query and sort; reveal focused cells/controls without obscuring them. Restore the same record action after details."
+        },
+        {
+          "condition": "Individual record lookup or editing matters more than simultaneous column comparison on a narrow screen.",
+          "restructure": "Use a task-focused row summary with identity, critical status/value and authorized primary action; disclose labeled secondary fields on demand. A summary is not a forced card layout. Keep one active semantic representation and offer comparison when the task still requires it.",
+          "preservedInformation": [
+            "Stable identity",
+            "Critical values and units",
+            "Explicit read-only permission reason",
+            "All secondary values through a named details control"
+          ],
+          "focusContinuity": "Details return to the same record; do not duplicate tabbable controls or lose selection on layout changes."
+        },
+        {
+          "condition": "No records are displayed: initial empty, zero matches, loading or error.",
+          "restructure": "Keep query, scope and recovery meaningful; do not create an empty horizontal scroll track from a minimum-width header. Hide or constrain the unused table region while preserving loading/status announcements and Clear or Retry.",
+          "preservedInformation": [
+            "Query and result meaning",
+            "Recovery actions and permission context"
+          ],
+          "focusContinuity": "Keep focus on the initiating query/control, or move deliberately to an announced recovery destination."
         }
       ],
       "recovery": [
@@ -565,7 +666,7 @@ export const componentRecords: unknown = {
     },
     {
       "schemaVersion": "1.0",
-      "revision": 1,
+      "revision": 2,
       "id": "CMP-FILTER-WORKSPACE",
       "name": "Advanced Filter Workspace",
       "purpose": "Make a collection query explicit, reversible and understandable while distinguishing edited filters from the results currently displayed.",
@@ -607,7 +708,7 @@ export const componentRecords: unknown = {
         "sourceName": "UDI original professional component contracts",
         "organization": "UDI contributors",
         "license": "MIT",
-        "attribution": "Original UDI Mission 009 specifications; external documentation cited for comparison only, no code, assets or documentation reproduced.",
+        "attribution": "Original UDI Mission 009 contracts revised by Mission 011; no external code, prose or assets reproduced.",
         "references": [
           {
             "name": "WAI APG table and grid distinction",
@@ -620,13 +721,21 @@ export const componentRecords: unknown = {
           {
             "name": "PatternFly operational table reference",
             "url": "https://www.patternfly.org/components/table/design-guidelines/"
+          },
+          {
+            "name": "W3C WAI Reflow",
+            "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+          },
+          {
+            "name": "MDN scrollbar-width reference",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width"
           }
         ],
         "reviewedBy": [
           "UDI author (automated structural review; no independent expert sign-off)"
         ],
         "reviewStatus": "pending",
-        "reviewedAt": "2026-10-28"
+        "reviewedAt": "2026-10-30"
       },
       "evidence": [
         {
@@ -657,6 +766,30 @@ export const componentRecords: unknown = {
           "artifact": "PatternFly operational table reference",
           "url": "https://www.patternfly.org/components/table/design-guidelines/",
           "accessedAt": "2026-10-28",
+          "relationship": "supports",
+          "licenseStatus": "reference-only",
+          "licenseExpression": null
+        },
+        {
+          "artifact": "Original UDI Mission 011 responsive and scroll revision",
+          "url": null,
+          "accessedAt": "2026-10-30",
+          "relationship": "original",
+          "licenseStatus": "verified",
+          "licenseExpression": "MIT"
+        },
+        {
+          "artifact": "W3C WAI Reflow",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+          "accessedAt": "2026-10-30",
+          "relationship": "supports",
+          "licenseStatus": "reference-only",
+          "licenseExpression": null
+        },
+        {
+          "artifact": "MDN scrollbar-width reference",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width",
+          "accessedAt": "2026-10-30",
           "relationship": "supports",
           "licenseStatus": "reference-only",
           "licenseExpression": null
@@ -720,6 +853,34 @@ export const componentRecords: unknown = {
           "method": "static",
           "severity": "high",
           "passEvidence": "Reload/back restores the same active scope; drafts and sensitive free text are excluded by declared policy."
+        },
+        {
+          "id": "page-overflow",
+          "requirement": "Failure when ordinary page content produces unintended horizontal overflow; a declared two-dimensional comparison region is evaluated separately.",
+          "method": "browser",
+          "severity": "high",
+          "passEvidence": "At 375, 768 and 1440 CSS px and enlarged text, measure document width and locate the offending node; repair its layout instead of globally clipping overflow."
+        },
+        {
+          "id": "scroll-discovery",
+          "requirement": "Review each genuinely overflowing region for a perceptible cue or reachable alternative control, plus keyboard and touch access.",
+          "method": "keyboard",
+          "severity": "high",
+          "passEvidence": "Record axis, task, accessible name, focus path and cue/control; test keyboard scrolling or equivalent navigation and swipe. Hidden scrollbar alone is neither pass nor failure."
+        },
+        {
+          "id": "nested-scroll",
+          "requirement": "Review multiple scroll owners; unnecessary same-axis nesting can strand focus, wheel or touch input.",
+          "method": "browser",
+          "severity": "medium",
+          "passEvidence": "Inventory page, collection, filter and dialog scroll owners; justify containment per task and exercise boundaries. Region count alone cannot determine a failure."
+        },
+        {
+          "id": "focus-reflow",
+          "requirement": "Failure when a layout change loses the focused record/field, enters a hidden duplicate or changes keyboard task order incoherently.",
+          "method": "keyboard",
+          "severity": "high",
+          "passEvidence": "Resize with a field or row action focused; preserve identity, draft/query and logical order, then complete the task in both Tab directions."
         }
       ],
       "family": "filter-workspace",
@@ -1018,15 +1179,24 @@ export const componentRecords: unknown = {
       },
       "responsive": [
         {
-          "condition": "Inline facets crowd search or leave too little room for results.",
-          "restructure": "Move advanced facets to a labeled panel or modal sheet while leaving active count, query summary and reset accessible.",
+          "condition": "Facets crowd search/results at narrow or tablet widths, or selected values are long.",
+          "restructure": "Move advanced facets into a named disclosure or one focus-managed sheet. Keep query, result meaning, active conditions and Clear reachable; prefer wrapping chips. Horizontal chip scrolling is conditional: show an edge cue or previous/next controls, reveal focused removals and never silently clip selected scope.",
           "preservedInformation": [
-            "Active query",
-            "Draft changes indicator",
-            "Result count meaning",
-            "Clear/reset scope"
+            "Active query and applied conditions",
+            "Unapplied draft meaning when applicable",
+            "Result count and reset scope"
           ],
-          "focusContinuity": "Return to the same filter trigger on close; result replacement does not steal input focus."
+          "focusContinuity": "Closing returns to the trigger; removing a chip moves focus to the next relevant chip or Clear/search. Result updates do not steal typing focus."
+        },
+        {
+          "condition": "A filter sheet is shorter than its fields, especially with an on-screen keyboard.",
+          "restructure": "Use one vertical body scroll owner, with Apply/reset reachable by scrolling or non-obscuring actions. Avoid an independently scrolling chip rail nested inside the sheet when wrapping suffices. Scrollbar auto is default; conceal only with equivalent discoverable operation.",
+          "preservedInformation": [
+            "Draft values and active query distinction",
+            "All filter options and labels",
+            "Apply/clear actions"
+          ],
+          "focusContinuity": "Bring focused options into the usable viewport and return to the same trigger; preserve drafts on resize according to the declared policy."
         }
       ],
       "recovery": [
@@ -1072,7 +1242,7 @@ export const componentRecords: unknown = {
     },
     {
       "schemaVersion": "1.0",
-      "revision": 1,
+      "revision": 2,
       "id": "CMP-RECOVERABLE-FORM",
       "name": "Recoverable Form",
       "purpose": "Collect or edit meaningful input with clear grouping, honest save state and a recovery route that retains valid user work.",
@@ -1115,7 +1285,7 @@ export const componentRecords: unknown = {
         "sourceName": "UDI original professional component contracts",
         "organization": "UDI contributors",
         "license": "MIT",
-        "attribution": "Original UDI Mission 009 specifications; external documentation cited for comparison only, no code, assets or documentation reproduced.",
+        "attribution": "Original UDI Mission 009 contracts revised by Mission 011; no external code, prose or assets reproduced.",
         "references": [
           {
             "name": "WAI APG table and grid distinction",
@@ -1128,13 +1298,21 @@ export const componentRecords: unknown = {
           {
             "name": "PatternFly operational table reference",
             "url": "https://www.patternfly.org/components/table/design-guidelines/"
+          },
+          {
+            "name": "W3C WAI Reflow",
+            "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+          },
+          {
+            "name": "MDN scrollbar-width reference",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width"
           }
         ],
         "reviewedBy": [
           "UDI author (automated structural review; no independent expert sign-off)"
         ],
         "reviewStatus": "pending",
-        "reviewedAt": "2026-10-28"
+        "reviewedAt": "2026-10-30"
       },
       "evidence": [
         {
@@ -1165,6 +1343,30 @@ export const componentRecords: unknown = {
           "artifact": "PatternFly operational table reference",
           "url": "https://www.patternfly.org/components/table/design-guidelines/",
           "accessedAt": "2026-10-28",
+          "relationship": "supports",
+          "licenseStatus": "reference-only",
+          "licenseExpression": null
+        },
+        {
+          "artifact": "Original UDI Mission 011 responsive and scroll revision",
+          "url": null,
+          "accessedAt": "2026-10-30",
+          "relationship": "original",
+          "licenseStatus": "verified",
+          "licenseExpression": "MIT"
+        },
+        {
+          "artifact": "W3C WAI Reflow",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+          "accessedAt": "2026-10-30",
+          "relationship": "supports",
+          "licenseStatus": "reference-only",
+          "licenseExpression": null
+        },
+        {
+          "artifact": "MDN scrollbar-width reference",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width",
+          "accessedAt": "2026-10-30",
           "relationship": "supports",
           "licenseStatus": "reference-only",
           "licenseExpression": null
@@ -1221,6 +1423,41 @@ export const componentRecords: unknown = {
           "method": "browser",
           "severity": "critical",
           "passEvidence": "Inject failure, retry and confirm identity, entered values and focus remain coherent."
+        },
+        {
+          "id": "page-overflow",
+          "requirement": "Failure when ordinary page content produces unintended horizontal overflow; a declared two-dimensional comparison region is evaluated separately.",
+          "method": "browser",
+          "severity": "high",
+          "passEvidence": "At 375, 768 and 1440 CSS px and enlarged text, measure document width and locate the offending node; repair its layout instead of globally clipping overflow."
+        },
+        {
+          "id": "scroll-discovery",
+          "requirement": "Review each genuinely overflowing region for a perceptible cue or reachable alternative control, plus keyboard and touch access.",
+          "method": "keyboard",
+          "severity": "high",
+          "passEvidence": "Record axis, task, accessible name, focus path and cue/control; test keyboard scrolling or equivalent navigation and swipe. Hidden scrollbar alone is neither pass nor failure."
+        },
+        {
+          "id": "nested-scroll",
+          "requirement": "Review multiple scroll owners; unnecessary same-axis nesting can strand focus, wheel or touch input.",
+          "method": "browser",
+          "severity": "medium",
+          "passEvidence": "Inventory page, collection, filter and dialog scroll owners; justify containment per task and exercise boundaries. Region count alone cannot determine a failure."
+        },
+        {
+          "id": "focus-reflow",
+          "requirement": "Failure when a layout change loses the focused record/field, enters a hidden duplicate or changes keyboard task order incoherently.",
+          "method": "keyboard",
+          "severity": "high",
+          "passEvidence": "Resize with a field or row action focused; preserve identity, draft/query and logical order, then complete the task in both Tab directions."
+        },
+        {
+          "id": "short-dialog",
+          "requirement": "Failure when Save/Cancel or a focused correction cannot be brought into the usable dialog viewport.",
+          "method": "browser",
+          "severity": "critical",
+          "passEvidence": "At 375 by 500 CSS px, then simulated reduced visual viewport, reach inputs/errors and Save/Cancel by keyboard and scroll; check occlusion by footer, preserve draft on resize and restore page position on exit."
         }
       ],
       "family": "recoverable-form",
@@ -1567,15 +1804,23 @@ export const componentRecords: unknown = {
       },
       "responsive": [
         {
-          "condition": "Columns would separate labels from controls or create cramped fields.",
-          "restructure": "Stack task groups in reading order; keep actions reachable without a sticky region obscuring focused inputs or errors.",
+          "condition": "Fields or actions no longer fit readable columns, including narrow, tablet, enlarged text or short usable viewport.",
+          "restructure": "Stack related fields in reading order. For an overlay, give its body one vertical scroll owner constrained by the usable viewport; keep Save/Cancel reachable without clipping and reveal focused inputs/errors above any sticky actions. Use native scrollbar auto by default, not global overflow locking.",
           "preservedInformation": [
-            "Required/optional meaning",
-            "All entered values",
-            "Server errors",
-            "Save scope and revision"
+            "Identity, labels and entered values",
+            "Validation/server errors and unsaved status",
+            "Save scope, permissions and revision"
           ],
-          "focusContinuity": "Keep the same field focused on resize; reveal hidden sections before error-link focus."
+          "focusContinuity": "Retain the same field across resize. Error links reveal the containing section and scroll the target clear of fixed chrome; close returns to the invoker."
+        },
+        {
+          "condition": "The page or another overlay already owns scrolling.",
+          "restructure": "Choose page editing or one modal focus owner deliberately; avoid simultaneously scrolling form, dialog and page for the same task. A temporary modal background lock must be scoped, preserve page position and restore scrolling on every exit.",
+          "preservedInformation": [
+            "Dirty data and recoverable outcome",
+            "Reachable submit, cancel and close"
+          ],
+          "focusContinuity": "Test Tab and Shift+Tab, Escape and error focus in a short viewport; do not treat a transient BODY stop alone as proof of background control access."
         }
       ],
       "recovery": [
@@ -1627,7 +1872,7 @@ export const componentRecords: unknown = {
   "compositions": [
     {
       "schemaVersion": "1.0",
-      "revision": 1,
+      "revision": 2,
       "id": "COM-OPERATIONAL-MANAGEMENT",
       "name": "Operational Management Workspace",
       "purpose": "Coordinate a scoped record collection, filters and authorized actions around repeated operational work, with an optional recoverable detail editor.",
@@ -1663,7 +1908,7 @@ export const componentRecords: unknown = {
         "sourceName": "UDI original professional component contracts",
         "organization": "UDI contributors",
         "license": "MIT",
-        "attribution": "Original UDI Mission 009 specifications; external documentation cited for comparison only, no code, assets or documentation reproduced.",
+        "attribution": "Original UDI Mission 009 contracts revised by Mission 011; no external code, prose or assets reproduced.",
         "references": [
           {
             "name": "WAI APG table and grid distinction",
@@ -1676,13 +1921,21 @@ export const componentRecords: unknown = {
           {
             "name": "PatternFly operational table reference",
             "url": "https://www.patternfly.org/components/table/design-guidelines/"
+          },
+          {
+            "name": "W3C WAI Reflow",
+            "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+          },
+          {
+            "name": "MDN scrollbar-width reference",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width"
           }
         ],
         "reviewedBy": [
           "UDI author (automated structural review; no independent expert sign-off)"
         ],
         "reviewStatus": "pending",
-        "reviewedAt": "2026-10-28"
+        "reviewedAt": "2026-10-30"
       },
       "evidence": [
         {
@@ -1713,6 +1966,30 @@ export const componentRecords: unknown = {
           "artifact": "PatternFly operational table reference",
           "url": "https://www.patternfly.org/components/table/design-guidelines/",
           "accessedAt": "2026-10-28",
+          "relationship": "supports",
+          "licenseStatus": "reference-only",
+          "licenseExpression": null
+        },
+        {
+          "artifact": "Original UDI Mission 011 responsive and scroll revision",
+          "url": null,
+          "accessedAt": "2026-10-30",
+          "relationship": "original",
+          "licenseStatus": "verified",
+          "licenseExpression": "MIT"
+        },
+        {
+          "artifact": "W3C WAI Reflow",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+          "accessedAt": "2026-10-30",
+          "relationship": "supports",
+          "licenseStatus": "reference-only",
+          "licenseExpression": null
+        },
+        {
+          "artifact": "MDN scrollbar-width reference",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width",
+          "accessedAt": "2026-10-30",
           "relationship": "supports",
           "licenseStatus": "reference-only",
           "licenseExpression": null
@@ -1769,6 +2046,41 @@ export const componentRecords: unknown = {
           "method": "browser",
           "severity": "critical",
           "passEvidence": "Inject failure, retry and confirm identity, entered values and focus remain coherent."
+        },
+        {
+          "id": "page-overflow",
+          "requirement": "Failure when ordinary page content produces unintended horizontal overflow; a declared two-dimensional comparison region is evaluated separately.",
+          "method": "browser",
+          "severity": "high",
+          "passEvidence": "At 375, 768 and 1440 CSS px and enlarged text, measure document width and locate the offending node; repair its layout instead of globally clipping overflow."
+        },
+        {
+          "id": "scroll-discovery",
+          "requirement": "Review each genuinely overflowing region for a perceptible cue or reachable alternative control, plus keyboard and touch access.",
+          "method": "keyboard",
+          "severity": "high",
+          "passEvidence": "Record axis, task, accessible name, focus path and cue/control; test keyboard scrolling or equivalent navigation and swipe. Hidden scrollbar alone is neither pass nor failure."
+        },
+        {
+          "id": "nested-scroll",
+          "requirement": "Review multiple scroll owners; unnecessary same-axis nesting can strand focus, wheel or touch input.",
+          "method": "browser",
+          "severity": "medium",
+          "passEvidence": "Inventory page, collection, filter and dialog scroll owners; justify containment per task and exercise boundaries. Region count alone cannot determine a failure."
+        },
+        {
+          "id": "focus-reflow",
+          "requirement": "Failure when a layout change loses the focused record/field, enters a hidden duplicate or changes keyboard task order incoherently.",
+          "method": "keyboard",
+          "severity": "high",
+          "passEvidence": "Resize with a field or row action focused; preserve identity, draft/query and logical order, then complete the task in both Tab directions."
+        },
+        {
+          "id": "task-action-access",
+          "requirement": "Failure when the declared essential action or state-recovery control is clipped or requires traversing unrelated horizontal columns.",
+          "method": "browser",
+          "severity": "high",
+          "passEvidence": "Complete the declared primary task at 375/768/1440 and 375 by 500; verify permissions, no accidental page overflow, stable focus and accessible filters in populated/empty/error/edit states."
         }
       ],
       "useWhen": [
@@ -1879,7 +2191,7 @@ export const componentRecords: unknown = {
             "results",
             "editor"
           ],
-          "restructuring": "Collapse advanced filters behind a named summary and open editor as a route or focus-managed surface; preserve scope and return record."
+          "restructuring": "Prioritize query/scope, then record identity/status and frequent action at horizontal origin. Choose table scrolling for comparison or summary/details for individual work; move editor to one focus-managed surface or route, preserve query/draft and avoid redundant scrollbars in empty states."
         }
       ],
       "states": [
@@ -2043,16 +2355,24 @@ export const componentRecords: unknown = {
       },
       "responsive": [
         {
-          "condition": "Side-by-side regions no longer support readable collection and editor.",
-          "restructure": "Move detail to a route or single named overlay; filters become a summary-triggered panel.",
+          "condition": "Collection, filters and editor compete for readable width or height.",
+          "restructure": "Choose comparison-scroll versus single-record summary from the task. Keep identity, critical status/permission and frequent permitted action available at narrow widths; move details to a route or one modal surface. Do not nest independent vertical panes unless their task requires them.",
           "preservedInformation": [
-            "Active query",
-            "Sort and page",
-            "Selection scope",
-            "Dirty form values",
-            "Return record"
+            "Active scope, query, sort and page",
+            "Selection and permitted row actions",
+            "Dirty form and return-record identity"
           ],
-          "focusContinuity": "Keep exactly one overlay focus owner; return to original record or collection heading after removal."
+          "focusContinuity": "Exactly one overlay owns interaction. Preserve focus and draft when switching layout; restore the invoker or a meaningful collection fallback."
+        },
+        {
+          "condition": "Workspace contains page, table, navigation or chips that overflow.",
+          "restructure": "Assign one owner per axis/task: page owns ordinary vertical reading; comparison table owns necessary horizontal movement; navigation/chips wrap or provide reachable controls and reveal selection. Native scrollbar auto is default. Conceal locally only after equivalent discovery and keyboard/touch operation are demonstrated; repair accidental page overflow instead of clipping it.",
+          "preservedInformation": [
+            "Navigation/active filter meaning",
+            "All comparison values",
+            "Recovery and editor actions"
+          ],
+          "focusContinuity": "Match DOM task order to visible order; focused navigation, chips and records scroll into view without shifting unrelated regions."
         }
       ],
       "recovery": [

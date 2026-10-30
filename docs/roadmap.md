@@ -70,3 +70,13 @@ Target release: **2026-10-31**. The deadline prioritizes an installable, tested 
 - [ ] Repeat with hard token/time accounting, stronger filesystem isolation and independent blinded review.
 
 **Result:** enhanced guidance was applied to observable filter/recovery details; no overall aesthetic superiority was established. Shared implementation budgets were prompt-level controls; C's self-review was blocked by a Chrome approval timeout, while controller rendering succeeded. See [Mission 010 report](MISSION-010.md) and [benchmark reproduction](../tests/mission010/README.md). The separate Next.js example and later missions remain unstarted.
+
+## Mission 011 — Responsive component intelligence and scroll behavior
+
+- [x] Audit existing contracts, schemas and retrieval before minimal revisions.
+- [x] Revise four existing contracts and document seven contextual scroll policies.
+- [x] Test scoped failures versus review warnings; preserve legacy output compatibility.
+- [x] Capture/review paired reference fixtures at 375/768/1440 and reduced mobile heights; preserve Mission 010 evidence.
+- [ ] Validate independent same-agent generation with measured budgets, physical touch and assistive technology.
+
+**Result:** targeted reference action access improves; no overall visual superiority or autonomous agent improvement is established. See [Mission 011](MISSION-011.md) and [reproduction](../benchmarks/mission011/README.md). Subsequent missions remain unstarted.

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0",
+  "applicationType": {
+    "value": "operations-workspace",
+    "status": "explicit",
+    "evidenceRefs": [
+      "benchmark:task"
+    ]
+  },
+  "tasks": {
+    "primary": {
+      "value": "product-administration",
+      "status": "explicit",
+      "evidenceRefs": [
+        "benchmark:task"
+      ]
+    },
+    "secondary": [
+      {
+        "value": "filter products",
+        "status": "explicit",
+        "evidenceRefs": [
+          "benchmark:task"
+        ]
+      },
+      {
+        "value": "edit product form",
+        "status": "explicit",
+        "evidenceRefs": [
+          "benchmark:task"
+        ]
+      }
+    ]
+  },
+  "components": [
+    {
+      "value": "table",
+      "status": "explicit",
+      "evidenceRefs": [
+        "benchmark:task"
+      ]
+    },
+    {
+      "value": "filters",
+      "status": "explicit",
+      "evidenceRefs": [
+        "benchmark:task"
+      ]
+    },
+    {
+      "value": "form",
+      "status": "explicit",
+      "evidenceRefs": [
+        "benchmark:task"
+      ]
+    }
+  ],
+  "framework": {
+    "value": "html-css",
+    "status": "observed",
+    "evidenceRefs": [
+      "fixture/index.html"
+    ]
+  },
+  "brand": {
+    "preserve": true
+  }
+}

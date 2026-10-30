@@ -1,0 +1,7 @@
+{
+  "name": "udi-mission011-benchmark",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Metadata needed by the frozen CLI; no dependencies or install step"
+}

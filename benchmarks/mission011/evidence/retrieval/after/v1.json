@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "1.0",
+  "catalogVersion": "1.0.0",
+  "engine": "udi-deterministic",
+  "context": {
+    "type": "dashboard",
+    "goals": [],
+    "constraints": {
+      "preserveBrand": true,
+      "brandColorTokens": []
+    }
+  },
+  "profile": {
+    "id": "PRO-ENTERPRISE-DASHBOARD",
+    "name": "Enterprise dashboard",
+    "reason": "Selected because this profile applies to dashboard; profile matching uses explicit type, audience-keyword, and style-keyword overlap."
+  },
+  "direction": {
+    "visualPrinciple": "Emphasize decision-relevant exceptions without making every metric compete.",
+    "typography": "Preserve the existing brand typography and improve hierarchy through its established type roles.",
+    "color": "Preserve the existing brand palette; improve accessible pairings and supporting cues without replacing its colors.",
+    "layout": "Use compact shared rails, clearly scoped filters, and intentional table overflow on small screens.",
+    "interaction": "Preserve data scope and make loading, sorting, filtering, and destructive actions explicit."
+  },
+  "recommendations": [
+    {
+      "ruleId": "UDI-SYS-005",
+      "category": "design-systems",
+      "title": "Preserve brand decisions as an explicit constraint",
+      "guidance": [
+        "When brand preservation is requested, reuse approved assets and tokens and limit changes to layout, clarity, and accessible pairings.",
+        "If a necessary improvement would change a brand decision, explain the trade-off and request approval before replacing it."
+      ],
+      "priority": "critical",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-VIS-005",
+      "category": "visual-hierarchy",
+      "title": "Keep dense screens scannable with layered emphasis",
+      "guidance": [
+        "Establish a predictable sequence from page title to section label to item detail, using measured size and weight changes.",
+        "Use alignment and whitespace to support scanning; do not make every card or metric equally prominent."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-SAA-001",
+      "category": "saas-dashboards",
+      "title": "Lead dashboards with decisions, not decorative metrics",
+      "guidance": [
+        "Prioritize metrics tied to a user goal and include a comparison period, unit, and definition where ambiguity is possible.",
+        "Remove cards that have no owner, interpretation, or follow-up task."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-SAA-002",
+      "category": "saas-dashboards",
+      "title": "Keep dashboard filters visible and interpretable",
+      "guidance": [
+        "Show active filters near the data they affect and provide a clear way to reset or adjust them.",
+        "Persist filter state only when it helps the workflow, and make the resulting scope visible after navigation or refresh."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-SAA-003",
+      "category": "saas-dashboards",
+      "title": "Design for progressive disclosure of operational detail",
+      "guidance": [
+        "Show the decision-relevant summary first and expose diagnostics, configuration, or history through a clear next step.",
+        "Preserve the selected entity or time range when users move between summary and detail."
+      ],
+      "priority": "medium",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-DAT-001",
+      "category": "tables-data-visualization",
+      "title": "Use tables when precise comparison matters",
+      "guidance": [
+        "Provide clear column headers and keep units, labels, and actions associated with their row or column.",
+        "Use a chart for patterns or trends and a table when users need exact lookup or comparison."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-DAT-002",
+      "category": "tables-data-visualization",
+      "title": "Label chart scales, units, and time ranges",
+      "guidance": [
+        "Label axes, units, relevant baselines, and the time interval in or directly beside the chart.",
+        "Keep scale changes explicit and avoid visual encodings that exaggerate small differences."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-DAT-005",
+      "category": "tables-data-visualization",
+      "title": "Communicate sorting and pagination state",
+      "guidance": [
+        "Expose the active sort column and direction semantically and visually, and keep sorting controls keyboard-operable.",
+        "Show the current result range and total when known; preserve the user’s position when practical after data updates."
+      ],
+      "priority": "medium",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-SAA-005",
+      "category": "saas-dashboards",
+      "title": "Keep workspace identity and scope clear",
+      "guidance": [
+        "Display the active workspace or account in a stable location and retain that scope in page headings when consequential.",
+        "Confirm or clearly label actions that affect an entire organization rather than the current user."
+      ],
+      "priority": "critical",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-RSP-004",
+      "category": "responsive-design",
+      "title": "Make dense data views adapt intentionally",
+      "guidance": [
+        "Prioritize the columns required for the mobile task, allow horizontal scrolling when comparison requires it, or provide a stacked row presentation.",
+        "Keep row identity and action relationships clear in alternate views and announce table headers semantically."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-INT-003",
+      "category": "interaction-states",
+      "title": "Communicate progress for actions that take time",
+      "guidance": [
+        "Show a concise pending state, prevent accidental duplicate actions, and restore a usable state if the operation fails.",
+        "For indeterminate work, explain what is happening without inventing a percentage or blocking unrelated navigation."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-SYS-001",
+      "category": "design-systems",
+      "title": "Reuse the project’s established design tokens",
+      "guidance": [
+        "Inspect the project’s current color, typography, spacing, radius, and elevation tokens before adding styles.",
+        "Extend the existing token model with the smallest justified addition instead of introducing a competing palette."
+      ],
+      "priority": "critical",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-SYS-002",
+      "category": "design-systems",
+      "title": "Build components around stable semantic roles",
+      "guidance": [
+        "Define component variants around meaningful roles such as primary action, warning, or compact density.",
+        "Keep page-specific composition outside the shared component unless repeated use demonstrates a stable pattern."
+      ],
+      "priority": "high",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    },
+    {
+      "ruleId": "UDI-ACC-001",
+      "category": "accessibility",
+      "title": "Use semantic structure and meaningful headings",
+      "guidance": [
+        "Use native elements for headings, navigation, buttons, lists, and main content instead of styling generic containers to imitate them.",
+        "Keep heading levels ordered by document structure, not by the font size a visual design requires."
+      ],
+      "priority": "critical",
+      "sourceIds": [
+        "SRC-UDI-ORIGINAL"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "sourceRuleIds": [
+    "UDI-SYS-005",
+    "UDI-VIS-005",
+    "UDI-SAA-001",
+    "UDI-SAA-002",
+    "UDI-SAA-003",
+    "UDI-DAT-001",
+    "UDI-DAT-002",
+    "UDI-DAT-005",
+    "UDI-SAA-005",
+    "UDI-RSP-004",
+    "UDI-INT-003",
+    "UDI-SYS-001",
+    "UDI-SYS-002",
+    "UDI-ACC-001"
+  ],
+  "assumptions": [
+    "Audience was not specified; profile matching used project type and any supplied style or goals.",
+    "Framework was not specified; only framework-agnostic guidance was assumed.",
+    "Style was not specified; the selected profile uses a balanced, product-appropriate direction.",
+    "Brand preservation was requested, but no brand tokens or description were supplied; preserve the current implementation as the source of truth."
+  ]
+}

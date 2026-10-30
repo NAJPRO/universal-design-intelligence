@@ -15,7 +15,7 @@ export { ComponentSpecSchema, CompositionSpecSchema } from "@udi/knowledge/compo
 export { RecommendationV21Schema } from "@udi/knowledge/v21-schemas";
 export type { ComponentCatalog, ProfessionalSpec } from "@udi/knowledge/component-schemas";
 export type { RecommendationV21 } from "@udi/knowledge/v21-schemas";
-export const COMPONENT_ENGINE_VERSION = "2.1.0-experimental.1";
+export const COMPONENT_ENGINE_VERSION = "2.1.0-experimental.2";
 const optionsSchema = z.object({ maxBytes: z.number().int().min(1).max(1_048_576).default(24_576),
   entityLimit: z.number().int().min(1).max(100).default(100), expand: z.string().max(160).optional() }).strict();
 export type ComponentRecommendationOptions = z.input<typeof optionsSchema>;
@@ -130,7 +130,7 @@ export function recommendDesignV21(input: ContextV2Input, options: ComponentReco
     const closureRules = canonical([...spec.ruleIds, ...spec.dependencies.flatMap(ref => candidates.get(ref)!.ruleIds)]);
     const reasons = match?.reasons ?? [`Required component dependency of an applicable specification; application gate: ${context.applicationType.value}.`];
     candidates.set(id, { id, kind: spec.kind, title: spec.name, category: spec.category, score: match?.score ?? 0, reasons,
-      guidance: [spec.purpose, spec.visual.hierarchy, `Inspect ${id} for states, variants, keyboard, recovery, visual checks and anti-pattern references.`],
+      guidance: [spec.purpose, spec.visual.hierarchy, spec.responsive[0]!.restructure, `Inspect ${id} for states, variants, keyboard, recovery, visual checks and anti-pattern references.`],
       ruleIds: closureRules, sourceIds: [spec.provenance.sourceId] });
     dependencies.set(id, [...spec.dependencies, ...closureRules]);
     return true;

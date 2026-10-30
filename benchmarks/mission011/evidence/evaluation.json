@@ -1,0 +1,137 @@
+{
+  "scope": "Controller-authored paired reference adaptations; not independent agent generations or aesthetic scoring.",
+  "screenshots": 45,
+  "checks": {
+    "before": {
+      "passed": 19,
+      "total": 21
+    },
+    "after": {
+      "passed": 22,
+      "total": 23
+    },
+    "lab": {
+      "passed": 7,
+      "total": 7
+    }
+  },
+  "unresolved": [
+    {
+      "arm": "before",
+      "name": "comparison responds to simulated touch scroll",
+      "passed": false,
+      "observed": false,
+      "interpretation": "If false, touch validation remains missing; headless injection alone does not diagnose a physical touchscreen defect."
+    },
+    {
+      "arm": "before",
+      "name": "modal Tab sequence stays in editor",
+      "passed": false,
+      "certainty": "review-warning",
+      "trace": [
+        {
+          "tag": "TEXTAREA",
+          "id": "name",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-category",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-status",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "stock",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "price",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "inside": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-editor",
+          "inside": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "name",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-category",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-status",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "stock",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "price",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true
+        }
+      ],
+      "interpretation": "A BODY stop is a review warning, not proof of background-control access."
+    },
+    {
+      "arm": "after",
+      "name": "comparison responds to simulated touch scroll",
+      "passed": false,
+      "observed": false,
+      "interpretation": "If false, touch validation remains missing; headless injection alone does not diagnose a physical touchscreen defect."
+    }
+  ],
+  "repositoryTests": {
+    "passed": 181,
+    "files": 15,
+    "log": "pnpm-check-escalated.log"
+  },
+  "missing": [
+    "Independent same-agent generation with measured budgets",
+    "Physical touch",
+    "Assistive technology",
+    "Actual OS keyboard",
+    "Zoom/320px reflow width",
+    "Cross-browser/platform review",
+    "Independent visual review"
+  ]
+}

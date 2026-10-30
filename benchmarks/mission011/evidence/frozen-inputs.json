@@ -1,0 +1,20 @@
+{
+  "baseline/components.json": "6f2176904e9b0a8af24f70793cc4378d4f1b9137dc2e6adffb21b314de1e3153",
+  "baseline/udi.mjs": "06e367877971b34cc0b2c2613cd7e19ae8c2a41377bb26862ff1466688fb40f6",
+  "baseline/design-quality.md": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9",
+  "protocol/task.md": "f86ae0559bfb180a31d12a464d6e598f2a2497a05eca6fc218696b67063fbf0b",
+  "protocol/context.json": "a8313f91e728ca09bced2bd29adc8fd4338dbca9222acbad7c762834399adf6f",
+  "fixture/before/data.js": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+  "fixture/before/styles.css": "91521ef438191ea4a15fd8058ed3d535e8754acd9e3fc2b69969761bdc393c2d",
+  "fixture/before/app.js": "5e7fa3d071e4084c75dfa57bd6a4eac870be8cabd9d228f6cbfec143ba85a998",
+  "fixture/before/tokens.css": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+  "fixture/before/index.html": "cd277854fbcec7d212199e5d7858144f7e586e34ddb303c1ba3ca7f1a704ed48",
+  "fixture/after/data.js": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+  "fixture/after/styles.css": "9a20bc1f2634ac8680c57a5e97e3fae94c0f98584f838531433533d5b2cf5c4b",
+  "fixture/after/app.js": "7cbeb84c60495ca79187f43e04029aa9ce1f115b87c16a717604fa1cd101cd55",
+  "fixture/after/tokens.css": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+  "fixture/after/index.html": "cd277854fbcec7d212199e5d7858144f7e586e34ddb303c1ba3ca7f1a704ed48",
+  "fixture/lab.html": "e8285b08f0f0d3fdaaaaf7e0d15a981a475113f4c32b4df4df3b9ae20cfe0df2",
+  "baseline/component-records.ts": "f3a4705912533948929db0232f28819fd6900d2d16f80549036c58a53c2a861c",
+  "package.json": "371692de16870975fc8517707b0af3102bebee12d99e833380bc374f4411668c"
+}

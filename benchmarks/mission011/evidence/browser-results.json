@@ -1,0 +1,4755 @@
+{
+  "protocol": "Paired hand-authored reference implementations, same fixed fictional data/tasks/tokens. Not independent agent generations or aesthetic scoring.",
+  "captures": [
+    {
+      "arm": "before",
+      "width": 375,
+      "height": 1000,
+      "state": "populated",
+      "path": "screenshots/before-375-populated.png",
+      "sha256": "111256e4fc7d03fa664fe4b18a95b7ec5101533c853b0233ecee74e5fc6c0214",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1001",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1002",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1003",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1006",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1007",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1008",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1009",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1010",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1011",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1012",
+            "pixels": 603.609375
+          }
+        }
+      ],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=populated",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js",
+        "http://127.0.0.1:32867/favicon.ico"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 375,
+      "height": 1000,
+      "state": "empty",
+      "path": "screenshots/before-375-empty.png",
+      "sha256": "9824d9353c00203378b5b5b5a7ec876cfdb988de99b59c869ab39ef37fb1c082",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=empty",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 375,
+      "height": 1000,
+      "state": "error",
+      "path": "screenshots/before-375-error.png",
+      "sha256": "d3e14d9af25cfbd3ba8ce936ad6b3b9619bb21b2ab41c2ca53f905bb41ef1b7e",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "retry",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=error",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 375,
+      "height": 1000,
+      "state": "loading",
+      "path": "screenshots/before-375-loading.png",
+      "sha256": "38bea0a321fce0d34e4d35d1db6351092b6ca1ac22db5f344a702d70a4257164",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=loading",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 375,
+      "height": 1000,
+      "state": "edit",
+      "path": "screenshots/before-375-edit.png",
+      "sha256": "54dcb16f118485496df0ec3662f53695b41ac5769a303257287e7fc59fbb5b41",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "dialog2",
+            "kind": "dialog",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": true,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?edit=NS-1001",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 375,
+      "height": 1000,
+      "state": "compare",
+      "path": "screenshots/before-375-compare.png",
+      "sha256": "111256e4fc7d03fa664fe4b18a95b7ec5101533c853b0233ecee74e5fc6c0214",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 603.609375
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1001",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1002",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1003",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1006",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1007",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1008",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1009",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1010",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1011",
+            "pixels": 603.609375
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1012",
+            "pixels": 603.609375
+          }
+        }
+      ],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?view=compare",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 768,
+      "height": 1000,
+      "state": "populated",
+      "path": "screenshots/before-768-populated.png",
+      "sha256": "3ed90c74d1b94c3b254f6dc2990b37ddc7755fd0ed0a63303f49654aac24cd06",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1001",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1002",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1003",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1006",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1007",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1008",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1009",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1010",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1011",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1012",
+            "pixels": 224.71875
+          }
+        }
+      ],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=populated",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 768,
+      "height": 1000,
+      "state": "empty",
+      "path": "screenshots/before-768-empty.png",
+      "sha256": "7be5aeedd019839800dc13f2253284c06d44c766e569bcb3790e04d40782031f",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=empty",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 768,
+      "height": 1000,
+      "state": "error",
+      "path": "screenshots/before-768-error.png",
+      "sha256": "ea626a737b8dc9ef9a0cb3bb73d048b7e4c1364c61c96c25e0503deeac8474ce",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "retry",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=error",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 768,
+      "height": 1000,
+      "state": "loading",
+      "path": "screenshots/before-768-loading.png",
+      "sha256": "1fccbff0d3a2bad5aa0a37d142470a47c784011f0cbd9ca53df875116f56264f",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=loading",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 768,
+      "height": 1000,
+      "state": "edit",
+      "path": "screenshots/before-768-edit.png",
+      "sha256": "e591b04024bfa4db97277f8dc6f52298fb6e9cca493f894ab53fb6b883a3bb54",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "dialog2",
+            "kind": "dialog",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": true,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?edit=NS-1001",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 768,
+      "height": 1000,
+      "state": "compare",
+      "path": "screenshots/before-768-compare.png",
+      "sha256": "3ed90c74d1b94c3b254f6dc2990b37ddc7755fd0ed0a63303f49654aac24cd06",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 224.71875
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1001",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1002",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1003",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1006",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1007",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1008",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1009",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1010",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1011",
+            "pixels": 224.71875
+          }
+        },
+        {
+          "id": "essential-action-travel",
+          "certainty": "failure",
+          "detail": {
+            "id": "NS-1012",
+            "pixels": 224.71875
+          }
+        }
+      ],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?view=compare",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 1440,
+      "height": 1000,
+      "state": "populated",
+      "path": "screenshots/before-1440-populated.png",
+      "sha256": "a6f05df71283b43d9576dda0eff253737d346f58bb28a78f45fb55f28604a332",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=populated",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 1440,
+      "height": 1000,
+      "state": "empty",
+      "path": "screenshots/before-1440-empty.png",
+      "sha256": "77858ebe4cd0941bf4aac45817985e656de76b7188671c7199d72dff585abfa2",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=empty",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 1440,
+      "height": 1000,
+      "state": "error",
+      "path": "screenshots/before-1440-error.png",
+      "sha256": "5b44232aca6d3b5697bbf239483697f0016c6314d773ff7cdf07c840abfd5b48",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "retry",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=error",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 1440,
+      "height": 1000,
+      "state": "loading",
+      "path": "screenshots/before-1440-loading.png",
+      "sha256": "721cb1c3a487fb512e7869d1c0101dcb56e9285f8bbd1d61608350a9da110633",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?state=loading",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 1440,
+      "height": 1000,
+      "state": "edit",
+      "path": "screenshots/before-1440-edit.png",
+      "sha256": "ab3c4da6366975b743beecccfa40dee83e2685910903aa909450d26173c4308a",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "dialog2",
+            "kind": "dialog",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": true,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?edit=NS-1001",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 1440,
+      "height": 1000,
+      "state": "compare",
+      "path": "screenshots/before-1440-compare.png",
+      "sha256": "a6f05df71283b43d9576dda0eff253737d346f58bb28a78f45fb55f28604a332",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/before/?view=compare",
+        "http://127.0.0.1:32867/before/tokens.css",
+        "http://127.0.0.1:32867/before/styles.css",
+        "http://127.0.0.1:32867/before/app.js",
+        "http://127.0.0.1:32867/before/data.js"
+      ]
+    },
+    {
+      "arm": "before",
+      "width": 375,
+      "height": 500,
+      "state": "short-edit",
+      "path": "screenshots/before-375x500-edit.png",
+      "sha256": "f6ea04743be654a9697c1b0581d719a2fe58dab7dd5cd021233bd49ee9241f1a",
+      "observation": {
+        "width": 375,
+        "height": 500,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "dialog2",
+            "kind": "dialog",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": true,
+        "title": "Northstar Supply — Products",
+        "dialogActions": [
+          {
+            "id": "cancel",
+            "open": true,
+            "reachableAfterReveal": true
+          },
+          {
+            "id": "save",
+            "open": true,
+            "reachableAfterReveal": true
+          }
+        ]
+      },
+      "findings": []
+    },
+    {
+      "arm": "before",
+      "width": 375,
+      "height": 320,
+      "state": "short-edit",
+      "path": "screenshots/before-375x320-edit.png",
+      "sha256": "bb1929d9e85134bb5a8d68df7bbcbaefe863b6b79b40a88f03ed29f149d2c930",
+      "observation": {
+        "width": 375,
+        "height": 320,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "dialog2",
+            "kind": "dialog",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": true,
+        "title": "Northstar Supply — Products",
+        "dialogActions": [
+          {
+            "id": "cancel",
+            "open": true,
+            "reachableAfterReveal": true
+          },
+          {
+            "id": "save",
+            "open": true,
+            "reachableAfterReveal": true
+          }
+        ]
+      },
+      "findings": []
+    },
+    {
+      "arm": "after",
+      "width": 375,
+      "height": 1000,
+      "state": "populated",
+      "path": "screenshots/after-375-populated.png",
+      "sha256": "33cde6f1cfb2e468f6604b7f3c9ed5b3904616da8acccb1cda93952c4faec707",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=populated",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 375,
+      "height": 1000,
+      "state": "empty",
+      "path": "screenshots/after-375-empty.png",
+      "sha256": "a81986776084aee3cd97dd8bd6179c7def2d50d977395b887e1c2cdef2ac20ab",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=empty",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 375,
+      "height": 1000,
+      "state": "error",
+      "path": "screenshots/after-375-error.png",
+      "sha256": "954c928142db35afff39dc56e8b6b30fdad5036fc06f0e01ed90ac4b1a865ec6",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "retry",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=error",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 375,
+      "height": 1000,
+      "state": "loading",
+      "path": "screenshots/after-375-loading.png",
+      "sha256": "7de066e5509da5f97d4757d2024888510a6c78c29fffcac3376eac6c8f7cfff9",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=loading",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 375,
+      "height": 1000,
+      "state": "edit",
+      "path": "screenshots/after-375-edit.png",
+      "sha256": "f0adbb5f5422f05897eb8f175c17532659b1028cbbb25ecb619e0ec7b9268719",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "dialog1",
+            "kind": "dialog",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": true,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?edit=NS-1001",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 375,
+      "height": 1000,
+      "state": "compare",
+      "path": "screenshots/after-375-compare.png",
+      "sha256": "b3ba510f262ef71ec855428f4035270e3d0ff7a71a4a1f8b59611989e3a20a43",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?view=compare",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 768,
+      "height": 1000,
+      "state": "populated",
+      "path": "screenshots/after-768-populated.png",
+      "sha256": "a5a2f051ff592ad64c8a5eef4e7a8aa7f5e0c785bc30b283b4e76b99a6a4749d",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=populated",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 768,
+      "height": 1000,
+      "state": "empty",
+      "path": "screenshots/after-768-empty.png",
+      "sha256": "0188d9b6a64118e9f3f0085c9bcc27eaa8842b36ac4e1280a690d9d7f066674f",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=empty",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 768,
+      "height": 1000,
+      "state": "error",
+      "path": "screenshots/after-768-error.png",
+      "sha256": "9ecc934a33e610b1ba50aaeba0d5f9aa44426fd4e677a53cabaadffdb36c88cb",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "retry",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=error",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 768,
+      "height": 1000,
+      "state": "loading",
+      "path": "screenshots/after-768-loading.png",
+      "sha256": "246c0a5f59f87cef7c72e532a64ffc1cc96969d560cfc26a0dc3052efa51cb2b",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=loading",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 768,
+      "height": 1000,
+      "state": "edit",
+      "path": "screenshots/after-768-edit.png",
+      "sha256": "9f60d40800b7ee4650032b249c91f65e78ca80ad244fe6ff6dc669d5086c346f",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "dialog2",
+            "kind": "dialog",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": true,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?edit=NS-1001",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 768,
+      "height": 1000,
+      "state": "compare",
+      "path": "screenshots/after-768-compare.png",
+      "sha256": "a5a2f051ff592ad64c8a5eef4e7a8aa7f5e0c785bc30b283b4e76b99a6a4749d",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?view=compare",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 1440,
+      "height": 1000,
+      "state": "populated",
+      "path": "screenshots/after-1440-populated.png",
+      "sha256": "4cd0c0b9a02edddd9d268fb2ab0a3af3f32a9fb5ceb190567285be63d91271e2",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=populated",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 1440,
+      "height": 1000,
+      "state": "empty",
+      "path": "screenshots/after-1440-empty.png",
+      "sha256": "464ab6a37a6f6cd5263ed6f6a8047df2b87dde3561337d9ccf9ba5128c6618d6",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=empty",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 1440,
+      "height": 1000,
+      "state": "error",
+      "path": "screenshots/after-1440-error.png",
+      "sha256": "9c006d347a1790da1b8df932335bd875e8129c694907949c6eeddc1a61e36fc1",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "retry",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=error",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 1440,
+      "height": 1000,
+      "state": "loading",
+      "path": "screenshots/after-1440-loading.png",
+      "sha256": "21616ff2e21c7c46e32b72d12c47c995c718b76531466f50840a11ebed32dc53",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?state=loading",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 1440,
+      "height": 1000,
+      "state": "edit",
+      "path": "screenshots/after-1440-edit.png",
+      "sha256": "79d2029c6e8ccbc6ff8f4559e7fc4a06f363ebf4174690cc4f29a526eb68de21",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "dialog2",
+            "kind": "dialog",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": true,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?edit=NS-1001",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 1440,
+      "height": 1000,
+      "state": "compare",
+      "path": "screenshots/after-1440-compare.png",
+      "sha256": "4cd0c0b9a02edddd9d268fb2ab0a3af3f32a9fb5ceb190567285be63d91271e2",
+      "observation": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": false,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1001",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1002",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1003",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1006",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1007",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1008",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1009",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1010",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1011",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          },
+          {
+            "id": "NS-1012",
+            "essential": true,
+            "visibleRepresentation": true,
+            "horizontalTravel": 0
+          }
+        ],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "table1",
+            "kind": "table",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "Northstar Supply — Products"
+      },
+      "findings": [],
+      "exceptions": [],
+      "requests": [
+        "http://127.0.0.1:32867/after/?view=compare",
+        "http://127.0.0.1:32867/after/tokens.css",
+        "http://127.0.0.1:32867/after/styles.css",
+        "http://127.0.0.1:32867/after/app.js",
+        "http://127.0.0.1:32867/after/data.js"
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 375,
+      "height": 500,
+      "state": "short-edit",
+      "path": "screenshots/after-375x500-edit.png",
+      "sha256": "36f6e8a895e3000db6228452dc0cfd6298b4f5d9ede5fa7f0dea766b070becb2",
+      "observation": {
+        "width": 375,
+        "height": 500,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "dialog1",
+            "kind": "dialog",
+            "overflows": true,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": true,
+        "title": "Northstar Supply — Products",
+        "dialogActions": [
+          {
+            "id": "cancel",
+            "open": true,
+            "reachableAfterReveal": true
+          },
+          {
+            "id": "save",
+            "open": true,
+            "reachableAfterReveal": true
+          }
+        ]
+      },
+      "findings": [
+        {
+          "id": "scroll-discovery",
+          "certainty": "warning",
+          "detail": {
+            "id": "dialog1",
+            "kind": "dialog"
+          }
+        }
+      ]
+    },
+    {
+      "arm": "after",
+      "width": 375,
+      "height": 320,
+      "state": "short-edit",
+      "path": "screenshots/after-375x320-edit.png",
+      "sha256": "d93b3933472c6601402658a3396b1ba23a0b7d2deaafdd0d58b26d8f9052c67b",
+      "observation": {
+        "width": 375,
+        "height": 320,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "active",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "dialog1",
+            "kind": "dialog",
+            "overflows": true,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": true,
+        "title": "Northstar Supply — Products",
+        "dialogActions": [
+          {
+            "id": "cancel",
+            "open": true,
+            "reachableAfterReveal": true
+          },
+          {
+            "id": "save",
+            "open": true,
+            "reachableAfterReveal": true
+          }
+        ]
+      },
+      "findings": [
+        {
+          "id": "scroll-discovery",
+          "certainty": "warning",
+          "detail": {
+            "id": "dialog1",
+            "kind": "dialog"
+          }
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "arm": "before",
+      "name": "12 records retain original long names",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "read-only records lack edit controls in every representation",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "SKU search retains identity",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "combined filters preserve exact two records",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "active filter scope remains visible",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "filter-empty offers clear recovery",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "clearing restores collection",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "comparison region keyboard scrolls",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "comparison responds to simulated touch scroll",
+      "passed": false,
+      "observed": false,
+      "interpretation": "If false, touch validation remains missing; headless injection alone does not diagnose a physical touchscreen defect."
+    },
+    {
+      "arm": "before",
+      "name": "permission cannot be bypassed by edit URL",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "invalid input survives correction",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "draft and field focus survive layout change",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "save acknowledges and updates exact record",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "save returns to a visible record action",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "dirty cancel exposes keep or discard",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "keep editing retains draft",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "discard closes without changing record",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "record identity retains keyboard focus on restructure",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "modal Tab sequence stays in editor",
+      "passed": false,
+      "certainty": "review-warning",
+      "trace": [
+        {
+          "tag": "TEXTAREA",
+          "id": "name",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-category",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-status",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "stock",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "price",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "inside": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-editor",
+          "inside": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "name",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-category",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-status",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "stock",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "price",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true
+        }
+      ],
+      "interpretation": "A BODY stop is a review warning, not proof of background-control access."
+    },
+    {
+      "arm": "before",
+      "name": "Escape closes clean editor",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "before",
+      "name": "Retry restores records",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "12 records retain original long names",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "read-only records lack edit controls in every representation",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "summary preserves critical fields and secondary detail",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "record detail opens with keyboard",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "SKU search retains identity",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "combined filters preserve exact two records",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "active filter scope remains visible",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "filter-empty offers clear recovery",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "clearing restores collection",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "comparison region keyboard scrolls",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "comparison responds to simulated touch scroll",
+      "passed": false,
+      "observed": false,
+      "interpretation": "If false, touch validation remains missing; headless injection alone does not diagnose a physical touchscreen defect."
+    },
+    {
+      "arm": "after",
+      "name": "permission cannot be bypassed by edit URL",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "invalid input survives correction",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "draft and field focus survive layout change",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "save acknowledges and updates exact record",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "save returns to a visible record action",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "dirty cancel exposes keep or discard",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "keep editing retains draft",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "discard closes without changing record",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "record identity retains keyboard focus on restructure",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "modal Tab sequence stays in editor",
+      "passed": true,
+      "certainty": "observed-pass",
+      "trace": [
+        {
+          "tag": "TEXTAREA",
+          "id": "name",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-category",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-status",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "stock",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "price",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-editor",
+          "inside": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "name",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-category",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-status",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "stock",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "price",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-editor",
+          "inside": true
+        }
+      ],
+      "interpretation": "A BODY stop is a review warning, not proof of background-control access."
+    },
+    {
+      "arm": "after",
+      "name": "Escape closes clean editor",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "after",
+      "name": "Retry restores records",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "lab",
+      "name": "hidden carousel track has operable next alternative",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "lab",
+      "name": "hidden navigation reveals focused link",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "lab",
+      "name": "filter chips wrap without clipping",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "lab",
+      "name": "injected page defect classified",
+      "passed": true
+    },
+    {
+      "arm": "lab",
+      "name": "injected clip defect classified",
+      "passed": true
+    },
+    {
+      "arm": "lab",
+      "name": "injected uncued defect classified",
+      "passed": true
+    },
+    {
+      "arm": "lab",
+      "name": "injected nested defect classified",
+      "passed": true
+    }
+  ],
+  "lab": [
+    {
+      "fault": "none",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "navigation",
+            "kind": "navigation",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "hidden",
+            "cue": true,
+            "alternativeControls": true,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "filter-chips",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "carousel",
+            "kind": "carousel",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "hidden",
+            "cue": true,
+            "alternativeControls": true,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "comparison",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "UDI scroll laboratory — original fictional controls"
+      },
+      "findings": [
+        {
+          "id": "hidden-scrollbar-operation",
+          "certainty": "warning",
+          "detail": {
+            "id": "navigation",
+            "kind": "navigation"
+          }
+        },
+        {
+          "id": "hidden-scrollbar-operation",
+          "certainty": "warning",
+          "detail": {
+            "id": "carousel",
+            "kind": "carousel"
+          }
+        }
+      ],
+      "path": "screenshots/lab-none.png",
+      "sha256": "faec7b730e748f65d019cfc37f255eaad35b6a4fa900d185d5a01580b10807a5"
+    },
+    {
+      "fault": "page",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 1256,
+        "ordinaryOverflowNodes": [
+          "accidental-wide-content"
+        ],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "navigation",
+            "kind": "navigation",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "hidden",
+            "cue": true,
+            "alternativeControls": true,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "filter-chips",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "carousel",
+            "kind": "carousel",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "hidden",
+            "cue": true,
+            "alternativeControls": true,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "comparison",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "UDI scroll laboratory — original fictional controls"
+      },
+      "findings": [
+        {
+          "id": "page-overflow",
+          "certainty": "failure",
+          "detail": {
+            "pixels": 1256,
+            "nodes": [
+              "accidental-wide-content"
+            ]
+          }
+        },
+        {
+          "id": "hidden-scrollbar-operation",
+          "certainty": "warning",
+          "detail": {
+            "id": "navigation",
+            "kind": "navigation"
+          }
+        },
+        {
+          "id": "hidden-scrollbar-operation",
+          "certainty": "warning",
+          "detail": {
+            "id": "carousel",
+            "kind": "carousel"
+          }
+        }
+      ],
+      "path": "screenshots/lab-page.png",
+      "sha256": "eca0b95219607a020c93c89dbdcde477221d14c905394d1eddd2544454591e03"
+    },
+    {
+      "fault": "clip",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [
+          {
+            "id": "critical-name",
+            "critical": true,
+            "clipped": true,
+            "fullContentAccess": false
+          }
+        ],
+        "regions": [
+          {
+            "id": "navigation",
+            "kind": "navigation",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "hidden",
+            "cue": true,
+            "alternativeControls": true,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "filter-chips",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "carousel",
+            "kind": "carousel",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "hidden",
+            "cue": true,
+            "alternativeControls": true,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "comparison",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "UDI scroll laboratory — original fictional controls"
+      },
+      "findings": [
+        {
+          "id": "critical-truncation",
+          "certainty": "failure",
+          "detail": {
+            "id": "critical-name"
+          }
+        },
+        {
+          "id": "hidden-scrollbar-operation",
+          "certainty": "warning",
+          "detail": {
+            "id": "navigation",
+            "kind": "navigation"
+          }
+        },
+        {
+          "id": "hidden-scrollbar-operation",
+          "certainty": "warning",
+          "detail": {
+            "id": "carousel",
+            "kind": "carousel"
+          }
+        }
+      ],
+      "path": "screenshots/lab-clip.png",
+      "sha256": "7a6f695aaf880083a62c6335334f8d50714e636bc9d24afb13e6082192f08638"
+    },
+    {
+      "fault": "uncued",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "navigation",
+            "kind": "navigation",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "hidden",
+            "cue": true,
+            "alternativeControls": true,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "filter-chips",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "carousel",
+            "kind": "carousel",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "hidden",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "comparison",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "UDI scroll laboratory — original fictional controls"
+      },
+      "findings": [
+        {
+          "id": "hidden-scrollbar-operation",
+          "certainty": "warning",
+          "detail": {
+            "id": "navigation",
+            "kind": "navigation"
+          }
+        },
+        {
+          "id": "scroll-discovery",
+          "certainty": "warning",
+          "detail": {
+            "id": "carousel",
+            "kind": "carousel"
+          }
+        },
+        {
+          "id": "hidden-scrollbar-operation",
+          "certainty": "warning",
+          "detail": {
+            "id": "carousel",
+            "kind": "carousel"
+          }
+        }
+      ],
+      "path": "screenshots/lab-uncued.png",
+      "sha256": "8916f0f60cac7402b7084cd822c4a5670b0f86e1580d411b8556efa4c9e28a4f"
+    },
+    {
+      "fault": "nested",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [],
+        "contents": [],
+        "regions": [
+          {
+            "id": "navigation",
+            "kind": "navigation",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "hidden",
+            "cue": true,
+            "alternativeControls": true,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "filter-chips",
+            "kind": "filters",
+            "overflows": false,
+            "axis": "vertical",
+            "scrollbar": "auto",
+            "cue": false,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "visible",
+            "overflowY": "visible"
+          },
+          {
+            "id": "carousel",
+            "kind": "carousel",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "hidden",
+            "cue": true,
+            "alternativeControls": true,
+            "keyboardVerified": false,
+            "sameAxisNested": true,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          },
+          {
+            "id": "comparison",
+            "kind": "table",
+            "overflows": true,
+            "axis": "horizontal",
+            "scrollbar": "auto",
+            "cue": true,
+            "alternativeControls": false,
+            "keyboardVerified": false,
+            "sameAxisNested": false,
+            "overflowX": "auto",
+            "overflowY": "auto"
+          }
+        ],
+        "priorityColumnsHidden": false,
+        "bodyFocusStop": false,
+        "dialogOpen": false,
+        "title": "UDI scroll laboratory — original fictional controls"
+      },
+      "findings": [
+        {
+          "id": "hidden-scrollbar-operation",
+          "certainty": "warning",
+          "detail": {
+            "id": "navigation",
+            "kind": "navigation"
+          }
+        },
+        {
+          "id": "hidden-scrollbar-operation",
+          "certainty": "warning",
+          "detail": {
+            "id": "carousel",
+            "kind": "carousel"
+          }
+        },
+        {
+          "id": "nested-scroll",
+          "certainty": "warning",
+          "detail": {
+            "id": "carousel",
+            "kind": "carousel"
+          }
+        }
+      ],
+      "path": "screenshots/lab-nested.png",
+      "sha256": "57cfa5fdc687da012eb2b83f1fbbce32afeca80dcf4bd5bbedb87370073b36f1"
+    }
+  ],
+  "environment": {
+    "node": "v22.23.1",
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/156.0.8078.47",
+      "revision": "@1d17a2e2ee147bb7d6ae2ab6abdb3a2510c17775",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "jsVersion": "15.6.75.19"
+    }
+  }
+}

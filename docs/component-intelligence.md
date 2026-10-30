@@ -61,3 +61,7 @@ The new path uses existing Zod/TypeScript infrastructure, one bundled executable
 The development package version is unchanged. Distributing changed bytes as another immutable installed 0.1.0 runtime is inappropriate: the maintainer must choose a new release version and validate its final tarball. Existing runtimes and launchers remain pinned and must not be overwritten.
 
 Passing contract/retrieval tests establishes structural correctness and bounded selection for the exercised corpus. Keyboard/browser/visual checks inside a specification are instructions for a later rendered implementation, not already executed conformance or aesthetics evidence. There are no frontend implementations, domain packs or premium visual-output claims in this pilot.
+
+## Mission 011 responsive revision
+
+Component catalog 1.1.0 retains schema 1.0 and the same four stable IDs at specification revision 2. Engine `2.1.0-experimental.2` includes responsive task guidance in existing compact summaries; content-bound expansion keys from earlier content are invalidated. Default v1 and explicit 2.0 replay remain byte-identical. Selective `inspect` exposes comparison versus individual-record strategies, action reach, dialog/focus checks and contextual scroll review. See the [shared policy](../skills/udi-design/references/design-quality.md) and [Mission 011 evidence and limits](MISSION-011.md). These revisions provide guidance, not runtime DOM scanning or demonstrated autonomous design improvement.

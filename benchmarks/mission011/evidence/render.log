@@ -1,0 +1,224 @@
+{
+  "captures": 40,
+  "checks": 51,
+  "failures": [
+    {
+      "arm": "before",
+      "name": "comparison responds to simulated touch scroll",
+      "passed": false,
+      "observed": false,
+      "interpretation": "If false, touch validation remains missing; headless injection alone does not diagnose a physical touchscreen defect."
+    },
+    {
+      "arm": "before",
+      "name": "modal Tab sequence stays in editor",
+      "passed": false,
+      "certainty": "review-warning",
+      "trace": [
+        {
+          "tag": "TEXTAREA",
+          "id": "name",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-category",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-status",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "stock",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "price",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "inside": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-editor",
+          "inside": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "name",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-category",
+          "inside": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-status",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "stock",
+          "inside": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "price",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel",
+          "inside": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true
+        }
+      ],
+      "interpretation": "A BODY stop is a review warning, not proof of background-control access."
+    },
+    {
+      "arm": "after",
+      "name": "comparison responds to simulated touch scroll",
+      "passed": false,
+      "observed": false,
+      "interpretation": "If false, touch validation remains missing; headless injection alone does not diagnose a physical touchscreen defect."
+    }
+  ],
+  "primaryActionTravel": [
+    {
+      "arm": "before",
+      "width": 375,
+      "state": "populated",
+      "maxHorizontalTravel": 603.609375
+    },
+    {
+      "arm": "before",
+      "width": 375,
+      "state": "compare",
+      "maxHorizontalTravel": 603.609375
+    },
+    {
+      "arm": "before",
+      "width": 768,
+      "state": "populated",
+      "maxHorizontalTravel": 224.71875
+    },
+    {
+      "arm": "before",
+      "width": 768,
+      "state": "compare",
+      "maxHorizontalTravel": 224.71875
+    },
+    {
+      "arm": "before",
+      "width": 1440,
+      "state": "populated",
+      "maxHorizontalTravel": 0
+    },
+    {
+      "arm": "before",
+      "width": 1440,
+      "state": "compare",
+      "maxHorizontalTravel": 0
+    },
+    {
+      "arm": "after",
+      "width": 375,
+      "state": "populated",
+      "maxHorizontalTravel": 0
+    },
+    {
+      "arm": "after",
+      "width": 375,
+      "state": "compare",
+      "maxHorizontalTravel": 0
+    },
+    {
+      "arm": "after",
+      "width": 768,
+      "state": "populated",
+      "maxHorizontalTravel": 0
+    },
+    {
+      "arm": "after",
+      "width": 768,
+      "state": "compare",
+      "maxHorizontalTravel": 0
+    },
+    {
+      "arm": "after",
+      "width": 1440,
+      "state": "populated",
+      "maxHorizontalTravel": 0
+    },
+    {
+      "arm": "after",
+      "width": 1440,
+      "state": "compare",
+      "maxHorizontalTravel": 0
+    }
+  ],
+  "lab": [
+    {
+      "fault": "none",
+      "findings": [
+        "hidden-scrollbar-operation",
+        "hidden-scrollbar-operation"
+      ]
+    },
+    {
+      "fault": "page",
+      "findings": [
+        "page-overflow",
+        "hidden-scrollbar-operation",
+        "hidden-scrollbar-operation"
+      ]
+    },
+    {
+      "fault": "clip",
+      "findings": [
+        "critical-truncation",
+        "hidden-scrollbar-operation",
+        "hidden-scrollbar-operation"
+      ]
+    },
+    {
+      "fault": "uncued",
+      "findings": [
+        "hidden-scrollbar-operation",
+        "scroll-discovery",
+        "hidden-scrollbar-operation"
+      ]
+    },
+    {
+      "fault": "nested",
+      "findings": [
+        "hidden-scrollbar-operation",
+        "hidden-scrollbar-operation",
+        "nested-scroll"
+      ]
+    }
+  ]
+}

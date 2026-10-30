@@ -1,0 +1,817 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "path": "baseline/components.json",
+      "passed": true
+    },
+    {
+      "path": "baseline/udi.mjs",
+      "passed": true
+    },
+    {
+      "path": "baseline/design-quality.md",
+      "passed": true
+    },
+    {
+      "path": "protocol/task.md",
+      "passed": true
+    },
+    {
+      "path": "protocol/context.json",
+      "passed": true
+    },
+    {
+      "path": "fixture/before/data.js",
+      "passed": true
+    },
+    {
+      "path": "fixture/before/styles.css",
+      "passed": true
+    },
+    {
+      "path": "fixture/before/app.js",
+      "passed": true
+    },
+    {
+      "path": "fixture/before/tokens.css",
+      "passed": true
+    },
+    {
+      "path": "fixture/before/index.html",
+      "passed": true
+    },
+    {
+      "path": "fixture/after/data.js",
+      "passed": true
+    },
+    {
+      "path": "fixture/after/styles.css",
+      "passed": true
+    },
+    {
+      "path": "fixture/after/app.js",
+      "passed": true
+    },
+    {
+      "path": "fixture/after/tokens.css",
+      "passed": true
+    },
+    {
+      "path": "fixture/after/index.html",
+      "passed": true
+    },
+    {
+      "path": "fixture/lab.html",
+      "passed": true
+    },
+    {
+      "path": "baseline/component-records.ts",
+      "passed": true
+    },
+    {
+      "path": "package.json",
+      "passed": true
+    },
+    {
+      "path": "Mission 010 file set unchanged",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/.gitignore",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/README.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/browser.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/capture.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/config.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/details.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/captures.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/details/A-collapsed-filters.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/details/A-discard.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/details/A-invalid.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/details/B-collapsed-filters.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/details/B-discard.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/details/B-invalid.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/details/C-collapsed-filters.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/details/C-discard.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/details/C-invalid.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/details.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/environment.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/evaluation.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/frozen-inputs.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/integrity.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/interactions.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/invocations.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/performance-context.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/performance.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/B/0.txt",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/B/1.txt",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/B/index.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/0.txt",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/1.txt",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/2.txt",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/3.txt",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/4.txt",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/5.txt",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/6.txt",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/7.txt",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/index.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/1440-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/1440-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/1440-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/1440-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/1440-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-collapsed-filters.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-discard.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-invalid.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/768-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/768-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/768-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/768-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/review/768-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/1440-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/1440-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/1440-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/1440-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/1440-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/375-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/375-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/375-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/375-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/375-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/768-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/768-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/768-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/768-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/768-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/1440-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/1440-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/1440-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/1440-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/1440-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/375-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/375-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/375-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/375-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/375-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/768-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/768-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/768-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/768-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/768-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/1440-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/1440-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/1440-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/1440-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/1440-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/375-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/375-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/375-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/375-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/375-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/768-edit.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/768-empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/768-error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/768-loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/768-populated.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/validation-trace.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/evidence/validation.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/fixture/app.js",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/fixture/data.js",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/fixture/index.html",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/fixture/styles.css",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/fixture/tokens.css",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/interactions.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/performance.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/prepare.py",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/protocol/enhanced-skill/SKILL.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/protocol/enhanced-skill/references/design-quality.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/protocol/enhanced-skill/references/udi-cli.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/protocol/legacy-skill/SKILL.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/protocol/legacy-skill/references/design-quality.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/protocol/legacy-skill/references/udi-cli.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/protocol/rubric.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/protocol/task.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/replay-retrieval.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/review-sheets.py",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/START.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/app.js",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/check-results.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/checks.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/data.js",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/desktop.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/editor-desktop.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/editor-mobile-short.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/editor-mobile.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/editor-tablet.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/empty.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/error.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/evidence.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/index.html",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/loading.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/mobile-errors.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/mobile.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/styles.css",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/tablet.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/A/tokens.css",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/START.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/app.js",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/check.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/checks.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/chrome.log",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/commands.jsonl",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/data.js",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/evidence.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/index.html",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/screenshot-1440.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/screenshot-375.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/screenshot-768.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/screenshot-editor-375.png",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/server.log",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/skill/SKILL.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/skill/references/design-quality.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/skill/references/udi-cli.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/skill/scripts/udi.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/styles.css",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/B/tokens.css",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/START.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/app.js",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/brief.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/commands.jsonl",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/composition.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/data.js",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/evidence.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/filter-contract.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/form-contract.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/index.html",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/recommendation.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/server.log",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/skill/SKILL.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/skill/references/design-quality.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/skill/references/udi-cli.md",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/skill/scripts/udi.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/styles.css",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/table-contract.json",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/runs/C/tokens.css",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/trace-loader.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/trace.mjs",
+      "passed": true
+    },
+    {
+      "path": "tests/mission010/verify.mjs",
+      "passed": true
+    },
+    {
+      "path": "paired fixture data.js",
+      "passed": true
+    },
+    {
+      "path": "paired fixture tokens.css",
+      "passed": true
+    }
+  ]
+}

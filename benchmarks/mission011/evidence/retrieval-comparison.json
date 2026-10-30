@@ -1,0 +1,154 @@
+{
+  "before": {
+    "runtimeSha256": "06e367877971b34cc0b2c2613cd7e19ae8c2a41377bb26862ff1466688fb40f6",
+    "commands": {
+      "v1": {
+        "args": [
+          "recommend",
+          "--type",
+          "dashboard",
+          "--preserve-brand",
+          "--json"
+        ],
+        "bytes": 8906,
+        "sha256": "63032052088774f06e0c48bcc82f99846354f8d8584e873ee1361cd484dcd64c"
+      },
+      "v20": {
+        "args": [
+          "recommend",
+          "--schema-version",
+          "2.0",
+          "--context",
+          "/home/audin/PRIVE/PERSO/NextJs/universal-design-intelligence/benchmarks/mission011/protocol/context.json",
+          "--json"
+        ],
+        "bytes": 24223,
+        "sha256": "71c9533bad0ee6213bbe33c866f460bd1708fe6bd0c8b3c81426f18bbd914a16"
+      },
+      "v21": {
+        "args": [
+          "recommend",
+          "--schema-version",
+          "2.1",
+          "--context",
+          "/home/audin/PRIVE/PERSO/NextJs/universal-design-intelligence/benchmarks/mission011/protocol/context.json",
+          "--json"
+        ],
+        "bytes": 24178,
+        "sha256": "951232bfb117f9cbcfb67757595fb2898833d509666c611c8faf846e9217edbc"
+      },
+      "CMP-OPERATIONAL-TABLE": {
+        "args": [
+          "inspect",
+          "CMP-OPERATIONAL-TABLE",
+          "--json"
+        ],
+        "bytes": 13963,
+        "sha256": "b157ce02688f9584a032bda132f1168a4ba4697714b0728a2fe99cc902a24e38"
+      },
+      "CMP-FILTER-WORKSPACE": {
+        "args": [
+          "inspect",
+          "CMP-FILTER-WORKSPACE",
+          "--json"
+        ],
+        "bytes": 13103,
+        "sha256": "2599e097b54b00630410fc13a1c581392b0e327baefeecbbefe8b9f7a291ea2f"
+      },
+      "CMP-RECOVERABLE-FORM": {
+        "args": [
+          "inspect",
+          "CMP-RECOVERABLE-FORM",
+          "--json"
+        ],
+        "bytes": 13896,
+        "sha256": "4f245be4c3573a4de61fdd59f5d01dd1aa7fa29aff73c6aa847cebef07ccd761"
+      },
+      "COM-OPERATIONAL-MANAGEMENT": {
+        "args": [
+          "inspect",
+          "COM-OPERATIONAL-MANAGEMENT",
+          "--json"
+        ],
+        "bytes": 11798,
+        "sha256": "9651d4fde8570ad6f7dc89e984988188f12148f37600ac3140e0d97e52c9a905"
+      }
+    }
+  },
+  "after": {
+    "runtimeSha256": "721b2f68508cdc992bad46331289aded644c4e1494955638092dfa1511783488",
+    "commands": {
+      "v1": {
+        "args": [
+          "recommend",
+          "--type",
+          "dashboard",
+          "--preserve-brand",
+          "--json"
+        ],
+        "bytes": 8906,
+        "sha256": "63032052088774f06e0c48bcc82f99846354f8d8584e873ee1361cd484dcd64c"
+      },
+      "v20": {
+        "args": [
+          "recommend",
+          "--schema-version",
+          "2.0",
+          "--context",
+          "/home/audin/PRIVE/PERSO/NextJs/universal-design-intelligence/benchmarks/mission011/protocol/context.json",
+          "--json"
+        ],
+        "bytes": 24223,
+        "sha256": "71c9533bad0ee6213bbe33c866f460bd1708fe6bd0c8b3c81426f18bbd914a16"
+      },
+      "v21": {
+        "args": [
+          "recommend",
+          "--schema-version",
+          "2.1",
+          "--context",
+          "/home/audin/PRIVE/PERSO/NextJs/universal-design-intelligence/benchmarks/mission011/protocol/context.json",
+          "--json"
+        ],
+        "bytes": 24266,
+        "sha256": "e1e45a3928da6f0506c13e1733ff668cc6797deda7871c027b21d75810a20ac9"
+      },
+      "CMP-OPERATIONAL-TABLE": {
+        "args": [
+          "inspect",
+          "CMP-OPERATIONAL-TABLE",
+          "--json"
+        ],
+        "bytes": 19145,
+        "sha256": "9a4fa53b4f730248770e5fa01fe70326e80661bf3cfa30503bf3182e61800f7b"
+      },
+      "CMP-FILTER-WORKSPACE": {
+        "args": [
+          "inspect",
+          "CMP-FILTER-WORKSPACE",
+          "--json"
+        ],
+        "bytes": 16423,
+        "sha256": "d7aa9f534bd4652c7ca2f44c05f3d432205ab6c4b5fa577055592eef4eaa153c"
+      },
+      "CMP-RECOVERABLE-FORM": {
+        "args": [
+          "inspect",
+          "CMP-RECOVERABLE-FORM",
+          "--json"
+        ],
+        "bytes": 17576,
+        "sha256": "53a6b548da62a1e9e3ecfd48698a2c0edb6ff641b704c5488f9dfe8e3f226d07"
+      },
+      "COM-OPERATIONAL-MANAGEMENT": {
+        "args": [
+          "inspect",
+          "COM-OPERATIONAL-MANAGEMENT",
+          "--json"
+        ],
+        "bytes": 15742,
+        "sha256": "afda4335ad9c6095f2fbe0ec86b87f1df2e501875fd94f29aa59c2ee1aeaa724"
+      }
+    }
+  }
+}
