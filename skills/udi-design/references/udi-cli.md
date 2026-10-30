@@ -13,3 +13,34 @@ If the launcher reports a missing or incompatible runtime, run the matching CLI'
 `search` supports `--category`, `--type`, `--framework`, `--limit`, and `--json`. `recommend` supports `--type`, `--style`, `--framework`, `--audience`, `--preserve-brand`, and `--json`. Run either command with `--help` to see option values.
 
 Search and recommendations are deterministic heuristics over the bundled catalog, not LLM reasoning. Cite rule IDs when using the guidance. If a query returns no results, broaden it rather than implying that a rule was found.
+
+## Capability-aware recommendations
+
+Use the resolved launcher (shown as `<udi>` below), not a global executable of unknown provenance. Record `<udi> --version`, `recommend --help` and root `--help`. The development package version alone does not imply feature support.
+
+- If recommendation help advertises `2.1` and root help exposes `inspect`, request `recommend --schema-version 2.1 --context brief.json --json`.
+- If only `2.0` is advertised, request `recommend --schema-version 2.0 --context brief.json --json`.
+- Otherwise use the legacy `recommend --type … --framework … --audience … --preserve-brand --json` and focused `search` commands above. Do not pass unsupported flags.
+
+Both enhanced versions use **context schema 2.0**. Build a small context file from project evidence, for example (omit framework when unknown):
+
+```json
+{
+  "schemaVersion": "2.0",
+  "applicationType": { "value": "operations-workspace", "status": "observed", "evidenceRefs": ["src/catalog-page"] },
+  "tasks": {
+    "primary": { "value": "manage products table", "status": "explicit", "evidenceRefs": ["user:brief"] },
+    "secondary": [
+      { "value": "filter products", "status": "explicit", "evidenceRefs": ["user:brief"] },
+      { "value": "edit product form", "status": "explicit", "evidenceRefs": ["user:brief"] }
+    ]
+  },
+  "brand": { "preserve": true }
+}
+```
+
+Put task/component evidence in `tasks`/`components`; free query prose alone does not establish component applicability. Do not invent explicit evidence or treat role matching as permission. Inspect the returned `coverage`, `conflicts`, `assumptions`, and selected entity IDs. General category coverage does not establish domain completeness.
+
+With 2.1, run `inspect <selected-ID> --json` for the contracts relevant to implementation, one at a time. A composition can identify its required slots; inspect those selected components only as needed. Summarize obligations into decisions rather than pasting full records into the conversation. Unknown IDs and unsupported requirements must remain visible.
+
+Packets default to 24,576 bytes. Use `--expand <returned-key>` with the exact same context/schema only when omitted guidance is needed; merge by ID. On a budget error, increase `--budget-bytes` deliberately. Do not repeatedly fetch the whole catalog. If a capability probe contradicts the actual command, preserve its error, then use an advertised older path; do not silently discard invalid-context or retrieval failures as version incompatibility.

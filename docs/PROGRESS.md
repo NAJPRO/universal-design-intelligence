@@ -1,8 +1,16 @@
 # UDI progress
 
-**Updated:** 2026-10-28
+**Updated:** 2026-10-30
 
 ## Completed
+
+### Mission 010 — Agent integration and visual benchmark
+
+- Updated the canonical skill with runtime capability probes, schema 2.1/context 2.0 recommendations, selective contract inspection, explicit ID-to-decision reporting and 2.0/legacy fallback.
+- Froze a dependency-free fictional product administration fixture and ran three fresh agent contexts: no skill, legacy skill and enhanced skill. Starting application/data/token hashes are verified; command logs, agent reports and reproducibility instructions are retained.
+- Captured 45 native viewport screenshots across 375/768/1440 CSS pixels plus nine focused mobile captures. Shared interaction checks: A 27/27, B/C 26/27; follow-up narrowed B/C's Tab assertion failure to a transient BODY stop, with no interactive background control focused. Rendered review found useful enhanced behaviors but **no demonstrated overall aesthetic advantage**.
+- Measured 80/320/1280-rule scaling and confirmed duplicate legacy validation/index construction in 2.1. Proposed per-call index reuse; runtime behavior remains unchanged. Standard `pnpm check` passed **167 tests across 14 files**.
+- Explicit skill routing was exercised; implicit installed-host discovery, strict filesystem isolation/hard equal token accounting, historical-runtime skill execution and independent blinded/accessibility review remain unvalidated. C's own browser review timed out at automatic approval; controller browser evaluation succeeded afterward. No subsequent mission started. See [Mission 010](MISSION-010.md).
 
 ### Mission 009 — Professional Component Intelligence
 

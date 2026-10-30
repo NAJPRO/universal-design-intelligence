@@ -9,3 +9,4 @@ pnpm-debug.log*
 !.env.example
 !.env.*.example
 packages/cli/universal-design-intelligence-0.1.0.tgz
+tests/

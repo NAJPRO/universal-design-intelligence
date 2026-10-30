@@ -58,3 +58,15 @@ Target release: **2026-10-31**. The deadline prioritizes an installable, tested 
 - [x] Offline packed-tarball integration and application dependency mutation checks.
 - [x] Document bootstrap, exact-version upgrades, and inventory-based uninstall.
 - [ ] Live host activation and macOS/Windows execution validation remain separate from static path checks.
+
+## Mission 010 — Agent integration and visual benchmark
+
+- [x] Update canonical skill with version-aware enhanced retrieval and legacy fallback.
+- [x] Freeze isolated fictional product fixtures, data, task, skill snapshots and evaluation criteria.
+- [x] Execute no-skill, legacy and enhanced agent arms with fresh contexts and the same inherited model/tool settings.
+- [x] Capture actual populated/empty/error/loading/editor screens at 375, 768 and 1440 CSS pixels; evaluate dimensions separately.
+- [x] Retain command/knowledge-ID evidence and measure corpus scaling/duplicated indexing.
+- [ ] Validate implicit discovery in installed agent hosts and behavioral fallback on historical runtimes.
+- [ ] Repeat with hard token/time accounting, stronger filesystem isolation and independent blinded review.
+
+**Result:** enhanced guidance was applied to observable filter/recovery details; no overall aesthetic superiority was established. Shared implementation budgets were prompt-level controls; C's self-review was blocked by a Chrome approval timeout, while controller rendering succeeded. See [Mission 010 report](MISSION-010.md) and [benchmark reproduction](../tests/mission010/README.md). The separate Next.js example and later missions remain unstarted.

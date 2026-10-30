@@ -10,14 +10,12 @@ UDI provides a repeatable workflow for frontend design and implementation. Use t
 
 ## Workflow
 
-1. Inspect the project and identify its framework, styling approach, existing components, and design conventions.
-2. Clarify the user’s goal and whether the task is a new interface or an improvement.
-3. Query local UDI guidance using the commands in [UDI CLI usage](references/udi-cli.md); if the CLI is unavailable, say so and proceed using repository evidence.
-4. Choose and briefly explain a design direction that fits the product, audience, and user goals.
-5. Reuse existing brand tokens, components, and conventions. Preserve existing branding unless the user explicitly requests a change.
-6. Implement professional, coherent UI components using the existing stack and patterns.
-7. Check responsive behavior, keyboard interaction, semantic structure, and accessible naming.
-8. Review the result against [design quality checks](references/design-quality.md), then correct inconsistencies. Do not claim visual or accessibility validation unless the corresponding tools were run.
+1. Inspect the target project's stack, styling, existing components, brand tokens and primary user tasks. Separate observed facts, explicit requirements and assumptions; ask only for missing information that affects the work. Reference websites and style questionnaires are optional.
+2. Resolve the local launcher and check runtime capabilities using [UDI CLI usage](references/udi-cli.md). Prefer schema 2.1 only when supported; fall back to supported 2.0 or legacy commands without upgrading or installing application dependencies.
+3. Retrieve a bounded recommendation for the evidenced tasks. Read coverage, conflicts and assumptions. For selected component/composition IDs, inspect only the relevant contracts; extract the anatomy, variants, states, accessibility and recovery obligations needed for this interface. Do not load the whole catalog or every specification.
+4. Turn the retrieved guidance into explicit decisions: connect each applied knowledge ID to a layout, component, interaction or state choice. Preserve existing tokens and conventions, and distinguish unsupported requirements from general guidance.
+5. Implement with the project's existing stack and components. Review rendered narrow, medium and wide layouts, populated/empty/error states, keyboard behavior and editing/recovery flows using available tools; correct observed issues. Use [design quality checks](references/design-quality.md) for the relevant checks.
+6. Report applied knowledge IDs, important design decisions, checks actually run and unsupported requirements. State missing browser, accessibility or host-discovery validation explicitly; retrieval and automated tests alone do not prove visual quality.
 
 ## Design priorities
 

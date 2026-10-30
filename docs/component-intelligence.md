@@ -56,7 +56,7 @@ import { RecommendationV21Schema } from "@udi/knowledge/v21-schemas";
 
 ## Limits and operational use
 
-The new path uses existing Zod/TypeScript infrastructure, one bundled executable and no new dependency or online retrieval. The canonical skill is unchanged; agents can explicitly invoke these documented CLI capabilities when the installed runtime supports them. Older runtimes must continue using their supported commands; there is no automatic upgrade or capability claim based on package version 0.1.0 alone.
+The new path uses existing Zod/TypeScript infrastructure, one bundled executable and no new dependency or online retrieval. The canonical skill now probes advertised runtime capabilities and prefers 2.1 when supported, with 2.0/legacy fallback and selective contract inspection; see [the canonical workflow](../skills/udi-design/SKILL.md) and [Mission 010](MISSION-010.md). Older runtimes must continue using their supported commands; there is no automatic upgrade or capability claim based on package version 0.1.0 alone.
 
 The development package version is unchanged. Distributing changed bytes as another immutable installed 0.1.0 runtime is inappropriate: the maintainer must choose a new release version and validate its final tarball. Existing runtimes and launchers remain pinned and must not be overwritten.
 
