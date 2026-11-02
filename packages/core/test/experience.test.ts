@@ -8,6 +8,15 @@ const ev = (value: string) => ({ value, status: "explicit" as const });
 const context: ContextV2Input = { schemaVersion: "2.0", applicationType: ev("operations-workspace"), tasks: { primary: ev("consult and compare inventory products table"), secondary: [ev("search and filter products"), ev("edit product form")] }, brand: { preserve: true, tokens: ["ink", "accent"] } };
 
 describe("Design direction and progressive disclosure", () => {
+  it("discovers and inspects the existing integrated-focus contract without adding a record", () => {
+    const packet = recommendDirection({ schemaVersion: "2.0", tasks: { primary: ev("keyboard focus selection") } }, { query: "focus border outline" });
+    expect(packet.motion.some(r => r.id === "MOT-FOCUS")).toBe(true);
+    expect(packet.matches.some(r => r.id === "MOT-FOCUS")).toBe(true);
+    const record = inspectExperience("MOT-FOCUS");
+    expect("animate" in record && record.animate).toContain("integrated");
+    expect("accessibility" in record && record.accessibility).toContain("light/dark");
+    expect(packet.budget.usedBytes).toBeLessThanOrEqual(8192);
+  });
   it.each([
     ["editorial", "editorial", "DIR-EDITORIAL"], ["operations-workspace", "compare inventory", "DIR-OPERATIONAL"],
     ["authoring", "developer code tool", "DIR-TECHNICAL"], ["scheduling", "calm appointment", "DIR-CALM"],

@@ -3,6 +3,15 @@ import { describe, expect, it } from "vitest";
 import { DirectionPacketSchema } from "../../knowledge/src/experience.js";
 const run = (...args: string[]) => spawnSync(process.execPath, ["packages/cli/dist/index.js", ...args], { encoding: "utf8" });
 describe("Offline direction CLI", () => {
+  it("exposes the refined focus contract through the existing inspect command", () => {
+    const result = run("inspect", "MOT-FOCUS", "--json");
+    expect(result.status, result.stderr).toBe(0);
+    const record = JSON.parse(result.stdout);
+    expect(record.id).toBe("MOT-FOCUS");
+    expect(record.animate).toContain("External outlines remain valid");
+    expect(record.stable).toContain("border width");
+    expect(record.accessibility).toContain("browser defaults");
+  });
   it("returns bounded direction JSON and inspectable original guidance", () => {
     const r = run("direct", "--context", "tests/mission008/commerce-admin.json", "--interactions", "feedback,press", "--json");
     expect(r.status, r.stderr).toBe(0);

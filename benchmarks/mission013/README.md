@@ -67,3 +67,18 @@ are deliberately small; broader readability/user review remains warranted. Loadi
 is observed synchronously during a real write, not prolonged for a screenshot.
 There is no whole-session layout-shift study, screen-reader, real touch, cross-browser,
 zoom or independent blinded comparative validation. See [the report](../../docs/MISSION-013.md).
+
+## Mission 013.1 — focus regression
+
+The name input now uses one integrated, stable border for mouse/keyboard focus.
+Run `node benchmarks/mission013/focus-evaluate.mjs` for the four-width,
+normal/reduced-motion focus/error/blur matrix. Optional `--baseline-css <file>`
+compares the original complete stylesheet; the report records the exact baseline
+commit. Current keyboard visibility is measured, but contour aesthetics require
+visual inspection of the captures. The demo supports light surfaces; adopting the
+reusable contract on dark/forced-color surfaces needs separate validation.
+
+`focus-0131*.json` records new measurements, retrieved guidance and compatibility.
+Original Mission 013 evidence is unchanged. New screenshots remain under ignored
+`evidence/screenshots/focus-0131/`; `.local/focus-0131/` contains disposable logs and
+an isolated replay of the existing 42 functional checks.

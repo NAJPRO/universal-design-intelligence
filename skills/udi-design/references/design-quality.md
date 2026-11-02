@@ -21,6 +21,15 @@ Use this checklist after implementation. Adapt it to the product's existing desi
 - Ensure keyboard access, visible focus, logical focus order, and understandable validation/error messages.
 - Check text and control contrast, non-color status cues, reduced-motion preferences, and accessible names.
 - Review loading, empty, success, disabled, hover, focus, and error states where applicable.
+- Inspect actual focus contours, not just whether an outline exists. On bordered
+  controls prefer one intentional integrated treatment when its visibility and
+  contrast suffice; stacked border/outline/shadow contours can compete visually.
+  Keep border width, dimensions and text position stable. External outlines remain
+  valid for accessibility, contrasting surfaces and design-system consistency.
+  Replace browser defaults only with a clearly visible alternative, scoped to the
+  relevant control. Check mouse/Tab/blur, invalid states, reduced motion and each
+  supported light/dark surface; distinguish error feedback from focus. Never hide
+  keyboard focus globally or label an aesthetic judgment as an automated pass.
 
 Do not claim automated accessibility conformance or visual validation without running the relevant tools. Automated checks do not replace keyboard and semantic review.
 

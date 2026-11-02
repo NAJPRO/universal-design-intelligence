@@ -1,0 +1,2709 @@
+{
+  "mission": "013.1",
+  "automatedScope": "Contour geometry, native input behavior and declared contrast. Aesthetic quality requires separate visual inspection.",
+  "scenarios": [
+    {
+      "width": 320,
+      "reduced": false,
+      "states": {
+        "default": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "mouse-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "keyboard-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "invalid-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": "true",
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "invalid-blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": "true",
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(161, 62, 37)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "corrected-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 305,
+          "viewport": 320
+        }
+      },
+      "beforeFocus": {
+        "focused": true,
+        "focusVisible": true,
+        "invalid": null,
+        "width": 215,
+        "height": 46.796875,
+        "padding": [
+          "10px",
+          "12px",
+          "10px",
+          "12px"
+        ],
+        "borderWidths": [
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "borderColor": "rgb(131, 144, 132)",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineOffset": "5px",
+        "shadow": "none",
+        "transition": "0s",
+        "animation": "none",
+        "errorVisible": false,
+        "errorColor": "rgb(161, 62, 37)",
+        "reduced": false,
+        "scrollWidth": 305,
+        "viewport": 320
+      }
+    },
+    {
+      "width": 320,
+      "reduced": true,
+      "states": {
+        "default": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "mouse-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "keyboard-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "invalid-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": "true",
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "invalid-blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": "true",
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(161, 62, 37)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 305,
+          "viewport": 320
+        },
+        "corrected-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 215,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 305,
+          "viewport": 320
+        }
+      }
+    },
+    {
+      "width": 375,
+      "reduced": false,
+      "states": {
+        "default": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "mouse-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "keyboard-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "invalid-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": "true",
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "invalid-blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": "true",
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(161, 62, 37)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "corrected-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 360,
+          "viewport": 375
+        }
+      }
+    },
+    {
+      "width": 375,
+      "reduced": true,
+      "states": {
+        "default": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "mouse-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "keyboard-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "invalid-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": "true",
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "invalid-blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": "true",
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(161, 62, 37)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 360,
+          "viewport": 375
+        },
+        "corrected-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 270,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 360,
+          "viewport": 375
+        }
+      }
+    },
+    {
+      "width": 768,
+      "reduced": false,
+      "states": {
+        "default": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "mouse-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "keyboard-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "invalid-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": "true",
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "invalid-blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": "true",
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(161, 62, 37)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "corrected-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 753,
+          "viewport": 768
+        }
+      }
+    },
+    {
+      "width": 768,
+      "reduced": true,
+      "states": {
+        "default": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "mouse-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "keyboard-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "invalid-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": "true",
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "invalid-blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": "true",
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(161, 62, 37)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 753,
+          "viewport": 768
+        },
+        "corrected-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 253.53125,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 753,
+          "viewport": 768
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "reduced": false,
+      "states": {
+        "default": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "mouse-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "keyboard-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "invalid-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": "true",
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "invalid-blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": "true",
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(161, 62, 37)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "corrected-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": false,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        }
+      },
+      "beforeFocus": {
+        "focused": true,
+        "focusVisible": true,
+        "invalid": null,
+        "width": 471.5625,
+        "height": 46.796875,
+        "padding": [
+          "10px",
+          "12px",
+          "10px",
+          "12px"
+        ],
+        "borderWidths": [
+          "1px",
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "borderColor": "rgb(131, 144, 132)",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineOffset": "5px",
+        "shadow": "none",
+        "transition": "0s",
+        "animation": "none",
+        "errorVisible": false,
+        "errorColor": "rgb(161, 62, 37)",
+        "reduced": false,
+        "scrollWidth": 1425,
+        "viewport": 1440
+      }
+    },
+    {
+      "width": 1440,
+      "reduced": true,
+      "states": {
+        "default": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "mouse-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": null,
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(131, 144, 132)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "keyboard-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "invalid-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": "true",
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "invalid-blur": {
+          "focused": false,
+          "focusVisible": false,
+          "invalid": "true",
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(161, 62, 37)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": true,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        },
+        "corrected-focus": {
+          "focused": true,
+          "focusVisible": true,
+          "invalid": null,
+          "width": 471.5625,
+          "height": 46.796875,
+          "padding": [
+            "9px",
+            "11px",
+            "9px",
+            "11px"
+          ],
+          "borderWidths": [
+            "2px",
+            "2px",
+            "2px",
+            "2px"
+          ],
+          "borderColor": "rgb(23, 55, 46)",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineOffset": "0px",
+          "shadow": "none",
+          "transition": "0s",
+          "animation": "none",
+          "errorVisible": false,
+          "errorColor": "rgb(161, 62, 37)",
+          "reduced": true,
+          "scrollWidth": 1425,
+          "viewport": 1440
+        }
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "320/false: default is one unfocused border",
+      "passed": true
+    },
+    {
+      "name": "320/false: original input geometry preserved",
+      "passed": true,
+      "observed": {
+        "before": {
+          "width": 215,
+          "height": 46.796875
+        },
+        "after": {
+          "width": 215,
+          "height": 46.796875
+        }
+      }
+    },
+    {
+      "name": "320/false: mouse focus uses integrated border",
+      "passed": true
+    },
+    {
+      "name": "320/false: blur restores the default contour",
+      "passed": true
+    },
+    {
+      "name": "320/false: Tab reaches a visible single-contour focus",
+      "passed": true
+    },
+    {
+      "name": "320/false: integrated focus has at least 3:1 contrast",
+      "passed": true,
+      "observed": {
+        "focusAgainstDefault": 3.8755623845658427,
+        "focusAgainstSurface": 12.72542019477547
+      }
+    },
+    {
+      "name": "320/false: invalid focus keeps error and focus separate",
+      "passed": true
+    },
+    {
+      "name": "320/false: invalid blur retains error styling",
+      "passed": true
+    },
+    {
+      "name": "320/false: editing clears error without losing focus",
+      "passed": true
+    },
+    {
+      "name": "320/false: no dimension shift across states",
+      "passed": true
+    },
+    {
+      "name": "320/false: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "320/false: focus is immediate without animation",
+      "passed": true
+    },
+    {
+      "name": "320/false: draft submission still works",
+      "passed": true
+    },
+    {
+      "name": "320/true: default is one unfocused border",
+      "passed": true
+    },
+    {
+      "name": "320/true: original input geometry preserved",
+      "passed": true,
+      "observed": {
+        "before": {
+          "width": 215,
+          "height": 46.796875
+        },
+        "after": {
+          "width": 215,
+          "height": 46.796875
+        }
+      }
+    },
+    {
+      "name": "320/true: mouse focus uses integrated border",
+      "passed": true
+    },
+    {
+      "name": "320/true: blur restores the default contour",
+      "passed": true
+    },
+    {
+      "name": "320/true: Tab reaches a visible single-contour focus",
+      "passed": true
+    },
+    {
+      "name": "320/true: integrated focus has at least 3:1 contrast",
+      "passed": true,
+      "observed": {
+        "focusAgainstDefault": 3.8755623845658427,
+        "focusAgainstSurface": 12.72542019477547
+      }
+    },
+    {
+      "name": "320/true: invalid focus keeps error and focus separate",
+      "passed": true
+    },
+    {
+      "name": "320/true: invalid blur retains error styling",
+      "passed": true
+    },
+    {
+      "name": "320/true: editing clears error without losing focus",
+      "passed": true
+    },
+    {
+      "name": "320/true: no dimension shift across states",
+      "passed": true
+    },
+    {
+      "name": "320/true: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "320/true: focus is immediate without animation",
+      "passed": true
+    },
+    {
+      "name": "320/true: draft submission still works",
+      "passed": true
+    },
+    {
+      "name": "375/false: default is one unfocused border",
+      "passed": true
+    },
+    {
+      "name": "375/false: original input geometry preserved",
+      "passed": true,
+      "observed": {
+        "before": {
+          "width": 270,
+          "height": 46.796875
+        },
+        "after": {
+          "width": 270,
+          "height": 46.796875
+        }
+      }
+    },
+    {
+      "name": "375/false: mouse focus uses integrated border",
+      "passed": true
+    },
+    {
+      "name": "375/false: blur restores the default contour",
+      "passed": true
+    },
+    {
+      "name": "375/false: Tab reaches a visible single-contour focus",
+      "passed": true
+    },
+    {
+      "name": "375/false: integrated focus has at least 3:1 contrast",
+      "passed": true,
+      "observed": {
+        "focusAgainstDefault": 3.8755623845658427,
+        "focusAgainstSurface": 12.72542019477547
+      }
+    },
+    {
+      "name": "375/false: invalid focus keeps error and focus separate",
+      "passed": true
+    },
+    {
+      "name": "375/false: invalid blur retains error styling",
+      "passed": true
+    },
+    {
+      "name": "375/false: editing clears error without losing focus",
+      "passed": true
+    },
+    {
+      "name": "375/false: no dimension shift across states",
+      "passed": true
+    },
+    {
+      "name": "375/false: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375/false: focus is immediate without animation",
+      "passed": true
+    },
+    {
+      "name": "375/false: draft submission still works",
+      "passed": true
+    },
+    {
+      "name": "375/true: default is one unfocused border",
+      "passed": true
+    },
+    {
+      "name": "375/true: original input geometry preserved",
+      "passed": true,
+      "observed": {
+        "before": {
+          "width": 270,
+          "height": 46.796875
+        },
+        "after": {
+          "width": 270,
+          "height": 46.796875
+        }
+      }
+    },
+    {
+      "name": "375/true: mouse focus uses integrated border",
+      "passed": true
+    },
+    {
+      "name": "375/true: blur restores the default contour",
+      "passed": true
+    },
+    {
+      "name": "375/true: Tab reaches a visible single-contour focus",
+      "passed": true
+    },
+    {
+      "name": "375/true: integrated focus has at least 3:1 contrast",
+      "passed": true,
+      "observed": {
+        "focusAgainstDefault": 3.8755623845658427,
+        "focusAgainstSurface": 12.72542019477547
+      }
+    },
+    {
+      "name": "375/true: invalid focus keeps error and focus separate",
+      "passed": true
+    },
+    {
+      "name": "375/true: invalid blur retains error styling",
+      "passed": true
+    },
+    {
+      "name": "375/true: editing clears error without losing focus",
+      "passed": true
+    },
+    {
+      "name": "375/true: no dimension shift across states",
+      "passed": true
+    },
+    {
+      "name": "375/true: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375/true: focus is immediate without animation",
+      "passed": true
+    },
+    {
+      "name": "375/true: draft submission still works",
+      "passed": true
+    },
+    {
+      "name": "768/false: default is one unfocused border",
+      "passed": true
+    },
+    {
+      "name": "768/false: original input geometry preserved",
+      "passed": true,
+      "observed": {
+        "before": {
+          "width": 253.53125,
+          "height": 46.796875
+        },
+        "after": {
+          "width": 253.53125,
+          "height": 46.796875
+        }
+      }
+    },
+    {
+      "name": "768/false: mouse focus uses integrated border",
+      "passed": true
+    },
+    {
+      "name": "768/false: blur restores the default contour",
+      "passed": true
+    },
+    {
+      "name": "768/false: Tab reaches a visible single-contour focus",
+      "passed": true
+    },
+    {
+      "name": "768/false: integrated focus has at least 3:1 contrast",
+      "passed": true,
+      "observed": {
+        "focusAgainstDefault": 3.8755623845658427,
+        "focusAgainstSurface": 12.72542019477547
+      }
+    },
+    {
+      "name": "768/false: invalid focus keeps error and focus separate",
+      "passed": true
+    },
+    {
+      "name": "768/false: invalid blur retains error styling",
+      "passed": true
+    },
+    {
+      "name": "768/false: editing clears error without losing focus",
+      "passed": true
+    },
+    {
+      "name": "768/false: no dimension shift across states",
+      "passed": true
+    },
+    {
+      "name": "768/false: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "768/false: focus is immediate without animation",
+      "passed": true
+    },
+    {
+      "name": "768/false: draft submission still works",
+      "passed": true
+    },
+    {
+      "name": "768/true: default is one unfocused border",
+      "passed": true
+    },
+    {
+      "name": "768/true: original input geometry preserved",
+      "passed": true,
+      "observed": {
+        "before": {
+          "width": 253.53125,
+          "height": 46.796875
+        },
+        "after": {
+          "width": 253.53125,
+          "height": 46.796875
+        }
+      }
+    },
+    {
+      "name": "768/true: mouse focus uses integrated border",
+      "passed": true
+    },
+    {
+      "name": "768/true: blur restores the default contour",
+      "passed": true
+    },
+    {
+      "name": "768/true: Tab reaches a visible single-contour focus",
+      "passed": true
+    },
+    {
+      "name": "768/true: integrated focus has at least 3:1 contrast",
+      "passed": true,
+      "observed": {
+        "focusAgainstDefault": 3.8755623845658427,
+        "focusAgainstSurface": 12.72542019477547
+      }
+    },
+    {
+      "name": "768/true: invalid focus keeps error and focus separate",
+      "passed": true
+    },
+    {
+      "name": "768/true: invalid blur retains error styling",
+      "passed": true
+    },
+    {
+      "name": "768/true: editing clears error without losing focus",
+      "passed": true
+    },
+    {
+      "name": "768/true: no dimension shift across states",
+      "passed": true
+    },
+    {
+      "name": "768/true: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "768/true: focus is immediate without animation",
+      "passed": true
+    },
+    {
+      "name": "768/true: draft submission still works",
+      "passed": true
+    },
+    {
+      "name": "1440/false: default is one unfocused border",
+      "passed": true
+    },
+    {
+      "name": "1440/false: original input geometry preserved",
+      "passed": true,
+      "observed": {
+        "before": {
+          "width": 471.5625,
+          "height": 46.796875
+        },
+        "after": {
+          "width": 471.5625,
+          "height": 46.796875
+        }
+      }
+    },
+    {
+      "name": "1440/false: mouse focus uses integrated border",
+      "passed": true
+    },
+    {
+      "name": "1440/false: blur restores the default contour",
+      "passed": true
+    },
+    {
+      "name": "1440/false: Tab reaches a visible single-contour focus",
+      "passed": true
+    },
+    {
+      "name": "1440/false: integrated focus has at least 3:1 contrast",
+      "passed": true,
+      "observed": {
+        "focusAgainstDefault": 3.8755623845658427,
+        "focusAgainstSurface": 12.72542019477547
+      }
+    },
+    {
+      "name": "1440/false: invalid focus keeps error and focus separate",
+      "passed": true
+    },
+    {
+      "name": "1440/false: invalid blur retains error styling",
+      "passed": true
+    },
+    {
+      "name": "1440/false: editing clears error without losing focus",
+      "passed": true
+    },
+    {
+      "name": "1440/false: no dimension shift across states",
+      "passed": true
+    },
+    {
+      "name": "1440/false: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1440/false: focus is immediate without animation",
+      "passed": true
+    },
+    {
+      "name": "1440/false: draft submission still works",
+      "passed": true
+    },
+    {
+      "name": "1440/true: default is one unfocused border",
+      "passed": true
+    },
+    {
+      "name": "1440/true: original input geometry preserved",
+      "passed": true,
+      "observed": {
+        "before": {
+          "width": 471.5625,
+          "height": 46.796875
+        },
+        "after": {
+          "width": 471.5625,
+          "height": 46.796875
+        }
+      }
+    },
+    {
+      "name": "1440/true: mouse focus uses integrated border",
+      "passed": true
+    },
+    {
+      "name": "1440/true: blur restores the default contour",
+      "passed": true
+    },
+    {
+      "name": "1440/true: Tab reaches a visible single-contour focus",
+      "passed": true
+    },
+    {
+      "name": "1440/true: integrated focus has at least 3:1 contrast",
+      "passed": true,
+      "observed": {
+        "focusAgainstDefault": 3.8755623845658427,
+        "focusAgainstSurface": 12.72542019477547
+      }
+    },
+    {
+      "name": "1440/true: invalid focus keeps error and focus separate",
+      "passed": true
+    },
+    {
+      "name": "1440/true: invalid blur retains error styling",
+      "passed": true
+    },
+    {
+      "name": "1440/true: editing clears error without losing focus",
+      "passed": true
+    },
+    {
+      "name": "1440/true: no dimension shift across states",
+      "passed": true
+    },
+    {
+      "name": "1440/true: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1440/true: focus is immediate without animation",
+      "passed": true
+    },
+    {
+      "name": "1440/true: draft submission still works",
+      "passed": true
+    },
+    {
+      "name": "Other controls retain their external keyboard outline",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "evidence/screenshots/focus-0131/320-before-focus.png",
+      "sha256": "29415d6bfb4aaf97c114c77eec52d52d5a5cd0d0ff66855efd5b72b1c7f1573a",
+      "bytes": 41408
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-normal-default.png",
+      "sha256": "5069382559e9be2877731ee5f34d7afbb371ef4f9b6f37bb4f8f53c3998332a4",
+      "bytes": 42035
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-normal-mouse-focus.png",
+      "sha256": "ae83adfec170a218817053516c1238ac7c7f7fecd8dca3af6446cf4a435c155a",
+      "bytes": 42039
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-normal-blur.png",
+      "sha256": "5069382559e9be2877731ee5f34d7afbb371ef4f9b6f37bb4f8f53c3998332a4",
+      "bytes": 42035
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-normal-keyboard-focus.png",
+      "sha256": "ae83adfec170a218817053516c1238ac7c7f7fecd8dca3af6446cf4a435c155a",
+      "bytes": 42039
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-normal-invalid-focus.png",
+      "sha256": "706b4faa102ca9df4466f375981bce2711b4d1614baf18a5c0c59cd27090f0c9",
+      "bytes": 43112
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-normal-invalid-blur.png",
+      "sha256": "891ad778741ae801002750a235418757dba1b45dc8aab6d7fd281b78a7f965bf",
+      "bytes": 43154
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-normal-corrected-focus.png",
+      "sha256": "3b8010b5b44fd01fc0e6995d68a15b10f53b63aceb468a4b8a3b13a937502aa6",
+      "bytes": 42584
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-reduced-default.png",
+      "sha256": "5069382559e9be2877731ee5f34d7afbb371ef4f9b6f37bb4f8f53c3998332a4",
+      "bytes": 42035
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-reduced-mouse-focus.png",
+      "sha256": "ae83adfec170a218817053516c1238ac7c7f7fecd8dca3af6446cf4a435c155a",
+      "bytes": 42039
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-reduced-blur.png",
+      "sha256": "5069382559e9be2877731ee5f34d7afbb371ef4f9b6f37bb4f8f53c3998332a4",
+      "bytes": 42035
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-reduced-keyboard-focus.png",
+      "sha256": "ae83adfec170a218817053516c1238ac7c7f7fecd8dca3af6446cf4a435c155a",
+      "bytes": 42039
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-reduced-invalid-focus.png",
+      "sha256": "706b4faa102ca9df4466f375981bce2711b4d1614baf18a5c0c59cd27090f0c9",
+      "bytes": 43112
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-reduced-invalid-blur.png",
+      "sha256": "891ad778741ae801002750a235418757dba1b45dc8aab6d7fd281b78a7f965bf",
+      "bytes": 43154
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/320-reduced-corrected-focus.png",
+      "sha256": "3b8010b5b44fd01fc0e6995d68a15b10f53b63aceb468a4b8a3b13a937502aa6",
+      "bytes": 42584
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-normal-default.png",
+      "sha256": "f309e39b5024d110ff99ace8f35ebc9dda5f9dd14115ac4bf22ecb4533c5aa5a",
+      "bytes": 49310
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-normal-mouse-focus.png",
+      "sha256": "9f1ae3d19c3f6237f02779852fba3299df965a7cad1a2b17c5d1f05f55188f24",
+      "bytes": 49317
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-normal-blur.png",
+      "sha256": "f309e39b5024d110ff99ace8f35ebc9dda5f9dd14115ac4bf22ecb4533c5aa5a",
+      "bytes": 49310
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-normal-keyboard-focus.png",
+      "sha256": "9f1ae3d19c3f6237f02779852fba3299df965a7cad1a2b17c5d1f05f55188f24",
+      "bytes": 49317
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-normal-invalid-focus.png",
+      "sha256": "58b025f1d2caf778faae18824469d25512cee380c52f11f8e512ceeeaf5206a1",
+      "bytes": 51492
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-normal-invalid-blur.png",
+      "sha256": "3fa4027a54c62b34a31a210e87bf4851c9cdc4ebe1575ce02e58ade6a7e33819",
+      "bytes": 51532
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-normal-corrected-focus.png",
+      "sha256": "855a49b8263d95fb2d756e4885b5151395ffee503c27336c5653f8243f6fc4d1",
+      "bytes": 49874
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-reduced-default.png",
+      "sha256": "f309e39b5024d110ff99ace8f35ebc9dda5f9dd14115ac4bf22ecb4533c5aa5a",
+      "bytes": 49310
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-reduced-mouse-focus.png",
+      "sha256": "9f1ae3d19c3f6237f02779852fba3299df965a7cad1a2b17c5d1f05f55188f24",
+      "bytes": 49317
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-reduced-blur.png",
+      "sha256": "f309e39b5024d110ff99ace8f35ebc9dda5f9dd14115ac4bf22ecb4533c5aa5a",
+      "bytes": 49310
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-reduced-keyboard-focus.png",
+      "sha256": "9f1ae3d19c3f6237f02779852fba3299df965a7cad1a2b17c5d1f05f55188f24",
+      "bytes": 49317
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-reduced-invalid-focus.png",
+      "sha256": "58b025f1d2caf778faae18824469d25512cee380c52f11f8e512ceeeaf5206a1",
+      "bytes": 51492
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-reduced-invalid-blur.png",
+      "sha256": "3fa4027a54c62b34a31a210e87bf4851c9cdc4ebe1575ce02e58ade6a7e33819",
+      "bytes": 51532
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/375-reduced-corrected-focus.png",
+      "sha256": "855a49b8263d95fb2d756e4885b5151395ffee503c27336c5653f8243f6fc4d1",
+      "bytes": 49874
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-normal-default.png",
+      "sha256": "ff2324d74ebc38d390b0c52fa03644f467a3fc9bcd64cd1fcdb7839d9c52bed5",
+      "bytes": 78948
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-normal-mouse-focus.png",
+      "sha256": "7a823ab1127b4fe1cb5112b1856c6ac0d6872b69159fd268e7bdb0ff2e5a838d",
+      "bytes": 78958
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-normal-blur.png",
+      "sha256": "ff2324d74ebc38d390b0c52fa03644f467a3fc9bcd64cd1fcdb7839d9c52bed5",
+      "bytes": 78948
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-normal-keyboard-focus.png",
+      "sha256": "7a823ab1127b4fe1cb5112b1856c6ac0d6872b69159fd268e7bdb0ff2e5a838d",
+      "bytes": 78958
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-normal-invalid-focus.png",
+      "sha256": "9430c95bc6570aca31942874cd60ec490cd7272a1ef609f86bf2071946feef30",
+      "bytes": 81406
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-normal-invalid-blur.png",
+      "sha256": "52d60f93c74944000daf1db0fd11f6acfb7a8bcff65a1902999b28b47cb9c7a7",
+      "bytes": 81442
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-normal-corrected-focus.png",
+      "sha256": "0806e5a60fbdcb1970fbf2a2b5359e23601bf86aa23c6912b1aecd23be862018",
+      "bytes": 79517
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-reduced-default.png",
+      "sha256": "ff2324d74ebc38d390b0c52fa03644f467a3fc9bcd64cd1fcdb7839d9c52bed5",
+      "bytes": 78948
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-reduced-mouse-focus.png",
+      "sha256": "7a823ab1127b4fe1cb5112b1856c6ac0d6872b69159fd268e7bdb0ff2e5a838d",
+      "bytes": 78958
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-reduced-blur.png",
+      "sha256": "ff2324d74ebc38d390b0c52fa03644f467a3fc9bcd64cd1fcdb7839d9c52bed5",
+      "bytes": 78948
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-reduced-keyboard-focus.png",
+      "sha256": "7a823ab1127b4fe1cb5112b1856c6ac0d6872b69159fd268e7bdb0ff2e5a838d",
+      "bytes": 78958
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-reduced-invalid-focus.png",
+      "sha256": "9430c95bc6570aca31942874cd60ec490cd7272a1ef609f86bf2071946feef30",
+      "bytes": 81406
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-reduced-invalid-blur.png",
+      "sha256": "52d60f93c74944000daf1db0fd11f6acfb7a8bcff65a1902999b28b47cb9c7a7",
+      "bytes": 81442
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/768-reduced-corrected-focus.png",
+      "sha256": "0806e5a60fbdcb1970fbf2a2b5359e23601bf86aa23c6912b1aecd23be862018",
+      "bytes": 79517
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-before-focus.png",
+      "sha256": "053759a07ac6ef028496ce03fb0e3c0e817c4af6399e2b24c2b5fedb735e874d",
+      "bytes": 90488
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-normal-default.png",
+      "sha256": "9b48d64b4373fe09528f3ef9cb2679e4d185723fd6eb39abe1d7a9bccbde9b54",
+      "bytes": 91037
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-normal-mouse-focus.png",
+      "sha256": "eea7ff25604240995413af5c40f5a256094cc2ffeb16564cbac805d95f7673ea",
+      "bytes": 91045
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-normal-blur.png",
+      "sha256": "9b48d64b4373fe09528f3ef9cb2679e4d185723fd6eb39abe1d7a9bccbde9b54",
+      "bytes": 91037
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-normal-keyboard-focus.png",
+      "sha256": "eea7ff25604240995413af5c40f5a256094cc2ffeb16564cbac805d95f7673ea",
+      "bytes": 91045
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-normal-invalid-focus.png",
+      "sha256": "f591ad88d01a60e7cb4e2315e12198d96214cada72fe8b91e752b8ac13d0a05e",
+      "bytes": 93472
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-normal-invalid-blur.png",
+      "sha256": "d0278d94fc4230d56e96d0607d0513dea64436aca128e1f2c8f6a32a14c541d5",
+      "bytes": 93512
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-normal-corrected-focus.png",
+      "sha256": "be0767c18fd9bd9c7306c9c1727e486fdb4702198740764e4bed4416aa38d2ab",
+      "bytes": 91649
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-reduced-default.png",
+      "sha256": "9b48d64b4373fe09528f3ef9cb2679e4d185723fd6eb39abe1d7a9bccbde9b54",
+      "bytes": 91037
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-reduced-mouse-focus.png",
+      "sha256": "eea7ff25604240995413af5c40f5a256094cc2ffeb16564cbac805d95f7673ea",
+      "bytes": 91045
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-reduced-blur.png",
+      "sha256": "9b48d64b4373fe09528f3ef9cb2679e4d185723fd6eb39abe1d7a9bccbde9b54",
+      "bytes": 91037
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-reduced-keyboard-focus.png",
+      "sha256": "eea7ff25604240995413af5c40f5a256094cc2ffeb16564cbac805d95f7673ea",
+      "bytes": 91045
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-reduced-invalid-focus.png",
+      "sha256": "f591ad88d01a60e7cb4e2315e12198d96214cada72fe8b91e752b8ac13d0a05e",
+      "bytes": 93472
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-reduced-invalid-blur.png",
+      "sha256": "d0278d94fc4230d56e96d0607d0513dea64436aca128e1f2c8f6a32a14c541d5",
+      "bytes": 93512
+    },
+    {
+      "path": "evidence/screenshots/focus-0131/1440-reduced-corrected-focus.png",
+      "sha256": "be0767c18fd9bd9c7306c9c1727e486fdb4702198740764e4bed4416aa38d2ab",
+      "bytes": 91649
+    }
+  ],
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/156.0.8078.47",
+    "revision": "@1d17a2e2ee147bb7d6ae2ab6abdb3a2510c17775",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "jsVersion": "15.6.75.19"
+  },
+  "sourceSha256": {
+    "index.html": "5aca8ee344dc4474900491e1dc02b58997b25ebcffb91fde18a584c822c77f6e",
+    "styles.css": "991c0fb63a790ffc246dc458d1f1bb138474fcce9bf67d3d311b536b2cc3c173",
+    "app.js": "e6ceb7c1d8c6ca4ce0f0ee152abc8a3d171170cfc7651d2a883e16af7f362068"
+  },
+  "baselineCssSha256": "2ab0bf54106114138e88fe99184bab2a47fa40a129d179f133777880038d2ce8",
+  "passed": 105,
+  "total": 105,
+  "baselineGitCommit": "ac9af9252c9dac5dcc8181e35f54266204b63bd3",
+  "visualReview": {
+    "reviewer": "controller",
+    "status": "reviewed; contextual judgment, not automated aesthetic pass",
+    "images": [
+      "320-before-focus.png",
+      "320-normal-keyboard-focus.png",
+      "1440-normal-keyboard-focus.png",
+      "375-normal-invalid-focus.png",
+      "375-normal-invalid-blur.png",
+      "375-normal-default.png",
+      "768-normal-mouse-focus.png",
+      "320-reduced-keyboard-focus.png"
+    ],
+    "finding": "The integrated ink border replaces the competing offset contour. Error text remains visible while focused; invalid border returns on blur. Geometry remains stable at sampled widths. Dark surfaces and forced-colors mode are not validated by this light-only demonstration."
+  }
+}

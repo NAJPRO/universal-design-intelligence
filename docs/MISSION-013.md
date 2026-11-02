@@ -245,3 +245,87 @@ No Git state changed. No tool/dependency was installed. New benchmark ignore rul
 scope screenshots, Chrome profiles and local execution logs; protocols, original
 demo source, actual retrieval packets and compact validation records stay visible.
 
+
+## Mission 013.1 — integrated focus treatment
+
+**Diagnosis.** The shared selector `a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible`
+added `outline: 3px solid var(--accent)` with `outline-offset: 5px` to the already
+bordered name input. The field itself had a 1px border; no focus shadow caused the
+second rectangle. `MOT-FOCUS` also prescribed an outline unconditionally, without
+accounting for an existing control boundary. This was a visual-quality defect,
+not evidence that visible keyboard focus should be removed.
+
+**Correction.** Only the name field leaves that shared selector. It now has one
+stable 2px contour, compensated by padding changing from 10px/12px to 9px/11px:
+the original outer and content geometry is preserved. Both mouse and keyboard
+focus immediately darken that border to ink, without a shadow, offset outline,
+animation or layout shift. Blur restores the default boundary. Invalid fields
+retain vermilion error text and `aria-invalid`/`aria-describedby`; while focused,
+ink identifies focus, and on blur the invalid border returns to vermilion. The
+other controls retain their external keyboard outlines. There is no global reset.
+
+**Reusable judgment.** The existing `MOT-FOCUS` record now recommends one deliberate
+integrated treatment for already bordered controls when visibility/contrast suffice,
+while explicitly retaining external outlines for accessibility, contrasting surfaces
+or design-system consistency. It requires stable border width/dimensions, immediate
+keyboard visibility, accessible replacement of browser defaults, distinct error
+feedback, and review across light/dark surfaces and input states. The existing
+skill quality reference adds the same contextual review check; no duplicate motion
+record, dependency, schema or package version was introduced.
+
+**Files changed:** `demo/styles.css`, `packages/knowledge/src/experience.ts`, the
+existing skill quality reference, core/CLI direction tests, this report and benchmark
+README. Added `benchmarks/mission013/focus-evaluate.mjs` and four compact 013.1
+contract/validation/browser evidence files. Historical Mission 013 evidence files
+are retained as the initial run; the functional replay ran inside an isolated copy
+and wrote only new 013.1 results. Frozen Missions 010–012/pilot were not edited.
+
+**Validation.** Build, lint and type checking pass. All **199 tests across 18 files**
+pass sequentially, including knowledge validation, focus discovery/inspection,
+existing compatibility and offline CLI/package tests. Recorded v1/2.0/2.1 output
+samples are byte-identical. All **1,003** recorded historical hashes match.
+The focused Chrome regression passes **105/105** measurements across 320/375/768/1440,
+normal/reduced motion and default, actual mouse click, native Tab, blur, invalid
+focus/blur and corrected input. Every measured input remains 46.796875px high,
+with identical before/after width at each viewport. No horizontal overflow occurs.
+Focused border contrast is **3.88:1 against the unfocused border** and **12.73:1
+against the field surface**. Existing form functionality passes **42/42** checks
+in the separate replay, including storage denial/retry and deletion.
+
+Captured **58 native screenshots**, including the original CSS replay at 320 and
+1440, without replacing earlier captures. The controller visually inspected eight
+representative before/after, normal/error, mobile/desktop and reduced-motion images:
+the field presents one integrated contour, and error feedback remains separate.
+That judgment is a visual review, **not an automated aesthetic pass**. Screenshots
+remain ignored local artifacts, with paths/checksums in
+[`focus-0131.json`](../benchmarks/mission013/evidence/focus-0131.json); assertions
+and test/compatibility summaries are in `focus-0131-validation.json`.
+
+Reproduce current-state browser checks:
+
+```sh
+node benchmarks/mission013/focus-evaluate.mjs
+pnpm exec vitest run packages/knowledge/test packages/core/test packages/cli/test --no-file-parallelism
+```
+
+For the exact recorded before/after CSS comparison, first obtain the baseline
+through a read-only Git operation (the captured baseline commit is also recorded
+in the evidence):
+
+```sh
+mkdir -p benchmarks/mission013/.local/focus-0131
+git show ac9af9252c9dac5dcc8181e35f54266204b63bd3:benchmarks/mission013/demo/styles.css > benchmarks/mission013/.local/focus-0131/original-styles.css
+node benchmarks/mission013/focus-evaluate.mjs --baseline-css benchmarks/mission013/.local/focus-0131/original-styles.css
+```
+
+The harness replays that complete stylesheet in isolation, then the current one,
+using native viewport captures. It does not resize the capture viewport to the
+panel: doing that transiently changed scrollbar/layout geometry during harness
+development. Preserve the final evidence before rerunning in another environment.
+
+**Limits.** This is a light-only demo tested in installed Chrome, not a dark-theme,
+forced-colors, assistive-technology or cross-browser conformance claim. The reusable
+contract requires validation on every supported surface/state before adoption.
+The earlier standard concurrent suite's timing failures remain part of Mission
+013 history; the full sequential suite now passes in this follow-up. No unrelated
+visual redesign, Git state change, commit, release or package-version change occurred.

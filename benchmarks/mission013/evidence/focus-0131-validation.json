@@ -1,0 +1,45 @@
+{
+  "mission": "013.1",
+  "build": "passed",
+  "lint": "passed",
+  "tests": {
+    "command": "pnpm exec vitest run packages/knowledge/test packages/core/test packages/cli/test --no-file-parallelism",
+    "passed": 199,
+    "total": 199,
+    "files": 18
+  },
+  "focusBrowser": {
+    "passed": 105,
+    "total": 105,
+    "screenshots": 58
+  },
+  "functionalityBrowser": {
+    "passed": 42,
+    "total": 42
+  },
+  "historicalHashes": {
+    "passed": 1003,
+    "total": 1003,
+    "failedPaths": []
+  },
+  "compatibility": [
+    {
+      "schema": "v1",
+      "passed": true,
+      "sha256": "d72920208797b72fe20403aec2e8d0ee8c81a484522dfb2e91c08f236c6c0ca4"
+    },
+    {
+      "schema": "v2",
+      "passed": true,
+      "sha256": "ec5042dbbd3c8c13789c997766b9d773df6ab33540fb6a5a58ca6ed9ed59a1bb"
+    },
+    {
+      "schema": "v21",
+      "passed": true,
+      "sha256": "13201b8aadc66977bad475660c2a87f188efac00031ca283486abda8e001bf84"
+    }
+  ],
+  "gitIndexUnchanged": true,
+  "visualReview": "Controller reviewed eight representative images; no automated aesthetic-conformance claim.",
+  "typecheck": "passed"
+}
