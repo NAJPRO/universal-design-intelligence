@@ -1,0 +1,153 @@
+{
+  "condition": "A — no design skill",
+  "task": "Northstar Supply product administration interface",
+  "implementation": {
+    "files": [
+      "index.html",
+      "app.js",
+      "styles.css"
+    ],
+    "preserved": [
+      "tokens.css",
+      "data.js"
+    ],
+    "dependencies_added": [],
+    "network_services_used_by_interface": [],
+    "applied_knowledge_ids": [],
+    "decisions": [
+      "A semantic table retains all product fields and untruncated names for comparison; a labeled horizontal scroll region keeps it usable on narrow screens.",
+      "A collapsed advanced filter panel combines status, category and inclusive low-stock filtering with case-insensitive name/SKU search.",
+      "Read-only rows explain the permission restriction. Both editor opening and submission enforce the supplied canEdit value.",
+      "A native modal dialog provides an editor with explicit keyboard focus looping and focus restoration after save.",
+      "Invalid saves retain all field values, mark individual fields and announce an error summary. Unsaved closing uses a browser confirmation; reload/navigation uses beforeunload.",
+      "Save updates only the in-memory collection, refreshes counts/filter results, and announces the product saved.",
+      "Brand token values were preserved. System fonts, local CSS and text symbols supply all visuals."
+    ]
+  },
+  "passes": [
+    {
+      "number": 1,
+      "work": "Implemented the complete interface and ran browser checks. Reviewed desktop, tablet, mobile, and mobile editor screenshots. Initial width assertions incorrectly assumed scrollbars consume no viewport width."
+    },
+    {
+      "number": 2,
+      "work": "Corrected the scrollbar-aware assertions, improved save focus restoration and made reverse Tab wrap explicitly inside the modal. Final verification passed all 33 assertions."
+    }
+  ],
+  "tool_commands": [
+    {
+      "command": "cat <REPO>/tests/mission010/protocol/task.md",
+      "purpose": "Read common task only"
+    },
+    {
+      "command": "pwd && ls -la && cat index.html && cat tokens.css && cat data.js && cat app.js && cat styles.css",
+      "purpose": "Read starting files in assigned directory"
+    },
+    {
+      "command": "python3 -m http.server 9311",
+      "result": "Sandbox denied socket creation with EPERM; no UI failure"
+    },
+    {
+      "command": "python3 -m http.server 9311 --bind 127.0.0.1",
+      "execution": "require_escalated",
+      "purpose": "Serve assigned directory only"
+    },
+    {
+      "command": "node --version && command -v google-chrome && sha256sum tokens.css data.js",
+      "result": "Node v22.23.1; Chrome at /usr/bin/google-chrome; recorded original protected file hashes"
+    },
+    {
+      "command": "google-chrome --headless --no-sandbox --disable-gpu --remote-debugging-port=9411 --user-data-dir=<REPO>/tests/mission010/runs/A/.chrome-profile about:blank",
+      "execution": "require_escalated",
+      "purpose": "Local Chrome CDP browser"
+    },
+    {
+      "command": "node checks.mjs",
+      "execution": "require_escalated",
+      "runs": 3,
+      "result": "Initial 25/28; expanded review 32/33; final 33/33. The first width failures were invalid assertions corrected for scrollbar width. Reverse Tab focus was then fixed."
+    },
+    {
+      "command": "node --check app.js && node --check checks.mjs && sha256sum tokens.css data.js app.js styles.css index.html",
+      "result": "Both syntax checks passed; protected file hashes unchanged"
+    },
+    {
+      "command": "python3 -m json.tool evidence.json > /dev/null",
+      "result": "Evidence JSON validated"
+    }
+  ],
+  "command_notes": "All commands ran in the assigned A directory except the absolute common-task read. Source files and the browser harness were written with shell heredocs and Python Path edits; their exact resulting content is retained in this directory. checks.mjs contains the exact Chrome DevTools calls, assertions, test inputs and screenshot sizes. No Git commands, external references, design skills, other runs or repository documentation were used.",
+  "checks": {
+    "results_file": "check-results.json",
+    "script": "checks.mjs",
+    "passed": 33,
+    "failed": 0,
+    "uncaught_browser_exceptions": 0,
+    "confirmation_dialogs_exercised": 5,
+    "covered": [
+      "12 semantic product rows",
+      "long names",
+      "read-only restrictions",
+      "375px and 768px document overflow",
+      "SKU/name search",
+      "combined advanced filters",
+      "empty search and clear",
+      "editor defaults and focus",
+      "invalid input retention",
+      "discard decline/accept",
+      "all five saved fields",
+      "fractional stock rejection",
+      "Escape",
+      "Retry",
+      "empty/loading initial states",
+      "edit capture parameter",
+      "375x667 editor actions",
+      "focus visibility and Tab wrapping",
+      "keyboard table scrolling",
+      "save focus restoration"
+    ],
+    "screenshots": [
+      "desktop.png",
+      "tablet.png",
+      "mobile.png",
+      "mobile-errors.png",
+      "error.png",
+      "empty.png",
+      "loading.png",
+      "editor-desktop.png",
+      "editor-tablet.png",
+      "editor-mobile.png",
+      "editor-mobile-short.png"
+    ],
+    "visually_reviewed": [
+      "desktop.png",
+      "tablet.png",
+      "mobile.png",
+      "editor-mobile.png"
+    ]
+  },
+  "protected_file_sha256": {
+    "tokens.css": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+    "data.js": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859"
+  },
+  "unsupported_production_requirements": [
+    "No backend persistence: reload restores the original supplied data.",
+    "No authenticated user service or server-side authorization: supplied canEdit permissions are enforced only in this local interface.",
+    "No multi-user conflict handling, synchronization, audit history, or production loading/error transport."
+  ],
+  "limitations": [
+    "Verification used one local headless Chrome build; other browsers and assistive technologies were not manually tested.",
+    "The loading query state is intentionally stable for reproducible capture and does not transition automatically.",
+    "Narrow screens require horizontal table scrolling to reach later columns.",
+    "beforeunload is implemented, but browser-level navigation warning behavior was not independently exercised; editor discard confirmation was exercised.",
+    "No automated accessibility or contrast audit was run. Visual conclusions apply only to screenshots listed as visually reviewed."
+  ],
+  "timing": {
+    "first_observed_utc": "2026-10-30T09:37:52Z",
+    "final_verification_utc": "2026-10-30T09:43:04Z",
+    "verification_elapsed_seconds": 312,
+    "completed_utc": "2026-10-30T09:44:01.351522+00:00",
+    "total_elapsed_seconds": 369
+  },
+  "cleanup": "Verification Chrome closed and temporary .chrome-profile removed. Local HTTP server remains available on 127.0.0.1:9311 for controller captures."
+}

@@ -1,0 +1,1068 @@
+{
+  "description": "Redundant Mission 012 run copies. Sources are retained frozen inputs, submissions and evidence; never regenerate those from a current build.",
+  "files": [
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/AGENTS.md",
+      "sha256": "7a972e6fd3098a93c303b1730cd74ec121af84bd6056de58a72ef14f3d39ff88",
+      "source": "benchmarks/mission012-pilot/sources/A/AGENTS.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/FINAL.md",
+      "sha256": "c5b6ca84d8dcb55bce93c9e55653dad7a4710faec108a1d2bc287340ebb59ce9",
+      "source": "benchmarks/mission012-pilot/sources/A/FINAL.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/REPORT.md",
+      "sha256": "1e5c3aca3cf9bfcfa39f9c96f9f4aec832f5a3e855be1b63ab7fcdf137d26579",
+      "source": "benchmarks/mission012-pilot/sources/A/REPORT.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/TASK.md",
+      "sha256": "dc479148dad745dc2d6e71c9c5fc0f03879ebe332321fed71e7d4c68712aad54",
+      "source": "benchmarks/mission012-pilot/sources/A/TASK.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/app.js",
+      "sha256": "a11e55b046a323519e3e8cd85b9b516f724a19ed8805fc82de4923af7b2f5e03",
+      "source": "benchmarks/mission012-pilot/sources/A/app.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/browser-bin/google-chrome",
+      "sha256": "6d64f0b97bb1bfb89fbe53d1bd163c307699d43d8696786e1660d81cbbe6114c",
+      "source": "benchmarks/mission012-pilot/sources/A/browser-bin/google-chrome",
+      "mode": "100755"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/data.js",
+      "sha256": "65f49941110df7aefee72f2543e5f5183235e8fb1f31bddbe367c861176ddf5c",
+      "source": "benchmarks/mission012-pilot/sources/A/data.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/desktop.png",
+      "sha256": "cbbc74a06bf971068cafabb7e6395c7dc127d6df8ea5e89b28f6c7c9ef8d1cbf",
+      "source": "benchmarks/mission012-pilot/sources/A/desktop.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/editor-short.png",
+      "sha256": "6b0cbad78883184f03e395bd0217da80c43e555c18550781da48fef4f96621ce",
+      "source": "benchmarks/mission012-pilot/sources/A/editor-short.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/index.html",
+      "sha256": "9eb993a81278e6eb743527f60c61d5230b7a557d8743fe1ffa461c3b0b2f95a3",
+      "source": "benchmarks/mission012-pilot/sources/A/index.html",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/mobile.png",
+      "sha256": "cde84379f28ed76e5b78991a9607086d7f59d836d72bb61f5638deb7a58bebe2",
+      "source": "benchmarks/mission012-pilot/sources/A/mobile.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/package.json",
+      "sha256": "ae38b19da71c56d475c07b4fb728aacf8a0aa7f36448dcb76287754b9a2f54df",
+      "source": "benchmarks/mission012-pilot/sources/A/package.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/styles.css",
+      "sha256": "0344f3994c89f89c4adccc0e246b5ec4856d11d368b3ac804ae9b1c2fabc0e6b",
+      "source": "benchmarks/mission012-pilot/sources/A/styles.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/tablet.png",
+      "sha256": "d2f1e44dbeeb1a35f344a4edbfda5e319fd68fef2c38a4fb83eae1dd09b3b259",
+      "source": "benchmarks/mission012-pilot/sources/A/tablet.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/tokens.css",
+      "sha256": "c6a47cc505e346c158115a5a56fb90ed846a3502cb500bc88e2412758f4ee4f6",
+      "source": "benchmarks/mission012-pilot/sources/A/tokens.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/tools/browser.mjs",
+      "sha256": "a63a6aee0073b4f65516ec04bbe4585a4fc015d8f226ce9ce72e413ce620169f",
+      "source": "benchmarks/mission012-pilot/sources/A/tools/browser.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/tools/capture.mjs",
+      "sha256": "7c6426f24610dcf7ab8072f2a2eaefd60e040b5f586cf3ac7f2e78d4393ed23f",
+      "source": "benchmarks/mission012-pilot/sources/A/tools/capture.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/verification-results.json",
+      "sha256": "f0b1820f997e0698e750638f30f270875dfb0bb4e9582711821aaa765675af21",
+      "source": "benchmarks/mission012-pilot/sources/A/verification-results.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/A/verify.mjs",
+      "sha256": "9c44307a1b51418197e9a072b95c7a6a053a2b84003f0a2ad0aeb6671701b64a",
+      "source": "benchmarks/mission012-pilot/sources/A/verify.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/.agents/skills/udi-design/SKILL.md",
+      "sha256": "466502c742fae9560d248dd5392bd4f33289867f771c52d731471ec9949cb8ba",
+      "source": "benchmarks/mission012-pilot/inputs/B/.agents/skills/udi-design/SKILL.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/.agents/skills/udi-design/references/design-quality.md",
+      "sha256": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9",
+      "source": "benchmarks/mission012-pilot/inputs/B/.agents/skills/udi-design/references/design-quality.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/.agents/skills/udi-design/references/udi-cli.md",
+      "sha256": "aff77473643267a3096525891f28101bbe62813bdade0fa068cb5fee43e1c943",
+      "source": "benchmarks/mission012-pilot/inputs/B/.agents/skills/udi-design/references/udi-cli.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/.agents/skills/udi-design/scripts/udi.mjs",
+      "sha256": "89d098805bff58c88df3b805b468bcedac71ce15513d9ef7487549e214fa419b",
+      "source": "benchmarks/mission012-pilot/inputs/B/.agents/skills/udi-design/scripts/udi.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/.udi-logs/commands.jsonl",
+      "sha256": "3da3f3b71ed157f20f43a07801324d0e80a335a2bf0d1a1db519434b0a6c8173",
+      "source": "benchmarks/mission012-pilot/evidence/B/udi-commands.jsonl",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/.udi/package.json",
+      "sha256": "b4fa2b97730ed311a8aed4850d4f3c6fe63939847981de6a0050b7d7dbd70a12",
+      "source": "benchmarks/mission012-pilot/inputs/B/.udi/package.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/.udi/runtime.mjs",
+      "sha256": "06e367877971b34cc0b2c2613cd7e19ae8c2a41377bb26862ff1466688fb40f6",
+      "source": "benchmarks/mission012-pilot/inputs/B/.udi/runtime.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/AGENTS.md",
+      "sha256": "f274dcf4cf590944f15aab5a372ffc7b961a8fe8be58d951dd1d546a4ddff650",
+      "source": "benchmarks/mission012-pilot/sources/B/AGENTS.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/FINAL.md",
+      "sha256": "cdf1e93b445eec1f837e2cc524ec8b9f419458e139aea9bf3b39953a132637b6",
+      "source": "benchmarks/mission012-pilot/sources/B/FINAL.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/REPORT.md",
+      "sha256": "34e9a7a805c396693a696110bfe0725aea3e08d31f22a2ca7db4610e398ad012",
+      "source": "benchmarks/mission012-pilot/sources/B/REPORT.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/TASK.md",
+      "sha256": "dc479148dad745dc2d6e71c9c5fc0f03879ebe332321fed71e7d4c68712aad54",
+      "source": "benchmarks/mission012-pilot/sources/B/TASK.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/app.js",
+      "sha256": "251197fb4047bbcfa3ebe73a5ca69fd366092deec2c12a32e69c9232ecd80ed6",
+      "source": "benchmarks/mission012-pilot/sources/B/app.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/browser-bin/google-chrome",
+      "sha256": "6d64f0b97bb1bfb89fbe53d1bd163c307699d43d8696786e1660d81cbbe6114c",
+      "source": "benchmarks/mission012-pilot/sources/B/browser-bin/google-chrome",
+      "mode": "100755"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/data.js",
+      "sha256": "65f49941110df7aefee72f2543e5f5183235e8fb1f31bddbe367c861176ddf5c",
+      "source": "benchmarks/mission012-pilot/sources/B/data.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/desktop.png",
+      "sha256": "fa36f3b5d567e50b598766b80234a16025832f1d9d7af4fe8f824533ff79c290",
+      "source": "benchmarks/mission012-pilot/sources/B/desktop.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/empty.png",
+      "sha256": "0886e213bebf50d15f185dd848565a688dfa9c90edb7c15b06dd14be533a7fd1",
+      "source": "benchmarks/mission012-pilot/sources/B/empty.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/error.png",
+      "sha256": "568d3d02e8e845b824b6cc476ac763b331a559b0bd3e65686e99901f2b217552",
+      "source": "benchmarks/mission012-pilot/sources/B/error.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/index.html",
+      "sha256": "9854e9c0f64f92beeff948acde817c3cd134505128c906f8af893c10e10cc980",
+      "source": "benchmarks/mission012-pilot/sources/B/index.html",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/inspect.mjs",
+      "sha256": "9c0ac37b8cc3bfc445890208bf2680756d8f1deda52f9dd86607dc6a5a0442f7",
+      "source": "benchmarks/mission012-pilot/sources/B/inspect.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/loading.png",
+      "sha256": "85f3edb084c1d6b73a5d4fe7784b65445c4ec8530e9d3957b251ae58e8d04046",
+      "source": "benchmarks/mission012-pilot/sources/B/loading.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/mobile-editor.png",
+      "sha256": "b497b8bf158b681f5885ad9d4b854d79e7c4f70efe6cb3c0db8129de9833ff15",
+      "source": "benchmarks/mission012-pilot/sources/B/mobile-editor.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/mobile-initial.png",
+      "sha256": "bb18d332667f36d45c8706b330c9f0f54acfcf2371f6f07481d464c1dab9b4d7",
+      "source": "benchmarks/mission012-pilot/sources/B/mobile-initial.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/mobile.png",
+      "sha256": "69e7e9472ddda70ade4521d7ee44e57bf74add6516a0e27aaf803dc97390fb85",
+      "source": "benchmarks/mission012-pilot/sources/B/mobile.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/package.json",
+      "sha256": "ae38b19da71c56d475c07b4fb728aacf8a0aa7f36448dcb76287754b9a2f54df",
+      "source": "benchmarks/mission012-pilot/sources/B/package.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/short-editor.png",
+      "sha256": "6b23728c91486b1737d4ebc094b9fa13f2227d13e3060d29fa2c9e3009cba0cc",
+      "source": "benchmarks/mission012-pilot/sources/B/short-editor.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/styles.css",
+      "sha256": "ce1be3297d6c8aef26335db218325e1392639f0ee61de5b2f7ad690a51208071",
+      "source": "benchmarks/mission012-pilot/sources/B/styles.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/tablet.png",
+      "sha256": "95d124b91d0a99894fabd7ab8962c835034dc845dcf3ca134a748a9ab7287aeb",
+      "source": "benchmarks/mission012-pilot/sources/B/tablet.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/tokens.css",
+      "sha256": "c6a47cc505e346c158115a5a56fb90ed846a3502cb500bc88e2412758f4ee4f6",
+      "source": "benchmarks/mission012-pilot/sources/B/tokens.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/tools/browser.mjs",
+      "sha256": "a63a6aee0073b4f65516ec04bbe4585a4fc015d8f226ce9ce72e413ce620169f",
+      "source": "benchmarks/mission012-pilot/sources/B/tools/browser.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/tools/capture.mjs",
+      "sha256": "7c6426f24610dcf7ab8072f2a2eaefd60e040b5f586cf3ac7f2e78d4393ed23f",
+      "source": "benchmarks/mission012-pilot/sources/B/tools/capture.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/verify-extra.mjs",
+      "sha256": "fafaa5021818f6819e625e0387d5c41c09fa5fede1687d61c919224364baa1dd",
+      "source": "benchmarks/mission012-pilot/sources/B/verify-extra.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/B/verify.mjs",
+      "sha256": "7edd34c4c7f4df85d80be46e3d2b45ef40ef71ba3fb98d2e6120fe3977f75eea",
+      "source": "benchmarks/mission012-pilot/sources/B/verify.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/.agents/skills/udi-design/SKILL.md",
+      "sha256": "2aee4fe5a32bd945d33d7a40a5fc2756278053b9867d6e85027246df26c693fb",
+      "source": "benchmarks/mission012-pilot/inputs/C/.agents/skills/udi-design/SKILL.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/.agents/skills/udi-design/references/design-quality.md",
+      "sha256": "3da3a2ca68a999e7f396129dca1d557e4973446d02f3903f04024a21027e9de2",
+      "source": "benchmarks/mission012-pilot/inputs/C/.agents/skills/udi-design/references/design-quality.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/.agents/skills/udi-design/references/udi-cli.md",
+      "sha256": "aff77473643267a3096525891f28101bbe62813bdade0fa068cb5fee43e1c943",
+      "source": "benchmarks/mission012-pilot/inputs/C/.agents/skills/udi-design/references/udi-cli.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/.agents/skills/udi-design/scripts/udi.mjs",
+      "sha256": "89d098805bff58c88df3b805b468bcedac71ce15513d9ef7487549e214fa419b",
+      "source": "benchmarks/mission012-pilot/inputs/C/.agents/skills/udi-design/scripts/udi.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/.udi-logs/commands.jsonl",
+      "sha256": "d2460b57675a3e59527b7a29cfcb0df54f4c16819259742579ac4be4e2b0b557",
+      "source": "benchmarks/mission012-pilot/evidence/C/udi-commands.jsonl",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/.udi/package.json",
+      "sha256": "b4fa2b97730ed311a8aed4850d4f3c6fe63939847981de6a0050b7d7dbd70a12",
+      "source": "benchmarks/mission012-pilot/inputs/C/.udi/package.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/.udi/runtime.mjs",
+      "sha256": "721b2f68508cdc992bad46331289aded644c4e1494955638092dfa1511783488",
+      "source": "benchmarks/mission012-pilot/inputs/C/.udi/runtime.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/AGENTS.md",
+      "sha256": "f274dcf4cf590944f15aab5a372ffc7b961a8fe8be58d951dd1d546a4ddff650",
+      "source": "benchmarks/mission012-pilot/sources/C/AGENTS.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/TASK.md",
+      "sha256": "dc479148dad745dc2d6e71c9c5fc0f03879ebe332321fed71e7d4c68712aad54",
+      "source": "benchmarks/mission012-pilot/sources/C/TASK.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/app.js",
+      "sha256": "113db543a5e5b2e0555b7250d696d7be9c4c40f45ed276279249c59c46ac132d",
+      "source": "benchmarks/mission012-pilot/sources/C/app.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/data.js",
+      "sha256": "65f49941110df7aefee72f2543e5f5183235e8fb1f31bddbe367c861176ddf5c",
+      "source": "benchmarks/mission012-pilot/sources/C/data.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/desktop.png",
+      "sha256": "346da42641adbda2fe688727d10c01f60e6b3532aef672c7a894c188aa437e65",
+      "source": "benchmarks/mission012-pilot/sources/C/desktop.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/google-chrome",
+      "sha256": "aea09d69ce7f24d5901f6bfb15dd44d0c856e793e0a498f8d8393ec7d2c308ec",
+      "source": "benchmarks/mission012-pilot/sources/C/google-chrome",
+      "mode": "120000",
+      "symlink": "/usr/bin/google-chrome-stable"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/index.html",
+      "sha256": "162d2f5957c35a6324623e539ec19edd5d089eeee6cc7950714be043162ae9c5",
+      "source": "benchmarks/mission012-pilot/sources/C/index.html",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/mobile.png",
+      "sha256": "aebff95ac921f1017ce3463025c512eae66a1390b46924f2e6ae5e2b28f77c6c",
+      "source": "benchmarks/mission012-pilot/sources/C/mobile.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/package.json",
+      "sha256": "ae38b19da71c56d475c07b4fb728aacf8a0aa7f36448dcb76287754b9a2f54df",
+      "source": "benchmarks/mission012-pilot/sources/C/package.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/styles.css",
+      "sha256": "559eb3df19c6ebf4d723d5e89135fd4ead116786f245aabb4b9157de60453d9f",
+      "source": "benchmarks/mission012-pilot/sources/C/styles.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/tokens.css",
+      "sha256": "c6a47cc505e346c158115a5a56fb90ed846a3502cb500bc88e2412758f4ee4f6",
+      "source": "benchmarks/mission012-pilot/sources/C/tokens.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/tools/browser.mjs",
+      "sha256": "a63a6aee0073b4f65516ec04bbe4585a4fc015d8f226ce9ce72e413ce620169f",
+      "source": "benchmarks/mission012-pilot/sources/C/tools/browser.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/tools/capture.mjs",
+      "sha256": "7c6426f24610dcf7ab8072f2a2eaefd60e040b5f586cf3ac7f2e78d4393ed23f",
+      "source": "benchmarks/mission012-pilot/sources/C/tools/capture.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/check.mjs",
+      "sha256": "b0fcbfc2b18d74c79f9cbea54f6876fb775ff998613a1089cb086160f93f30de",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/check.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/editor-short.png",
+      "sha256": "456e5c1df35fa7be8472a65efb8486d39299317ef7ed7e6e2160dbe5a29b25e7",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/editor-short.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/empty-1440.png",
+      "sha256": "c5b6a7663788e7f845b85cd9ae4193104a4c1ffc6975b6e606c8f11a47dad931",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/empty-1440.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/empty-375.png",
+      "sha256": "d794b79b645d3436474a21b03415d550facd4d3eef78c3d0dfcf1f8819a039a7",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/empty-375.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/empty-768.png",
+      "sha256": "1b59b63140ac4a659ae73aec39fc2db0bc04821ef5b27e34661d5514ced571eb",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/empty-768.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/enlarged-text.png",
+      "sha256": "5242bf0626d464a91ee49b817fc4999b6483d0310bb76eeec61d8e532c24a10a",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/enlarged-text.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/error-1440.png",
+      "sha256": "d2b4e39746d7082cebc108923e7809d9c7bc0a4819d07a61f1fc8fc9b0a57cd4",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/error-1440.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/error-375.png",
+      "sha256": "e9074a3802e6f12f06fb69ee8111427ec794d15dac24637f4b5c5c5f015302b2",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/error-375.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/error-768.png",
+      "sha256": "c67ea7c93569adb7d53ebb530a6feb5ebad2ac844889d15e6966cbbff2701f86",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/error-768.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/keyboard-results.json",
+      "sha256": "cb4091fbe3b406c6c18dd6d3cbe61b5feddc7e8efc5baa71a6359fa5c5b046db",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/keyboard-results.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/keyboard.mjs",
+      "sha256": "13a7d1af31e6ffd44d44a1831e6c17c8fac1ab6a654414c4ece6efc7487a2bff",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/keyboard.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/loading-1440.png",
+      "sha256": "345064dd2f62e103847c6ba591544f2313ca6b93b14fbd3bf88de8e8d2ae780d",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/loading-1440.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/loading-375.png",
+      "sha256": "82e7ed1ad2ea0a7f7ec3efb2ea8bf4d5ea5dec1135c92963abb7f7f5143f6d0e",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/loading-375.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/loading-768.png",
+      "sha256": "2aa4d24e3784fdcbffc8a2fd6a627223e506f63117b13564774371498a7debd9",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/loading-768.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/populated-1440.png",
+      "sha256": "bef05c1875a48ef4542c882d8efe8942ffe2a84d5b07fce4ade5d9ba2c92e8ca",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/populated-1440.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/populated-375.png",
+      "sha256": "3fa261b9311fc3c00f2dfb70b70dddcbfe950e315b2e79d4626732653fb3b3bd",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/populated-375.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/populated-768.png",
+      "sha256": "85b860a9d5eb086a740fabd3030785336931620085515f47ca2a578dc5b83a57",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/populated-768.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012-pilot/runs/C/verification/results.json",
+      "sha256": "e1d006fd521aa86f8c5e90fd8ab584f5004f02a7424c917af19760d097ce4c0f",
+      "source": "benchmarks/mission012-pilot/sources/C/verification/results.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/AGENTS.md",
+      "sha256": "7a972e6fd3098a93c303b1730cd74ec121af84bd6056de58a72ef14f3d39ff88",
+      "source": "benchmarks/mission012/sources/A/AGENTS.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/FINAL.md",
+      "sha256": "1125850a02187614ec0fc7de8aa51352da430a407174f8f831bef4e73f63104d",
+      "source": "benchmarks/mission012/sources/A/FINAL.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/REPORT.md",
+      "sha256": "65dcf0de3399d311dc870f6abcf99ce3a5c16a8d1bdb445108b4713dab74a058",
+      "source": "benchmarks/mission012/sources/A/REPORT.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/TASK.md",
+      "sha256": "dc479148dad745dc2d6e71c9c5fc0f03879ebe332321fed71e7d4c68712aad54",
+      "source": "benchmarks/mission012/sources/A/TASK.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/app.js",
+      "sha256": "b209a5d59ca2463cb9f8a20532af721bd9fc8019c9ef5e29fd1fb9355426a285",
+      "source": "benchmarks/mission012/sources/A/app.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/data.js",
+      "sha256": "65f49941110df7aefee72f2543e5f5183235e8fb1f31bddbe367c861176ddf5c",
+      "source": "benchmarks/mission012/sources/A/data.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/desktop.png",
+      "sha256": "af9551d409bd221a4645a43b55580f674af16a3e76394cc827fc8a38be3fccee",
+      "source": "benchmarks/mission012/sources/A/desktop.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/editor.png",
+      "sha256": "0a9f52e606df8acb4c433c859d10084af81a701a85bf64eb0bb5a3ade8c1b3b7",
+      "source": "benchmarks/mission012/sources/A/editor.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/index.html",
+      "sha256": "625c2674dee685e9974dbfbb32eeacb438238e610e09ce21b725d0bf94c82bb7",
+      "source": "benchmarks/mission012/sources/A/index.html",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/mobile-320.png",
+      "sha256": "aa9f1617924ef1192f7a92f71b3f2b429eb2a729804243dbe7a681acfea35f4c",
+      "source": "benchmarks/mission012/sources/A/mobile-320.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/mobile.png",
+      "sha256": "bd479d524af85e745025abffb95bee581220b2c3d90a3b705b4dd155ae8f0456",
+      "source": "benchmarks/mission012/sources/A/mobile.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/package.json",
+      "sha256": "ae38b19da71c56d475c07b4fb728aacf8a0aa7f36448dcb76287754b9a2f54df",
+      "source": "benchmarks/mission012/sources/A/package.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/styles.css",
+      "sha256": "1a50b5ccf38e4af8745f5e820fd1dbac44172be06a3ee46e5a98461c287f45d6",
+      "source": "benchmarks/mission012/sources/A/styles.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/tokens.css",
+      "sha256": "c6a47cc505e346c158115a5a56fb90ed846a3502cb500bc88e2412758f4ee4f6",
+      "source": "benchmarks/mission012/sources/A/tokens.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/tools/browser.mjs",
+      "sha256": "a63a6aee0073b4f65516ec04bbe4585a4fc015d8f226ce9ce72e413ce620169f",
+      "source": "benchmarks/mission012/sources/A/tools/browser.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/tools/capture.mjs",
+      "sha256": "ab3d2c220c23bdf73a93b05ea2aff540d5e25cf35b6458cba3fa55fbea1d9736",
+      "source": "benchmarks/mission012/sources/A/tools/capture.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/verification.json",
+      "sha256": "247c49c553382d3c86c52abc6c4bb665f608f0985ea3c8679a9db781b15b7e44",
+      "source": "benchmarks/mission012/sources/A/verification.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/A/verify.mjs",
+      "sha256": "4abb0e72f46285c7bbc5a185d1014eeaa830a0dbb227daf1d7380cff5ff2dd29",
+      "source": "benchmarks/mission012/sources/A/verify.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/.agents/skills/udi-design/SKILL.md",
+      "sha256": "466502c742fae9560d248dd5392bd4f33289867f771c52d731471ec9949cb8ba",
+      "source": "benchmarks/mission012/inputs/B/.agents/skills/udi-design/SKILL.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/.agents/skills/udi-design/references/design-quality.md",
+      "sha256": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9",
+      "source": "benchmarks/mission012/inputs/B/.agents/skills/udi-design/references/design-quality.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/.agents/skills/udi-design/references/udi-cli.md",
+      "sha256": "aff77473643267a3096525891f28101bbe62813bdade0fa068cb5fee43e1c943",
+      "source": "benchmarks/mission012/inputs/B/.agents/skills/udi-design/references/udi-cli.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/.agents/skills/udi-design/scripts/udi.mjs",
+      "sha256": "762b33112ae540dace1d1bd29b319f1cf45fac6114a11549983bea163d2b9caa",
+      "source": "benchmarks/mission012/inputs/B/.agents/skills/udi-design/scripts/udi.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/.udi-logs/commands.jsonl",
+      "sha256": "6bc10c74af3a61e8cac84d720b1c8b005e3b98af53e0ca6ec064c3b0cf268d4b",
+      "source": "benchmarks/mission012/evidence/B/udi-commands.jsonl",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/.udi/bin/runtime.mjs",
+      "sha256": "06e367877971b34cc0b2c2613cd7e19ae8c2a41377bb26862ff1466688fb40f6",
+      "source": "benchmarks/mission012/inputs/B/.udi/bin/runtime.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/.udi/package.json",
+      "sha256": "b4fa2b97730ed311a8aed4850d4f3c6fe63939847981de6a0050b7d7dbd70a12",
+      "source": "benchmarks/mission012/inputs/B/.udi/package.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/AGENTS.md",
+      "sha256": "f274dcf4cf590944f15aab5a372ffc7b961a8fe8be58d951dd1d546a4ddff650",
+      "source": "benchmarks/mission012/sources/B/AGENTS.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/FINAL.md",
+      "sha256": "18f75574198055ab1ff5f9e223e603d5860612c44f6828da56c715bc98fb518f",
+      "source": "benchmarks/mission012/sources/B/FINAL.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/REPORT.md",
+      "sha256": "71fd31663ad5d75c1a61c2845fc2e04887197dd5d25eba5e0476d1d1d4047efe",
+      "source": "benchmarks/mission012/sources/B/REPORT.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/TASK.md",
+      "sha256": "dc479148dad745dc2d6e71c9c5fc0f03879ebe332321fed71e7d4c68712aad54",
+      "source": "benchmarks/mission012/sources/B/TASK.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/app.js",
+      "sha256": "2ca79755e8f3696f0bba597c890ad94e819ca4558e6dc4fe1459461c4d9d54fc",
+      "source": "benchmarks/mission012/sources/B/app.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/data.js",
+      "sha256": "65f49941110df7aefee72f2543e5f5183235e8fb1f31bddbe367c861176ddf5c",
+      "source": "benchmarks/mission012/sources/B/data.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/design-context.json",
+      "sha256": "88fbc807021de784a679d656050d92335f5993957ffaf81272507d093bb93b72",
+      "source": "benchmarks/mission012/sources/B/design-context.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/design-guidance.json",
+      "sha256": "bf0824ddfb27ac06baeaffd9aa6f22dcb06289d38ec7381f57d85756b3bdfd0b",
+      "source": "benchmarks/mission012/sources/B/design-guidance.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/desktop.png",
+      "sha256": "9b2c7eec424f522abfe06bd24d2e557a6e74aa510891012a54a10f38e9dec51f",
+      "source": "benchmarks/mission012/sources/B/desktop.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/editor.png",
+      "sha256": "e302858fe56a9dbd6bb883199dc45cc8d172bdb075c37071c1b261a231b58a5e",
+      "source": "benchmarks/mission012/sources/B/editor.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/empty.png",
+      "sha256": "fe386183d9469ab3bda12e8ab85e7eff6f1f32403d26c2b2f7cf4816a19a6c35",
+      "source": "benchmarks/mission012/sources/B/empty.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/error.png",
+      "sha256": "d3ec370bca01c364837f648b28a0587c0d541e4422aa5d620dec959667427510",
+      "source": "benchmarks/mission012/sources/B/error.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/index.html",
+      "sha256": "c28fb78cf0cf42741f2ff75b92044d08d175c3fa85015123c8ae4c073d107a11",
+      "source": "benchmarks/mission012/sources/B/index.html",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/loading.png",
+      "sha256": "2d6f330798b040e6ea5c7f208990fbbb32e111394d679c775be79c41cf24d6e7",
+      "source": "benchmarks/mission012/sources/B/loading.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/mobile-record.png",
+      "sha256": "740dbe0e65eb00f019df8a8640f474586e2160f6d842cd99608ff3a957aa2320",
+      "source": "benchmarks/mission012/sources/B/mobile-record.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/mobile.png",
+      "sha256": "f408bb5914a909d9b154ade8e38b84cc39069c0d2685d707e4434278add63c87",
+      "source": "benchmarks/mission012/sources/B/mobile.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/package.json",
+      "sha256": "ae38b19da71c56d475c07b4fb728aacf8a0aa7f36448dcb76287754b9a2f54df",
+      "source": "benchmarks/mission012/sources/B/package.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/styles.css",
+      "sha256": "9feae445a14cacf8e97c7a386108f90c44b5343d8124e61c5257249cf1e6f50e",
+      "source": "benchmarks/mission012/sources/B/styles.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/tablet.png",
+      "sha256": "600b88926d39cf2aed06d804c4359ba12549c5627030e959e2000466fcd20d3c",
+      "source": "benchmarks/mission012/sources/B/tablet.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/tokens.css",
+      "sha256": "c6a47cc505e346c158115a5a56fb90ed846a3502cb500bc88e2412758f4ee4f6",
+      "source": "benchmarks/mission012/sources/B/tokens.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/tools/browser.mjs",
+      "sha256": "a63a6aee0073b4f65516ec04bbe4585a4fc015d8f226ce9ce72e413ce620169f",
+      "source": "benchmarks/mission012/sources/B/tools/browser.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/tools/capture.mjs",
+      "sha256": "ab3d2c220c23bdf73a93b05ea2aff540d5e25cf35b6458cba3fa55fbea1d9736",
+      "source": "benchmarks/mission012/sources/B/tools/capture.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/verification.json",
+      "sha256": "ee496483dd158ebc8afc13d5acf00a4f18fb5afd034b466c7445252b1d243fd1",
+      "source": "benchmarks/mission012/sources/B/verification.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/B/verify.mjs",
+      "sha256": "cf646dd716442e76958887a2c7d5d1cc9caf6a8d907636508707169705101e05",
+      "source": "benchmarks/mission012/sources/B/verify.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/.agents/skills/udi-design/SKILL.md",
+      "sha256": "2aee4fe5a32bd945d33d7a40a5fc2756278053b9867d6e85027246df26c693fb",
+      "source": "benchmarks/mission012/inputs/C/.agents/skills/udi-design/SKILL.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/.agents/skills/udi-design/references/design-quality.md",
+      "sha256": "3da3a2ca68a999e7f396129dca1d557e4973446d02f3903f04024a21027e9de2",
+      "source": "benchmarks/mission012/inputs/C/.agents/skills/udi-design/references/design-quality.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/.agents/skills/udi-design/references/udi-cli.md",
+      "sha256": "aff77473643267a3096525891f28101bbe62813bdade0fa068cb5fee43e1c943",
+      "source": "benchmarks/mission012/inputs/C/.agents/skills/udi-design/references/udi-cli.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/.agents/skills/udi-design/scripts/udi.mjs",
+      "sha256": "762b33112ae540dace1d1bd29b319f1cf45fac6114a11549983bea163d2b9caa",
+      "source": "benchmarks/mission012/inputs/C/.agents/skills/udi-design/scripts/udi.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/.udi-logs/commands.jsonl",
+      "sha256": "c5daffbe5fd04259122daf3fa636042d33fd886289330d3603cb69a8e0c5db70",
+      "source": "benchmarks/mission012/evidence/C/udi-commands.jsonl",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/.udi/bin/runtime.mjs",
+      "sha256": "721b2f68508cdc992bad46331289aded644c4e1494955638092dfa1511783488",
+      "source": "benchmarks/mission012/inputs/C/.udi/bin/runtime.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/.udi/package.json",
+      "sha256": "b4fa2b97730ed311a8aed4850d4f3c6fe63939847981de6a0050b7d7dbd70a12",
+      "source": "benchmarks/mission012/inputs/C/.udi/package.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/AGENTS.md",
+      "sha256": "f274dcf4cf590944f15aab5a372ffc7b961a8fe8be58d951dd1d546a4ddff650",
+      "source": "benchmarks/mission012/sources/C/AGENTS.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/TASK.md",
+      "sha256": "dc479148dad745dc2d6e71c9c5fc0f03879ebe332321fed71e7d4c68712aad54",
+      "source": "benchmarks/mission012/sources/C/TASK.md",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/app.js",
+      "sha256": "9259611569c93e7549feb9c3b67ff9e2dabb3acedf844d023a9a358733cd26f5",
+      "source": "benchmarks/mission012/sources/C/app.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/desktop.png",
+      "sha256": "8a910bc2385c6250b5ea535a838a1f8178c50331eb91acb0f40c555410ea9f79",
+      "source": "benchmarks/mission012/sources/C/artifacts/desktop.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/empty.png",
+      "sha256": "9fa3eabc87e5b37a9ed72cd661d7494dabca4471d08f64422ff93f064b7db323",
+      "source": "benchmarks/mission012/sources/C/artifacts/empty.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/enlarged-320.png",
+      "sha256": "0b3ab00bd2be253f00de8517be578290e52ede5b2745c864e701035919198ee3",
+      "source": "benchmarks/mission012/sources/C/artifacts/enlarged-320.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/enlarged-before.png",
+      "sha256": "6a9c1ab75f8c5c705df4b809fa8e2e0a7534d09125461cc7d331c9da705e18a9",
+      "source": "benchmarks/mission012/sources/C/artifacts/enlarged-before.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/enlarged-text.png",
+      "sha256": "da17d50cd6eca155802a5a37e0e7a8cd0742f7abd41862aaa4a5085bb00b926b",
+      "source": "benchmarks/mission012/sources/C/artifacts/enlarged-text.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/error.png",
+      "sha256": "4e7cfe8a2c2922b2bd59b6266cc2d15679a43dea039d6500754863ea7d2c84f5",
+      "source": "benchmarks/mission012/sources/C/artifacts/error.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/final-mobile.png",
+      "sha256": "3dbb1edd28142d83867df9e7d19b8570922e3206417e0c353fcf597d941d2965",
+      "source": "benchmarks/mission012/sources/C/artifacts/final-mobile.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/loading.png",
+      "sha256": "1070121436f0d5aac44687252456cec6d1676fd273187d7fc667b7914949c392",
+      "source": "benchmarks/mission012/sources/C/artifacts/loading.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/mobile-compare.png",
+      "sha256": "8b3b9cbbbe77f29cfa24ce85937a764fbfd8aa27d6ca4f77ad4030e03062350a",
+      "source": "benchmarks/mission012/sources/C/artifacts/mobile-compare.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/mobile-details.png",
+      "sha256": "f5372c6a657ca45c2a52fed279ad16c032d006d1e31d1815d8354b516b44a9a2",
+      "source": "benchmarks/mission012/sources/C/artifacts/mobile-details.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/mobile.png",
+      "sha256": "988f0c15590b7ddafa3aa7b05845b2ce7d8e8d6d53a2444bbdefa592ed42b4ed",
+      "source": "benchmarks/mission012/sources/C/artifacts/mobile.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/no-matches.png",
+      "sha256": "e3f86979b3bd42e10c3e876e67afd3ddc37dc308947d779fc10e8b48dc0d3e90",
+      "source": "benchmarks/mission012/sources/C/artifacts/no-matches.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/reduced-height-editor.png",
+      "sha256": "9ff36785fd649986118fc99c7ca3f24cc3d454fceb2e159b25a85e61baec103c",
+      "source": "benchmarks/mission012/sources/C/artifacts/reduced-height-editor.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/short-mobile-validation.png",
+      "sha256": "739942c460772b31ea27e242892f97a5599264c604053bc6aaa2c50ce0e2ad9e",
+      "source": "benchmarks/mission012/sources/C/artifacts/short-mobile-validation.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/tablet.png",
+      "sha256": "856e44d2e4d1048b9dfa3e8b4f84a323241102cdbce4251f73928e087c063524",
+      "source": "benchmarks/mission012/sources/C/artifacts/tablet.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/validation-desktop.png",
+      "sha256": "605c9bc99392afb8ece65ed9fe896f50399062bcde949631e58d0f079d0aeb6f",
+      "source": "benchmarks/mission012/sources/C/artifacts/validation-desktop.png",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/verification-extra.json",
+      "sha256": "8b829653d0bdb7fe9f77ecafa0ce8e322aeb0ab7573ea0265d53682bba0334f7",
+      "source": "benchmarks/mission012/sources/C/artifacts/verification-extra.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/artifacts/verification.json",
+      "sha256": "b9cd18d262ff14154050487fc7b1b01476abc1d32c6eebe4025ec7c27101467d",
+      "source": "benchmarks/mission012/sources/C/artifacts/verification.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/data.js",
+      "sha256": "65f49941110df7aefee72f2543e5f5183235e8fb1f31bddbe367c861176ddf5c",
+      "source": "benchmarks/mission012/sources/C/data.js",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/design-context.json",
+      "sha256": "23c42ed70681e18c045f535635ee98d2af766ec515900932e6671a53049f6840",
+      "source": "benchmarks/mission012/sources/C/design-context.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/design-guidance.json",
+      "sha256": "6d4f16ddb7e9b643e147ab11d8d231ef482f693748bf43bb3e2a080d55e69abf",
+      "source": "benchmarks/mission012/sources/C/design-guidance.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/index.html",
+      "sha256": "777f410eacf90410792d7db63f54d2882fbfcb625f485763d6af0ac20a9d04a4",
+      "source": "benchmarks/mission012/sources/C/index.html",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/package.json",
+      "sha256": "ae38b19da71c56d475c07b4fb728aacf8a0aa7f36448dcb76287754b9a2f54df",
+      "source": "benchmarks/mission012/sources/C/package.json",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/styles.css",
+      "sha256": "5311e13066ad54b6b27d745ba4948be74d2ae060f9331d032815d08a21316cf7",
+      "source": "benchmarks/mission012/sources/C/styles.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/tokens.css",
+      "sha256": "c6a47cc505e346c158115a5a56fb90ed846a3502cb500bc88e2412758f4ee4f6",
+      "source": "benchmarks/mission012/sources/C/tokens.css",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/tools/browser.mjs",
+      "sha256": "a63a6aee0073b4f65516ec04bbe4585a4fc015d8f226ce9ce72e413ce620169f",
+      "source": "benchmarks/mission012/sources/C/tools/browser.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/tools/capture.mjs",
+      "sha256": "ab3d2c220c23bdf73a93b05ea2aff540d5e25cf35b6458cba3fa55fbea1d9736",
+      "source": "benchmarks/mission012/sources/C/tools/capture.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/verify-extra.mjs",
+      "sha256": "898ae697cba61cef42026a399acd381b1b7cd221f16ffab8860d4331a7018806",
+      "source": "benchmarks/mission012/sources/C/verify-extra.mjs",
+      "mode": "100644"
+    },
+    {
+      "path": "benchmarks/mission012/runs/C/verify.mjs",
+      "sha256": "4111eea6155a698a22d3df219b1a20e373c278394e0f25c93c44e51bbdf39fa7",
+      "source": "benchmarks/mission012/sources/C/verify.mjs",
+      "mode": "100644"
+    }
+  ]
+}

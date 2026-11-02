@@ -1,0 +1,94 @@
+{
+  "results": [
+    {
+      "name": "12 rows and complete long names",
+      "pass": true
+    },
+    {
+      "name": "two read-only products without edit controls",
+      "pass": true
+    },
+    {
+      "name": "SKU search",
+      "pass": true
+    },
+    {
+      "name": "combined category, status and low-stock filters",
+      "pass": true
+    },
+    {
+      "name": "filter empty and clear action",
+      "pass": true
+    },
+    {
+      "name": "editor opens with focused name",
+      "pass": true
+    },
+    {
+      "name": "invalid save retains input with linked errors",
+      "pass": true
+    },
+    {
+      "name": "save updates row and announces success",
+      "pass": true
+    },
+    {
+      "name": "unsaved change confirmation appears",
+      "pass": true
+    },
+    {
+      "name": "declining discard preserves editor input",
+      "pass": true
+    },
+    {
+      "name": "confirmed cancel discards edits",
+      "pass": true
+    },
+    {
+      "name": "error state",
+      "pass": true
+    },
+    {
+      "name": "retry restores populated collection",
+      "pass": true
+    },
+    {
+      "name": "empty collection",
+      "pass": true
+    },
+    {
+      "name": "loading state",
+      "pass": true
+    },
+    {
+      "name": "read-only query cannot open editor",
+      "pass": true
+    },
+    {
+      "name": "no page overflow at 375",
+      "pass": true
+    },
+    {
+      "name": "editor fits viewport 375",
+      "pass": true
+    },
+    {
+      "name": "no page overflow at 768",
+      "pass": true
+    },
+    {
+      "name": "editor fits viewport 768",
+      "pass": true
+    },
+    {
+      "name": "no page overflow at 1440",
+      "pass": true
+    },
+    {
+      "name": "editor fits viewport 1440",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "checkedAt": "2026-10-30T09:48:15.957Z"
+}

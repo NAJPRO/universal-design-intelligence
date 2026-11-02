@@ -1,12 +1,47 @@
+# Dependencies and package outputs; frozen benchmark bundles stay visible.
 node_modules/
-dist/
+/packages/*/dist/
+/packages/cli/*.tgz
+
+# Validation caches; retained benchmark evidence stays visible.
 coverage/
-.DS_Store
-npm-debug.log*
-pnpm-debug.log*
+.nyc_output/
+.eslintcache
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment values; templates remain reviewable.
 .env
 .env.*
 !.env.example
 !.env.*.example
-packages/cli/universal-design-intelligence-0.1.0.tgz
-tests/
+# Local runtime stores and sessions, not canonical or frozen skills.
+/.udi/
+/.codex/sessions/
+/.codex/log/
+/.codex/auth.json
+/.aws/credentials
+/.aws/sso/cache/
+
+# Package-manager diagnostics and editor/OS scratch state.
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Mission 010 raw evidence is privately archived; public derivatives live separately.
+/tests/mission010/evidence/performance.json
+/tests/mission010/evidence/validation.json
+/tests/mission010/evidence/retrieval/B/index.json
+/tests/mission010/evidence/retrieval/C/index.json
+/tests/mission010/runs/A/evidence.json
+/tests/mission010/runs/B/chrome.log
+/tests/mission010/runs/B/evidence.json
+/tests/mission010/runs/C/evidence.json

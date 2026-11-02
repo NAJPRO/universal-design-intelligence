@@ -1,2 +1,0 @@
-import{spawnSync}from'node:child_process';import{appendFileSync,mkdirSync}from'node:fs';
-const args=process.argv.slice(2);const r=spawnSync(process.execPath,['/work/.udi/bin/runtime.mjs',...args],{encoding:'utf8',maxBuffer:2000000});mkdirSync('/work/.udi-logs',{recursive:true});appendFileSync('/work/.udi-logs/commands.jsonl',JSON.stringify({time:new Date().toISOString(),args,status:r.status,stdout:r.stdout,stderr:r.stderr})+'\n');process.stdout.write(r.stdout||'');process.stderr.write(r.stderr||'');process.exit(r.status??1);

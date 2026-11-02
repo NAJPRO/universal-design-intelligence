@@ -1,0 +1,44 @@
+{
+  "note": "Instrumentation injects entry logging into loaded JavaScript in memory; build/source files unchanged. Not used for timing. Counts cover a single warm API invocation after imports.",
+  "runs": {
+    "2.0": {
+      "events": [
+        {
+          "event": "index"
+        },
+        {
+          "event": "legacy-validation"
+        }
+      ],
+      "counts": {
+        "index": 1,
+        "legacy-validation": 1,
+        "component-validation": 0
+      }
+    },
+    "2.1": {
+      "events": [
+        {
+          "event": "component-validation"
+        },
+        {
+          "event": "index"
+        },
+        {
+          "event": "legacy-validation"
+        },
+        {
+          "event": "index"
+        },
+        {
+          "event": "legacy-validation"
+        }
+      ],
+      "counts": {
+        "index": 2,
+        "legacy-validation": 2,
+        "component-validation": 1
+      }
+    }
+  }
+}

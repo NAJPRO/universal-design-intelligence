@@ -1,0 +1,78 @@
+{
+  "rubric": "protocol/rubric.json",
+  "evaluator": "Controller; conditions visible, subjective visual review of all 15 core comparison sheets and three detail sheets. Same agent family authored benchmark and evaluation; no external/blinded reviewer.",
+  "scale": "0 missing, 1 substantial issues, 2 usable with material issues, 3 good/minor issues, 4 strong for task; no aggregate score or statistical claim.",
+  "dimensions": {
+    "taskCorrectness": {
+      "scores": {
+        "A": 4,
+        "B": 4,
+        "C": 4
+      },
+      "evidence": "All three passed shared search, combined facets, permission, valid/invalid editing, discard, Retry and state checks. Scores apply only to fixed local task. A 27/27; B/C 26/27 due repeated Tab assertion, assessed under accessibility. interactions.json."
+    },
+    "componentAppropriateness": {
+      "scores": {
+        "A": 3,
+        "B": 3,
+        "C": 3
+      },
+      "evidence": "All use semantic comparison tables, scoped filters and coherent editors. C adds removable filter chips and composition-aware layout; all keep row actions far offscreen on mobile. Populated and collapsed-filter screenshots."
+    },
+    "informationHierarchy": {
+      "scores": {
+        "A": 3,
+        "B": 3,
+        "C": 3
+      },
+      "evidence": "All distinguish product title, search/results and rows. A adds a summary-stat panel and sidebar, consuming more space before the collection. B gives search immediate prominence. C adds a catalog section heading and explicit active scope. No clear overall ranking."
+    },
+    "visualComposition": {
+      "scores": {
+        "A": 3,
+        "B": 3,
+        "C": 3
+      },
+      "evidence": "Subjective controller inspection: all coherent green/neutral surfaces, aligned tables and readable wrapping names. A/B full-height mobile editors leave large blank areas at 1000px height; C uses a bounded modal. C empty/error/loading retains a redundant mobile scrollable table header. All wide views devote substantial height to chrome and toolbar. No aesthetic superiority established."
+    },
+    "responsiveUsability": {
+      "scores": {
+        "A": 2,
+        "B": 2,
+        "C": 2
+      },
+      "evidence": "No page overflow across 45 captures. All preserve table readability through named, keyboard-scrollable containers but mobile shows mostly product names; SKU/status/price/actions need horizontal scrolling. Editors submit actions reachable at 375x667 in follow-up. No touch/virtual-keyboard test."
+    },
+    "accessibility": {
+      "scores": {
+        "A": 3,
+        "B": 3,
+        "C": 3
+      },
+      "evidence": "Native semantic table/labels/dialog, visible focus, validation messages; no unlabelled inputs/selects/textareas in DOM check. A explicit modal loop keeps focus inside; B/C repeated Tab traverses BODY once then returns to editor. details.json found no interactive background control focused; this is not proof of background interaction. C has linked error summary. No screen-reader/axe/contrast audit or conformance claim."
+    },
+    "stateRecovery": {
+      "scores": {
+        "A": 3,
+        "B": 3,
+        "C": 3
+      },
+      "evidence": "All rendered populated/empty/error/loading/editor; no-match Clear, Retry and dirty cancel exercised. C exposes three error-summary links and a keep/discard dialog; A/B use browser confirm, successfully exercised via CDP events. C mobile Retry lower in viewport due retained header; stable synthetic loading is not live transport recovery."
+    },
+    "brandConsistency": {
+      "scores": {
+        "A": 3,
+        "B": 3,
+        "C": 3
+      },
+      "evidence": "All preserve protected tokens and data, original green/neutral identity, system type and consistent controls. Variations in badge shapes and panel arrangement fit the broad supplied brand. This is one fictional identity, not transfer across brands."
+    }
+  },
+  "conclusion": "Enhanced guidance was retrieved and visibly applied to specific behaviors. This single controlled exploratory comparison does not demonstrate superior overall aesthetic quality or broad causal improvement.",
+  "missingValidation": [
+    "Implicit installed-host skill discovery",
+    "Concrete backend model revision and hard measured token equality",
+    "Screen-reader, contrast audit, cross-browser, real touch/virtual keyboard",
+    "Repeated randomized runs and blinded independent evaluation"
+  ]
+}

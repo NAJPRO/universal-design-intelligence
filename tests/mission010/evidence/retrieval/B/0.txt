@@ -1,0 +1,92 @@
+[
+  {
+    "ruleId": "UDI-SAA-002",
+    "category": "saas-dashboards",
+    "title": "Keep dashboard filters visible and interpretable",
+    "summary": "Users need to understand which subset of data they are viewing and how a filter changes the result.",
+    "guidance": [
+      "Show active filters near the data they affect and provide a clear way to reset or adjust them.",
+      "Persist filter state only when it helps the workflow, and make the resulting scope visible after navigation or refresh."
+    ],
+    "priority": "high",
+    "score": 9.568747582614273,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-FOR-002",
+    "category": "forms",
+    "title": "Validate at the point of need with actionable messages",
+    "summary": "Specific validation feedback helps users recover without guessing which field or format caused a problem.",
+    "guidance": [
+      "Explain the problem in plain language beside the field, describe the expected correction, and associate the message programmatically.",
+      "Avoid clearing valid input or showing an error before the user has a fair chance to complete the field."
+    ],
+    "priority": "critical",
+    "score": 9.2453327043991,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-DAT-004",
+    "category": "tables-data-visualization",
+    "title": "Keep row actions attached to a recognizable record",
+    "summary": "Actions in dense tables should remain associated with the correct record as the table scrolls or changes layout.",
+    "guidance": [
+      "Include a stable row identifier and accessible action names that provide context when repeated.",
+      "Group infrequent actions in a labeled menu and keep destructive actions distinct from routine navigation."
+    ],
+    "priority": "high",
+    "score": 7.419774728754724,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-COL-002",
+    "category": "color-contrast",
+    "title": "Never encode status with color alone",
+    "summary": "Color-only status cues are difficult to distinguish for many users and may disappear in forced-color or monochrome modes.",
+    "guidance": [
+      "Pair status colors with text, an icon, or another clear shape cue that carries the same meaning.",
+      "Keep status wording explicit in tables, charts, alerts, and form validation messages."
+    ],
+    "priority": "critical",
+    "score": 7.079627853575028,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-DAT-003",
+    "category": "tables-data-visualization",
+    "title": "Provide a non-visual route to chart values",
+    "summary": "Users should be able to obtain the important data and trend without relying solely on color or spatial perception.",
+    "guidance": [
+      "Pair the visualization with a concise textual summary and accessible data labels or an equivalent table when detail matters.",
+      "Make series names, values, and units available to assistive technology without flooding the tab order with every mark."
+    ],
+    "priority": "high",
+    "score": 5.792836607377339,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  },
+  {
+    "ruleId": "UDI-FOR-001",
+    "category": "forms",
+    "title": "Label every form control persistently",
+    "summary": "A visible label remains available after users start typing and is more reliable than placeholder-only instructions.",
+    "guidance": [
+      "Associate a visible label with each field and keep examples or formats in supporting text.",
+      "Use placeholders only for short examples, never as the only label or essential instruction."
+    ],
+    "priority": "critical",
+    "score": 5.312681144806855,
+    "sourceIds": [
+      "SRC-UDI-ORIGINAL"
+    ]
+  }
+]

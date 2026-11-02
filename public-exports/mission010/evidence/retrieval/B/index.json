@@ -1,0 +1,55 @@
+{
+  "note": "Controller replay of original commands.jsonl after runs froze; does not prove these bytes were in original agent context. Original C packets/contract files and both agents decision reports supply additional consumption evidence.",
+  "records": [
+    {
+      "args": [
+        "search",
+        "accessible form validation errors unsaved changes table filters",
+        "--limit",
+        "6",
+        "--json"
+      ],
+      "time": "2026-10-30T09:38:16.104Z",
+      "replayArgs": [
+        "<HOME>/.nvm/versions/node/v22.23.1/bin/node",
+        "<REPO>/packages/cli/dist/index.js",
+        "search",
+        "accessible form validation errors unsaved changes table filters",
+        "--limit",
+        "6",
+        "--json"
+      ],
+      "stdoutFile": "retrieval/B/0.txt",
+      "stdoutBytes": 3752,
+      "stdoutSha256": "d68619667f7c3f2a8f3b24acf8646ed590cc5b63e5f6d12c63d40a10977f05f1",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "recommend",
+        "--type",
+        "dashboard",
+        "--audience",
+        "catalog editors comparing and editing products",
+        "--preserve-brand",
+        "--json"
+      ],
+      "time": "2026-10-30T09:38:16.106Z",
+      "replayArgs": [
+        "<HOME>/.nvm/versions/node/v22.23.1/bin/node",
+        "<REPO>/packages/cli/dist/index.js",
+        "recommend",
+        "--type",
+        "dashboard",
+        "--audience",
+        "catalog editors comparing and editing products",
+        "--preserve-brand",
+        "--json"
+      ],
+      "stdoutFile": "retrieval/B/1.txt",
+      "stdoutBytes": 8935,
+      "stdoutSha256": "d5000cfa192c82722338a1439c338dc99716f1c2ee02368c1537483d7cbc8c9e",
+      "stderr": ""
+    }
+  ]
+}

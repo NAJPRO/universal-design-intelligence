@@ -1,0 +1,1062 @@
+{
+  "environment": {
+    "node": "v22.23.1",
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "protocol": "Warm API: 2 unmeasured calls then 9 alternating 2.0/2.1 pairs per size. Fixed component pack, expanded legacy rules only. Phase measurements standalone, not additive. Cold CLI: 9 alternating fresh processes, warm filesystem caches; no OS cache flush. Run without concurrent agents/build/tests.",
+  "context": {
+    "schemaVersion": "2.0",
+    "applicationType": {
+      "value": "operations-workspace",
+      "status": "explicit"
+    },
+    "tasks": {
+      "primary": {
+        "value": "manage products table",
+        "status": "explicit"
+      },
+      "secondary": [
+        {
+          "value": "filter products",
+          "status": "explicit"
+        },
+        {
+          "value": "edit product form",
+          "status": "explicit"
+        }
+      ]
+    },
+    "brand": {
+      "preserve": true
+    }
+  },
+  "scaling": [
+    {
+      "factor": 1,
+      "rules": 80,
+      "totalLegacyEntities": 113,
+      "timings": {
+        "2.0": {
+          "samplesMs": [
+            19.748469,
+            16.16442599999999,
+            16.00556999999992,
+            15.020013000000063,
+            14.928103999999962,
+            21.924921999999924,
+            14.952996000000098,
+            15.955087000000049,
+            14.86053400000003
+          ],
+          "medianMs": 15.955087000000049,
+          "minMs": 14.86053400000003,
+          "maxMs": 21.924921999999924
+        },
+        "2.1": {
+          "samplesMs": [
+            48.26426900000001,
+            47.785168999999996,
+            43.781261000000086,
+            44.87751500000002,
+            42.965578999999934,
+            46.94843700000001,
+            45.3549690000001,
+            45.93116900000007,
+            45.382475
+          ],
+          "medianMs": 45.382475,
+          "minMs": 42.965578999999934,
+          "maxMs": 48.26426900000001
+        }
+      },
+      "phases": {
+        "legacyValidation": {
+          "samplesMs": [
+            1.2141080000000102,
+            1.093766999999957,
+            1.2413030000000163,
+            1.0867279999999937,
+            1.4862829999999576,
+            1.0887099999999919,
+            1.0134739999999738,
+            0.9669589999999744,
+            0.9866269999999986
+          ],
+          "medianMs": 1.0887099999999919,
+          "minMs": 0.9669589999999744,
+          "maxMs": 1.4862829999999576
+        },
+        "componentValidation": {
+          "samplesMs": [
+            0.9557089999999562,
+            0.7995540000000574,
+            1.2824219999999968,
+            0.996578999999997,
+            0.7950250000000096,
+            0.8072409999999763,
+            0.766832999999906,
+            0.8712550000000192,
+            0.7828060000000505
+          ],
+          "medianMs": 0.8072409999999763,
+          "minMs": 0.766832999999906,
+          "maxMs": 1.2824219999999968
+        },
+        "indexIncludingValidation": {
+          "samplesMs": [
+            3.616172000000006,
+            3.5549690000000282,
+            3.8567620000000034,
+            3.3148820000000114,
+            5.269948999999997,
+            3.215045000000032,
+            3.1285990000000083,
+            3.028248000000076,
+            3.0308090000000902
+          ],
+          "medianMs": 3.3148820000000114,
+          "minMs": 3.028248000000076,
+          "maxMs": 5.269948999999997
+        }
+      },
+      "outputs": {
+        "2.0": {
+          "sha256": "1700fd7084930ac3152c674a2fecb25e09d5316e4e038a620cc14273675f867e",
+          "bytes": 24244,
+          "ids": [
+            "UDI-ACC-002",
+            "UDI-RSP-004",
+            "UDI-INT-003",
+            "UDI-SYS-001",
+            "UDI-NAV-005",
+            "UDI-RSP-003",
+            "PAT-MOBILE-NAV",
+            "UDI-ANT-009",
+            "UDI-ANTI-006",
+            "UDI-DAT-001",
+            "UDI-DAT-004",
+            "PAT-RESPONSIVE-TABLE",
+            "UDI-ANT-001",
+            "UDI-FOR-001",
+            "UDI-ANTI-001",
+            "UDI-FOR-002",
+            "UDI-FOR-004",
+            "PAT-VALIDATED-FORM",
+            "UDI-ANT-007",
+            "UDI-COL-002",
+            "UDI-DAT-003",
+            "UDI-ANTI-003",
+            "UDI-SAA-002",
+            "UDI-SAA-004",
+            "UDI-VIS-003",
+            "PAT-DASHBOARD-EMPTY",
+            "UDI-SYS-005",
+            "UDI-DAT-002",
+            "PAT-CHART-SUMMARY",
+            "UDI-SAA-005",
+            "UDI-ACC-001",
+            "UDI-RSP-001",
+            "UDI-SAA-003",
+            "UDI-INT-004",
+            "UDI-LAY-003",
+            "UDI-RSP-005",
+            "UDI-RSP-002"
+          ],
+          "coverage": [
+            {
+              "requirement": "accessibility",
+              "status": "covered",
+              "entityIds": [
+                "UDI-ACC-002",
+                "UDI-ACC-001"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "responsive",
+              "status": "covered",
+              "entityIds": [
+                "UDI-RSP-004",
+                "UDI-RSP-003",
+                "UDI-RSP-001",
+                "UDI-RSP-005",
+                "UDI-RSP-002"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "recovery",
+              "status": "covered",
+              "entityIds": [
+                "UDI-INT-003",
+                "UDI-INT-004"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "brand-preservation",
+              "status": "covered",
+              "entityIds": [
+                "UDI-SYS-001",
+                "UDI-SYS-005"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "task:manage products table",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:edit product form",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:filter products",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            }
+          ]
+        },
+        "2.1": {
+          "sha256": "76a8673b0e35d2ec5756b00268c536ac4b5a14ed3ff7c20aacf12665b4950d52",
+          "bytes": 24322,
+          "ids": [
+            "UDI-ACC-002",
+            "UDI-DAT-001",
+            "UDI-RSP-004",
+            "CMP-OPERATIONAL-TABLE",
+            "UDI-INT-001",
+            "CMP-FILTER-WORKSPACE",
+            "UDI-VIS-003",
+            "COM-OPERATIONAL-MANAGEMENT",
+            "UDI-FOR-001",
+            "UDI-FOR-002",
+            "UDI-FOR-004",
+            "CMP-RECOVERABLE-FORM",
+            "UDI-INT-003",
+            "UDI-SYS-001",
+            "UDI-NAV-005",
+            "UDI-RSP-003",
+            "PAT-MOBILE-NAV",
+            "UDI-ANT-009",
+            "UDI-ANTI-006",
+            "UDI-DAT-004",
+            "PAT-RESPONSIVE-TABLE",
+            "UDI-ANT-001",
+            "UDI-ANTI-001",
+            "PAT-VALIDATED-FORM",
+            "UDI-ANT-007",
+            "UDI-COL-002",
+            "UDI-DAT-003",
+            "UDI-ANTI-003",
+            "UDI-SAA-002",
+            "UDI-SAA-004",
+            "PAT-DASHBOARD-EMPTY",
+            "UDI-SYS-005"
+          ],
+          "coverage": [
+            {
+              "requirement": "accessibility",
+              "status": "covered",
+              "entityIds": [
+                "UDI-ACC-002"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "responsive",
+              "status": "covered",
+              "entityIds": [
+                "UDI-RSP-004",
+                "UDI-RSP-003"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "recovery",
+              "status": "covered",
+              "entityIds": [
+                "UDI-INT-003"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "brand-preservation",
+              "status": "covered",
+              "entityIds": [
+                "UDI-SYS-001",
+                "UDI-SYS-005"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "task:manage products table",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:edit product form",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:filter products",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "spec:CMP-FILTER-WORKSPACE",
+              "status": "covered",
+              "entityIds": [
+                "CMP-FILTER-WORKSPACE"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            },
+            {
+              "requirement": "spec:CMP-OPERATIONAL-TABLE",
+              "status": "covered",
+              "entityIds": [
+                "CMP-OPERATIONAL-TABLE"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            },
+            {
+              "requirement": "spec:CMP-RECOVERABLE-FORM",
+              "status": "covered",
+              "entityIds": [
+                "CMP-RECOVERABLE-FORM"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            },
+            {
+              "requirement": "spec:COM-OPERATIONAL-MANAGEMENT",
+              "status": "covered",
+              "entityIds": [
+                "COM-OPERATIONAL-MANAGEMENT"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "factor": 4,
+      "rules": 320,
+      "totalLegacyEntities": 353,
+      "timings": {
+        "2.0": {
+          "samplesMs": [
+            41.21585099999993,
+            52.655779000000166,
+            41.35720900000001,
+            36.46339399999988,
+            31.66818000000012,
+            37.66899199999989,
+            35.95769900000005,
+            31.033852000000024,
+            30.62707300000011
+          ],
+          "medianMs": 36.46339399999988,
+          "minMs": 30.62707300000011,
+          "maxMs": 52.655779000000166
+        },
+        "2.1": {
+          "samplesMs": [
+            121.87016100000005,
+            209.60295799999994,
+            160.308047,
+            144.97459000000003,
+            114.81823900000018,
+            122.00280999999995,
+            140.01527699999997,
+            113.87071199999991,
+            104.0456079999999
+          ],
+          "medianMs": 122.00280999999995,
+          "minMs": 104.0456079999999,
+          "maxMs": 209.60295799999994
+        }
+      },
+      "phases": {
+        "legacyValidation": {
+          "samplesMs": [
+            2.2327610000002096,
+            2.2909990000002836,
+            2.189086000000316,
+            2.1656389999998282,
+            2.4381419999999707,
+            2.1010120000000825,
+            2.143061000000216,
+            2.1063970000000154,
+            2.0789529999997285
+          ],
+          "medianMs": 2.1656389999998282,
+          "minMs": 2.0789529999997285,
+          "maxMs": 2.4381419999999707
+        },
+        "componentValidation": {
+          "samplesMs": [
+            0.9503250000002481,
+            0.8224860000000263,
+            0.8210859999999229,
+            0.8055599999997867,
+            1.2810500000000502,
+            0.8952060000001438,
+            0.8425819999997657,
+            0.8666250000001128,
+            0.8328249999999571
+          ],
+          "medianMs": 0.8425819999997657,
+          "minMs": 0.8055599999997867,
+          "maxMs": 1.2810500000000502
+        },
+        "indexIncludingValidation": {
+          "samplesMs": [
+            9.966561000000183,
+            10.682063000000198,
+            9.956902999999784,
+            10.830411999999797,
+            9.988933000000088,
+            10.779827999999725,
+            10.500704999999925,
+            10.547821999999996,
+            9.963354999999865
+          ],
+          "medianMs": 10.500704999999925,
+          "minMs": 9.956902999999784,
+          "maxMs": 10.830411999999797
+        }
+      },
+      "outputs": {
+        "2.0": {
+          "sha256": "2eaee3527334c357774a49a01fcd4275eac9b9cb43eac5c9217856d3fa197919",
+          "bytes": 24236,
+          "ids": [
+            "UDI-ACC-002",
+            "UDI-RSP-001",
+            "UDI-INT-003",
+            "UDI-SYS-001",
+            "UDI-NAV-005",
+            "UDI-RSP-003",
+            "PAT-MOBILE-NAV",
+            "UDI-ANT-009",
+            "UDI-RSP-004",
+            "UDI-ANTI-006",
+            "UDI-ZAB-057",
+            "UDI-DAT-001",
+            "UDI-DAT-004",
+            "PAT-RESPONSIVE-TABLE",
+            "UDI-ANT-001",
+            "UDI-FOR-001",
+            "UDI-ANTI-001",
+            "UDI-ZAC-057",
+            "UDI-FOR-002",
+            "UDI-FOR-004",
+            "PAT-VALIDATED-FORM",
+            "UDI-ANT-007",
+            "UDI-COL-002",
+            "UDI-DAT-003",
+            "UDI-ANTI-003",
+            "UDI-ZAD-057",
+            "UDI-SAA-002",
+            "UDI-SAA-004",
+            "UDI-VIS-003",
+            "PAT-DASHBOARD-EMPTY",
+            "UDI-DAT-002",
+            "PAT-CHART-SUMMARY",
+            "UDI-ZAB-066",
+            "UDI-ZAC-066",
+            "UDI-ZAD-066",
+            "UDI-SYS-005",
+            "UDI-ZAB-021",
+            "UDI-ZAB-046"
+          ],
+          "coverage": [
+            {
+              "requirement": "accessibility",
+              "status": "covered",
+              "entityIds": [
+                "UDI-ACC-002",
+                "UDI-ZAB-057",
+                "UDI-ZAC-057",
+                "UDI-ZAD-057"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "responsive",
+              "status": "covered",
+              "entityIds": [
+                "UDI-RSP-001",
+                "UDI-RSP-003",
+                "UDI-RSP-004",
+                "UDI-ZAB-021"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "recovery",
+              "status": "covered",
+              "entityIds": [
+                "UDI-INT-003"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "brand-preservation",
+              "status": "covered",
+              "entityIds": [
+                "UDI-SYS-001",
+                "UDI-ZAB-066",
+                "UDI-ZAC-066",
+                "UDI-ZAD-066",
+                "UDI-SYS-005"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "task:manage products table",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:edit product form",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:filter products",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            }
+          ]
+        },
+        "2.1": {
+          "sha256": "17d2fc00d4be04836bd9cb5dd26836fdb5ebe174236f8be60d1a5a654b48b510",
+          "bytes": 24062,
+          "ids": [
+            "UDI-ACC-002",
+            "UDI-DAT-001",
+            "UDI-RSP-004",
+            "CMP-OPERATIONAL-TABLE",
+            "UDI-INT-001",
+            "CMP-FILTER-WORKSPACE",
+            "UDI-VIS-003",
+            "COM-OPERATIONAL-MANAGEMENT",
+            "UDI-FOR-001",
+            "UDI-FOR-002",
+            "UDI-FOR-004",
+            "CMP-RECOVERABLE-FORM",
+            "UDI-RSP-001",
+            "UDI-INT-003",
+            "UDI-SYS-001",
+            "UDI-NAV-005",
+            "UDI-RSP-003",
+            "PAT-MOBILE-NAV",
+            "UDI-ANT-009",
+            "UDI-ANTI-006",
+            "UDI-ZAB-057",
+            "UDI-DAT-004",
+            "PAT-RESPONSIVE-TABLE",
+            "UDI-ANT-001",
+            "UDI-ANTI-001",
+            "UDI-ZAC-057",
+            "PAT-VALIDATED-FORM",
+            "UDI-ANT-007",
+            "UDI-COL-002",
+            "UDI-DAT-003",
+            "UDI-ANTI-003",
+            "UDI-ZAD-057"
+          ],
+          "coverage": [
+            {
+              "requirement": "accessibility",
+              "status": "covered",
+              "entityIds": [
+                "UDI-ACC-002",
+                "UDI-ZAB-057",
+                "UDI-ZAC-057",
+                "UDI-ZAD-057"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "responsive",
+              "status": "covered",
+              "entityIds": [
+                "UDI-RSP-001",
+                "UDI-RSP-003",
+                "UDI-RSP-004"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "recovery",
+              "status": "covered",
+              "entityIds": [
+                "UDI-INT-003"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "brand-preservation",
+              "status": "covered",
+              "entityIds": [
+                "UDI-SYS-001"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "task:manage products table",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:edit product form",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:filter products",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "spec:CMP-FILTER-WORKSPACE",
+              "status": "covered",
+              "entityIds": [
+                "CMP-FILTER-WORKSPACE"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            },
+            {
+              "requirement": "spec:CMP-OPERATIONAL-TABLE",
+              "status": "covered",
+              "entityIds": [
+                "CMP-OPERATIONAL-TABLE"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            },
+            {
+              "requirement": "spec:CMP-RECOVERABLE-FORM",
+              "status": "covered",
+              "entityIds": [
+                "CMP-RECOVERABLE-FORM"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            },
+            {
+              "requirement": "spec:COM-OPERATIONAL-MANAGEMENT",
+              "status": "covered",
+              "entityIds": [
+                "COM-OPERATIONAL-MANAGEMENT"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "factor": 16,
+      "rules": 1280,
+      "totalLegacyEntities": 1313,
+      "timings": {
+        "2.0": {
+          "samplesMs": [
+            99.1722450000002,
+            95.36467399999947,
+            95.848387,
+            105.32311500000014,
+            97.2067479999996,
+            105.10163699999976,
+            93.36701400000038,
+            95.72504000000026,
+            94.03415800000039
+          ],
+          "medianMs": 95.848387,
+          "minMs": 93.36701400000038,
+          "maxMs": 105.32311500000014
+        },
+        "2.1": {
+          "samplesMs": [
+            260.71324400000003,
+            232.59862900000007,
+            227.3291820000004,
+            228.37966700000015,
+            230.45424099999946,
+            235.61934699999983,
+            228.58082999999988,
+            228.87278200000037,
+            226.25645600000007
+          ],
+          "medianMs": 228.87278200000037,
+          "minMs": 226.25645600000007,
+          "maxMs": 260.71324400000003
+        }
+      },
+      "phases": {
+        "legacyValidation": {
+          "samplesMs": [
+            8.330880999999863,
+            8.356336999999257,
+            7.921194999999898,
+            8.427644000000328,
+            8.352211999999781,
+            8.290741000000708,
+            8.341809999999896,
+            8.492838999999549,
+            8.051104000000123
+          ],
+          "medianMs": 8.341809999999896,
+          "minMs": 7.921194999999898,
+          "maxMs": 8.492838999999549
+        },
+        "componentValidation": {
+          "samplesMs": [
+            1.4555020000007062,
+            1.0989639999997962,
+            1.0402100000001155,
+            1.0027820000004795,
+            1.0005670000000464,
+            0.9876580000000104,
+            0.9862300000004325,
+            0.9962580000001253,
+            0.9921720000002097
+          ],
+          "medianMs": 1.0005670000000464,
+          "minMs": 0.9862300000004325,
+          "maxMs": 1.4555020000007062
+        },
+        "indexIncludingValidation": {
+          "samplesMs": [
+            39.96593099999973,
+            44.988112,
+            42.25564899999972,
+            55.09462100000019,
+            59.280963000000156,
+            63.99428199999966,
+            77.48005699999976,
+            54.39185300000008,
+            47.789215000000695
+          ],
+          "medianMs": 54.39185300000008,
+          "minMs": 39.96593099999973,
+          "maxMs": 77.48005699999976
+        }
+      },
+      "outputs": {
+        "2.0": {
+          "sha256": "f75ae3cd82f4b793502b226a32a63e38f55075bbb115f4b5bbc64c5628d20982",
+          "bytes": 24375,
+          "ids": [
+            "UDI-ACC-002",
+            "UDI-RSP-001",
+            "UDI-INT-003",
+            "UDI-SYS-001",
+            "UDI-NAV-005",
+            "UDI-RSP-003",
+            "PAT-MOBILE-NAV",
+            "UDI-ANT-009",
+            "UDI-RSP-004",
+            "UDI-ANTI-006",
+            "UDI-ZAB-057",
+            "UDI-DAT-001",
+            "UDI-DAT-004",
+            "PAT-RESPONSIVE-TABLE",
+            "UDI-ANT-001",
+            "UDI-FOR-001",
+            "UDI-ANTI-001",
+            "UDI-ZAC-057",
+            "UDI-FOR-002",
+            "UDI-FOR-004",
+            "PAT-VALIDATED-FORM",
+            "UDI-ANT-007",
+            "UDI-COL-002",
+            "UDI-DAT-003",
+            "UDI-ANTI-003",
+            "UDI-ZAD-057",
+            "UDI-SAA-002",
+            "UDI-SAA-004",
+            "UDI-VIS-003",
+            "PAT-DASHBOARD-EMPTY",
+            "UDI-ZAE-057",
+            "UDI-DAT-002",
+            "PAT-CHART-SUMMARY",
+            "UDI-ZAF-057",
+            "UDI-ZAG-057",
+            "UDI-ZAB-021",
+            "UDI-ZAB-046",
+            "UDI-ZAB-063",
+            "UDI-ZAB-066"
+          ],
+          "coverage": [
+            {
+              "requirement": "accessibility",
+              "status": "covered",
+              "entityIds": [
+                "UDI-ACC-002",
+                "UDI-ZAB-057",
+                "UDI-ZAC-057",
+                "UDI-ZAD-057",
+                "UDI-ZAE-057",
+                "UDI-ZAF-057",
+                "UDI-ZAG-057"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "responsive",
+              "status": "covered",
+              "entityIds": [
+                "UDI-RSP-001",
+                "UDI-RSP-003",
+                "UDI-RSP-004",
+                "UDI-ZAB-021"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "recovery",
+              "status": "covered",
+              "entityIds": [
+                "UDI-INT-003",
+                "UDI-ZAB-063"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "brand-preservation",
+              "status": "covered",
+              "entityIds": [
+                "UDI-SYS-001",
+                "UDI-ZAB-066"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "task:manage products table",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:edit product form",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:filter products",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            }
+          ]
+        },
+        "2.1": {
+          "sha256": "5d7919fae68301392f051508c9147725eef90eacf75971226f318a99e4192c0c",
+          "bytes": 23948,
+          "ids": [
+            "UDI-ACC-002",
+            "UDI-DAT-001",
+            "UDI-RSP-004",
+            "CMP-OPERATIONAL-TABLE",
+            "UDI-INT-001",
+            "CMP-FILTER-WORKSPACE",
+            "UDI-VIS-003",
+            "COM-OPERATIONAL-MANAGEMENT",
+            "UDI-FOR-001",
+            "UDI-FOR-002",
+            "UDI-FOR-004",
+            "CMP-RECOVERABLE-FORM",
+            "UDI-RSP-001",
+            "UDI-INT-003",
+            "UDI-SYS-001",
+            "UDI-NAV-005",
+            "UDI-RSP-003",
+            "PAT-MOBILE-NAV",
+            "UDI-ANT-009",
+            "UDI-ANTI-006",
+            "UDI-ZAB-057",
+            "UDI-DAT-004",
+            "PAT-RESPONSIVE-TABLE",
+            "UDI-ANT-001",
+            "UDI-ANTI-001",
+            "UDI-ZAC-057",
+            "PAT-VALIDATED-FORM",
+            "UDI-ANT-007",
+            "UDI-COL-002",
+            "UDI-DAT-003",
+            "UDI-ANTI-003",
+            "UDI-ZAD-057"
+          ],
+          "coverage": [
+            {
+              "requirement": "accessibility",
+              "status": "covered",
+              "entityIds": [
+                "UDI-ACC-002",
+                "UDI-ZAB-057",
+                "UDI-ZAC-057",
+                "UDI-ZAD-057"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "responsive",
+              "status": "covered",
+              "entityIds": [
+                "UDI-RSP-001",
+                "UDI-RSP-003",
+                "UDI-RSP-004"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "recovery",
+              "status": "covered",
+              "entityIds": [
+                "UDI-INT-003"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "brand-preservation",
+              "status": "covered",
+              "entityIds": [
+                "UDI-SYS-001"
+              ],
+              "reason": "Selected applicable guidance covers this general category; no domain completeness is implied."
+            },
+            {
+              "requirement": "task:manage products table",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:edit product form",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "task:filter products",
+              "status": "unsupported",
+              "entityIds": [],
+              "reason": "No reviewed task coverage policy; only general and lexical guidance is available."
+            },
+            {
+              "requirement": "spec:CMP-FILTER-WORKSPACE",
+              "status": "covered",
+              "entityIds": [
+                "CMP-FILTER-WORKSPACE"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            },
+            {
+              "requirement": "spec:CMP-OPERATIONAL-TABLE",
+              "status": "covered",
+              "entityIds": [
+                "CMP-OPERATIONAL-TABLE"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            },
+            {
+              "requirement": "spec:CMP-RECOVERABLE-FORM",
+              "status": "covered",
+              "entityIds": [
+                "CMP-RECOVERABLE-FORM"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            },
+            {
+              "requirement": "spec:COM-OPERATIONAL-MANAGEMENT",
+              "status": "covered",
+              "entityIds": [
+                "COM-OPERATIONAL-MANAGEMENT"
+              ],
+              "reason": "Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "cold": {
+    "2.0": {
+      "args": [
+        "packages/cli/dist/index.js",
+        "recommend",
+        "--schema-version",
+        "2.0",
+        "--context",
+        "<REPO>/tests/mission010/evidence/performance-context.json",
+        "--json"
+      ],
+      "stdoutSha256": "1761e0b75f515a5bd22713b5263b2c8b8c0b1b777efb944305132201d35995bc",
+      "timing": {
+        "samplesMs": [
+          227.65054299999974,
+          178.2597309999992,
+          181.0099590000009,
+          169.96353399999862,
+          171.17802400000073,
+          172.64456600000085,
+          168.02899199999956,
+          178.60437900000034,
+          175.40880099999958
+        ],
+        "medianMs": 175.40880099999958,
+        "minMs": 168.02899199999956,
+        "maxMs": 227.65054299999974
+      }
+    },
+    "2.1": {
+      "args": [
+        "packages/cli/dist/index.js",
+        "recommend",
+        "--schema-version",
+        "2.1",
+        "--context",
+        "<REPO>/tests/mission010/evidence/performance-context.json",
+        "--json"
+      ],
+      "stdoutSha256": "9875eed8c91beb84b27bf110781a1584b296f9bc5a7f11f5578e02cdd791d59c",
+      "timing": {
+        "samplesMs": [
+          292.44250999999986,
+          286.2905830000009,
+          244.15299500000037,
+          234.6327369999999,
+          249.43256699999984,
+          256.09662600000047,
+          245.3572839999997,
+          257.4318420000018,
+          252.36830399999963
+        ],
+        "medianMs": 252.36830399999963,
+        "minMs": 234.6327369999999,
+        "maxMs": 292.44250999999986
+      }
+    }
+  },
+  "bundleSha256": "06e367877971b34cc0b2c2613cd7e19ae8c2a41377bb26862ff1466688fb40f6"
+}

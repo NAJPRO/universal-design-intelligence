@@ -1,0 +1,234 @@
+{
+  "checks": [
+    {
+      "check": "frozen:fixture/app.js",
+      "passed": true
+    },
+    {
+      "check": "frozen:fixture/data.js",
+      "passed": true
+    },
+    {
+      "check": "frozen:fixture/index.html",
+      "passed": true
+    },
+    {
+      "check": "frozen:fixture/styles.css",
+      "passed": true
+    },
+    {
+      "check": "frozen:fixture/tokens.css",
+      "passed": true
+    },
+    {
+      "check": "frozen:protocol/legacy-skill/SKILL.md",
+      "passed": true
+    },
+    {
+      "check": "frozen:protocol/legacy-skill/references/design-quality.md",
+      "passed": true
+    },
+    {
+      "check": "frozen:protocol/legacy-skill/references/udi-cli.md",
+      "passed": true
+    },
+    {
+      "check": "frozen:protocol/rubric.json",
+      "passed": true
+    },
+    {
+      "check": "frozen:protocol/task.md",
+      "passed": true
+    },
+    {
+      "check": "frozen:protocol/enhanced-skill/SKILL.md",
+      "passed": true
+    },
+    {
+      "check": "frozen:protocol/enhanced-skill/references/udi-cli.md",
+      "passed": true
+    },
+    {
+      "check": "frozen:protocol/enhanced-skill/references/design-quality.md",
+      "passed": true
+    },
+    {
+      "check": "A:identical-start:index.html",
+      "passed": true
+    },
+    {
+      "check": "A:identical-start:app.js",
+      "passed": true
+    },
+    {
+      "check": "A:identical-start:styles.css",
+      "passed": true
+    },
+    {
+      "check": "A:identical-start:tokens.css",
+      "passed": true
+    },
+    {
+      "check": "A:identical-start:data.js",
+      "passed": true
+    },
+    {
+      "check": "A:preserved:tokens.css",
+      "passed": true
+    },
+    {
+      "check": "A:preserved:data.js",
+      "passed": true
+    },
+    {
+      "check": "B:identical-start:index.html",
+      "passed": true
+    },
+    {
+      "check": "B:identical-start:app.js",
+      "passed": true
+    },
+    {
+      "check": "B:identical-start:styles.css",
+      "passed": true
+    },
+    {
+      "check": "B:identical-start:tokens.css",
+      "passed": true
+    },
+    {
+      "check": "B:identical-start:data.js",
+      "passed": true
+    },
+    {
+      "check": "B:preserved:tokens.css",
+      "passed": true
+    },
+    {
+      "check": "B:preserved:data.js",
+      "passed": true
+    },
+    {
+      "check": "B:unchanged-skill:skill/SKILL.md",
+      "passed": true
+    },
+    {
+      "check": "B:unchanged-skill:skill/references/udi-cli.md",
+      "passed": true
+    },
+    {
+      "check": "B:unchanged-skill:skill/references/design-quality.md",
+      "passed": true
+    },
+    {
+      "check": "B:unchanged-skill:skill/scripts/udi.mjs",
+      "passed": true
+    },
+    {
+      "check": "C:identical-start:index.html",
+      "passed": true
+    },
+    {
+      "check": "C:identical-start:app.js",
+      "passed": true
+    },
+    {
+      "check": "C:identical-start:styles.css",
+      "passed": true
+    },
+    {
+      "check": "C:identical-start:tokens.css",
+      "passed": true
+    },
+    {
+      "check": "C:identical-start:data.js",
+      "passed": true
+    },
+    {
+      "check": "C:preserved:tokens.css",
+      "passed": true
+    },
+    {
+      "check": "C:preserved:data.js",
+      "passed": true
+    },
+    {
+      "check": "C:unchanged-skill:skill/SKILL.md",
+      "passed": true
+    },
+    {
+      "check": "C:unchanged-skill:skill/references/udi-cli.md",
+      "passed": true
+    },
+    {
+      "check": "C:unchanged-skill:skill/references/design-quality.md",
+      "passed": true
+    },
+    {
+      "check": "C:unchanged-skill:skill/scripts/udi.mjs",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "finalRunFiles": {
+    "runs/A/START.json": "6b4d94a87aa9a480f3e16af78c2f8adc635c22cfccc47fbd16fd2e101f3faeb1",
+    "runs/A/app.js": "aa4824158c8579ef6d2ec7e5e49230aaa3189d48312862a7454bce295f70ceb5",
+    "runs/A/check-results.json": "9815b8b6f4f6b9465657f9703702485ff5740370bc3ea64cd30fc74aefb9d711",
+    "runs/A/checks.mjs": "6ee12d48153b5b0da24c9724a048a7a8b7ecc7e2f42fa0b66ab12346544f4f2f",
+    "runs/A/data.js": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+    "runs/A/desktop.png": "07fd92eec45b9ce328e573d090098f3f719207556c7db984a7ff760e9d5c2802",
+    "runs/A/editor-desktop.png": "35117aa3379ca1d9d2eb37ec03357954dbed9f282f7041f93f99c99b2bb630bf",
+    "runs/A/editor-mobile-short.png": "a26bcd7db05935af9247934805aaae2bcdf55d689464982be36b9c7b5691ba89",
+    "runs/A/editor-mobile.png": "ae1758b5a82c0231f6f542005b4718774e4a6766979274420e02215eab32f3f8",
+    "runs/A/editor-tablet.png": "7e7c8153f50e76741d763211b74b7f53c04bc5d803b62cbb6ebf2f380861848c",
+    "runs/A/empty.png": "8bb46cfaefd737d0a552f3fb3dc0d6e850e0793d54efb51fe8607692461d4d9e",
+    "runs/A/error.png": "3b0a6754783fb920e6995ceeb7b206a203ceb227e37d99ec7e144cf1d24335b1",
+    "runs/A/evidence.json": "dcf0c1ebf87a91531ba2c428c8b48a09e3bb46bf032943a36a70f47457741b64",
+    "runs/A/index.html": "bf9a816015e0636d87d5a5436aa6ec275369c88f2db2a6072e9d440fc3d11686",
+    "runs/A/loading.png": "f6b4fc13ffe91de0651c51c2731692fffa9ce57a4cd27a8916956425f7a883ac",
+    "runs/A/mobile-errors.png": "1823e6369ecfd8f2b37c86874e5732568a1b53239ab3a5801c9f04a709e370ee",
+    "runs/A/mobile.png": "adb805eb96cf4eda65620a958cba66dfe6b6497a888191d0d7efe5567cf84aa3",
+    "runs/A/styles.css": "b9ff065d08fe1f4a32b7fd98f9916a7bc8537c60045e884690f00f47b4b12299",
+    "runs/A/tablet.png": "eb27f5c31c1396b3c864ab33657591707d501ae177cd039f4d824957e9962505",
+    "runs/A/tokens.css": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+    "runs/B/START.json": "2dffcaff3fbb81d2cd896484a4cfdb726f8613e35b40e7daf9dab2c4a84fa274",
+    "runs/B/app.js": "11c8181941456f2708f78a1125ba3e13df1089e0944ab94b12a9a017a01e72ea",
+    "runs/B/check.mjs": "2a9d02bca6183a14b82369f515a310457dad4f67a57427a1379cc5dce4dd0d9b",
+    "runs/B/checks.json": "a8062560c7c0dd57cc70671bc67748ecea0d6e6705f2d0cca9a98c19de0c494b",
+    "runs/B/chrome.log": "4def9d444363530f9c5fb2920b000ba4f269e9abcca46945d39834493cb9ddbc",
+    "runs/B/commands.jsonl": "03a710fb8bb853a5765c207e4f2bfc9a2ed359639be7d0ff9563ca0ac20da9f2",
+    "runs/B/data.js": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+    "runs/B/evidence.json": "48314a4fcce61e7d59a10b061d4556923b14d12302610c1d4b18ac28f1919fe7",
+    "runs/B/index.html": "cd277854fbcec7d212199e5d7858144f7e586e34ddb303c1ba3ca7f1a704ed48",
+    "runs/B/screenshot-1440.png": "547346f89b35a5b1bee13588bdcb63e5fd01e772f3cf0fa36af09001da9222af",
+    "runs/B/screenshot-375.png": "567c5bd98f8a0da55b5ec05bed462b766070d3009d72253bceea1e44f72aaac9",
+    "runs/B/screenshot-768.png": "394bf3491e6b08b61aa95bc1cbda5768a7c54d8814f15b6ccfa1376e024399d8",
+    "runs/B/screenshot-editor-375.png": "3f501ecc49444039d086b6b538f12374e25f608e0505dfaa62ea674ac1fb2154",
+    "runs/B/server.log": "a5ddcc5c68ae35909f3faa2164458e9ec2084199b81cfe2c0bf3188a2dac37cb",
+    "runs/B/skill/SKILL.md": "e23b956bbc47d6f114fe20f65e11b8e7094a282f62b2eea8efdd7ff083340b8f",
+    "runs/B/skill/references/design-quality.md": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9",
+    "runs/B/skill/references/udi-cli.md": "70f24372e3d3c5f7cb195c3bb803a4675eb62aeddc0b9a874a2383d42aa7e1bc",
+    "runs/B/skill/scripts/udi.mjs": "223ce98e4d101a0e9d1f6da2f680a402b087cc537e3a076df5ce4c56cc3f685a",
+    "runs/B/styles.css": "c68515aa63f6cfb04faa547c01640d0bf1b8d0d9ee0ac9b867cf9e2df4478731",
+    "runs/B/tokens.css": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+    "runs/C/START.json": "2503127b04b7ff817422cac827f0b3db62f534b9bdc4d8631eaa6c8c893b4dd6",
+    "runs/C/app.js": "5e7fa3d071e4084c75dfa57bd6a4eac870be8cabd9d228f6cbfec143ba85a998",
+    "runs/C/brief.json": "d71cfcdb0766784b81a76d45e66d5de850de7f3f8fe359cd8d9fd9ca1597fa1c",
+    "runs/C/commands.jsonl": "5253d6ed250f95fc71512cd752e713c32ab022a9a3cfb095a785ba59b1bd7802",
+    "runs/C/composition.json": "9651d4fde8570ad6f7dc89e984988188f12148f37600ac3140e0d97e52c9a905",
+    "runs/C/data.js": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+    "runs/C/evidence.json": "a26559cbd8798f8367ac70311a94aa2056d8b1cd383a08e774a26d999e16fc35",
+    "runs/C/filter-contract.json": "2599e097b54b00630410fc13a1c581392b0e327baefeecbbefe8b9f7a291ea2f",
+    "runs/C/form-contract.json": "4f245be4c3573a4de61fdd59f5d01dd1aa7fa29aff73c6aa847cebef07ccd761",
+    "runs/C/index.html": "cd277854fbcec7d212199e5d7858144f7e586e34ddb303c1ba3ca7f1a704ed48",
+    "runs/C/recommendation.json": "3a977fbea0566347e4ade92745a72688f9831546bbce10c39c81bde17b53c86c",
+    "runs/C/server.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs/C/skill/SKILL.md": "466502c742fae9560d248dd5392bd4f33289867f771c52d731471ec9949cb8ba",
+    "runs/C/skill/references/design-quality.md": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9",
+    "runs/C/skill/references/udi-cli.md": "aff77473643267a3096525891f28101bbe62813bdade0fa068cb5fee43e1c943",
+    "runs/C/skill/scripts/udi.mjs": "223ce98e4d101a0e9d1f6da2f680a402b087cc537e3a076df5ce4c56cc3f685a",
+    "runs/C/styles.css": "91521ef438191ea4a15fd8058ed3d535e8754acd9e3fc2b69969761bdc393c2d",
+    "runs/C/table-contract.json": "b157ce02688f9584a032bda132f1168a4ba4697714b0728a2fe99cc902a24e38",
+    "runs/C/tokens.css": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae"
+  }
+}

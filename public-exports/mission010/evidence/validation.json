@@ -1,0 +1,57 @@
+{
+  "dependencyInstall": {
+    "command": "pnpm install --offline --frozen-lockfile",
+    "result": "passed; lockfile unchanged"
+  },
+  "build": {
+    "command": "pnpm build",
+    "result": "passed"
+  },
+  "repositoryChecks": {
+    "command": "pnpm check",
+    "result": "passed",
+    "testFiles": 14,
+    "tests": 167,
+    "lint": "passed",
+    "typecheck": "passed"
+  },
+  "skillMetadata": {
+    "command": "python3 <HOME>/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/udi-design",
+    "result": "Skill is valid!"
+  },
+  "integrity": {
+    "command": "node tests/mission010/verify.mjs",
+    "checks": 42,
+    "result": "passed"
+  },
+  "browser": {
+    "commands": [
+      "node tests/mission010/capture.mjs",
+      "node tests/mission010/interactions.mjs",
+      "node tests/mission010/details.mjs"
+    ],
+    "primaryCaptures": 45,
+    "detailCaptures": 9,
+    "sharedChecks": {
+      "A": "27/27",
+      "B": "26/27",
+      "C": "26/27"
+    },
+    "interpretation": "B/C repeated-Tab assertion failed; follow-up observed BODY transition, not background control focus. No aesthetic/accessibility conformance claim."
+  },
+  "performance": {
+    "commands": [
+      "node tests/mission010/performance.mjs",
+      "node tests/mission010/trace.mjs"
+    ],
+    "result": "completed; deterministic repeated output hashes"
+  },
+  "toolingSmoke": {
+    "result": "Clean fixture copy, alternate run/evidence config, 375px browser rendering and launcher --version succeeded; temporary smoke copies removed"
+  },
+  "localLinks": "All relative links in changed docs/skill/README resolved",
+  "gitDiffWhitespace": {
+    "command": "git diff --check",
+    "result": "passed"
+  }
+}

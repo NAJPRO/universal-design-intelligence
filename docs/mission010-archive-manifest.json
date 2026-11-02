@@ -1,0 +1,1837 @@
+{
+  "schemaVersion": 1,
+  "scope": "Existing Mission 010 archive, audited 2026-11-02",
+  "policy": "174 original files are selected for owner staging. Eight raw originals are excluded from public Git and retained in a private archive outside the repository; public sanitized derivatives and provenance are under public-exports/mission010. Full historical verification requires restoration of all eight raw originals at exact recorded paths in a disposable copy. Historical hashes remain unchanged.",
+  "summary": {
+    "KEEP TRACKED": {
+      "files": 174,
+      "bytes": 8739094
+    },
+    "IGNORE / KEEP LOCAL": {
+      "files": 0,
+      "bytes": 0
+    },
+    "PRIVATE ARCHIVE / PUBLIC DERIVATIVE": {
+      "files": 8,
+      "bytes": 65893
+    },
+    "MANUAL REVIEW": {
+      "files": 0,
+      "bytes": 0
+    }
+  },
+  "files": [
+    {
+      "path": "tests/mission010/.gitignore",
+      "bytes": 11,
+      "sha256": "76ee7c1e213bbe5f2e47bb5ba161b810f7205372f4fe062cf39e8a1deb21e00f",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/README.md",
+      "bytes": 7175,
+      "sha256": "3014021cd0e07776e290e550ccda086daab735588d1f23edf97209d788352573",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/browser.mjs",
+      "bytes": 3411,
+      "sha256": "2a4c420a66b3b71d6046a280d0eab56494b91d69bfa634630a6e102ac9618954",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/capture.mjs",
+      "bytes": 2976,
+      "sha256": "92616698422b3f4450fb1ba1c5e22de3f961642cf892fb88ad23bba4bc01eea8",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/config.mjs",
+      "bytes": 483,
+      "sha256": "526f76fa04a283cf5724e1e2ea95e54e3a99e4ad686a3ae55da1b17f81a80792",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/details.mjs",
+      "bytes": 3373,
+      "sha256": "5bdf6b8a35d7e737a23868fb762654c89515cf9a925e2d939a37a8436a2e40c5",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/captures.json",
+      "bytes": 173247,
+      "sha256": "72725024c6a830db5e0f5e5474517988f54cecb996f3886cbc860c898196b021",
+      "classification": "KEEP TRACKED",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/details/A-collapsed-filters.png",
+      "bytes": 47038,
+      "sha256": "4f75c96e66ea840710d74a7c6a9a23c74f4824bc2f95e29c77f1106460d3a211",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/details/A-discard.png",
+      "bytes": 40110,
+      "sha256": "5f15203df4a883903e3777cd0daa0d1a3589def18a2e259a8654d9134763ed1d",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/details/A-invalid.png",
+      "bytes": 40110,
+      "sha256": "5f15203df4a883903e3777cd0daa0d1a3589def18a2e259a8654d9134763ed1d",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/details/B-collapsed-filters.png",
+      "bytes": 43997,
+      "sha256": "9fed79cd90e367a8797f624cea012fd2eb1d1b221c994733c413f7023e7538b1",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/details/B-discard.png",
+      "bytes": 44105,
+      "sha256": "c5037111811013b9ec71a5b21d27474bbc30e2cbbd5de2fa0a0dfe175b092fbf",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/details/B-invalid.png",
+      "bytes": 44105,
+      "sha256": "c5037111811013b9ec71a5b21d27474bbc30e2cbbd5de2fa0a0dfe175b092fbf",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/details/C-collapsed-filters.png",
+      "bytes": 53253,
+      "sha256": "08d5c16bc3c330b31fec3ffb217554a37d13935de9c7cbb1a9d93b8379041f54",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/details/C-discard.png",
+      "bytes": 75978,
+      "sha256": "a96f1ad5f1bc150e4bd8eb2cd922dda40caf8c875d9868e6641228ea4fceedba",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/details/C-invalid.png",
+      "bytes": 61925,
+      "sha256": "b8c55ef41d9b0b838406d93b562a88db4b2a4f8723427272e67accf0bc12607f",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/details.json",
+      "bytes": 10745,
+      "sha256": "e6503e8f8d53cff6d90ed1dfa110b8caca65786e5d95b9297ec50b49550db631",
+      "classification": "KEEP TRACKED",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/environment.json",
+      "bytes": 943,
+      "sha256": "6d69b957c20aaef5b03e33f245a7d7b0632a65d024a7ba48c4d45d37dd979928",
+      "classification": "KEEP TRACKED",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/evaluation.json",
+      "bytes": 4414,
+      "sha256": "04d54e3f04a24859056ebc62f80e6d88cbf4d7caf7e85e5099d129567e70a61c",
+      "classification": "KEEP TRACKED",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/frozen-inputs.json",
+      "bytes": 1336,
+      "sha256": "9e991fdfa8c4f4331da04b31b713697f0d34fd328ff425625e431bf1f41699f1",
+      "classification": "KEEP TRACKED",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/integrity.json",
+      "bytes": 9337,
+      "sha256": "b6106724751641984126a32ec742a9485b14ad0931299dbdd8ca4841329eb752",
+      "classification": "KEEP TRACKED",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/interactions.json",
+      "bytes": 11149,
+      "sha256": "6c0046e8e8782a439a85740ba131d235d5aa61b7d38dde48d641a38c46af6328",
+      "classification": "KEEP TRACKED",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/invocations.json",
+      "bytes": 2415,
+      "sha256": "84460535641f4c47c31508c74279c4b5065c192f63315155dc40be5baf2d29ff",
+      "classification": "KEEP TRACKED",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/performance-context.json",
+      "bytes": 457,
+      "sha256": "267e390a944724d116ca35ca2c7959d2c4f017db2c62485217ca06010099ef1e",
+      "classification": "KEEP TRACKED",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/performance.json",
+      "bytes": 35236,
+      "sha256": "c00fa2de89d11002ef4790b9e1a46c723116b00b97880fac9798aac22b0ceab9",
+      "classification": "PRIVATE ARCHIVE / PUBLIC DERIVATIVE",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [
+        "absolute-local-user-path"
+      ],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/B/0.txt",
+      "bytes": 3752,
+      "sha256": "d68619667f7c3f2a8f3b24acf8646ed590cc5b63e5f6d12c63d40a10977f05f1",
+      "classification": "KEEP TRACKED",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/B/1.txt",
+      "bytes": 8935,
+      "sha256": "d5000cfa192c82722338a1439c338dc99716f1c2ee02368c1537483d7cbc8c9e",
+      "classification": "KEEP TRACKED",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/B/index.json",
+      "bytes": 1812,
+      "sha256": "256c968ebd3b09eb510fcf4dff31f088df7e476e5a1f6efc08116d52b13b43cb",
+      "classification": "PRIVATE ARCHIVE / PUBLIC DERIVATIVE",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [
+        "absolute-local-user-path"
+      ],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/0.txt",
+      "bytes": 6,
+      "sha256": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+      "classification": "KEEP TRACKED",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/1.txt",
+      "bytes": 1949,
+      "sha256": "75d96b004946ea6c83cd414dab5ec918c4c2c892418b964aa2c5dec0e6e553df",
+      "classification": "KEEP TRACKED",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/2.txt",
+      "bytes": 825,
+      "sha256": "6dcfcd6c0bdb93929d7f9d465952b64e70ae7fa8ce1fcbf7c190e60eee70c4e5",
+      "classification": "KEEP TRACKED",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/3.txt",
+      "bytes": 24175,
+      "sha256": "3a977fbea0566347e4ade92745a72688f9831546bbce10c39c81bde17b53c86c",
+      "classification": "KEEP TRACKED",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/4.txt",
+      "bytes": 11798,
+      "sha256": "9651d4fde8570ad6f7dc89e984988188f12148f37600ac3140e0d97e52c9a905",
+      "classification": "KEEP TRACKED",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/5.txt",
+      "bytes": 13963,
+      "sha256": "b157ce02688f9584a032bda132f1168a4ba4697714b0728a2fe99cc902a24e38",
+      "classification": "KEEP TRACKED",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/6.txt",
+      "bytes": 13103,
+      "sha256": "2599e097b54b00630410fc13a1c581392b0e327baefeecbbefe8b9f7a291ea2f",
+      "classification": "KEEP TRACKED",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/7.txt",
+      "bytes": 13896,
+      "sha256": "4f245be4c3573a4de61fdd59f5d01dd1aa7fa29aff73c6aa847cebef07ccd761",
+      "classification": "KEEP TRACKED",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/retrieval/C/index.json",
+      "bytes": 4797,
+      "sha256": "1ba7446fa300a9e02c71ffdf9be8ef1187078000ab90cba7888aae79e0e5b324",
+      "classification": "PRIVATE ARCHIVE / PUBLIC DERIVATIVE",
+      "role": "archived-controller-retrieval-replay",
+      "privacy_findings": [
+        "absolute-local-user-path"
+      ],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/1440-edit.png",
+      "bytes": 276005,
+      "sha256": "046ca5e8ac7982c288c381a7bcdc911f62c32b71c9e7d2fd057a3f687fde0147",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/1440-empty.png",
+      "bytes": 137639,
+      "sha256": "092f0d86bb2bb3fd8e42a0c5097d34986f97e1ab5c3c4cbc5d08e952abe96f3b",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/1440-error.png",
+      "bytes": 143884,
+      "sha256": "467dbf7e56b4ccc7300279c1ea12af59b0b697806dfcfb597c4b064efb2ed586",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/1440-loading.png",
+      "bytes": 134527,
+      "sha256": "8f8dc217d970be3f0247a454178c7728c5448dc282004c52454768bb48f99b98",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/1440-populated.png",
+      "bytes": 244430,
+      "sha256": "16b400169bd1fddff1d6a8dfe145e7d3ae06309dc07c248afaaa7a36dcd2441b",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-collapsed-filters.png",
+      "bytes": 148845,
+      "sha256": "04229e6c85adfcae8ad6ac21edd7a2a268fc8b61830185f6eb29e6ed67b5215c",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-discard.png",
+      "bytes": 176803,
+      "sha256": "b3434938b036288c5851150ab186101a8c674267f8a45fb39d1b522dd5835f9b",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-edit.png",
+      "bytes": 153520,
+      "sha256": "3d5db37177c9c08bf20cf196209290c24a021910642edc7ca3b379cc09fc5a78",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-empty.png",
+      "bytes": 146140,
+      "sha256": "4150fbae85d0550d74fa6db09c8a9cc798cacddf5470adc54e407112225d3c71",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-error.png",
+      "bytes": 147937,
+      "sha256": "20cdf94f60c9968f2c1dca3ed3720bca64f59d589cb4a75387f91f6f018e32e8",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-invalid.png",
+      "bytes": 160606,
+      "sha256": "2f74cb5509ff4a39724b13304773f37127f386f8adc303ad71cd2719248959a4",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-loading.png",
+      "bytes": 144208,
+      "sha256": "cd70dfe6be6082e949fff0bb7124459666e4f02d3be93c9a3e9226582a22465f",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/375-populated.png",
+      "bytes": 172681,
+      "sha256": "8d47f9df58c89e6877dcc21b2828ad4ad8f8b87d31a0971bc8cf871a31a0b596",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/768-edit.png",
+      "bytes": 342407,
+      "sha256": "b3fe141acf31c796f797f18d6693e26c5ceb0ecc1d46a9358609c639d113eea3",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/768-empty.png",
+      "bytes": 215395,
+      "sha256": "681af9dff8fc42c23cbe4bb541152fbe4f3a34e665f3986c65bc881f66012d21",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/768-error.png",
+      "bytes": 227569,
+      "sha256": "b74633054449d76e2855fb02c3b680048b8fa147d4c2f46efe2a2f49156958ed",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/768-loading.png",
+      "bytes": 210909,
+      "sha256": "748545a9da32480abfaf53a01e3dfa2f7cb448c1c2a44ec122cfdd13ffefc901",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/review/768-populated.png",
+      "bytes": 314382,
+      "sha256": "54416edd586bff5444b880a3b2ed609657447dae5a27824ab137bcae31b2bfc6",
+      "classification": "KEEP TRACKED",
+      "role": "derived-historical-review-aid",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/1440-edit.png",
+      "bytes": 174372,
+      "sha256": "0f350103937b5b9d775b764c96df7ba848e5ee93df0a0d11b79fb8a8bfc1c1d6",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/1440-empty.png",
+      "bytes": 67431,
+      "sha256": "8bb46cfaefd737d0a552f3fb3dc0d6e850e0793d54efb51fe8607692461d4d9e",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/1440-error.png",
+      "bytes": 67721,
+      "sha256": "3b0a6754783fb920e6995ceeb7b206a203ceb227e37d99ec7e144cf1d24335b1",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/1440-loading.png",
+      "bytes": 65069,
+      "sha256": "3f5b7df836f384cdb662ed13608533299a9fd3d39830cd31b8cadc1f1d752ff2",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/1440-populated.png",
+      "bytes": 115845,
+      "sha256": "07fd92eec45b9ce328e573d090098f3f719207556c7db984a7ff760e9d5c2802",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/375-edit.png",
+      "bytes": 36637,
+      "sha256": "3833c6362a7cbfd2b38d8187f93ac47b6b49cfaaf2edf2b8b0ddffea5720cb59",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/375-empty.png",
+      "bytes": 46199,
+      "sha256": "244ee5d9c485e6fb8363cfeec1f78fb2c5c6083c11c6608f60d6fb7aa15d7e7a",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/375-error.png",
+      "bytes": 47103,
+      "sha256": "c8a274609f5e3fa8077e6e9b9e3670bc68f6f369977e6d6fda79b62335480dc1",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/375-loading.png",
+      "bytes": 44972,
+      "sha256": "54fbcee19d40585172bf17ff8a1d32ce0a454b4393b810e1f032ce8d2f3a7178",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/375-populated.png",
+      "bytes": 54160,
+      "sha256": "adb805eb96cf4eda65620a958cba66dfe6b6497a888191d0d7efe5567cf84aa3",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/768-edit.png",
+      "bytes": 128080,
+      "sha256": "4e6ef59e66c5661bafb202cbf168626d644a2d87b0b30cd69436768c06300664",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/768-empty.png",
+      "bytes": 54931,
+      "sha256": "d4fcac4e09ecd768b96edc1d79ce9ba240b7d21bcda5d7d32c3e0978fda7e89f",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/768-error.png",
+      "bytes": 55473,
+      "sha256": "7c67180b5dde99579382b1d9f48cf84ee13ce750a77c122bd9cf5b7ba0f511d0",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/768-loading.png",
+      "bytes": 52775,
+      "sha256": "85b461de3acc337a291b665354a5cdaa14875d0691a70d0908415bbe19211dff",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/A/768-populated.png",
+      "bytes": 81754,
+      "sha256": "eb27f5c31c1396b3c864ab33657591707d501ae177cd039f4d824957e9962505",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/1440-edit.png",
+      "bytes": 116044,
+      "sha256": "34f1bab2997f1e542b427ef8fa747a4be5fb94bbf5093e228c4f40c462d44ac9",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/1440-empty.png",
+      "bytes": 52875,
+      "sha256": "8169ad160914442af3f6c84ec05967b981a47d0fb730cf8c162e6eff86d252c1",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/1440-error.png",
+      "bytes": 55969,
+      "sha256": "3b1655cfa4baa00ed8d3c1efc694a85d69b98a9d57599cae65f393d2f5ee2e38",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/1440-loading.png",
+      "bytes": 53559,
+      "sha256": "a5068dd307a05b74364e01d6de8ac951d42126ac993385f05ba686160c86c31f",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/1440-populated.png",
+      "bytes": 104734,
+      "sha256": "547346f89b35a5b1bee13588bdcb63e5fd01e772f3cf0fa36af09001da9222af",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/375-edit.png",
+      "bytes": 38924,
+      "sha256": "97230fbe46c3afadb69e13736570538a4f394ad39b19877ae8a976cf4ca79387",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/375-empty.png",
+      "bytes": 41800,
+      "sha256": "f3da9a247108bc6545627531a1a225580ecf86f361087d31f43f59fce178d04f",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/375-error.png",
+      "bytes": 45857,
+      "sha256": "1091088039e28e327fe956eb8468c591343dad8ceb70f5fa1460fdeebbb1a2b9",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/375-loading.png",
+      "bytes": 42442,
+      "sha256": "deb57e3a84727693e5351ee065872da9350adc95429e4af4c3745a08fe1a4fe4",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/375-populated.png",
+      "bytes": 50036,
+      "sha256": "567c5bd98f8a0da55b5ec05bed462b766070d3009d72253bceea1e44f72aaac9",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/768-edit.png",
+      "bytes": 85902,
+      "sha256": "ad3cd095943362e6439a495945d72dad183eec1372465c6f6f6b98d8475fed31",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/768-empty.png",
+      "bytes": 46683,
+      "sha256": "1e2389567a247b9a6590ad0c80c188ea1b6e5f623bf3614d81be028a675bbdeb",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/768-error.png",
+      "bytes": 49873,
+      "sha256": "abd42db33ec1f27be6d431409230dd6a40718daa184cf6ec56a8188a5b12d0e3",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/768-loading.png",
+      "bytes": 47434,
+      "sha256": "6cab987485d3ade0d27dd6ea2e69f9684b066ad01edfc6864dccc0cb4fbe7343",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/B/768-populated.png",
+      "bytes": 71585,
+      "sha256": "394bf3491e6b08b61aa95bc1cbda5768a7c54d8814f15b6ccfa1376e024399d8",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/1440-edit.png",
+      "bytes": 146606,
+      "sha256": "ab3c4da6366975b743beecccfa40dee83e2685910903aa909450d26173c4308a",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/1440-empty.png",
+      "bytes": 67408,
+      "sha256": "77858ebe4cd0941bf4aac45817985e656de76b7188671c7199d72dff585abfa2",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/1440-error.png",
+      "bytes": 69303,
+      "sha256": "5b44232aca6d3b5697bbf239483697f0016c6314d773ff7cdf07c840abfd5b48",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/1440-loading.png",
+      "bytes": 65722,
+      "sha256": "721cb1c3a487fb512e7869d1c0101dcb56e9285f8bbd1d61608350a9da110633",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/1440-populated.png",
+      "bytes": 114685,
+      "sha256": "a6f05df71283b43d9576dda0eff253737d346f58bb28a78f45fb55f28604a332",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/375-edit.png",
+      "bytes": 65143,
+      "sha256": "54dcb16f118485496df0ec3662f53695b41ac5769a303257287e7fc59fbb5b41",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/375-empty.png",
+      "bytes": 51816,
+      "sha256": "9824d9353c00203378b5b5b5a7ec876cfdb988de99b59c869ab39ef37fb1c082",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/375-error.png",
+      "bytes": 48897,
+      "sha256": "d3e14d9af25cfbd3ba8ce936ad6b3b9619bb21b2ab41c2ca53f905bb41ef1b7e",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/375-loading.png",
+      "bytes": 51492,
+      "sha256": "38bea0a321fce0d34e4d35d1db6351092b6ca1ac22db5f344a702d70a4257164",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/375-populated.png",
+      "bytes": 55947,
+      "sha256": "111256e4fc7d03fa664fe4b18a95b7ec5101533c853b0233ecee74e5fc6c0214",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/768-edit.png",
+      "bytes": 89662,
+      "sha256": "e591b04024bfa4db97277f8dc6f52298fb6e9cca493f894ab53fb6b883a3bb54",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/768-empty.png",
+      "bytes": 61294,
+      "sha256": "7be5aeedd019839800dc13f2253284c06d44c766e569bcb3790e04d40782031f",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/768-error.png",
+      "bytes": 63847,
+      "sha256": "ea626a737b8dc9ef9a0cb3bb73d048b7e4c1364c61c96c25e0503deeac8474ce",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/768-loading.png",
+      "bytes": 60049,
+      "sha256": "1fccbff0d3a2bad5aa0a37d142470a47c784011f0cbd9ca53df875116f56264f",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/screenshots/C/768-populated.png",
+      "bytes": 83351,
+      "sha256": "3ed90c74d1b94c3b254f6dc2990b37ddc7755fd0ed0a63303f49654aac24cd06",
+      "classification": "KEEP TRACKED",
+      "role": "original-controller-visual-evidence",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/validation-trace.json",
+      "bytes": 915,
+      "sha256": "23d9bc90159793e2cba971c978d86c39914a6fe72b5846d53dc729a2b3586f3f",
+      "classification": "KEEP TRACKED",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/evidence/validation.json",
+      "bytes": 1698,
+      "sha256": "31b5ba61d346711a8276dd3d569d03cfa451a377688f9ab427ec7b249cba9435",
+      "classification": "PRIVATE ARCHIVE / PUBLIC DERIVATIVE",
+      "role": "historical-measurement-metadata-or-integrity",
+      "privacy_findings": [
+        "absolute-local-user-path"
+      ],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/fixture/app.js",
+      "bytes": 218,
+      "sha256": "033d4e7113e398ec121decfd0705a8a13ba7a0cd8a7e1bbcd9e35c631d7bcb69",
+      "classification": "KEEP TRACKED",
+      "role": "original-application-fixture",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/fixture/data.js",
+      "bytes": 1641,
+      "sha256": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+      "classification": "KEEP TRACKED",
+      "role": "original-application-fixture",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/fixture/index.html",
+      "bytes": 346,
+      "sha256": "cd277854fbcec7d212199e5d7858144f7e586e34ddb303c1ba3ca7f1a704ed48",
+      "classification": "KEEP TRACKED",
+      "role": "original-application-fixture",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/fixture/styles.css",
+      "bytes": 59,
+      "sha256": "86ff818391dffcbf4d1fa9fcbd909f376d34214b65d7a3b4d22cfc7ecf52fe8d",
+      "classification": "KEEP TRACKED",
+      "role": "original-application-fixture",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/fixture/tokens.css",
+      "bytes": 249,
+      "sha256": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+      "classification": "KEEP TRACKED",
+      "role": "original-application-fixture",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/interactions.mjs",
+      "bytes": 9592,
+      "sha256": "df71243eb99913f6966ea37340e0d5040ad4a6be2e53d46ad2c4922d3bf4c284",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/performance.mjs",
+      "bytes": 4741,
+      "sha256": "40537becc7025ef7229e98ad3dfdaf38357d86318ed5486c40efff86e8c46cd8",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/prepare.py",
+      "bytes": 1621,
+      "sha256": "a4637ed60c8546ea0e035186df68537371172f5b40d3c7cdd261601cff1fa47a",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/protocol/enhanced-skill/SKILL.md",
+      "bytes": 2805,
+      "sha256": "466502c742fae9560d248dd5392bd4f33289867f771c52d731471ec9949cb8ba",
+      "classification": "KEEP TRACKED",
+      "role": "frozen-task-rubric-or-skill-snapshot",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/protocol/enhanced-skill/references/design-quality.md",
+      "bytes": 1510,
+      "sha256": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9",
+      "classification": "KEEP TRACKED",
+      "role": "frozen-task-rubric-or-skill-snapshot",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/protocol/enhanced-skill/references/udi-cli.md",
+      "bytes": 4140,
+      "sha256": "aff77473643267a3096525891f28101bbe62813bdade0fa068cb5fee43e1c943",
+      "classification": "KEEP TRACKED",
+      "role": "frozen-task-rubric-or-skill-snapshot",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/protocol/legacy-skill/SKILL.md",
+      "bytes": 2094,
+      "sha256": "e23b956bbc47d6f114fe20f65e11b8e7094a282f62b2eea8efdd7ff083340b8f",
+      "classification": "KEEP TRACKED",
+      "role": "frozen-task-rubric-or-skill-snapshot",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/protocol/legacy-skill/references/design-quality.md",
+      "bytes": 1510,
+      "sha256": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9",
+      "classification": "KEEP TRACKED",
+      "role": "frozen-task-rubric-or-skill-snapshot",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/protocol/legacy-skill/references/udi-cli.md",
+      "bytes": 1623,
+      "sha256": "70f24372e3d3c5f7cb195c3bb803a4675eb62aeddc0b9a874a2383d42aa7e1bc",
+      "classification": "KEEP TRACKED",
+      "role": "frozen-task-rubric-or-skill-snapshot",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/protocol/rubric.json",
+      "bytes": 1714,
+      "sha256": "9fd09c9937b3a4ff5c5b65bc6683b86140e3e8471e49ec02caa0d58a165ca219",
+      "classification": "KEEP TRACKED",
+      "role": "frozen-task-rubric-or-skill-snapshot",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/protocol/task.md",
+      "bytes": 2899,
+      "sha256": "407e4abfb376f9fa8b8d53646e4137f5e72d9de17f8d32add1a9354d7df87df6",
+      "classification": "KEEP TRACKED",
+      "role": "frozen-task-rubric-or-skill-snapshot",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/frozen-inputs.json"
+      ]
+    },
+    {
+      "path": "tests/mission010/replay-retrieval.mjs",
+      "bytes": 1605,
+      "sha256": "ed5acd3f6f918748e7daa06faa1ed207d5a7f5d5eb4bc042119d4469b1f463f3",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/review-sheets.py",
+      "bytes": 1238,
+      "sha256": "ba8ac654f2cd1896dfc8ae702fafcb67581e0876dd0c110d8d63428a413d0c64",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/runs/A/START.json",
+      "bytes": 416,
+      "sha256": "6b4d94a87aa9a480f3e16af78c2f8adc635c22cfccc47fbd16fd2e101f3faeb1",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/app.js",
+      "bytes": 13930,
+      "sha256": "aa4824158c8579ef6d2ec7e5e49230aaa3189d48312862a7454bce295f70ceb5",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/check-results.json",
+      "bytes": 3123,
+      "sha256": "9815b8b6f4f6b9465657f9703702485ff5740370bc3ea64cd30fc74aefb9d711",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/checks.mjs",
+      "bytes": 12687,
+      "sha256": "6ee12d48153b5b0da24c9724a048a7a8b7ecc7e2f42fa0b66ab12346544f4f2f",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/data.js",
+      "bytes": 1641,
+      "sha256": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/desktop.png",
+      "bytes": 115845,
+      "sha256": "07fd92eec45b9ce328e573d090098f3f719207556c7db984a7ff760e9d5c2802",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/editor-desktop.png",
+      "bytes": 175378,
+      "sha256": "35117aa3379ca1d9d2eb37ec03357954dbed9f282f7041f93f99c99b2bb630bf",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/editor-mobile-short.png",
+      "bytes": 32223,
+      "sha256": "a26bcd7db05935af9247934805aaae2bcdf55d689464982be36b9c7b5691ba89",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/editor-mobile.png",
+      "bytes": 37603,
+      "sha256": "ae1758b5a82c0231f6f542005b4718774e4a6766979274420e02215eab32f3f8",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/editor-tablet.png",
+      "bytes": 129052,
+      "sha256": "7e7c8153f50e76741d763211b74b7f53c04bc5d803b62cbb6ebf2f380861848c",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/empty.png",
+      "bytes": 67431,
+      "sha256": "8bb46cfaefd737d0a552f3fb3dc0d6e850e0793d54efb51fe8607692461d4d9e",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/error.png",
+      "bytes": 67721,
+      "sha256": "3b0a6754783fb920e6995ceeb7b206a203ceb227e37d99ec7e144cf1d24335b1",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/evidence.json",
+      "bytes": 7086,
+      "sha256": "dcf0c1ebf87a91531ba2c428c8b48a09e3bb46bf032943a36a70f47457741b64",
+      "classification": "PRIVATE ARCHIVE / PUBLIC DERIVATIVE",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [
+        "absolute-local-user-path"
+      ],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/index.html",
+      "bytes": 392,
+      "sha256": "bf9a816015e0636d87d5a5436aa6ec275369c88f2db2a6072e9d440fc3d11686",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/loading.png",
+      "bytes": 65176,
+      "sha256": "f6b4fc13ffe91de0651c51c2731692fffa9ce57a4cd27a8916956425f7a883ac",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/mobile-errors.png",
+      "bytes": 40069,
+      "sha256": "1823e6369ecfd8f2b37c86874e5732568a1b53239ab3a5801c9f04a709e370ee",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/mobile.png",
+      "bytes": 54160,
+      "sha256": "adb805eb96cf4eda65620a958cba66dfe6b6497a888191d0d7efe5567cf84aa3",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/styles.css",
+      "bytes": 12886,
+      "sha256": "b9ff065d08fe1f4a32b7fd98f9916a7bc8537c60045e884690f00f47b4b12299",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/tablet.png",
+      "bytes": 81754,
+      "sha256": "eb27f5c31c1396b3c864ab33657591707d501ae177cd039f4d824957e9962505",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/A/tokens.css",
+      "bytes": 249,
+      "sha256": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/START.json",
+      "bytes": 808,
+      "sha256": "2dffcaff3fbb81d2cd896484a4cfdb726f8613e35b40e7daf9dab2c4a84fa274",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/app.js",
+      "bytes": 12459,
+      "sha256": "11c8181941456f2708f78a1125ba3e13df1089e0944ab94b12a9a017a01e72ea",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/check.mjs",
+      "bytes": 6727,
+      "sha256": "2a9d02bca6183a14b82369f515a310457dad4f67a57427a1379cc5dce4dd0d9b",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/checks.json",
+      "bytes": 1812,
+      "sha256": "a8062560c7c0dd57cc70671bc67748ecea0d6e6705f2d0cca9a98c19de0c494b",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/chrome.log",
+      "bytes": 1068,
+      "sha256": "4def9d444363530f9c5fb2920b000ba4f269e9abcca46945d39834493cb9ddbc",
+      "classification": "PRIVATE ARCHIVE / PUBLIC DERIVATIVE",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [
+        "session-local-browser-endpoint"
+      ],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/commands.jsonl",
+      "bytes": 311,
+      "sha256": "03a710fb8bb853a5765c207e4f2bfc9a2ed359639be7d0ff9563ca0ac20da9f2",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/data.js",
+      "bytes": 1641,
+      "sha256": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/evidence.json",
+      "bytes": 6710,
+      "sha256": "48314a4fcce61e7d59a10b061d4556923b14d12302610c1d4b18ac28f1919fe7",
+      "classification": "PRIVATE ARCHIVE / PUBLIC DERIVATIVE",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [
+        "absolute-local-user-path"
+      ],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/index.html",
+      "bytes": 346,
+      "sha256": "cd277854fbcec7d212199e5d7858144f7e586e34ddb303c1ba3ca7f1a704ed48",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/screenshot-1440.png",
+      "bytes": 104734,
+      "sha256": "547346f89b35a5b1bee13588bdcb63e5fd01e772f3cf0fa36af09001da9222af",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/screenshot-375.png",
+      "bytes": 50036,
+      "sha256": "567c5bd98f8a0da55b5ec05bed462b766070d3009d72253bceea1e44f72aaac9",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/screenshot-768.png",
+      "bytes": 71585,
+      "sha256": "394bf3491e6b08b61aa95bc1cbda5768a7c54d8814f15b6ccfa1376e024399d8",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/screenshot-editor-375.png",
+      "bytes": 39951,
+      "sha256": "3f501ecc49444039d086b6b538f12374e25f608e0505dfaa62ea674ac1fb2154",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/server.log",
+      "bytes": 938,
+      "sha256": "a5ddcc5c68ae35909f3faa2164458e9ec2084199b81cfe2c0bf3188a2dac37cb",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/skill/SKILL.md",
+      "bytes": 2094,
+      "sha256": "e23b956bbc47d6f114fe20f65e11b8e7094a282f62b2eea8efdd7ff083340b8f",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/skill/references/design-quality.md",
+      "bytes": 1510,
+      "sha256": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/skill/references/udi-cli.md",
+      "bytes": 1623,
+      "sha256": "70f24372e3d3c5f7cb195c3bb803a4675eb62aeddc0b9a874a2383d42aa7e1bc",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/skill/scripts/udi.mjs",
+      "bytes": 420,
+      "sha256": "223ce98e4d101a0e9d1f6da2f680a402b087cc537e3a076df5ce4c56cc3f685a",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/styles.css",
+      "bytes": 9073,
+      "sha256": "c68515aa63f6cfb04faa547c01640d0bf1b8d0d9ee0ac9b867cf9e2df4478731",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/B/tokens.css",
+      "bytes": 249,
+      "sha256": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/START.json",
+      "bytes": 808,
+      "sha256": "2503127b04b7ff817422cac827f0b3db62f534b9bdc4d8631eaa6c8c893b4dd6",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/app.js",
+      "bytes": 12800,
+      "sha256": "5e7fa3d071e4084c75dfa57bd6a4eac870be8cabd9d228f6cbfec143ba85a998",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/brief.json",
+      "bytes": 530,
+      "sha256": "d71cfcdb0766784b81a76d45e66d5de850de7f3f8fe359cd8d9fd9ca1597fa1c",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/commands.jsonl",
+      "bytes": 648,
+      "sha256": "5253d6ed250f95fc71512cd752e713c32ab022a9a3cfb095a785ba59b1bd7802",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/composition.json",
+      "bytes": 11798,
+      "sha256": "9651d4fde8570ad6f7dc89e984988188f12148f37600ac3140e0d97e52c9a905",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/data.js",
+      "bytes": 1641,
+      "sha256": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/evidence.json",
+      "bytes": 7486,
+      "sha256": "a26559cbd8798f8367ac70311a94aa2056d8b1cd383a08e774a26d999e16fc35",
+      "classification": "PRIVATE ARCHIVE / PUBLIC DERIVATIVE",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [
+        "absolute-local-user-path"
+      ],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/filter-contract.json",
+      "bytes": 13103,
+      "sha256": "2599e097b54b00630410fc13a1c581392b0e327baefeecbbefe8b9f7a291ea2f",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/form-contract.json",
+      "bytes": 13896,
+      "sha256": "4f245be4c3573a4de61fdd59f5d01dd1aa7fa29aff73c6aa847cebef07ccd761",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/index.html",
+      "bytes": 346,
+      "sha256": "cd277854fbcec7d212199e5d7858144f7e586e34ddb303c1ba3ca7f1a704ed48",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/recommendation.json",
+      "bytes": 24175,
+      "sha256": "3a977fbea0566347e4ade92745a72688f9831546bbce10c39c81bde17b53c86c",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/server.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/skill/SKILL.md",
+      "bytes": 2805,
+      "sha256": "466502c742fae9560d248dd5392bd4f33289867f771c52d731471ec9949cb8ba",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/skill/references/design-quality.md",
+      "bytes": 1510,
+      "sha256": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/skill/references/udi-cli.md",
+      "bytes": 4140,
+      "sha256": "aff77473643267a3096525891f28101bbe62813bdade0fa068cb5fee43e1c943",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/skill/scripts/udi.mjs",
+      "bytes": 420,
+      "sha256": "223ce98e4d101a0e9d1f6da2f680a402b087cc537e3a076df5ce4c56cc3f685a",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/styles.css",
+      "bytes": 9517,
+      "sha256": "91521ef438191ea4a15fd8058ed3d535e8754acd9e3fc2b69969761bdc393c2d",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/table-contract.json",
+      "bytes": 13963,
+      "sha256": "b157ce02688f9584a032bda132f1168a4ba4697714b0728a2fe99cc902a24e38",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/runs/C/tokens.css",
+      "bytes": 249,
+      "sha256": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+      "classification": "KEEP TRACKED",
+      "role": "historical-agent-submission-and-self-review",
+      "privacy_findings": [],
+      "local_inventories": [
+        "tests/mission010/evidence/integrity.json#finalRunFiles"
+      ]
+    },
+    {
+      "path": "tests/mission010/trace-loader.mjs",
+      "bytes": 824,
+      "sha256": "068bbabf9ea9f50d7f4731d1493c28db05ae700d9e2edfe5b1a70c2eda50d737",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/trace.mjs",
+      "bytes": 1569,
+      "sha256": "cb66c2f4b03355af90fd2974f6f91ee33b92361f78ac9cd7c937ab14dd24b9f6",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    },
+    {
+      "path": "tests/mission010/verify.mjs",
+      "bytes": 1936,
+      "sha256": "9f3c23ca749c2d422247f5e7f514d512a91102368e5172b99bb52bd771b1e7ee",
+      "classification": "KEEP TRACKED",
+      "role": "reproduction-harness-and-documentation",
+      "privacy_findings": [],
+      "local_inventories": []
+    }
+  ],
+  "full_tree_inventories": [
+    "benchmarks/mission011/evidence/mission010-before.json",
+    "benchmarks/mission012/evidence/prior-missions.json",
+    "benchmarks/mission012-pilot/evidence/prior-missions.json"
+  ],
+  "provenance": "Every file exactly matches all three full-tree inventories. Local manifest references are listed separately where applicable.",
+  "privateArchive": {
+    "archiveFile": "mission010-originals.tar",
+    "archiveSha256": "eb442478a2babe1efd636b85d7a58bbc7e6fbb864d4b9b411a84acda77a1d2d0",
+    "rawFiles": 8,
+    "rawBytes": 65893,
+    "publicProvenance": "public-exports/mission010/provenance.json",
+    "backupStatus": "Local archive verified. Independent cloud/external-disk backups are not configured or verified; owner requested the simplest local setup."
+  }
+}

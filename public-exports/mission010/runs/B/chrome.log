@@ -1,0 +1,9 @@
+
+DevTools listening on <LOCAL_BROWSER_DEBUG_ENDPOINT>
+Warning: maxDynamicUniformBuffersPerPipelineLayout artificially reduced from 500000 to 16 to fit dynamic offset allocation limit.
+Warning: maxDynamicStorageBuffersPerPipelineLayout artificially reduced from 500000 to 16 to fit dynamic offset allocation limit.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793353842.794694  476792 environment.cc:526] Selected adapter: AMD Radeon 550X Series (RADV POLARIS12), arch=gcn-4, vendor=amd, backend=Vulkan, adapterType=Discrete GPU
+Warning: maxDynamicUniformBuffersPerPipelineLayout artificially reduced from 500000 to 16 to fit dynamic offset allocation limit.
+Warning: maxDynamicStorageBuffersPerPipelineLayout artificially reduced from 500000 to 16 to fit dynamic offset allocation limit.
+I0000 00:00:1793353842.831271  476886 environment.cc:526] Selected adapter: AMD Radeon 550X Series (RADV POLARIS12), arch=gcn-4, vendor=amd, backend=Vulkan, adapterType=Discrete GPU

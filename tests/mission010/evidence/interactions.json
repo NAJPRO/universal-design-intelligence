@@ -1,0 +1,422 @@
+{
+  "note": "Same task assertions per arm, controller-authored after implementation freeze. Selector adapter only accounts for differing DOM IDs. Programmatic input/click tests plus real CDP keyboard events. No automated aesthetic/conformance claim.",
+  "arms": {
+    "A": {
+      "checks": [
+        {
+          "name": "12 semantic rows and seven column headers",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Long product names preserved",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Read-only rows explain restrictions and have no edit action",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Case-insensitive SKU search",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Case-insensitive name search",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Status/category/low-stock filters combine",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Expanded advanced filters visible",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "No-match recovery visible",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Clear restores 12 rows and filter defaults",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Editable product opens and focuses editor",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Invalid save retains values and describes field errors",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Unsaved warning shown before discard",
+          "passed": true
+        },
+        {
+          "name": "Declining discard retains draft",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Accepting discard closes editor without updating product",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Save updates all five fields and acknowledges",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Save restores focus to edited product",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Fractional stock rejected",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Tab stays in editor with visible focus",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Repeated Tab remains in modal",
+          "passed": true
+        },
+        {
+          "name": "Escape closes clean editor",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Read-only product cannot open through URL",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Error state exposes Retry",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Retry restores collection",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Empty state has no product rows",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Loading state exposed with status/busy indication",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Mobile table supports keyboard horizontal scrolling",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Editor submit action reachable at 375 by 667",
+          "passed": true,
+          "observed": true
+        }
+      ],
+      "passed": 27,
+      "total": 27
+    },
+    "B": {
+      "checks": [
+        {
+          "name": "12 semantic rows and seven column headers",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Long product names preserved",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Read-only rows explain restrictions and have no edit action",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Case-insensitive SKU search",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Case-insensitive name search",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Status/category/low-stock filters combine",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Expanded advanced filters visible",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "No-match recovery visible",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Clear restores 12 rows and filter defaults",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Editable product opens and focuses editor",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Invalid save retains values and describes field errors",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Unsaved warning shown before discard",
+          "passed": true
+        },
+        {
+          "name": "Declining discard retains draft",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Accepting discard closes editor without updating product",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Save updates all five fields and acknowledges",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Save restores focus to edited product",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Fractional stock rejected",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Tab stays in editor with visible focus",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Repeated Tab remains in modal",
+          "passed": false
+        },
+        {
+          "name": "Escape closes clean editor",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Read-only product cannot open through URL",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Error state exposes Retry",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Retry restores collection",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Empty state has no product rows",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Loading state exposed with status/busy indication",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Mobile table supports keyboard horizontal scrolling",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Editor submit action reachable at 375 by 667",
+          "passed": true,
+          "observed": true
+        }
+      ],
+      "passed": 26,
+      "total": 27
+    },
+    "C": {
+      "checks": [
+        {
+          "name": "12 semantic rows and seven column headers",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Long product names preserved",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Read-only rows explain restrictions and have no edit action",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Case-insensitive SKU search",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Case-insensitive name search",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Status/category/low-stock filters combine",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Expanded advanced filters visible",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "No-match recovery visible",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Clear restores 12 rows and filter defaults",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Editable product opens and focuses editor",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Invalid save retains values and describes field errors",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Unsaved warning shown before discard",
+          "passed": true
+        },
+        {
+          "name": "Declining discard retains draft",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Accepting discard closes editor without updating product",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Save updates all five fields and acknowledges",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Save restores focus to edited product",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Fractional stock rejected",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Tab stays in editor with visible focus",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Repeated Tab remains in modal",
+          "passed": false
+        },
+        {
+          "name": "Escape closes clean editor",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Read-only product cannot open through URL",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Error state exposes Retry",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Retry restores collection",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Empty state has no product rows",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Loading state exposed with status/busy indication",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Mobile table supports keyboard horizontal scrolling",
+          "passed": true,
+          "observed": true
+        },
+        {
+          "name": "Editor submit action reachable at 375 by 667",
+          "passed": true,
+          "observed": true
+        }
+      ],
+      "passed": 26,
+      "total": 27
+    }
+  }
+}

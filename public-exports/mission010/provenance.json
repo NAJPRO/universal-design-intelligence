@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "policy": "Originals stay private; historical hashes apply only to raw originals.",
+  "redactions": [
+    "repository path -> <REPO>",
+    "user home -> <HOME>",
+    "loopback browser endpoint -> <LOCAL_BROWSER_DEBUG_ENDPOINT>",
+    "session UUID -> <SESSION_ID>"
+  ],
+  "files": [
+    {
+      "originalPath": "tests/mission010/evidence/performance.json",
+      "originalSha256": "c00fa2de89d11002ef4790b9e1a46c723116b00b97880fac9798aac22b0ceab9",
+      "originalBytes": 35236,
+      "publicPath": "evidence/performance.json",
+      "publicSha256": "410cd804321a7cdd1e24daaaf589e2e1f7cbb7748d32c2dc3651714b498b6f67",
+      "publicBytes": 35128,
+      "status": "sanitized derivative; not a historical original"
+    },
+    {
+      "originalPath": "tests/mission010/evidence/retrieval/B/index.json",
+      "originalSha256": "256c968ebd3b09eb510fcf4dff31f088df7e476e5a1f6efc08116d52b13b43cb",
+      "originalBytes": 1812,
+      "publicPath": "evidence/retrieval/B/index.json",
+      "publicSha256": "134e49b0f93d0f3cba9985593402cdc3d356074e6058f95d7b23fb5733f97a3f",
+      "publicBytes": 1694,
+      "status": "sanitized derivative; not a historical original"
+    },
+    {
+      "originalPath": "tests/mission010/evidence/retrieval/C/index.json",
+      "originalSha256": "1ba7446fa300a9e02c71ffdf9be8ef1187078000ab90cba7888aae79e0e5b324",
+      "originalBytes": 4797,
+      "publicPath": "evidence/retrieval/C/index.json",
+      "publicSha256": "05f60d20ac3e09a1f8cfac0277b21edd3e6c1b364e68e0336a51a919321198ac",
+      "publicBytes": 4325,
+      "status": "sanitized derivative; not a historical original"
+    },
+    {
+      "originalPath": "tests/mission010/evidence/validation.json",
+      "originalSha256": "31b5ba61d346711a8276dd3d569d03cfa451a377688f9ab427ec7b249cba9435",
+      "originalBytes": 1698,
+      "publicPath": "evidence/validation.json",
+      "publicSha256": "1a7e162e4452f779e03d5610b160b1920fd05cbf1780d95df2e384382fb89d28",
+      "publicBytes": 1693,
+      "status": "sanitized derivative; not a historical original"
+    },
+    {
+      "originalPath": "tests/mission010/runs/A/evidence.json",
+      "originalSha256": "dcf0c1ebf87a91531ba2c428c8b48a09e3bb46bf032943a36a70f47457741b64",
+      "originalBytes": 7086,
+      "publicPath": "runs/A/evidence.json",
+      "publicSha256": "565a39518689e1e581957d067dd8baa746d46b0300885d616309d442a0e97790",
+      "publicBytes": 6975,
+      "status": "sanitized derivative; not a historical original"
+    },
+    {
+      "originalPath": "tests/mission010/runs/B/chrome.log",
+      "originalSha256": "4def9d444363530f9c5fb2920b000ba4f269e9abcca46945d39834493cb9ddbc",
+      "originalBytes": 1068,
+      "publicPath": "runs/B/chrome.log",
+      "publicSha256": "b75628cabfafe9530489a51b10630436934ada21772ee967506f7a1374d9e5d6",
+      "publicBytes": 1025,
+      "status": "sanitized derivative; not a historical original"
+    },
+    {
+      "originalPath": "tests/mission010/runs/B/evidence.json",
+      "originalSha256": "48314a4fcce61e7d59a10b061d4556923b14d12302610c1d4b18ac28f1919fe7",
+      "originalBytes": 6710,
+      "publicPath": "runs/B/evidence.json",
+      "publicSha256": "6f472c0edf9c52773898fa46d5e52311b7fa1c622b52d42e2a1fef166dc329d6",
+      "publicBytes": 6603,
+      "status": "sanitized derivative; not a historical original"
+    },
+    {
+      "originalPath": "tests/mission010/runs/C/evidence.json",
+      "originalSha256": "a26559cbd8798f8367ac70311a94aa2056d8b1cd383a08e774a26d999e16fc35",
+      "originalBytes": 7486,
+      "publicPath": "runs/C/evidence.json",
+      "publicSha256": "df019a0d931b39b7e24b585fd17c64a8b4d0a1888e0ace2f3fb31234670ded6e",
+      "publicBytes": 7429,
+      "status": "sanitized derivative; not a historical original"
+    }
+  ]
+}

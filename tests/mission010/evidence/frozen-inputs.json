@@ -1,0 +1,15 @@
+{
+  "fixture/app.js": "033d4e7113e398ec121decfd0705a8a13ba7a0cd8a7e1bbcd9e35c631d7bcb69",
+  "fixture/data.js": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+  "fixture/index.html": "cd277854fbcec7d212199e5d7858144f7e586e34ddb303c1ba3ca7f1a704ed48",
+  "fixture/styles.css": "86ff818391dffcbf4d1fa9fcbd909f376d34214b65d7a3b4d22cfc7ecf52fe8d",
+  "fixture/tokens.css": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+  "protocol/legacy-skill/SKILL.md": "e23b956bbc47d6f114fe20f65e11b8e7094a282f62b2eea8efdd7ff083340b8f",
+  "protocol/legacy-skill/references/design-quality.md": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9",
+  "protocol/legacy-skill/references/udi-cli.md": "70f24372e3d3c5f7cb195c3bb803a4675eb62aeddc0b9a874a2383d42aa7e1bc",
+  "protocol/rubric.json": "9fd09c9937b3a4ff5c5b65bc6683b86140e3e8471e49ec02caa0d58a165ca219",
+  "protocol/task.md": "407e4abfb376f9fa8b8d53646e4137f5e72d9de17f8d32add1a9354d7df87df6",
+  "protocol/enhanced-skill/SKILL.md": "466502c742fae9560d248dd5392bd4f33289867f771c52d731471ec9949cb8ba",
+  "protocol/enhanced-skill/references/udi-cli.md": "aff77473643267a3096525891f28101bbe62813bdade0fa068cb5fee43e1c943",
+  "protocol/enhanced-skill/references/design-quality.md": "1d4acc7d91117e50a7fc9e7e95a3f5c17bc5abe3f82e994e392ded10d47bf9d9"
+}

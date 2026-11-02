@@ -1,0 +1,367 @@
+{
+  "note": "Focused follow-up on frozen outputs; no implementation changes. Screenshots at 375 CSS px, DPR 1. Native browser confirmation dialogs are CDP events and absent from page screenshots.",
+  "arms": {
+    "A": {
+      "focusTrace": [
+        {
+          "tag": "TEXTAREA",
+          "id": "product-name",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "product-category",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "product-status",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "product-stock",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "product-price",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel-editor",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-editor",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "product-name",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "product-category",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "product-status",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "product-stock",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "product-price",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel-editor",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-editor",
+          "inside": true,
+          "dialogOpen": true
+        }
+      ],
+      "errorLinks": [],
+      "customDiscardDialog": false,
+      "scope": {
+        "text": "YOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n12\nActive products\n7\nLow stock\n≤ 5 units\n4\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\n(3)\n2 of 12 products\nClear filters\n\nScroll horizontally to compare all product details →\n\nNorthstar Supply product catalog. Prices in USD.\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice\tAction\nField notebook / set of three\tNS-1002\tStationery\t\nActive\t4\nLow stock\n\t$18.00\tEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\nActive\t3\nLow stock\n\t$22.00\tEdit\n↗\nChanges are saved for this session.\n2 products displayed\n\nA considered collection. Every detail counts.",
+        "removableChips": [],
+        "expanded": "false"
+      },
+      "screenshots": {
+        "invalid": "details/A-invalid.png",
+        "discard": "details/A-discard.png",
+        "filters": "details/A-collapsed-filters.png"
+      }
+    },
+    "B": {
+      "focusTrace": [
+        {
+          "tag": "TEXTAREA",
+          "id": "product-name",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "product-category",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "product-status",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "product-stock",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "product-price",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel-editor",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "inside": false,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-editor",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "product-name",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "product-category",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "product-status",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "product-stock",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "product-price",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel-editor",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true,
+          "dialogOpen": true
+        }
+      ],
+      "errorLinks": [],
+      "customDiscardDialog": false,
+      "scope": {
+        "text": "Catalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n3\n\n2 of 12 products · Filtered collection\n\nClear filters\n\nSwipe or scroll to compare all product details →\n\nProduct collection, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice (USD)\tAccess\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "removableChips": [],
+        "expanded": "false"
+      },
+      "screenshots": {
+        "invalid": "details/B-invalid.png",
+        "discard": "details/B-discard.png",
+        "filters": "details/B-collapsed-filters.png"
+      }
+    },
+    "C": {
+      "focusTrace": [
+        {
+          "tag": "TEXTAREA",
+          "id": "name",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-category",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-status",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "stock",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "price",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "inside": false,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-editor",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "name",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-category",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "SELECT",
+          "id": "edit-status",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "stock",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "price",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "cancel",
+          "inside": true,
+          "dialogOpen": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "inside": true,
+          "dialogOpen": true
+        }
+      ],
+      "errorLinks": [
+        {
+          "text": "Product name: Enter a product name.",
+          "href": "#name"
+        },
+        {
+          "text": "Stock: Enter a whole number of 0 or more.",
+          "href": "#stock"
+        },
+        {
+          "text": "Price: Enter a price greater than $0.00.",
+          "href": "#price"
+        }
+      ],
+      "customDiscardDialog": true,
+      "scope": {
+        "text": "Catalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspaceChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n(3)\n⌄\n\n2 of 12 products\n\nClear filters\nActive ×\nStationery ×\nStock ≤ 5 ×\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "removableChips": [
+          {
+            "name": "Remove Active filter",
+            "text": "Active ×"
+          },
+          {
+            "name": "Remove Stationery filter",
+            "text": "Stationery ×"
+          },
+          {
+            "name": "Remove Stock ≤ 5 filter",
+            "text": "Stock ≤ 5 ×"
+          }
+        ],
+        "expanded": "false"
+      },
+      "screenshots": {
+        "invalid": "details/C-invalid.png",
+        "discard": "details/C-discard.png",
+        "filters": "details/C-collapsed-filters.png"
+      }
+    }
+  }
+}

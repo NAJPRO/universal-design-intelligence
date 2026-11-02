@@ -1,0 +1,8 @@
+{"args":["--version"],"time":"2026-10-30T09:38:01.949Z"}
+{"args":["recommend","--help"],"time":"2026-10-30T09:38:02.056Z"}
+{"args":["--help"],"time":"2026-10-30T09:38:02.167Z"}
+{"args":["recommend","--schema-version","2.1","--context","brief.json","--json"],"time":"2026-10-30T09:38:15.029Z"}
+{"args":["inspect","COM-OPERATIONAL-MANAGEMENT","--json"],"time":"2026-10-30T09:38:27.704Z"}
+{"args":["inspect","CMP-OPERATIONAL-TABLE","--json"],"time":"2026-10-30T09:38:27.898Z"}
+{"args":["inspect","CMP-FILTER-WORKSPACE","--json"],"time":"2026-10-30T09:38:28.085Z"}
+{"args":["inspect","CMP-RECOVERABLE-FORM","--json"],"time":"2026-10-30T09:38:28.292Z"}

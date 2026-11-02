@@ -20,6 +20,18 @@ Model gpt-6.1-sol, medium effort, identical hard 900-second wall ceilings and so
 
 ## Reproduction
 
+The duplicate `runs/` tree is local generated state. On a fresh checkout, restore
+it offline from retained `sources/`, frozen `inputs/` and evidence before running
+verification (this never overwrites changed files):
+
+```sh
+python3 scripts/restore-benchmark-runs.py
+python3 scripts/restore-benchmark-runs.py --check
+```
+
+See the [repository hygiene audit](../../docs/REPOSITORY-HYGIENE-AUDIT.md)
+for tracking policy and the pre-existing Mission 010 archive gap.
+
 Do not rerun authoring commands over retained evidence. Copy the complete benchmark to a fresh **repository-local experiment directory**, omit runs/inputs/sources/evidence from the copy, recreate an empty evidence directory and preserve the existing protocol. `prepare.py` intentionally refuses an already frozen experiment. It resolves baseline assets relative to the UDI repository, so retain the same two-level benchmark directory layout. Use a compatible current build whose hash matches the frozen C runtime if reproducing these exact inputs.
 
 ```sh

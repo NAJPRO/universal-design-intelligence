@@ -1,0 +1,32 @@
+Usage: udi recommend [options]
+
+Generate a deterministic, context-aware design direction
+
+Options:
+  --framework <framework>            (choices: "framework-agnostic", "nextjs",
+                                     "react", "vue", "nuxt", "angular",
+                                     "svelte", "sveltekit", "astro", "remix",
+                                     "html-css")
+  --json                             Print machine-readable JSON
+  --type <type>                      (choices: "marketing-site", "saas",
+                                     "dashboard", "fintech", "developer-tools",
+                                     "professional-services", "ecommerce",
+                                     "editorial", "web-app", "marketplace",
+                                     "education")
+  --style <style>                    Preferred visual style
+  --audience <audience>              Intended users or buyers
+  --preserve-brand                   Preserve existing brand and design-system
+                                     choices
+  --brand-description <description>  Short description of the existing brand
+  --design-system <name>             Name of the existing design system
+  --schema-version <version>         Recommendation schema (v2 is opt-in)
+                                     (choices: "1.0", "2.0", "2.1", default:
+                                     "1.0")
+  --context <file>                   Schema 2.0 evidence context JSON
+  --budget-bytes <number>            V2 compact JSON byte budget including
+                                     newline (default 24576)
+  --entity-limit <number>            V2 maximum selected entities (1–100)
+  --expand <key>                     V2 context-bound expansion cursor
+  --explain                          Explain v2 ranking and conflicts in text
+                                     output (always included in JSON)
+  -h, --help                         display help for command

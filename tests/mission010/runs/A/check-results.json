@@ -1,0 +1,138 @@
+{
+  "results": [
+    {
+      "name": "Default populated state has 12 semantic product rows",
+      "passed": true
+    },
+    {
+      "name": "Long name available in table",
+      "passed": true
+    },
+    {
+      "name": "Read-only products explain restriction and have no edit controls",
+      "passed": true
+    },
+    {
+      "name": "No document overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "No document overflow at 375px, table scrolls",
+      "passed": true
+    },
+    {
+      "name": "SKU search case insensitive",
+      "passed": true
+    },
+    {
+      "name": "Name search case insensitive",
+      "passed": true
+    },
+    {
+      "name": "Advanced filters combine status, category, low stock",
+      "passed": true
+    },
+    {
+      "name": "Filter-empty state offers Clear filters",
+      "passed": true
+    },
+    {
+      "name": "Clear filters restores all products",
+      "passed": true
+    },
+    {
+      "name": "Editor opens with product values and name focused",
+      "passed": true
+    },
+    {
+      "name": "Invalid save preserves values, shows 3 field errors and keeps dialog open",
+      "passed": true
+    },
+    {
+      "name": "Declining discard keeps edited values",
+      "passed": true
+    },
+    {
+      "name": "Accepting discard closes editor without changing collection",
+      "passed": true
+    },
+    {
+      "name": "Save updates all five fields and announces success",
+      "passed": true
+    },
+    {
+      "name": "Fractional stock is rejected",
+      "passed": true
+    },
+    {
+      "name": "Escape closes unmodified dialog",
+      "passed": true
+    },
+    {
+      "name": "Error initial state has Retry",
+      "passed": true
+    },
+    {
+      "name": "Retry resolves to 12 populated products",
+      "passed": true
+    },
+    {
+      "name": "Empty initial state has zero products",
+      "passed": true
+    },
+    {
+      "name": "Loading state announced",
+      "passed": true
+    },
+    {
+      "name": "Read-only product cannot open via query parameter",
+      "passed": true
+    },
+    {
+      "name": "Capture parameter opens editable product",
+      "passed": true
+    },
+    {
+      "name": "Editor actions visible at 375 by 667",
+      "passed": true
+    },
+    {
+      "name": "Mobile dialog fits viewport",
+      "passed": true
+    },
+    {
+      "name": "Modal starts with focused control inside dialog",
+      "passed": true
+    },
+    {
+      "name": "Keyboard Tab moves to next editor field",
+      "passed": true
+    },
+    {
+      "name": "Visible focus styling exists",
+      "passed": true
+    },
+    {
+      "name": "Shift Tab wraps focus inside modal",
+      "passed": true
+    },
+    {
+      "name": "Escape prompts before discarding dirty editor and respects decline",
+      "passed": true
+    },
+    {
+      "name": "Product table supports keyboard horizontal scrolling",
+      "passed": true
+    },
+    {
+      "name": "Save restores keyboard focus to edited product",
+      "passed": true
+    },
+    {
+      "name": "No uncaught runtime exceptions",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "confirmDialogs": 5
+}

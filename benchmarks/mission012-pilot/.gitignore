@@ -1,4 +1,6 @@
-.chrome-*/
+# Disposable browser profiles and isolated agent homes; evidence stays visible.
 **/.chrome-*/
-__pycache__/
 evidence/*/home/
+
+# Redundant workspaces; restore from retained assets before verification.
+/runs/

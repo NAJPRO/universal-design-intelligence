@@ -1,0 +1,19 @@
+Usage: udi [options] [command]
+
+Local-first design intelligence for AI coding agents
+
+Options:
+  -V, --version             output the version number
+  -h, --help                display help for command
+
+Commands:
+  search [options] <query>  Search the local, curated design knowledge catalog
+  recommend [options]       Generate a deterministic, context-aware design
+                            direction
+  init [options]            Install UDI's canonical design skill for a supported
+                            coding agent
+  doctor [options]          Check UDI installation files and static agent skill
+                            paths
+  inspect [options] <id>    Print a complete local component or composition
+                            specification by stable ID
+  help [command]            display help for command

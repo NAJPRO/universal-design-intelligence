@@ -1,0 +1,1 @@
+:root { --brand: #245b48; --ink: #192c25; --muted: #53645c; --surface: #ffffff; --canvas: #f4f5f0; --line: #d6ded7; --danger: #a52a27; --radius: 10px; --space: 8px; font-family: system-ui, sans-serif; color: var(--ink); background: var(--canvas); }

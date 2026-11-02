@@ -1,0 +1,15 @@
+{
+  "scale": {"0":"missing or blocks task","1":"substantial issues","2":"usable with material issues","3":"good with minor issues","4":"strong for this task"},
+  "dimensions": {
+    "taskCorrectness":"Search name/SKU, combine all filters, edit/save/cancel, validation, permission restrictions; observed interactions, not appearance.",
+    "componentAppropriateness":"Table supports comparison, filters expose scope, editor fits task; actions and restrictions understandable.",
+    "informationHierarchy":"Primary task/action, title, results and metadata distinct; long names legible.",
+    "visualComposition":"Alignment, spacing, balance and content density across actual rendered viewports; no automated aesthetic score.",
+    "responsiveUsability":"375/768/1440: page overflow, readable collection, reachable controls and editor; scrolling containment when used.",
+    "accessibility":"Semantic structure, accessible names, visible focus, keyboard operation and announcements; no conformance claim from static checks.",
+    "stateRecovery":"Rendered loading/empty/error; clear filters/retry; edit errors preserve input; unsaved warning and save acknowledgement.",
+    "brandConsistency":"Preserves fixed green/neutral tokens, consistent typography, controls and surfaces across states."
+  },
+  "capture":{"widths":[375,768,1440],"height":1000,"dpr":1,"states":["populated","empty","error","loading","edit"]},
+  "interpretation":"Report dimensions separately with evidence and limitations. No aggregate winner required. One run per arm, no statistical or causal superiority claim. Evaluator knows conditions; aesthetic review is subjective. Failed tooling produces missing evidence, never a fabricated score."
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "2.0",
+  "applicationType": {
+    "value": "operations-workspace",
+    "status": "explicit"
+  },
+  "tasks": {
+    "primary": {
+      "value": "manage products table",
+      "status": "explicit"
+    },
+    "secondary": [
+      {
+        "value": "filter products",
+        "status": "explicit"
+      },
+      {
+        "value": "edit product form",
+        "status": "explicit"
+      }
+    ]
+  },
+  "brand": {
+    "preserve": true
+  }
+}

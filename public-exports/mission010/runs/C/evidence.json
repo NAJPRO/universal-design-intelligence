@@ -1,0 +1,144 @@
+{
+  "condition": "C — UDI enhanced workflow",
+  "frozen": true,
+  "timing": {
+    "implementationBudgetMinutes": 12,
+    "implementationStopped": "Controller reported 12-minute wall budget elapsed; no implementation edits after that message.",
+    "evidenceWrittenUtc": "2026-10-30T09:52:03.298467+00:00",
+    "limitation": "Exact elapsed interval was not independently timed; controller has authoritative start/end. Evidence and cleanup extended beyond implementation budget."
+  },
+  "implementationPasses": 1,
+  "reviewPasses": 0,
+  "commands": [
+    "cat tests/mission010/protocol/task.md && cat tests/mission010/runs/C/skill/SKILL.md",
+    "pwd; rg --files tests/mission010/runs/C; cat tests/mission010/runs/C/skill/references/udi-cli.md; cat tests/mission010/runs/C/skill/references/design-quality.md",
+    "cat index.html app.js styles.css tokens.css data.js START.json",
+    "node skill/scripts/udi.mjs --version; node skill/scripts/udi.mjs recommend --help; node skill/scripts/udi.mjs --help",
+    "node skill/scripts/udi.mjs recommend --schema-version 2.1 --context brief.json --json > recommendation.json",
+    "node skill/scripts/udi.mjs inspect COM-OPERATIONAL-MANAGEMENT --json > composition.json",
+    "node skill/scripts/udi.mjs inspect CMP-OPERATIONAL-TABLE --json > table-contract.json",
+    "node skill/scripts/udi.mjs inspect CMP-FILTER-WORKSPACE --json > filter-contract.json",
+    "node skill/scripts/udi.mjs inspect CMP-RECOVERABLE-FORM --json > form-contract.json",
+    "node --check app.js",
+    "python3 -m http.server 9313 > server.log 2>&1",
+    "node --version; command -v google-chrome; cat server.log; date -u +%FT%TZ",
+    "python3 -m http.server 9313 --bind 127.0.0.1 > server.log 2>&1",
+    "google-chrome --headless --no-sandbox --disable-gpu --remote-debugging-port=9413 --user-data-dir=<REPO>/tests/mission010/runs/C/chrome-profile about:blank > chrome.log 2>&1",
+    "ps -eo pid,args | rg '9313|9413|runs/C/chrome-profile'; ls -l evidence.json"
+  ],
+  "commandsNotes": "Implementation written by shell heredocs to app.js and styles.css. Context written to brief.json. Contract files read using Python JSON extraction. Cleanup used Python /proc matching only port 9313 HTTP server and port 9413 or run-C-profile Chrome, SIGTERM, and shutil.rmtree on chrome-profile. Launcher commands are also automatically logged by benchmark.",
+  "checks": [
+    {
+      "name": "JavaScript syntax",
+      "command": "node --check app.js",
+      "result": "Passed: no syntax output; subsequent HTTP-server command executed."
+    },
+    {
+      "name": "Preserved source assets",
+      "result": {
+        "data.js": {
+          "sha256": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+          "matchesStart": true
+        },
+        "tokens.css": {
+          "sha256": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae",
+          "matchesStart": true
+        }
+      }
+    },
+    {
+      "name": "Local browser setup",
+      "result": "Sandbox HTTP listen failed EPERM. Escalated loopback HTTP server started and was stopped (PID 474581). Chrome launch was rejected because automatic permission approval review did not finish before its deadline; no Chrome browser launched. Temporary browser profile removal attempted."
+    }
+  ],
+  "appliedKnowledge": [
+    {
+      "id": "COM-OPERATIONAL-MANAGEMENT",
+      "decision": "Title, scoped query, count, then collection; no unrelated KPI blocks. One native modal editor avoids compressing comparison columns."
+    },
+    {
+      "id": "CMP-OPERATIONAL-TABLE",
+      "decision": "Native table, caption, scoped column and row headers, stable SKU identity, numeric alignment, wrapping full names, row-scoped edit labels and explicit role restrictions."
+    },
+    {
+      "id": "CMP-FILTER-WORKSPACE",
+      "decision": "Immediate variant for 12 local products; search and combined facets update count synchronously; removable active chips and clear-all remain available when advanced filters collapse."
+    },
+    {
+      "id": "CMP-RECOVERABLE-FORM",
+      "decision": "Single coherent editor with persistent labels, unchanged/unsaved state, linked validation summary and inline errors retaining all input; explicit keep/discard dialog and beforeunload warning."
+    },
+    {
+      "id": "UDI-RSP-004",
+      "decision": "Readable minimum table width in named horizontally scrollable region, mobile scroll hint, full names and all values preserved."
+    },
+    {
+      "id": "UDI-ACC-002",
+      "decision": "Visible focus outlines, native dialog focus ownership, close returns to matching record or search, validation focuses linked summary."
+    },
+    {
+      "id": "UDI-SYS-001",
+      "decision": "Existing brand, ink, muted, surface, canvas, line, danger, radius and spacing vocabulary reused; tokens.css unchanged."
+    },
+    {
+      "id": "UDI-FOR-002",
+      "decision": "Name required, integer nonnegative stock and strictly positive finite price validated on submit with correction instructions."
+    },
+    {
+      "id": "UDI-FOR-004",
+      "decision": "Failed validation leaves entered data intact; cancel prompts before discarding a dirty form."
+    },
+    {
+      "id": "UDI-SAA-004",
+      "decision": "Distinct initial empty, filter-empty, error/retry and loading explanations; filtered-empty offers Clear filters."
+    }
+  ],
+  "retrieval": {
+    "schema": "2.1",
+    "coverageComplete": false,
+    "conflicts": [],
+    "assumptions": [
+      "Framework unknown in retrieval context; native module stack observed separately.",
+      "Generic contracts are original MIT guidance, not proof of domain completeness or rendered quality."
+    ],
+    "unsupportedTaskCoverage": [
+      "manage products table and compare products",
+      "edit product form with validation and unsaved changes protection",
+      "search and filter products"
+    ],
+    "artifacts": [
+      "brief.json",
+      "recommendation.json",
+      "composition.json",
+      "table-contract.json",
+      "filter-contract.json",
+      "form-contract.json"
+    ],
+    "contractAdaptations": [
+      "No selection, pagination or bulk actions added for the fixed 12-product task.",
+      "Immediate filtering chosen instead of composition explicit-apply default because queries are synchronous and inexpensive."
+    ]
+  },
+  "notPerformed": [
+    "Rendered 375/768/1440 viewport inspection",
+    "Screenshots",
+    "Keyboard interaction test",
+    "Save/cancel/invalid/unsaved browser flows",
+    "Browser collection-state and combined-filter checks",
+    "Automated accessibility audit",
+    "Contrast measurement"
+  ],
+  "unsupportedProductionRequirements": [
+    "Persistent storage and backend synchronization",
+    "Server-enforced authorization; supplied canEdit checked only in-memory",
+    "Concurrency/conflict management and server-side validation",
+    "Actual network loading/error recovery; query states are deterministic local fixtures"
+  ],
+  "limitations": [
+    "No visual quality claim: Chrome screenshots were not captured or viewed.",
+    "Functional flows implemented but not executed in browser before budget expired.",
+    "Loading fixture remains pending until the URL state changes; Retry resolves error immediately to populated.",
+    "Session-only saves are intentionally lost on reload.",
+    "Automatic approval review timed out for headless Chrome launch; rendering verification remains unperformed."
+  ]
+}

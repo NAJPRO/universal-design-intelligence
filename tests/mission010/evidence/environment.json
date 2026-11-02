@@ -1,0 +1,15 @@
+{
+  "node": "v22.23.1",
+  "pnpm": "12.11.2",
+  "chrome": "Google Chrome 156.0.8078.47",
+  "framework": "Native HTML/CSS/JavaScript modules (no framework dependency)",
+  "applicationDependencies": [],
+  "assets": "System fonts, original local tokens/data; no remote assets",
+  "hashes": {
+    "packages/cli/dist/index.js": "06e367877971b34cc0b2c2613cd7e19ae8c2a41377bb26862ff1466688fb40f6",
+    "pnpm-lock.yaml": "db82c2c8923403f0162ef8c3db567ac625266352bfd069c30390735abfbfcde3",
+    "package.json": "0a84bcf6c8ac8a87406d599829c7e61a8bc982df5b7a96f2ea92de4cc7f97268",
+    "tests/mission010/prepare.py": "a4637ed60c8546ea0e035186df68537371172f5b40d3c7cdd261601cff1fa47a"
+  },
+  "freezeNote": "Legacy skill captured before canonical edits; enhanced snapshot copied from C START-hashed skill before evaluation. Existing START.json captures exact original launcher bytes; prepare.py now reports sandbox child errors explicitly for future runs."
+}

@@ -1,0 +1,61 @@
+import { evidenceRoot } from './config.mjs';
+import { writeFile } from 'node:fs/promises';
+import { setTimeout as delay } from 'node:timers/promises';
+import { browser } from './browser.mjs';
+const b=await browser();const results={note:'Same task assertions per arm, controller-authored after implementation freeze. Selector adapter only accounts for differing DOM IDs. Programmatic input/click tests plus real CDP keyboard events. No automated aesthetic/conformance claim.',arms:{}};
+try{for(const arm of ['A','B','C']){
+ const checks=[];const check=async(name,expression)=>{try{const value=await b.evaluate(expression);checks.push({name,passed:!!value,observed:value});}catch(error){checks.push({name,passed:false,error:error.message});}};
+ const act=expression=>b.evaluate(expression);const nav=query=>b.navigate(arm,query,1440);
+ const key=async(name,code,num,modifiers=0)=>{await b.send('Input.dispatchKeyEvent',{type:'keyDown',key:name,code,windowsVirtualKeyCode:num,modifiers});await b.send('Input.dispatchKeyEvent',{type:'keyUp',key:name,code,windowsVirtualKeyCode:num,modifiers});};
+ const ids=arm==='C'?{status:'status',category:'category',low:'low',cancel:'cancel',clear:'clear'}:{status:'status-filter',category:'category-filter',low:'low-filter',cancel:'cancel-editor',clear:arm==='A'?'clear-filters':'clear'};
+ const set=async(selector,value)=>act(`(()=>{const e=document.querySelector(${JSON.stringify(selector)});if(e.type==='checkbox')e.checked=${JSON.stringify(value)};else e.value=${JSON.stringify(value)};e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));})()`);
+ await nav('');
+ await check('12 semantic rows and seven column headers',"document.querySelectorAll('tbody tr').length===12&&document.querySelectorAll('thead th[scope=col]').length===7");
+ await check('Long product names preserved',"document.querySelector('tbody').textContent.includes('weighted base and extra-long braided power cable')");
+ await check('Read-only rows explain restrictions and have no edit action',"[...document.querySelectorAll('tbody tr')].filter(r=>/NS-1004|NS-1005/.test(r.textContent)).length===2&&[...document.querySelectorAll('tbody tr')].filter(r=>/NS-1004|NS-1005/.test(r.textContent)).every(r=>/permission|role/i.test(r.textContent)&&!r.querySelector('[data-edit]'))");
+ await set('#search','ns-1002');await check('Case-insensitive SKU search',"document.querySelectorAll('tbody tr').length===1&&document.querySelector('tbody').textContent.includes('Field notebook')");
+ await set('#search','NOTEBOOK');await check('Case-insensitive name search',"document.querySelectorAll('tbody tr').length===1&&document.querySelector('tbody').textContent.includes('NS-1002')");
+ await act(`document.querySelector('#${ids.clear}').click();document.querySelector('#filter-toggle').click()`);
+ await set('#'+ids.status,'Active');await set('#'+ids.category,'Stationery');await set('#'+ids.low,true);
+ await check('Status/category/low-stock filters combine',"document.querySelectorAll('tbody tr').length===2&&['NS-1002','NS-1008'].every(id=>document.querySelector('tbody').textContent.includes(id))");
+ await check('Expanded advanced filters visible',"document.querySelector('#filter-toggle').getAttribute('aria-expanded')==='true'");
+ await set('#search','not-a-real-product');await check('No-match recovery visible',"!document.querySelectorAll('tbody tr').length&&!!document.querySelector('#empty-clear')");
+ await act("document.querySelector('#empty-clear').click()");await check('Clear restores 12 rows and filter defaults',`document.querySelectorAll('tbody tr').length===12&&!document.querySelector('#${ids.low}').checked&&document.querySelector('#${ids.status}').value===''`);
+ await nav('edit=NS-1001');await check('Editable product opens and focuses editor',"document.querySelector('#editor').open&&document.querySelector('#editor').contains(document.activeElement)&&document.querySelector('form').elements.name.value.includes('Modular desk')");
+ const formField=name=>`#editor [name="${name}"]`;
+ await set(formField('name'),'');await set(formField('stock'),'-1');await set(formField('price'),'0');
+ await act("document.querySelector('#editor form').requestSubmit()");
+ await check('Invalid save retains values and describes field errors',"document.querySelector('#editor').open&&document.querySelector('#editor form').elements.stock.value==='-1'&&document.querySelector('#editor form').elements.price.value==='0'&&document.querySelectorAll('#editor [aria-invalid=true]').length===3&&[...document.querySelectorAll('#editor [role=alert]')].some(e=>!e.hidden&&e.textContent.trim())");
+ await set(formField('name'),'Unsaved benchmark edit');b.setDialogAction(false);await act(`document.querySelector('#${ids.cancel}').click()`);
+ const customDiscard=await act("!!document.querySelector('#discard')?.open");
+ const warningObserved=customDiscard||b.events.some(e=>e.method==='Page.javascriptDialogOpening');
+ if(customDiscard)await act("document.querySelector('#keep').click()");
+ checks.push({name:'Unsaved warning shown before discard',passed:warningObserved});
+ await check('Declining discard retains draft',"document.querySelector('#editor').open&&document.querySelector('#editor form').elements.name.value==='Unsaved benchmark edit'");
+ b.setDialogAction(true);await act(`document.querySelector('#${ids.cancel}').click()`);if(customDiscard)await act("document.querySelector('#discard-confirm').click()");
+ await check('Accepting discard closes editor without updating product',"!document.querySelector('#editor').open&&document.querySelector('tbody').textContent.includes('Modular desk organizer')&&!document.querySelector('tbody').textContent.includes('Unsaved benchmark edit')");
+ await act("document.querySelector('[data-edit=\"NS-1001\"]').click()");
+ for(const [name,value]of Object.entries({name:'Updated benchmark organizer',category:'Everyday',status:'Draft',stock:'5',price:'75.25'}))await set(formField(name),value);
+ await act("document.querySelector('#editor form').requestSubmit()");
+ await check('Save updates all five fields and acknowledges',"!document.querySelector('#editor').open&&['Updated benchmark organizer','Everyday','Draft','5','$75.25'].every(t=>document.querySelector('tbody tr').textContent.includes(t))&&[...document.querySelectorAll('[role=status]')].some(e=>/saved/i.test(e.textContent))");
+ await check('Save restores focus to edited product',"document.activeElement.dataset.edit==='NS-1001'");
+ await act("document.querySelector('[data-edit=\"NS-1001\"]').click()");await set(formField('stock'),'1.5');await act("document.querySelector('#editor form').requestSubmit()");
+ await check('Fractional stock rejected',"document.querySelector('#editor form').elements.stock.getAttribute('aria-invalid')==='true'");
+ // Navigate from unmodified fresh page to avoid beforeunload fixtures interrupting navigation.
+ await act(`document.querySelector('#${ids.cancel}').click()`);if(customDiscard)await act("document.querySelector('#discard-confirm').click()");
+ await nav('edit=NS-1002');await key('Tab','Tab',9);await check('Tab stays in editor with visible focus',"document.querySelector('#editor').contains(document.activeElement)&&getComputedStyle(document.activeElement).outlineStyle!=='none'");
+ let trapped=true;for(let i=0;i<12;i++){await key('Tab','Tab',9);trapped&&=await act("document.querySelector('#editor').contains(document.activeElement)");}
+ checks.push({name:'Repeated Tab remains in modal',passed:trapped});
+ await key('Escape','Escape',27);await check('Escape closes clean editor',"!document.querySelector('#editor').open");
+ await nav('edit=NS-1004');await check('Read-only product cannot open through URL',"!document.querySelector('#editor').open");
+ await nav('state=error');await check('Error state exposes Retry',"!!document.querySelector('#retry')&&document.querySelector('#retry').getBoundingClientRect().width>0");await act("document.querySelector('#retry').click()");await check('Retry restores collection',"document.querySelectorAll('tbody tr').length===12");
+ await nav('state=empty');await check('Empty state has no product rows',"!document.querySelectorAll('tbody tr').length&&/no products|empty/i.test(document.body.innerText)");
+ await nav('state=loading');await check('Loading state exposed with status/busy indication',"/loading/i.test(document.body.innerText)&&(!!document.querySelector('[aria-busy=true]')||[...document.querySelectorAll('[role=status]')].some(e=>/loading/i.test(e.textContent)))");
+ await b.navigate(arm,'',375);await act("document.querySelector('.table-scroll').focus()");await key('ArrowRight','ArrowRight',39);await delay(200);
+ await check('Mobile table supports keyboard horizontal scrolling',"document.querySelector('.table-scroll').scrollLeft>0");
+ await b.navigate(arm,'edit=NS-1001',375);await b.send('Emulation.setDeviceMetricsOverride',{width:375,height:667,deviceScaleFactor:1,mobile:false});
+ await check('Editor submit action reachable at 375 by 667',"(()=>{const e=document.querySelector('#editor button[type=submit]');e.scrollIntoView({block:'nearest'});const r=e.getBoundingClientRect();return r.top>=0&&r.bottom<=667&&r.left>=0&&r.right<=375;})()");
+ results.arms[arm]={checks,passed:checks.filter(c=>c.passed).length,total:checks.length};
+}
+await writeFile(new URL('interactions.json',evidenceRoot),JSON.stringify(results,null,2)+'\n');console.log(JSON.stringify(Object.fromEntries(Object.entries(results.arms).map(([arm,r])=>[arm,{passed:r.passed,total:r.total,failures:r.checks.filter(c=>!c.passed)}])),null,2));
+}finally{await b.close();}

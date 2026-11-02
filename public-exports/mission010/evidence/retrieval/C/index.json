@@ -1,0 +1,153 @@
+{
+  "note": "Controller replay of original commands.jsonl after runs froze; does not prove these bytes were in original agent context. Original C packets/contract files and both agents decision reports supply additional consumption evidence.",
+  "records": [
+    {
+      "args": [
+        "--version"
+      ],
+      "time": "2026-10-30T09:38:01.949Z",
+      "replayArgs": [
+        "<HOME>/.nvm/versions/node/v22.23.1/bin/node",
+        "<REPO>/packages/cli/dist/index.js",
+        "--version"
+      ],
+      "stdoutFile": "retrieval/C/0.txt",
+      "stdoutBytes": 6,
+      "stdoutSha256": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "recommend",
+        "--help"
+      ],
+      "time": "2026-10-30T09:38:02.056Z",
+      "replayArgs": [
+        "<HOME>/.nvm/versions/node/v22.23.1/bin/node",
+        "<REPO>/packages/cli/dist/index.js",
+        "recommend",
+        "--help"
+      ],
+      "stdoutFile": "retrieval/C/1.txt",
+      "stdoutBytes": 1949,
+      "stdoutSha256": "75d96b004946ea6c83cd414dab5ec918c4c2c892418b964aa2c5dec0e6e553df",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "--help"
+      ],
+      "time": "2026-10-30T09:38:02.167Z",
+      "replayArgs": [
+        "<HOME>/.nvm/versions/node/v22.23.1/bin/node",
+        "<REPO>/packages/cli/dist/index.js",
+        "--help"
+      ],
+      "stdoutFile": "retrieval/C/2.txt",
+      "stdoutBytes": 825,
+      "stdoutSha256": "6dcfcd6c0bdb93929d7f9d465952b64e70ae7fa8ce1fcbf7c190e60eee70c4e5",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "recommend",
+        "--schema-version",
+        "2.1",
+        "--context",
+        "brief.json",
+        "--json"
+      ],
+      "time": "2026-10-30T09:38:15.029Z",
+      "replayArgs": [
+        "<HOME>/.nvm/versions/node/v22.23.1/bin/node",
+        "<REPO>/packages/cli/dist/index.js",
+        "recommend",
+        "--schema-version",
+        "2.1",
+        "--context",
+        "brief.json",
+        "--json"
+      ],
+      "stdoutFile": "retrieval/C/3.txt",
+      "stdoutBytes": 24175,
+      "stdoutSha256": "3a977fbea0566347e4ade92745a72688f9831546bbce10c39c81bde17b53c86c",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "inspect",
+        "COM-OPERATIONAL-MANAGEMENT",
+        "--json"
+      ],
+      "time": "2026-10-30T09:38:27.704Z",
+      "replayArgs": [
+        "<HOME>/.nvm/versions/node/v22.23.1/bin/node",
+        "<REPO>/packages/cli/dist/index.js",
+        "inspect",
+        "COM-OPERATIONAL-MANAGEMENT",
+        "--json"
+      ],
+      "stdoutFile": "retrieval/C/4.txt",
+      "stdoutBytes": 11798,
+      "stdoutSha256": "9651d4fde8570ad6f7dc89e984988188f12148f37600ac3140e0d97e52c9a905",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "inspect",
+        "CMP-OPERATIONAL-TABLE",
+        "--json"
+      ],
+      "time": "2026-10-30T09:38:27.898Z",
+      "replayArgs": [
+        "<HOME>/.nvm/versions/node/v22.23.1/bin/node",
+        "<REPO>/packages/cli/dist/index.js",
+        "inspect",
+        "CMP-OPERATIONAL-TABLE",
+        "--json"
+      ],
+      "stdoutFile": "retrieval/C/5.txt",
+      "stdoutBytes": 13963,
+      "stdoutSha256": "b157ce02688f9584a032bda132f1168a4ba4697714b0728a2fe99cc902a24e38",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "inspect",
+        "CMP-FILTER-WORKSPACE",
+        "--json"
+      ],
+      "time": "2026-10-30T09:38:28.085Z",
+      "replayArgs": [
+        "<HOME>/.nvm/versions/node/v22.23.1/bin/node",
+        "<REPO>/packages/cli/dist/index.js",
+        "inspect",
+        "CMP-FILTER-WORKSPACE",
+        "--json"
+      ],
+      "stdoutFile": "retrieval/C/6.txt",
+      "stdoutBytes": 13103,
+      "stdoutSha256": "2599e097b54b00630410fc13a1c581392b0e327baefeecbbefe8b9f7a291ea2f",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "inspect",
+        "CMP-RECOVERABLE-FORM",
+        "--json"
+      ],
+      "time": "2026-10-30T09:38:28.292Z",
+      "replayArgs": [
+        "<HOME>/.nvm/versions/node/v22.23.1/bin/node",
+        "<REPO>/packages/cli/dist/index.js",
+        "inspect",
+        "CMP-RECOVERABLE-FORM",
+        "--json"
+      ],
+      "stdoutFile": "retrieval/C/7.txt",
+      "stdoutBytes": 13896,
+      "stdoutSha256": "4f245be4c3573a4de61fdd59f5d01dd1aa7fa29aff73c6aa847cebef07ccd761",
+      "stderr": ""
+    }
+  ]
+}

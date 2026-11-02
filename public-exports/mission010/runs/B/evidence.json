@@ -1,0 +1,195 @@
+{
+  "condition": "B: UDI legacy",
+  "frozenAt": "2026-10-30T09:50:56.706Z",
+  "timing": {
+    "budgetMinutes": 12,
+    "implementationFrozenAtControllerBudgetNotice": true,
+    "elapsed": "12-minute wall budget reached per controller; evidence and process cleanup completed afterward",
+    "overrun": "Only evidence writing and process cleanup after freeze; no further implementation edits"
+  },
+  "implementationPasses": 1,
+  "reviewPasses": 1,
+  "commands": [
+    "cat <REPO>/tests/mission010/protocol/task.md && cat skill/SKILL.md",
+    "pwd; rg --files -g !skill/** -g !node_modules/**; cat skill/references/udi-cli.md skill/references/design-quality.md; cat index.html styles.css app.js tokens.css data.js",
+    "node skill/scripts/udi.mjs recommend --type dashboard --audience \"catalog editors comparing and editing products\" --preserve-brand --json",
+    "node skill/scripts/udi.mjs search \"accessible form validation errors unsaved changes table filters\" --limit 6 --json",
+    "node --check app.js",
+    "python3 -m http.server 9312 > server.log 2>&1",
+    "node --check app.js; command -v google-chrome; cat server.log; date -u +%FT%TZ",
+    "google-chrome --headless --no-sandbox --disable-gpu --remote-debugging-port=9412 --user-data-dir=<REPO>/tests/mission010/runs/B/chrome-profile about:blank > chrome.log 2>&1",
+    "cat START.json; node --version",
+    "node check.mjs",
+    "date -u +%FT%TZ; sha256sum data.js tokens.css; cat checks.json",
+    "rm -rf chrome-profile"
+  ],
+  "writeOperations": [
+    "Created app.js and styles.css using shell heredocs; source files contain exact final implementation.",
+    "Created check.mjs using a shell heredoc; this file contains exact Chrome DevTools Protocol checks."
+  ],
+  "appliedKnowledge": [
+    {
+      "id": "UDI-SYS-005",
+      "decision": "Preserved tokens.css and reused supplied brand, ink, muted, surface, canvas, line, danger, radius and spacing conventions."
+    },
+    {
+      "id": "UDI-VIS-005",
+      "decision": "Established page title, collection toolbar, muted table headings and row details as distinct hierarchy levels."
+    },
+    {
+      "id": "UDI-SAA-001",
+      "decision": "Omitted decorative metrics and prioritized product comparison and refinement."
+    },
+    {
+      "id": "UDI-SAA-002",
+      "decision": "Placed status, category and low-stock filters beside collection, with active count, result count and Clear filters."
+    },
+    {
+      "id": "UDI-DAT-001",
+      "decision": "Used semantic table with column headers, row headers, full names and USD prices."
+    },
+    {
+      "id": "UDI-RSP-004",
+      "decision": "Confined wide comparison table to keyboard-focusable horizontal scrolling region with mobile scroll hint."
+    },
+    {
+      "id": "UDI-ACC-001",
+      "decision": "Used native main, headings, buttons, labels, table and dialog."
+    },
+    {
+      "id": "UDI-DAT-004",
+      "decision": "Named repeated edit actions with full product name and kept SKU and permission restriction on each row."
+    },
+    {
+      "id": "UDI-COL-002",
+      "decision": "Rendered explicit Active, Draft, Archived, Low stock and Out of stock text."
+    },
+    {
+      "id": "UDI-FOR-001",
+      "decision": "Provided persistent labels on search, filters and every editor field."
+    },
+    {
+      "id": "UDI-FOR-002",
+      "decision": "Invalid save retains all inputs, announces error summary, links inline errors and focuses first invalid field."
+    }
+  ],
+  "checks": [
+    {
+      "name": "12 rows and complete long names",
+      "pass": true
+    },
+    {
+      "name": "two read-only products without edit controls",
+      "pass": true
+    },
+    {
+      "name": "SKU search",
+      "pass": true
+    },
+    {
+      "name": "combined category, status and low-stock filters",
+      "pass": true
+    },
+    {
+      "name": "filter empty and clear action",
+      "pass": true
+    },
+    {
+      "name": "editor opens with focused name",
+      "pass": true
+    },
+    {
+      "name": "invalid save retains input with linked errors",
+      "pass": true
+    },
+    {
+      "name": "save updates row and announces success",
+      "pass": true
+    },
+    {
+      "name": "unsaved change confirmation appears",
+      "pass": true
+    },
+    {
+      "name": "declining discard preserves editor input",
+      "pass": true
+    },
+    {
+      "name": "confirmed cancel discards edits",
+      "pass": true
+    },
+    {
+      "name": "error state",
+      "pass": true
+    },
+    {
+      "name": "retry restores populated collection",
+      "pass": true
+    },
+    {
+      "name": "empty collection",
+      "pass": true
+    },
+    {
+      "name": "loading state",
+      "pass": true
+    },
+    {
+      "name": "read-only query cannot open editor",
+      "pass": true
+    },
+    {
+      "name": "no page overflow at 375",
+      "pass": true
+    },
+    {
+      "name": "editor fits viewport 375",
+      "pass": true
+    },
+    {
+      "name": "no page overflow at 768",
+      "pass": true
+    },
+    {
+      "name": "editor fits viewport 768",
+      "pass": true
+    },
+    {
+      "name": "no page overflow at 1440",
+      "pass": true
+    },
+    {
+      "name": "editor fits viewport 1440",
+      "pass": true
+    }
+  ],
+  "runtimeExceptions": [],
+  "visualInspection": [
+    "screenshot-1440.png",
+    "screenshot-768.png",
+    "screenshot-375.png",
+    "screenshot-editor-375.png"
+  ],
+  "preservedHashes": {
+    "data.js": "a7eea6e175dc1a84f5b05a0262be777aa67c3f0eb6dfb412fccf51f8d5e21859",
+    "tokens.css": "1d598076379f12ade76b9d9814988db29057802609bb92173aaec3ed488d7fae"
+  },
+  "unsupportedProductionRequirements": [
+    "No server persistence, authentication or authorization enforcement; supplied canEdit flag guards local editing only.",
+    "No multiuser concurrency, audit trail, backend validation, or inventory integration."
+  ],
+  "limitations": [
+    "Loading query intentionally stays loading for reproducible capture.",
+    "No full assistive-technology, automated accessibility or contrast audit performed.",
+    "Focus-on-open was checked; native dialog keyboard focus trapping and full keyboard workflow were not independently exercised.",
+    "Mobile table requires horizontal scrolling for comparison columns and edit actions.",
+    "An initial sandbox HTTP server attempt failed EPERM; escalated local server and Chrome succeeded.",
+    "Collapsed advanced filters show active filter count rather than every selected value."
+  ],
+  "cleanup": {
+    "serverStopped": true,
+    "chromeStopped": true,
+    "browserProfileRemoved": true,
+    "completedAt": "2026-10-30T09:51:17.561Z"
+  }
+}

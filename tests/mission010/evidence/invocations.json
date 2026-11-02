@@ -1,0 +1,19 @@
+{
+  "runner": "collaboration.spawn_agent",
+  "fork_turns": "none",
+  "model": "Inherited unchanged from controller for all three calls; concrete backend model revision is not exposed by the runner",
+  "overrides": "None (same model and reasoning settings inherited)",
+  "shared_task": "tests/mission010/protocol/task.md",
+  "tools": "Same inherited tool catalog; native Node/Python/Chrome available; local HTTP/browser escalation available to all arms",
+  "budget": {"outputTokens":12000,"wallMinutes":12,"implementationReviewPasses":2,"enforcement":"Prompt instructions; runner does not expose a hard per-agent token/time cap. Exact model token usage is unavailable."},
+  "arms": [
+    {"arm":"A","taskName":"/root/benchmark_a","directory":"tests/mission010/runs/A","guidance":"No design skill; no UDI commands; explicitly exclude globally listed skills"},
+    {"arm":"B","taskName":"/root/benchmark_b","directory":"tests/mission010/runs/B","guidance":"Frozen legacy skill at skill/SKILL.md; legacy recommend/search only; no other skills"},
+    {"arm":"C","taskName":"/root/benchmark_c","directory":"tests/mission010/runs/C","guidance":"Updated canonical skill at skill/SKILL.md; no other skills"}
+  ],
+  "common_prompt_constraints": "Read common task and assigned directory only; execute fully; all writes in assigned directory; no siblings/docs/external context; no dependencies/Git/publication; no subagents; save evidence.json; report factual results and elapsed timing.",
+  "shared_environment_corrections": ["Local listener EPERM: require_escalated succeeded for controller; same option communicated to all arms", "Node spawnSync can expose EPERM with status zero: verify nonempty retrieval stdout; communicated to both skill arms"],
+  "isolation": "Fresh contexts and directory copies, identical application input hashes, read restrictions by prompt. Shared filesystem/tool catalog is not a security isolation boundary; no cross-run output was sent to implementing agents.",
+  "discovery_limit": "Skill entrypoint explicitly routed by condition; this tests agent consumption/application, not implicit discovery in a separately installed Codex/Claude/Cursor/Antigravity host.",
+  "comparability_limit": "One sample per condition, parallel runs share CPU; prompt-level execution budget rather than hard measured token equality. This is a controlled exploratory comparison, not a blinded causal experiment."
+}

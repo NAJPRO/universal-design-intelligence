@@ -1,0 +1,4377 @@
+{
+  "protocol": "Chrome CDP, viewport CSS pixels, DPR=1, height=1000, initial viewport screenshot. No image resizing. Captures are observational, not aesthetic scores.",
+  "captures": [
+    {
+      "arm": "A",
+      "width": 375,
+      "state": "populated",
+      "path": "screenshots/A/375-populated.png",
+      "sha256": "adb805eb96cf4eda65620a958cba66dfe6b6497a888191d0d7efe5567cf84aa3",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 360,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\nProducts\n12\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n12\nActive products\n7\nLow stock\n≤ 5 units\n4\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\n12 of 12 products\n\nScroll horizontally to compare all product details →\n\nNorthstar Supply product catalog. Prices in USD.\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\nActive\t42\n\t$68.00\tEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\nActive\t4\nLow stock\n\t$18.00\tEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\nDraft\t0\nOut of stock\n\t$32.00\tEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\nActive\t12\n\t$124.00\t\nRead only\nYou don’t have edit permission.\n\nArchival pen / midnight\tNS-1005\tStationery\t\nArchived\t0\nOut of stock\n\t$12.00\t\nRead only\nYou don’t have edit permission.\n\nCanvas utility pouch\tNS-1006\tEveryday\t\nActive\t28\n\t$24.00\tEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\nDraft\t8\n\t$86.00\tEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\nActive\t3\nLow stock\n\t$22.00\tEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\nActive\t16\n\t$54.00\tEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\nArchived\t6\n\t$38.00\tEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\nDraft\t64\n\t$9.00\tEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\nActive\t21\n\t$29.00\tEdit\n↗\nChanges are saved for this session.\n12 products displayed\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 84.4375,
+            "height": 41
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          },
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 326,
+            "scroll": 970
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 271
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=populated",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js",
+        "http://127.0.0.1:45157/favicon.ico"
+      ],
+      "errors": [
+        {
+          "method": "Log.entryAdded",
+          "params": {
+            "entry": {
+              "source": "network",
+              "level": "error",
+              "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+              "timestamp": 1793353819877.63,
+              "url": "http://127.0.0.1:45157/favicon.ico",
+              "networkRequestId": "476232.9"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "arm": "A",
+      "width": 375,
+      "state": "empty",
+      "path": "screenshots/A/375-empty.png",
+      "sha256": "244ee5d9c485e6fb8363cfeec1f78fb2c5c6083c11c6608f60d6fb7aa15d7e7a",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 375,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\nProducts\n0\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n0\nActive products\n0\nLow stock\n≤ 5 units\n0\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\n0 of 0 products\n▦\nYour collection is empty\n\nThere are no products in this collection yet.\n\nChanges are saved for this session.\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H3",
+            "text": "Your collection is empty"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 84.4375,
+            "height": 41
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=empty",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 375,
+      "state": "error",
+      "path": "screenshots/A/375-error.png",
+      "sha256": "c8a274609f5e3fa8077e6e9b9e3670bc68f6f369977e6d6fda79b62335480dc1",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 375,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\nProducts\n—\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n—\nActive products\n—\nLow stock\n≤ 5 units\n—\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\nCollection unavailable\n!\nWe couldn’t load your products\n\nYour collection is unavailable. Try loading it again.\n\nRetry\nChanges are saved for this session.\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H3",
+            "text": "We couldn’t load your products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 84.4375,
+            "height": 41
+          },
+          {
+            "text": "Retry",
+            "disabled": false,
+            "width": 67.21875,
+            "height": 38.1875
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=error",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 375,
+      "state": "loading",
+      "path": "screenshots/A/375-loading.png",
+      "sha256": "54fbcee19d40585172bf17ff8a1d32ce0a454b4393b810e1f032ce8d2f3a7178",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 375,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\nProducts\n—\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n—\nActive products\n—\nLow stock\n≤ 5 units\n—\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\nLoading collection…\nLoading your collection\n\nGetting your product details ready.\n\nChanges are saved for this session.\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H3",
+            "text": "Loading your collection"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 84.4375,
+            "height": 41
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=loading",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 375,
+      "state": "edit",
+      "path": "screenshots/A/375-edit.png",
+      "sha256": "3833c6362a7cbfd2b38d8187f93ac47b6b49cfaaf2edf2b8b0ddffea5720cb59",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 360,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\nProducts\n12\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n12\nActive products\n7\nLow stock\n≤ 5 units\n4\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\n12 of 12 products\n\nScroll horizontally to compare all product details →\n\nNorthstar Supply product catalog. Prices in USD.\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\nActive\t42\n\t$68.00\tEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\nActive\t4\nLow stock\n\t$18.00\tEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\nDraft\t0\nOut of stock\n\t$32.00\tEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\nActive\t12\n\t$124.00\t\nRead only\nYou don’t have edit permission.\n\nArchival pen / midnight\tNS-1005\tStationery\t\nArchived\t0\nOut of stock\n\t$12.00\t\nRead only\nYou don’t have edit permission.\n\nCanvas utility pouch\tNS-1006\tEveryday\t\nActive\t28\n\t$24.00\tEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\nDraft\t8\n\t$86.00\tEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\nActive\t3\nLow stock\n\t$22.00\tEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\nActive\t16\n\t$54.00\tEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\nArchived\t6\n\t$38.00\tEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\nDraft\t64\n\t$9.00\tEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\nActive\t21\n\t$29.00\tEdit\n↗\nChanges are saved for this session.\n12 products displayed\n\nA considered collection. Every detail counts.\n\nPRODUCT DETAILS\nEdit product\n\nNS-1001\n\n×\n\nUpdate the details below. Changes apply when you save.\n\nProduct name\nCategory\nEveryday\nStationery\nWorkspace\nStatus\nActive\nDraft\nArchived\nStock quantity\nPrice (USD)\n\nSaved changes stay in this browser session. Reloading restores the original catalog.\n\nCancel\nSave changes",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": true,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit productNS-1001×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores t"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 84.4375,
+            "height": 41
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "×",
+            "disabled": false,
+            "width": 34,
+            "height": 34
+          },
+          {
+            "text": "Cancel",
+            "disabled": false,
+            "width": 75.015625,
+            "height": 38.1875
+          },
+          {
+            "text": "Save changes",
+            "disabled": false,
+            "width": 119.46875,
+            "height": 38.1875
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          },
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 326,
+            "scroll": 970
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 271
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?edit=NS-1001",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 768,
+      "state": "populated",
+      "path": "screenshots/A/768-populated.png",
+      "sha256": "eb27f5c31c1396b3c864ab33657591707d501ae177cd039f4d824957e9962505",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 753,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\n▦\nProducts\n12\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n12\nActive products\n7\nLow stock ≤ 5 units\n4\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\n12 of 12 products\n\nScroll horizontally to compare all product details →\n\nNorthstar Supply product catalog. Prices in USD.\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\nActive\t42\n\t$68.00\tEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\nActive\t4\nLow stock\n\t$18.00\tEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\nDraft\t0\nOut of stock\n\t$32.00\tEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\nActive\t12\n\t$124.00\t\nRead only\nYou don’t have edit permission.\n\nArchival pen / midnight\tNS-1005\tStationery\t\nArchived\t0\nOut of stock\n\t$12.00\t\nRead only\nYou don’t have edit permission.\n\nCanvas utility pouch\tNS-1006\tEveryday\t\nActive\t28\n\t$24.00\tEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\nDraft\t8\n\t$86.00\tEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\nActive\t3\nLow stock\n\t$22.00\tEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\nActive\t16\n\t$54.00\tEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\nArchived\t6\n\t$38.00\tEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\nDraft\t64\n\t$9.00\tEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\nActive\t21\n\t$29.00\tEdit\n↗\nChanges are saved for this session.\n12 products displayed\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 103.5625,
+            "height": 41
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          },
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 703,
+            "scroll": 970
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 271
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=populated",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 768,
+      "state": "empty",
+      "path": "screenshots/A/768-empty.png",
+      "sha256": "d4fcac4e09ecd768b96edc1d79ce9ba240b7d21bcda5d7d32c3e0978fda7e89f",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 768,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\n▦\nProducts\n0\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n0\nActive products\n0\nLow stock ≤ 5 units\n0\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\n0 of 0 products\n▦\nYour collection is empty\n\nThere are no products in this collection yet.\n\nChanges are saved for this session.\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H3",
+            "text": "Your collection is empty"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 103.5625,
+            "height": 41
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=empty",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 768,
+      "state": "error",
+      "path": "screenshots/A/768-error.png",
+      "sha256": "7c67180b5dde99579382b1d9f48cf84ee13ce750a77c122bd9cf5b7ba0f511d0",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 768,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\n▦\nProducts\n—\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n—\nActive products\n—\nLow stock ≤ 5 units\n—\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\nCollection unavailable\n!\nWe couldn’t load your products\n\nYour collection is unavailable. Try loading it again.\n\nRetry\nChanges are saved for this session.\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H3",
+            "text": "We couldn’t load your products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 103.5625,
+            "height": 41
+          },
+          {
+            "text": "Retry",
+            "disabled": false,
+            "width": 69.921875,
+            "height": 39.59375
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=error",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 768,
+      "state": "loading",
+      "path": "screenshots/A/768-loading.png",
+      "sha256": "85b461de3acc337a291b665354a5cdaa14875d0691a70d0908415bbe19211dff",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 768,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\n▦\nProducts\n—\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n—\nActive products\n—\nLow stock ≤ 5 units\n—\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\nLoading collection…\nLoading your collection\n\nGetting your product details ready.\n\nChanges are saved for this session.\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H3",
+            "text": "Loading your collection"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 103.5625,
+            "height": 41
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=loading",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 768,
+      "state": "edit",
+      "path": "screenshots/A/768-edit.png",
+      "sha256": "4e6ef59e66c5661bafb202cbf168626d644a2d87b0b30cd69436768c06300664",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 753,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\n▦\nProducts\n12\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nTotal products\n12\nActive products\n7\nLow stock ≤ 5 units\n4\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\n12 of 12 products\n\nScroll horizontally to compare all product details →\n\nNorthstar Supply product catalog. Prices in USD.\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\nActive\t42\n\t$68.00\tEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\nActive\t4\nLow stock\n\t$18.00\tEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\nDraft\t0\nOut of stock\n\t$32.00\tEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\nActive\t12\n\t$124.00\t\nRead only\nYou don’t have edit permission.\n\nArchival pen / midnight\tNS-1005\tStationery\t\nArchived\t0\nOut of stock\n\t$12.00\t\nRead only\nYou don’t have edit permission.\n\nCanvas utility pouch\tNS-1006\tEveryday\t\nActive\t28\n\t$24.00\tEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\nDraft\t8\n\t$86.00\tEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\nActive\t3\nLow stock\n\t$22.00\tEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\nActive\t16\n\t$54.00\tEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\nArchived\t6\n\t$38.00\tEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\nDraft\t64\n\t$9.00\tEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\nActive\t21\n\t$29.00\tEdit\n↗\nChanges are saved for this session.\n12 products displayed\n\nA considered collection. Every detail counts.\n\nPRODUCT DETAILS\nEdit product\n\nNS-1001\n\n×\n\nUpdate the details below. Changes apply when you save.\n\nProduct name\nCategory\nEveryday\nStationery\nWorkspace\nStatus\nActive\nDraft\nArchived\nStock quantity\nPrice (USD)\n\nSaved changes stay in this browser session. Reloading restores the original catalog.\n\nCancel\nSave changes",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": true,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit productNS-1001×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores t"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 103.5625,
+            "height": 41
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "×",
+            "disabled": false,
+            "width": 34,
+            "height": 34
+          },
+          {
+            "text": "Cancel",
+            "disabled": false,
+            "width": 78.3125,
+            "height": 39.59375
+          },
+          {
+            "text": "Save changes",
+            "disabled": false,
+            "width": 126.203125,
+            "height": 39.59375
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          },
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 703,
+            "scroll": 970
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 271
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?edit=NS-1001",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 1440,
+      "state": "populated",
+      "path": "screenshots/A/1440-populated.png",
+      "sha256": "07fd92eec45b9ce328e573d090098f3f719207556c7db984a7ff760e9d5c2802",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1425,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\nWORKSPACE\n▦\nProducts\n12\nCE\nCatalog editor\nNorthstar Supply\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nNORTHSTAR COLLECTION\nTotal products\n12\nActive products\n7\nLow stock ≤ 5 units\n4\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\n12 of 12 products\nNorthstar Supply product catalog. Prices in USD.\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\nActive\t42\n\t$68.00\tEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\nActive\t4\nLow stock\n\t$18.00\tEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\nDraft\t0\nOut of stock\n\t$32.00\tEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\nActive\t12\n\t$124.00\t\nRead only\nYou don’t have edit permission.\n\nArchival pen / midnight\tNS-1005\tStationery\t\nArchived\t0\nOut of stock\n\t$12.00\t\nRead only\nYou don’t have edit permission.\n\nCanvas utility pouch\tNS-1006\tEveryday\t\nActive\t28\n\t$24.00\tEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\nDraft\t8\n\t$86.00\tEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\nActive\t3\nLow stock\n\t$22.00\tEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\nActive\t16\n\t$54.00\tEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\nArchived\t6\n\t$38.00\tEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\nDraft\t64\n\t$9.00\tEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\nActive\t21\n\t$29.00\tEdit\n↗\nChanges are saved for this session.\n12 products displayed\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 103.5625,
+            "height": 41
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 271
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=populated",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 1440,
+      "state": "empty",
+      "path": "screenshots/A/1440-empty.png",
+      "sha256": "8bb46cfaefd737d0a552f3fb3dc0d6e850e0793d54efb51fe8607692461d4d9e",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1440,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\nWORKSPACE\n▦\nProducts\n0\nCE\nCatalog editor\nNorthstar Supply\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nNORTHSTAR COLLECTION\nTotal products\n0\nActive products\n0\nLow stock ≤ 5 units\n0\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\n0 of 0 products\n▦\nYour collection is empty\n\nThere are no products in this collection yet.\n\nChanges are saved for this session.\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H3",
+            "text": "Your collection is empty"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 103.5625,
+            "height": 41
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=empty",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 1440,
+      "state": "error",
+      "path": "screenshots/A/1440-error.png",
+      "sha256": "3b0a6754783fb920e6995ceeb7b206a203ceb227e37d99ec7e144cf1d24335b1",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1440,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\nWORKSPACE\n▦\nProducts\n—\nCE\nCatalog editor\nNorthstar Supply\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nNORTHSTAR COLLECTION\nTotal products\n—\nActive products\n—\nLow stock ≤ 5 units\n—\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\nCollection unavailable\n!\nWe couldn’t load your products\n\nYour collection is unavailable. Try loading it again.\n\nRetry\nChanges are saved for this session.\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H3",
+            "text": "We couldn’t load your products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 103.5625,
+            "height": 41
+          },
+          {
+            "text": "Retry",
+            "disabled": false,
+            "width": 69.921875,
+            "height": 39.59375
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=error",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 1440,
+      "state": "loading",
+      "path": "screenshots/A/1440-loading.png",
+      "sha256": "3f5b7df836f384cdb662ed13608533299a9fd3d39830cd31b8cadc1f1d752ff2",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1440,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\nWORKSPACE\n▦\nProducts\n—\nCE\nCatalog editor\nNorthstar Supply\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nNORTHSTAR COLLECTION\nTotal products\n—\nActive products\n—\nLow stock ≤ 5 units\n—\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\nLoading collection…\nLoading your collection\n\nGetting your product details ready.\n\nChanges are saved for this session.\n\nA considered collection. Every detail counts.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H3",
+            "text": "Loading your collection"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores the orig"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 103.5625,
+            "height": 41
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?state=loading",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "A",
+      "width": 1440,
+      "state": "edit",
+      "path": "screenshots/A/1440-edit.png",
+      "sha256": "0f350103937b5b9d775b764c96df7ba848e5ee93df0a0d11b79fb8a8bfc1c1d6",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1425,
+        "title": "Northstar Supply — Products",
+        "text": "✳\nNorthstar\nSUPPLY\nWORKSPACE\n▦\nProducts\n12\nCE\nCatalog editor\nNorthstar Supply\nCatalog / Products\nLocal workspace\nYOUR CATALOG, IN ORDER\nProducts\n\nKeep your collection accurate and ready for what’s next.\n\nNORTHSTAR COLLECTION\nTotal products\n12\nActive products\n7\nLow stock ≤ 5 units\n4\nAll products\n\nView, compare and manage your product details.\n\nPrices in USD\n⌕\nSearch by product name or SKU\n☷\nFilters\n12 of 12 products\nNorthstar Supply product catalog. Prices in USD.\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\nActive\t42\n\t$68.00\tEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\nActive\t4\nLow stock\n\t$18.00\tEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\nDraft\t0\nOut of stock\n\t$32.00\tEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\nActive\t12\n\t$124.00\t\nRead only\nYou don’t have edit permission.\n\nArchival pen / midnight\tNS-1005\tStationery\t\nArchived\t0\nOut of stock\n\t$12.00\t\nRead only\nYou don’t have edit permission.\n\nCanvas utility pouch\tNS-1006\tEveryday\t\nActive\t28\n\t$24.00\tEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\nDraft\t8\n\t$86.00\tEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\nActive\t3\nLow stock\n\t$22.00\tEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\nActive\t16\n\t$54.00\tEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\nArchived\t6\n\t$38.00\tEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\nDraft\t64\n\t$9.00\tEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\nActive\t21\n\t$29.00\tEdit\n↗\nChanges are saved for this session.\n12 products displayed\n\nA considered collection. Every detail counts.\n\nPRODUCT DETAILS\nEdit product\n\nNS-1001\n\n×\n\nUpdate the details below. Changes apply when you save.\n\nProduct name\nCategory\nEveryday\nStationery\nWorkspace\nStatus\nActive\nDraft\nArchived\nStock quantity\nPrice (USD)\n\nSaved changes stay in this browser session. Reloading restores the original catalog.\n\nCancel\nSave changes",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "All products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": true,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit productNS-1001×Update the details below. Changes apply when you save.Product nameCategoryEverydayStationeryWorkspaceStatusActiveDraftArchivedStock quantityPrice (USD)Saved changes stay in this browser session. Reloading restores t"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nFilters",
+            "disabled": false,
+            "width": 103.5625,
+            "height": 41
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 43.609375,
+            "height": 26.796875
+          },
+          {
+            "text": "×",
+            "disabled": false,
+            "width": 34,
+            "height": 34
+          },
+          {
+            "text": "Cancel",
+            "disabled": false,
+            "width": 78.3125,
+            "height": 39.59375
+          },
+          {
+            "text": "Save changes",
+            "disabled": false,
+            "width": 126.203125,
+            "height": 39.59375
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "LABEL",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 203
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 271
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/A/?edit=NS-1001",
+        "http://127.0.0.1:45157/A/tokens.css",
+        "http://127.0.0.1:45157/A/styles.css",
+        "http://127.0.0.1:45157/A/app.js",
+        "http://127.0.0.1:45157/A/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 375,
+      "state": "populated",
+      "path": "screenshots/B/375-populated.png",
+      "sha256": "567c5bd98f8a0da55b5ec05bed462b766070d3009d72253bceea1e44f72aaac9",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 360,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n\n12 of 12 products\n\nSwipe or scroll to compare all product details →\n\nProduct collection, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice (USD)\tAccess\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nIn stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◐\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nIn stock\n\t$124.00\tRead only\nNo edit permission\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nNo edit permission\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nIn stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◐\nDraft\t8\nIn stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nIn stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nIn stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◐\nDraft\t64\nIn stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nIn stock\n\t$29.00\t\nEdit\n↗\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 294,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 326,
+            "scroll": 970
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 250
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=populated",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 375,
+      "state": "empty",
+      "path": "screenshots/B/375-empty.png",
+      "sha256": "f3da9a247108bc6545627531a1a225580ecf86f361087d31f43f59fce178d04f",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 375,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n\n0 products\n\n□\nYour collection is empty\n\nThere are no products to manage yet.\n\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Your collection is empty"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 309,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": []
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=empty",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 375,
+      "state": "error",
+      "path": "screenshots/B/375-error.png",
+      "sha256": "1091088039e28e327fe956eb8468c591343dad8ceb70f5fa1460fdeebbb1a2b9",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 360,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n\nProduct collection\n\n!\nWe couldn’t load the products\n\nYour collection is unavailable. Try loading it again.\n\nRetry\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "We couldn’t load the products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 294,
+            "height": 44
+          },
+          {
+            "text": "Retry",
+            "disabled": false,
+            "width": 71.921875,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": []
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=error",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 375,
+      "state": "loading",
+      "path": "screenshots/B/375-loading.png",
+      "sha256": "deb57e3a84727693e5351ee065872da9350adc95429e4af4c3745a08fe1a4fe4",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 375,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n\nProduct collection\n\n◌\nLoading your collection\n\nGetting product details ready…\n\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Loading your collection"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 309,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": []
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=loading",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 375,
+      "state": "edit",
+      "path": "screenshots/B/375-edit.png",
+      "sha256": "97230fbe46c3afadb69e13736570538a4f394ad39b19877ae8a976cf4ca79387",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 360,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n\n12 of 12 products\n\nSwipe or scroll to compare all product details →\n\nProduct collection, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice (USD)\tAccess\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nIn stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◐\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nIn stock\n\t$124.00\tRead only\nNo edit permission\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nNo edit permission\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nIn stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◐\nDraft\t8\nIn stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nIn stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nIn stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◐\nDraft\t64\nIn stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nIn stock\n\t$29.00\t\nEdit\n↗\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.\n\nPRODUCT DETAILS\nEdit product\n\nNS-1001 · Changes apply to this session\n\n×\n\nUpdate the essentials for your collection.\n\nProduct name\nCategory\nWorkspace\nStationery\nEveryday\nStatus\nActive\nDraft\nArchived\nStock quantity\n\nWhole units, 0 or more\n\nPrice (USD)\n\nAmount greater than $0.00\n\nNo unsaved changes\nCancel\nSave changes",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": true,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit productNS-1001 · Changes apply to this session×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 294,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "×",
+            "disabled": false,
+            "width": 40,
+            "height": 40
+          },
+          {
+            "text": "Cancel",
+            "disabled": false,
+            "width": 76.3125,
+            "height": 44
+          },
+          {
+            "text": "Save changes",
+            "disabled": false,
+            "width": 124.203125,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 326,
+            "scroll": 970
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 250
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?edit=NS-1001",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 768,
+      "state": "populated",
+      "path": "screenshots/B/768-populated.png",
+      "sha256": "394bf3491e6b08b61aa95bc1cbda5768a7c54d8814f15b6ccfa1376e024399d8",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 753,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n\n12 of 12 products\n\nSwipe or scroll to compare all product details →\n\nProduct collection, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice (USD)\tAccess\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nIn stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◐\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nIn stock\n\t$124.00\tRead only\nNo edit permission\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nNo edit permission\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nIn stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◐\nDraft\t8\nIn stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nIn stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nIn stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◐\nDraft\t64\nIn stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nIn stock\n\t$29.00\t\nEdit\n↗\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 168.3125,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 676,
+            "scroll": 970
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 250
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=populated",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 768,
+      "state": "empty",
+      "path": "screenshots/B/768-empty.png",
+      "sha256": "1e2389567a247b9a6590ad0c80c188ea1b6e5f623bf3614d81be028a675bbdeb",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 768,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n\n0 products\n\n□\nYour collection is empty\n\nThere are no products to manage yet.\n\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Your collection is empty"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 168.3125,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": []
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=empty",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 768,
+      "state": "error",
+      "path": "screenshots/B/768-error.png",
+      "sha256": "abd42db33ec1f27be6d431409230dd6a40718daa184cf6ec56a8188a5b12d0e3",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 768,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n\nProduct collection\n\n!\nWe couldn’t load the products\n\nYour collection is unavailable. Try loading it again.\n\nRetry\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "We couldn’t load the products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 168.3125,
+            "height": 44
+          },
+          {
+            "text": "Retry",
+            "disabled": false,
+            "width": 71.921875,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": []
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=error",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 768,
+      "state": "loading",
+      "path": "screenshots/B/768-loading.png",
+      "sha256": "6cab987485d3ade0d27dd6ea2e69f9684b066ad01edfc6864dccc0cb4fbe7343",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 768,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n\nProduct collection\n\n◌\nLoading your collection\n\nGetting product details ready…\n\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Loading your collection"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 168.3125,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": []
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=loading",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 768,
+      "state": "edit",
+      "path": "screenshots/B/768-edit.png",
+      "sha256": "ad3cd095943362e6439a495945d72dad183eec1372465c6f6f6b98d8475fed31",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 753,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\nSearch products\n⌕\n☷\nAdvanced filters\n\n12 of 12 products\n\nSwipe or scroll to compare all product details →\n\nProduct collection, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice (USD)\tAccess\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nIn stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◐\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nIn stock\n\t$124.00\tRead only\nNo edit permission\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nNo edit permission\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nIn stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◐\nDraft\t8\nIn stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nIn stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nIn stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◐\nDraft\t64\nIn stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nIn stock\n\t$29.00\t\nEdit\n↗\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.\n\nPRODUCT DETAILS\nEdit product\n\nNS-1001 · Changes apply to this session\n\n×\n\nUpdate the essentials for your collection.\n\nProduct name\nCategory\nWorkspace\nStationery\nEveryday\nStatus\nActive\nDraft\nArchived\nStock quantity\n\nWhole units, 0 or more\n\nPrice (USD)\n\nAmount greater than $0.00\n\nNo unsaved changes\nCancel\nSave changes",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": true,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit productNS-1001 · Changes apply to this session×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 168.3125,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "×",
+            "disabled": false,
+            "width": 40,
+            "height": 40
+          },
+          {
+            "text": "Cancel",
+            "disabled": false,
+            "width": 80.3125,
+            "height": 44
+          },
+          {
+            "text": "Save changes",
+            "disabled": false,
+            "width": 128.203125,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 676,
+            "scroll": 970
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 250
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?edit=NS-1001",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 1440,
+      "state": "populated",
+      "path": "screenshots/B/1440-populated.png",
+      "sha256": "547346f89b35a5b1bee13588bdcb63e5fd01e772f3cf0fa36af09001da9222af",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1425,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\n◉\nSession-only changes\nSearch products\n⌕\n☷\nAdvanced filters\n\n12 of 12 products\n\nProduct collection, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice (USD)\tAccess\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nIn stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◐\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nIn stock\n\t$124.00\tRead only\nNo edit permission\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nNo edit permission\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nIn stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◐\nDraft\t8\nIn stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nIn stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nIn stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◐\nDraft\t64\nIn stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nIn stock\n\t$29.00\t\nEdit\n↗\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 168.3125,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 250
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=populated",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 1440,
+      "state": "empty",
+      "path": "screenshots/B/1440-empty.png",
+      "sha256": "8169ad160914442af3f6c84ec05967b981a47d0fb730cf8c162e6eff86d252c1",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1440,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\n◉\nSession-only changes\nSearch products\n⌕\n☷\nAdvanced filters\n\n0 products\n\n□\nYour collection is empty\n\nThere are no products to manage yet.\n\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Your collection is empty"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 168.3125,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": []
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=empty",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 1440,
+      "state": "error",
+      "path": "screenshots/B/1440-error.png",
+      "sha256": "3b1655cfa4baa00ed8d3c1efc694a85d69b98a9d57599cae65f393d2f5ee2e38",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1440,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\n◉\nSession-only changes\nSearch products\n⌕\n☷\nAdvanced filters\n\nProduct collection\n\n!\nWe couldn’t load the products\n\nYour collection is unavailable. Try loading it again.\n\nRetry\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "We couldn’t load the products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 168.3125,
+            "height": 44
+          },
+          {
+            "text": "Retry",
+            "disabled": false,
+            "width": 71.921875,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": []
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=error",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 1440,
+      "state": "loading",
+      "path": "screenshots/B/1440-loading.png",
+      "sha256": "a5068dd307a05b74364e01d6de8ac951d42126ac993385f05ba686160c86c31f",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1440,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\n◉\nSession-only changes\nSearch products\n⌕\n☷\nAdvanced filters\n\nProduct collection\n\n◌\nLoading your collection\n\nGetting product details ready…\n\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Loading your collection"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 0,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit product×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0.00No unsaved changesCancelSave changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 168.3125,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": []
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?state=loading",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "B",
+      "width": 1440,
+      "state": "edit",
+      "path": "screenshots/B/1440-edit.png",
+      "sha256": "34f1bab2997f1e542b427ef8fa747a4be5fb94bbf5093e228c4f40c462d44ac9",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1425,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\nYOUR COLLECTION\nProducts\n\nKeep the details right. Keep the collection moving.\n\n◉\nSession-only changes\nSearch products\n⌕\n☷\nAdvanced filters\n\n12 of 12 products\n\nProduct collection, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice (USD)\tAccess\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nIn stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◐\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nIn stock\n\t$124.00\tRead only\nNo edit permission\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nNo edit permission\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nIn stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◐\nDraft\t8\nIn stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nIn stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nIn stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◐\nDraft\t64\nIn stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nIn stock\n\t$29.00\t\nEdit\n↗\nPrices in USD\nEdits are available where you have permission.\n\nChanges are kept in this session and reset when you reload.\n\nPRODUCT DETAILS\nEdit product\n\nNS-1001 · Changes apply to this session\n\n×\n\nUpdate the essentials for your collection.\n\nProduct name\nCategory\nWorkspace\nStationery\nEveryday\nStatus\nActive\nDraft\nArchived\nStock quantity\n\nWhole units, 0 or more\n\nPrice (USD)\n\nAmount greater than $0.00\n\nNo unsaved changes\nCancel\nSave changes",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": true,
+            "hidden": false,
+            "text": "PRODUCT DETAILSEdit productNS-1001 · Changes apply to this session×Update the essentials for your collection.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityWhole units, 0 or morePrice (USD)Amount greater than $0"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "☷\nAdvanced filters",
+            "disabled": false,
+            "width": 168.3125,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 72.609375,
+            "height": 38
+          },
+          {
+            "text": "×",
+            "disabled": false,
+            "width": 40,
+            "height": 40
+          },
+          {
+            "text": "Cancel",
+            "disabled": false,
+            "width": 80.3125,
+            "height": 44
+          },
+          {
+            "text": "Save changes",
+            "disabled": false,
+            "width": 128.203125,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 250
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/B/?edit=NS-1001",
+        "http://127.0.0.1:45157/B/tokens.css",
+        "http://127.0.0.1:45157/B/styles.css",
+        "http://127.0.0.1:45157/B/app.js",
+        "http://127.0.0.1:45157/B/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 375,
+      "state": "populated",
+      "path": "screenshots/C/375-populated.png",
+      "sha256": "111256e4fc7d03fa664fe4b18a95b7ec5101533c853b0233ecee74e5fc6c0214",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 360,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspaceChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\n12 of 12 products\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nin stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◌\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nin stock\n\t$124.00\tRead only\nYour role can’t edit\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nYour role can’t edit\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nin stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◌\nDraft\t8\nin stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nin stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nin stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◌\nDraft\t64\nin stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nin stock\n\t$29.00\t\nEdit\n↗\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 294,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 326,
+            "scroll": 1000
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=populated",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 375,
+      "state": "empty",
+      "path": "screenshots/C/375-empty.png",
+      "sha256": "9824d9353c00203378b5b5b5a7ec876cfdb988de99b59c869ab39ef37fb1c082",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 360,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspaceChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\n0 of 0 products\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\n⌕\nNo products in this collection\n\nThere are no products available to manage yet.\n\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H3",
+            "text": "No products in this collection"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 294,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 326,
+            "scroll": 1000
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=empty",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 375,
+      "state": "error",
+      "path": "screenshots/C/375-error.png",
+      "sha256": "d3e14d9af25cfbd3ba8ce936ad6b3b9619bb21b2ab41c2ca53f905bb41ef1b7e",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 360,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspaceChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\nCollection unavailable\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\n!\nWe couldn’t load the catalog\n\nYour collection is unavailable. Try again to load the products.\n\nRetry\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H3",
+            "text": "We couldn’t load the catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 294,
+            "height": 44
+          },
+          {
+            "text": "Retry",
+            "disabled": false,
+            "width": 71.921875,
+            "height": 42
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 326,
+            "scroll": 1000
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=error",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 375,
+      "state": "loading",
+      "path": "screenshots/C/375-loading.png",
+      "sha256": "38bea0a321fce0d34e4d35d1db6351092b6ca1ac22db5f344a702d70a4257164",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 375,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspaceChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\nLoading products…\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\n◌\nLoading your catalog\n\nProduct details are being prepared.\n\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H3",
+            "text": "Loading your catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 309,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 341,
+            "scroll": 1000
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=loading",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 375,
+      "state": "edit",
+      "path": "screenshots/C/375-edit.png",
+      "sha256": "54dcb16f118485496df0ec3662f53695b41ac5769a303257287e7fc59fbb5b41",
+      "metrics": {
+        "width": 375,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 360,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspaceChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\n12 of 12 products\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nin stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◌\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nin stock\n\t$124.00\tRead only\nYour role can’t edit\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nYour role can’t edit\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nin stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◌\nDraft\t8\nin stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nin stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nin stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◌\nDraft\t64\nin stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nin stock\n\t$29.00\t\nEdit\n↗\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.\n\nNS-1001 · PRODUCT DETAILS\n\nEdit product\n×\n\nUpdate product details. All fields are required.\n\nProduct name\nCategory\nWorkspace\nStationery\nEveryday\nStatus\nActive\nDraft\nArchived\nStock quantity\nPrice (USD)\n\nNo changes yet\n\nCancel\nSave changes",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": true,
+            "hidden": false,
+            "text": "NS-1001 · PRODUCT DETAILSEdit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 294,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "×",
+            "disabled": false,
+            "width": 44,
+            "height": 42
+          },
+          {
+            "text": "Cancel",
+            "disabled": false,
+            "width": 80.3125,
+            "height": 42
+          },
+          {
+            "text": "Save changes",
+            "disabled": false,
+            "width": 128.203125,
+            "height": 42
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 326,
+            "scroll": 1000
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?edit=NS-1001",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 768,
+      "state": "populated",
+      "path": "screenshots/C/768-populated.png",
+      "sha256": "3ed90c74d1b94c3b254f6dc2990b37ddc7755fd0ed0a63303f49654aac24cd06",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 753,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspace\nChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\n12 of 12 products\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nin stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◌\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nin stock\n\t$124.00\tRead only\nYour role can’t edit\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nYour role can’t edit\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nin stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◌\nDraft\t8\nin stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nin stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nin stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◌\nDraft\t64\nin stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nin stock\n\t$29.00\t\nEdit\n↗\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 175.484375,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 691,
+            "scroll": 1000
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=populated",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 768,
+      "state": "empty",
+      "path": "screenshots/C/768-empty.png",
+      "sha256": "7be5aeedd019839800dc13f2253284c06d44c766e569bcb3790e04d40782031f",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 768,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspace\nChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\n0 of 0 products\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\n⌕\nNo products in this collection\n\nThere are no products available to manage yet.\n\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H3",
+            "text": "No products in this collection"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 175.484375,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 705,
+            "scroll": 1000
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=empty",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 768,
+      "state": "error",
+      "path": "screenshots/C/768-error.png",
+      "sha256": "ea626a737b8dc9ef9a0cb3bb73d048b7e4c1364c61c96c25e0503deeac8474ce",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 753,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspace\nChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\nCollection unavailable\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\n!\nWe couldn’t load the catalog\n\nYour collection is unavailable. Try again to load the products.\n\nRetry\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H3",
+            "text": "We couldn’t load the catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 175.484375,
+            "height": 44
+          },
+          {
+            "text": "Retry",
+            "disabled": false,
+            "width": 71.921875,
+            "height": 42
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 691,
+            "scroll": 1000
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=error",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 768,
+      "state": "loading",
+      "path": "screenshots/C/768-loading.png",
+      "sha256": "1fccbff0d3a2bad5aa0a37d142470a47c784011f0cbd9ca53df875116f56264f",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 768,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspace\nChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\nLoading products…\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\n◌\nLoading your catalog\n\nProduct details are being prepared.\n\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H3",
+            "text": "Loading your catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 175.484375,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 705,
+            "scroll": 1000
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=loading",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 768,
+      "state": "edit",
+      "path": "screenshots/C/768-edit.png",
+      "sha256": "e591b04024bfa4db97277f8dc6f52298fb6e9cca493f894ab53fb6b883a3bb54",
+      "metrics": {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 753,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspace\nChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\n12 of 12 products\n\nSwipe or scroll across the table to compare all details →\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nin stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◌\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nin stock\n\t$124.00\tRead only\nYour role can’t edit\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nYour role can’t edit\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nin stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◌\nDraft\t8\nin stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nin stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nin stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◌\nDraft\t64\nin stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nin stock\n\t$29.00\t\nEdit\n↗\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.\n\nNS-1001 · PRODUCT DETAILS\n\nEdit product\n×\n\nUpdate product details. All fields are required.\n\nProduct name\nCategory\nWorkspace\nStationery\nEveryday\nStatus\nActive\nDraft\nArchived\nStock quantity\nPrice (USD)\n\nNo changes yet\n\nCancel\nSave changes",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": true,
+            "hidden": false,
+            "text": "NS-1001 · PRODUCT DETAILSEdit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 175.484375,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "×",
+            "disabled": false,
+            "width": 44,
+            "height": 42
+          },
+          {
+            "text": "Cancel",
+            "disabled": false,
+            "width": 80.3125,
+            "height": 42
+          },
+          {
+            "text": "Save changes",
+            "disabled": false,
+            "width": 128.203125,
+            "height": 42
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "DIV",
+            "cls": "table-scroll",
+            "width": 691,
+            "scroll": 1000
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?edit=NS-1001",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 1440,
+      "state": "populated",
+      "path": "screenshots/C/1440-populated.png",
+      "sha256": "a6f05df71283b43d9576dda0eff253737d346f58bb28a78f45fb55f28604a332",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1425,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspace\nChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\n12 of 12 products\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nin stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◌\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nin stock\n\t$124.00\tRead only\nYour role can’t edit\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nYour role can’t edit\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nin stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◌\nDraft\t8\nin stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nin stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nin stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◌\nDraft\t64\nin stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nin stock\n\t$29.00\t\nEdit\n↗\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 175.484375,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=populated",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 1440,
+      "state": "empty",
+      "path": "screenshots/C/1440-empty.png",
+      "sha256": "77858ebe4cd0941bf4aac45817985e656de76b7188671c7199d72dff585abfa2",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1440,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspace\nChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\n0 of 0 products\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\n⌕\nNo products in this collection\n\nThere are no products available to manage yet.\n\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H3",
+            "text": "No products in this collection"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 175.484375,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=empty",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 1440,
+      "state": "error",
+      "path": "screenshots/C/1440-error.png",
+      "sha256": "5b44232aca6d3b5697bbf239483697f0016c6314d773ff7cdf07c840abfd5b48",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1440,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspace\nChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\nCollection unavailable\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\n!\nWe couldn’t load the catalog\n\nYour collection is unavailable. Try again to load the products.\n\nRetry\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H3",
+            "text": "We couldn’t load the catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 175.484375,
+            "height": 44
+          },
+          {
+            "text": "Retry",
+            "disabled": false,
+            "width": 71.921875,
+            "height": 42
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=error",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 1440,
+      "state": "loading",
+      "path": "screenshots/C/1440-loading.png",
+      "sha256": "721cb1c3a487fb512e7869d1c0101dcb56e9285f8bbd1d61608350a9da110633",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1440,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspace\nChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\nLoading products…\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\n◌\nLoading your catalog\n\nProduct details are being prepared.\n\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H3",
+            "text": "Loading your catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": false,
+            "hidden": false,
+            "text": "Edit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 175.484375,
+            "height": 44
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?state=loading",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    },
+    {
+      "arm": "C",
+      "width": 1440,
+      "state": "edit",
+      "path": "screenshots/C/1440-edit.png",
+      "sha256": "ab3c4da6366975b743beecccfa40dee83e2685910903aa909450d26173c4308a",
+      "metrics": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1,
+        "scrollWidth": 1425,
+        "title": "Northstar Supply — Products",
+        "text": "Skip to products\n✳\nNorthstar\nSUPPLY\nCatalog workspace\nCatalog editor\nCatalog\n/\nProducts\n\nYOUR COLLECTION, IN ORDER\n\nProducts\n\nCompare your catalog. Keep every detail current.\n\n Local workspace\nChanges last for this session\nProduct catalog\nAll prices in USD\nSearch products\n⌕\nAdvanced filters\n⌄\n\n12 of 12 products\n\nNorthstar Supply products, prices in US dollars\nProduct name\tSKU\tCategory\tStatus\tStock\tPrice · USD\tAction\nModular desk organizer — recycled aluminum, expandable tray and cable management edition\tNS-1001\tWorkspace\t\n●\nActive\t42\nin stock\n\t$68.00\t\nEdit\n↗\n\nField notebook / set of three\tNS-1002\tStationery\t\n●\nActive\t4\nLow stock\n\t$18.00\t\nEdit\n↗\n\nInsulated travel tumbler, forest green\tNS-1003\tEveryday\t\n◌\nDraft\t0\nOut of stock\n\t$32.00\t\nEdit\n↗\n\nAdjustable task lamp with warm-to-cool light, weighted base and extra-long braided power cable\tNS-1004\tWorkspace\t\n●\nActive\t12\nin stock\n\t$124.00\tRead only\nYour role can’t edit\n\nArchival pen / midnight\tNS-1005\tStationery\t\n−\nArchived\t0\nOut of stock\n\t$12.00\tRead only\nYour role can’t edit\n\nCanvas utility pouch\tNS-1006\tEveryday\t\n●\nActive\t28\nin stock\n\t$24.00\t\nEdit\n↗\n\nOak monitor riser\tNS-1007\tWorkspace\t\n◌\nDraft\t8\nin stock\n\t$86.00\t\nEdit\n↗\n\nWeekly planner — undated\tNS-1008\tStationery\t\n●\nActive\t3\nLow stock\n\t$22.00\t\nEdit\n↗\n\nCompact commuter tote\tNS-1009\tEveryday\t\n●\nActive\t16\nin stock\n\t$54.00\t\nEdit\n↗\n\nDesk mat / warm grey\tNS-1010\tWorkspace\t\n−\nArchived\t6\nin stock\n\t$38.00\t\nEdit\n↗\n\nRefill paper, dotted A5\tNS-1011\tStationery\t\n◌\nDraft\t64\nin stock\n\t$9.00\t\nEdit\n↗\n\nStacking storage bin\tNS-1012\tWorkspace\t\n●\nActive\t21\nin stock\n\t$29.00\t\nEdit\n↗\nNorthstar Supply catalog\nSession-only edits\n\nRead-only products are visible for comparison. Your editor role cannot change them.\n\nNS-1001 · PRODUCT DETAILS\n\nEdit product\n×\n\nUpdate product details. All fields are required.\n\nProduct name\nCategory\nWorkspace\nStationery\nEveryday\nStatus\nActive\nDraft\nArchived\nStock quantity\nPrice (USD)\n\nNo changes yet\n\nCancel\nSave changes",
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Products"
+          },
+          {
+            "tag": "H2",
+            "text": "Product catalog"
+          },
+          {
+            "tag": "H2",
+            "text": "Edit product"
+          },
+          {
+            "tag": "H2",
+            "text": "Discard your changes?"
+          }
+        ],
+        "tables": 1,
+        "dialogs": [
+          {
+            "open": true,
+            "hidden": false,
+            "text": "NS-1001 · PRODUCT DETAILSEdit product×Update product details. All fields are required.Product nameCategoryWorkspaceStationeryEverydayStatusActiveDraftArchivedStock quantityPrice (USD)No changes yetCancelSave changes"
+          },
+          {
+            "open": false,
+            "hidden": false,
+            "text": "UNSAVED CHANGESDiscard your changes?Your edits haven’t been saved. Keep editing to preserve your work.Keep editingDiscard changes"
+          }
+        ],
+        "unlabelledControls": [],
+        "buttons": [
+          {
+            "text": "Advanced filters\n⌄",
+            "disabled": false,
+            "width": 175.484375,
+            "height": 44
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "Edit\n↗",
+            "disabled": false,
+            "width": 70.609375,
+            "height": 36
+          },
+          {
+            "text": "×",
+            "disabled": false,
+            "width": 44,
+            "height": 42
+          },
+          {
+            "text": "Cancel",
+            "disabled": false,
+            "width": 80.3125,
+            "height": 42
+          },
+          {
+            "text": "Save changes",
+            "disabled": false,
+            "width": 128.203125,
+            "height": 42
+          }
+        ],
+        "horizontalRegions": [
+          {
+            "tag": "CAPTION",
+            "cls": "sr-only",
+            "width": 1,
+            "scroll": 306
+          }
+        ]
+      },
+      "requests": [
+        "http://127.0.0.1:45157/C/?edit=NS-1001",
+        "http://127.0.0.1:45157/C/tokens.css",
+        "http://127.0.0.1:45157/C/styles.css",
+        "http://127.0.0.1:45157/C/app.js",
+        "http://127.0.0.1:45157/C/data.js"
+      ],
+      "errors": []
+    }
+  ],
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/156.0.8078.47",
+    "revision": "@1d17a2e2ee147bb7d6ae2ab6abdb3a2510c17775",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "jsVersion": "15.6.75.19"
+  }
+}
