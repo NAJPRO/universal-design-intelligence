@@ -31,6 +31,10 @@
     "./v21-schemas": {
       "types": "./dist/v21-schemas.d.ts",
       "import": "./dist/v21-schemas.js"
+    },
+    "./experience": {
+      "types": "./dist/experience.d.ts",
+      "import": "./dist/experience.js"
     }
   },
   "scripts": {

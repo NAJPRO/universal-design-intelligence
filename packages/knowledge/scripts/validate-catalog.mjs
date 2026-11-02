@@ -20,3 +20,7 @@ console.log(
 const { professionalComponents, validateComponentCatalog } = await import("../dist/components.js");
 validateComponentCatalog(professionalComponents, { rules: designRules, profiles: designProfiles, patterns: componentPatterns, antiPatterns });
 console.log(`Validated component pack: ${professionalComponents.components.length} families, ${professionalComponents.compositions.length} composition.`);
+
+const { validateExperienceKnowledge } = await import("../dist/experience.js");
+validateExperienceKnowledge();
+console.log("Validated original experience direction, motion and quality vocabulary.");

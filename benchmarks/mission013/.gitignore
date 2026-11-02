@@ -1,0 +1,5 @@
+# Disposable execution data; curated evidence JSON is retained explicitly.
+.chrome-*/
+__pycache__/
+.local/
+evidence/screenshots/

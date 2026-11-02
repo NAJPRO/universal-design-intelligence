@@ -15,7 +15,7 @@ export { ComponentSpecSchema, CompositionSpecSchema } from "@udi/knowledge/compo
 export { RecommendationV21Schema } from "@udi/knowledge/v21-schemas";
 export type { ComponentCatalog, ProfessionalSpec } from "@udi/knowledge/component-schemas";
 export type { RecommendationV21 } from "@udi/knowledge/v21-schemas";
-export const COMPONENT_ENGINE_VERSION = "2.1.0-experimental.2";
+export const COMPONENT_ENGINE_VERSION = "2.1.0-experimental.3";
 const optionsSchema = z.object({ maxBytes: z.number().int().min(1).max(1_048_576).default(24_576),
   entityLimit: z.number().int().min(1).max(100).default(100), expand: z.string().max(160).optional() }).strict();
 export type ComponentRecommendationOptions = z.input<typeof optionsSchema>;
@@ -44,7 +44,8 @@ function plan(context: ContextV2, pack: ComponentCatalog) {
   for (const request of requests) if (!requestedId(request.value!, specs)) unsupported.set(`component:${request.value}`, "No installed component specification matches this explicit requirement; general rules do not establish support.");
   for (const spec of specs) {
     const explicit = requests.filter(request => requestedId(request.value!, specs) === spec.id);
-    const task = tasks.find(task => spec.applicability.taskTerms.some(term => termMatch(term, task.value!)));
+    const task = tasks.find(task => spec.applicability.taskTerms.some(term => termMatch(term, task.value!))
+      || (spec.kind === "composition" && spec.id === "COM-OPERATIONAL-MANAGEMENT" && ["consult", "compare"].some(term => termMatch(term, task.value!))));
     const role = context.roles.find(role => role.value !== null && spec.applicability.roleTerms.some(term => termMatch(term, role.value!)));
     const app = context.applicationType.value;
     if (app === null || !spec.applicability.applicationTypes.includes(app)) {

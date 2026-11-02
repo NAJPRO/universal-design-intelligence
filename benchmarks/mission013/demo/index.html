@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17372e"><title>Morrow — Un samedi à l’atelier</title>
+  <link rel="stylesheet" href="styles.css"><script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#programme">Aller aux ateliers</a>
+  <div class="demo-note">Un atelier fictif. Une démonstration locale. Aucune réservation réelle.</div>
+  <header class="site-header wrap">
+    <a class="brand" href="#accueil" aria-label="Morrow Print Room, accueil"><span class="brand-stamp" aria-hidden="true">m.</span><span>MORROW<span class="brand-sub">PRINT ROOM</span></span></a>
+    <nav aria-label="Navigation principale"><a href="#programme">Les ateliers <span aria-hidden="true">↗</span></a><a href="#pratique">En pratique</a></nav>
+  </header>
+  <main id="accueil">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span class="small-rule"></span> Le temps de faire, ensemble</p>
+        <h1 id="hero-title">De l’encre.<br>Du papier.<br><em>Votre empreinte.</em></h1>
+        <p class="hero-description">Un samedi loin des écrans. Découvrez les gestes de l’impression et repartez avec quelque chose que vous avez fait de vos mains.</p>
+        <a class="primary hero-action" href="#programme">Trouver mon atelier <span aria-hidden="true">↘</span></a>
+        <p class="fine">Petits groupes · Matériel compris · Débutants bienvenus</p>
+      </div>
+      <figure class="print-art">
+        <div class="art-header"><span>ÉTUDE DE FORME / 001</span><span>ÉDITION D’AUTOMNE</span></div>
+        <svg viewBox="0 0 460 450" role="img" aria-label="Étude originale de tampons : deux arcs en vert profond et vermillon sur papier clair">
+          <defs><pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".65" fill="#17372e" opacity=".1"/></pattern><pattern id="lines" width="13" height="13" patternUnits="userSpaceOnUse"><path d="M0 0v13" stroke="#f5f1e8" stroke-width="2"/></pattern></defs>
+          <path d="M45 220V125a135 135 0 0 1 270 0v95H45Z" fill="#17372e"/>
+          <path d="M150 215v95a135 135 0 0 0 270 0v-95H150Z" fill="#a13e25"/>
+          <path d="M45 220V125a135 135 0 0 1 270 0v95H45Z" fill="url(#lines)"/>
+          <path d="M150 215v95a135 135 0 0 0 270 0v-95H150Z" fill="url(#lines)"/>
+          <rect width="460" height="450" fill="url(#grain)"/>
+          <path d="M26 26h16m-8-8v16M420 418h16m-8-8v16" stroke="#17372e"/>
+        </svg>
+        <figcaption><span>Un même geste.<br><strong>Jamais tout à fait la même trace.</strong></span><span class="edition-number" aria-hidden="true">01—03</span></figcaption>
+      </figure>
+    </section>
+    <section id="programme" class="programme wrap" aria-labelledby="programme-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / Choisir son samedi</p><h2 id="programme-title">Trois façons<br>de laisser une trace.</h2></div><p>Pas besoin de savoir dessiner.<br>Seulement l’envie d’essayer.</p></div>
+      <form id="draft-form" novalidate>
+        <fieldset class="workshops"><legend class="sr-only">Choisissez un atelier</legend>
+          <label class="workshop" data-session="empreinte"><input type="radio" name="workshop" value="empreinte" checked><span class="choice-number" aria-hidden="true">01</span><span class="workshop-main"><span class="workshop-technique">LINOGRAVURE · INITIATION</span><strong>Première empreinte</strong><span class="workshop-description">Une plaque, quelques outils, votre premier tirage.</span></span><span class="workshop-facts"><span>14 novembre 2026</span><span>10:00–12:30 · 6 personnes max.</span></span><span class="price">45 €<span>matériel inclus</span></span><span class="choice-mark" aria-hidden="true">✓</span></label>
+          <label class="workshop" data-session="couleur"><input type="radio" name="workshop" value="couleur"><span class="choice-number" aria-hidden="true">02</span><span class="workshop-main"><span class="workshop-technique">MONOTYPE · EXPLORATION</span><strong>La couleur en partage</strong><span class="workshop-description">Superposer, révéler et accueillir les accidents heureux.</span></span><span class="workshop-facts"><span>21 novembre 2026</span><span>14:00–17:00 · 6 personnes max.</span></span><span class="price">60 €<span>matériel inclus</span></span><span class="choice-mark" aria-hidden="true">✓</span></label>
+          <label class="workshop" data-session="affiche"><input type="radio" name="workshop" value="affiche"><span class="choice-number" aria-hidden="true">03</span><span class="workshop-main"><span class="workshop-technique">TAMPONS · COMPOSITION</span><strong>Une affiche pour demain</strong><span class="workshop-description">Composer des lettres et des formes, à votre rythme.</span></span><span class="workshop-facts"><span>28 novembre 2026</span><span>10:00–12:00 · 8 personnes max.</span></span><span class="price">35 €<span>matériel inclus</span></span><span class="choice-mark" aria-hidden="true">✓</span></label>
+        </fieldset>
+        <div class="request-layout">
+          <div id="pratique" class="practical"><p class="eyebrow">02 / Venir comme on est</p><h3>On s’occupe du papier.<br>Vous apportez la curiosité.</h3><details><summary>Comment se déroule un atelier ? <span aria-hidden="true">+</span></summary><p>Un temps de découverte, une démonstration des outils, puis votre propre exploration. Vous choisissez les formes et les couleurs. Les matériaux et le nettoyage sont compris dans ce programme fictif.</p></details><details><summary>Et si j’ai besoin d’un aménagement ? <span aria-hidden="true">+</span></summary><p>Dans un véritable service, les possibilités d’accueil et de remboursement seraient confirmées avant tout paiement. Cette démonstration ne permet ni contact, ni paiement, ni réservation.</p></details></div>
+          <section class="draft-panel" aria-labelledby="draft-title"><p class="eyebrow">03 / Garder son idée</p><h3 id="draft-title">Ça vous dit ?</h3><p>Préparez un brouillon sur cet appareil. Rien ne sera envoyé.</p><div class="selection-review"><span>VOTRE CHOIX</span><strong id="chosen-title">Première empreinte</strong><span id="chosen-facts">14 novembre · 10:00–12:30 · 45 €</span></div><label class="name-label" for="visitor-name">Votre prénom <span>(pour le brouillon)</span></label><input id="visitor-name" name="visitor-name" autocomplete="given-name" maxlength="60" aria-describedby="name-help name-error"><p id="name-help" class="fine">Évitez les données sensibles dans cette démonstration.</p><p id="name-error" class="error" hidden>Indiquez un prénom pour nommer le brouillon.</p><button id="prepare" class="primary" type="submit"><span id="button-label">Préparer mon brouillon</span><span class="button-indicator" aria-hidden="true">↗</span></button><p id="draft-status" role="status" aria-live="polite" aria-atomic="true">Aucun brouillon enregistré. Aucune place réservée.</p><button id="clear-draft" type="button" class="text-button" hidden>Supprimer mon brouillon local</button></section>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="wrap"><a class="footer-brand" href="#accueil">Morrow Print Room</a><p>Faire moins défiler. Faire davantage.</p><span>Fiction originale · UDI / MIT</span></footer>
+</body>
+</html>

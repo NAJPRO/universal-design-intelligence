@@ -209,6 +209,24 @@ addCommonOptions(
     console.log(`Engine: ${recommendation.engine}; schema ${recommendation.schemaVersion}`);
   });
 
+program.command("direct")
+  .description("Propose a bounded design direction, purposeful motion and critique index (context 2.0)")
+  .requiredOption("--context <file>", "Existing evidence context schema 2.0")
+  .option("--character <name>", "Optional editorial, technical, calm, warm, expressive or operational preference")
+  .option("--interactions <names>", "Explicit interaction needs, comma-separated; at most two full motion records")
+  .option("--query <text>", "Discover direction, motion and quality IDs without treating prose as task evidence")
+  .option("--budget-bytes <number>", "Compact JSON budget including newline (default 8192, maximum 24576)")
+  .option("--json", "Print the complete compact decision packet")
+  .action(async (options: { context: string; character?: string; interactions?: string; query?: string; budgetBytes?: string; json?: boolean }) => {
+    try {
+      const { printDirection } = await import("./direction.js");
+      printDirection(options);
+    } catch (error) {
+      console.error(`udi direct: ${error instanceof Error ? error.message : String(error)}`);
+      process.exitCode = 1;
+    }
+  });
+
 program.command("init")
   .description("Install UDI's canonical design skill for a supported coding agent")
   .addOption(new Option("--agent <agent>").choices([...AGENT_IDS, "all"]))
@@ -299,11 +317,16 @@ program.command("doctor")
   });
 
 program.command("inspect")
-  .description("Print a complete local component or composition specification by stable ID")
-  .argument("<id>", "CMP-... or COM-... specification ID")
+  .description("Print a complete local component, composition, direction, motion or quality record")
+  .argument("<id>", "CMP-..., COM-..., DIR-..., MOT-... or QUA-... ID")
   .option("--json", "Print compact machine-readable JSON")
   .action(async (id: string, options: { json?: boolean }) => {
     try {
+      if (/^(DIR|MOT|QUA)-/.test(id)) {
+        const { inspectExperience } = await import("@udi/core/experience");
+        console.log(JSON.stringify(inspectExperience(id), null, options.json ? undefined : 2));
+        return;
+      }
       const { printComponentSpec } = await import("./recommend-components.js");
       printComponentSpec(id, options.json);
     } catch (error) {

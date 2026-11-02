@@ -44,3 +44,33 @@ Put task/component evidence in `tasks`/`components`; free query prose alone does
 With 2.1, run `inspect <selected-ID> --json` for the contracts relevant to implementation, one at a time. A composition can identify its required slots; inspect those selected components only as needed. Summarize obligations into decisions rather than pasting full records into the conversation. Unknown IDs and unsupported requirements must remain visible.
 
 Packets default to 24,576 bytes. Use `--expand <returned-key>` with the exact same context/schema only when omitted guidance is needed; merge by ID. On a budget error, increase `--budget-bytes` deliberately. Do not repeatedly fetch the whole catalog. If a capability probe contradicts the actual command, preserve its error, then use an advertised older path; do not silently discard invalid-context or retrieval failures as version incompatibility.
+
+## Design direction (capability-gated)
+
+When root help advertises `direct`, reuse context schema 2.0:
+
+```sh
+<udi> direct --context brief.json --json
+# Only when supported by the actual product intent:
+<udi> direct --context brief.json --character editorial --interactions press,feedback --json
+<udi> direct --context brief.json --query "disclosure reduced motion" --json
+<udi> inspect DIR-EDITORIAL --json
+<udi> inspect MOT-DISCLOSURE --json
+<udi> inspect QUA-HIERARCHY --json
+```
+
+`direct` is a separate schema 1.0 decision packet, not recommendation schema 1.0.
+It defaults to 8,192 bytes including newline, contains one direction and at most two
+complete motion records, and lists omitted motion IDs for inspection. Its review
+index covers eleven dimensions; inspect only the relevant dimension for positive,
+negative, measurable-failure and revision indicators. `--query` discovers knowledge
+IDs without treating aesthetic prose as evidence of an interaction. Scroll/entrance
+motion additionally requires explicit interaction intent and an editorial/marketing
+application. Required no-motion constraints suppress motion. Brand/system bindings
+and required constraints take precedence over a preferred character.
+
+For task/component contracts, keep using the supported `recommend` schema; `direct`
+does not replace its domain/task coverage diagnostics or imply that every design
+choice has a component contract. Never infer user trust or aesthetic superiority
+from a deterministic selection. Full inspection records are deliberately separate
+from bounded packets. No animation library or font download is required.

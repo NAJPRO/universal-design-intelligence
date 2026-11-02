@@ -1,0 +1,27 @@
+{
+  "historicalChecks": 1003,
+  "passed": true,
+  "failedPaths": [],
+  "compatibility": [
+    {
+      "args": [
+        "recommend",
+        "--type",
+        "dashboard",
+        "--json"
+      ],
+      "passed": true
+    },
+    {
+      "args": [
+        "recommend",
+        "--schema-version",
+        "2.0",
+        "--context",
+        "tests/mission008/commerce-admin.json",
+        "--json"
+      ],
+      "passed": true
+    }
+  ]
+}

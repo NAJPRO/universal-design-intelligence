@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "2.0",
+  "applicationType": {"value": "self-service-portal", "status": "explicit", "evidenceRefs": ["protocol/task.md"]},
+  "industry": {"value": "community print studio", "status": "explicit"},
+  "tasks": {
+    "primary": {"value": "choose a print workshop and confirm a local draft", "status": "explicit"},
+    "secondary": [{"value": "read workshop details", "status": "explicit"}]
+  },
+  "brand": {
+    "preserve": true,
+    "identity": {"value": "Morrow Print Room: paper, ink, vermilion; editorial serif and readable local sans", "status": "explicit"},
+    "tokens": ["paper #f5f1e8", "ink #17372e", "accent #a13e25", "line #c5c6b9"]
+  },
+  "constraints": [{"id": "CTX-MOTION", "dimension": "motion", "value": "restrained", "strength": "prefer"}]
+}

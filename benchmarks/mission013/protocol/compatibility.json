@@ -1,0 +1,22 @@
+[
+  {
+    "args": [
+      "recommend",
+      "--type",
+      "dashboard",
+      "--json"
+    ],
+    "stdoutSha256": "d72920208797b72fe20403aec2e8d0ee8c81a484522dfb2e91c08f236c6c0ca4"
+  },
+  {
+    "args": [
+      "recommend",
+      "--schema-version",
+      "2.0",
+      "--context",
+      "tests/mission008/commerce-admin.json",
+      "--json"
+    ],
+    "stdoutSha256": "ec5042dbbd3c8c13789c997766b9d773df6ab33540fb6a5a58ca6ed9ed59a1bb"
+  }
+]

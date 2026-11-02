@@ -1,0 +1,975 @@
+{
+  "kind": "Controller-authored original demonstration; no independent comparison or aesthetic superiority claim.",
+  "widths": [
+    {
+      "width": 320,
+      "height": 1000,
+      "scrollWidth": 305,
+      "bodyWidth": 305,
+      "title": "De l’encre.\nDu papier.\nVotre empreinte.",
+      "chosen": "Première empreinte",
+      "controls": [
+        {
+          "tag": "INPUT",
+          "name": "LINOGRAVURE · INITIATION\nPremière empreinte\nUne plaque, quelques outils, votre premier tirage.\n14 novembre 2026\n10:00–12:30 · 6 personnes max.\n45 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 30,
+            "y": 1229.90625,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "MONOTYPE · EXPLORATION\nLa couleur en partage\nSuperposer, révéler et accueillir les accidents heureux.\n21 novembre 2026\n14:00–17:00 · 6 personnes max.\n60 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 30,
+            "y": 1426.90625,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "TAMPONS · COMPOSITION\nUne affiche pour demain\nComposer des lettres et des formes, à votre rythme.\n28 novembre 2026\n10:00–12:00 · 8 personnes max.\n35 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 30,
+            "y": 1641.5,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "name": "Comment se déroule un atelier ?\n+",
+          "rect": {
+            "x": 20,
+            "y": 1996.015625,
+            "width": 265,
+            "height": 74.75
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "name": "Et si j’ai besoin d’un aménagement ?\n+",
+          "rect": {
+            "x": 20,
+            "y": 2071.765625,
+            "width": 265,
+            "height": 74.75
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "Votre prénom (pour le brouillon)",
+          "rect": {
+            "x": 45,
+            "y": 2506.875,
+            "width": 215,
+            "height": 46.796875
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer mon brouillon\n↗",
+          "rect": {
+            "x": 45,
+            "y": 2613.671875,
+            "width": 215,
+            "height": 54
+          }
+        }
+      ],
+      "printVisible": true,
+      "motion": {
+        "press": "0.12s, 0.1s",
+        "disclosure": "0.18s"
+      },
+      "reduced": false
+    },
+    {
+      "width": 375,
+      "height": 1000,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "title": "De l’encre.\nDu papier.\nVotre empreinte.",
+      "chosen": "Première empreinte",
+      "controls": [
+        {
+          "tag": "INPUT",
+          "name": "LINOGRAVURE · INITIATION\nPremière empreinte\nUne plaque, quelques outils, votre premier tirage.\n14 novembre 2026\n10:00–12:30 · 6 personnes max.\n45 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 30,
+            "y": 1248.09375,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "MONOTYPE · EXPLORATION\nLa couleur en partage\nSuperposer, révéler et accueillir les accidents heureux.\n21 novembre 2026\n14:00–17:00 · 6 personnes max.\n60 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 30,
+            "y": 1426.09375,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "TAMPONS · COMPOSITION\nUne affiche pour demain\nComposer des lettres et des formes, à votre rythme.\n28 novembre 2026\n10:00–12:00 · 8 personnes max.\n35 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 30,
+            "y": 1623.09375,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "name": "Comment se déroule un atelier ?\n+",
+          "rect": {
+            "x": 20,
+            "y": 1944.75,
+            "width": 320,
+            "height": 74.75
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "name": "Et si j’ai besoin d’un aménagement ?\n+",
+          "rect": {
+            "x": 20,
+            "y": 2020.5,
+            "width": 320,
+            "height": 74.75
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "Votre prénom (pour le brouillon)",
+          "rect": {
+            "x": 45,
+            "y": 2455.609375,
+            "width": 270,
+            "height": 46.796875
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer mon brouillon\n↗",
+          "rect": {
+            "x": 45,
+            "y": 2546.90625,
+            "width": 270,
+            "height": 54
+          }
+        }
+      ],
+      "printVisible": true,
+      "motion": {
+        "press": "0.12s, 0.1s",
+        "disclosure": "0.18s"
+      },
+      "reduced": false
+    },
+    {
+      "width": 768,
+      "height": 1000,
+      "scrollWidth": 753,
+      "bodyWidth": 753,
+      "title": "De l’encre.\nDu papier.\nVotre empreinte.",
+      "chosen": "Première empreinte",
+      "controls": [
+        {
+          "tag": "INPUT",
+          "name": "01\nLINOGRAVURE · INITIATION\nPremière empreinte\nUne plaque, quelques outils, votre premier tirage.\n14 novembre 2026\n10:00–12:30 · 6 personnes max.\n45 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 44,
+            "y": 932.1875,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "02\nMONOTYPE · EXPLORATION\nLa couleur en partage\nSuperposer, révéler et accueillir les accidents heureux.\n21 novembre 2026\n14:00–17:00 · 6 personnes max.\n60 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 44,
+            "y": 1075.1875,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "03\nTAMPONS · COMPOSITION\nUne affiche pour demain\nComposer des lettres et des formes, à votre rythme.\n28 novembre 2026\n10:00–12:00 · 8 personnes max.\n35 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 44,
+            "y": 1217.6875,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "name": "Comment se déroule un atelier ?\n+",
+          "rect": {
+            "x": 32,
+            "y": 1493.28125,
+            "width": 337.25,
+            "height": 74.75
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "name": "Et si j’ai besoin d’un aménagement ?\n+",
+          "rect": {
+            "x": 32,
+            "y": 1569.03125,
+            "width": 337.25,
+            "height": 74.75
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "Votre prénom (pour le brouillon)",
+          "rect": {
+            "x": 442.46875,
+            "y": 1687.84375,
+            "width": 253.53125,
+            "height": 46.796875
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer mon brouillon\n↗",
+          "rect": {
+            "x": 442.46875,
+            "y": 1779.140625,
+            "width": 253.53125,
+            "height": 54
+          }
+        }
+      ],
+      "printVisible": true,
+      "motion": {
+        "press": "0.12s, 0.1s",
+        "disclosure": "0.18s"
+      },
+      "reduced": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1425,
+      "bodyWidth": 1425,
+      "title": "De l’encre.\nDu papier.\nVotre empreinte.",
+      "chosen": "Première empreinte",
+      "controls": [
+        {
+          "tag": "INPUT",
+          "name": "01\nLINOGRAVURE · INITIATION\nPremière empreinte\nUne plaque, quelques outils, votre premier tirage.\n14 novembre 2026\n10:00–12:30 · 6 personnes max.\n45 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 92.5,
+            "y": 1212.84375,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "02\nMONOTYPE · EXPLORATION\nLa couleur en partage\nSuperposer, révéler et accueillir les accidents heureux.\n21 novembre 2026\n14:00–17:00 · 6 personnes max.\n60 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 92.5,
+            "y": 1355.84375,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "03\nTAMPONS · COMPOSITION\nUne affiche pour demain\nComposer des lettres et des formes, à votre rythme.\n28 novembre 2026\n10:00–12:00 · 8 personnes max.\n35 €\nmatériel inclus\n✓",
+          "rect": {
+            "x": 92.5,
+            "y": 1498.34375,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "name": "Comment se déroule un atelier ?\n+",
+          "rect": {
+            "x": 72.5,
+            "y": 1782.40625,
+            "width": 592.84375,
+            "height": 74.75
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "name": "Et si j’ai besoin d’un aménagement ?\n+",
+          "rect": {
+            "x": 72.5,
+            "y": 1858.15625,
+            "width": 592.84375,
+            "height": 74.75
+          }
+        },
+        {
+          "tag": "INPUT",
+          "name": "Votre prénom (pour le brouillon)",
+          "rect": {
+            "x": 849.9375,
+            "y": 1960.140625,
+            "width": 471.5625,
+            "height": 46.796875
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer mon brouillon\n↗",
+          "rect": {
+            "x": 849.9375,
+            "y": 2051.4375,
+            "width": 471.5625,
+            "height": 54
+          }
+        }
+      ],
+      "printVisible": true,
+      "motion": {
+        "press": "0.12s, 0.1s",
+        "disclosure": "0.18s"
+      },
+      "reduced": false
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "evidence/screenshots/320-opening.png",
+      "sha256": "91766550cce3b08f784ca220a70967991fdf357a054e15fe1abec051e1a9c4b3",
+      "bytes": 77356
+    },
+    {
+      "path": "evidence/screenshots/320-saved.png",
+      "sha256": "2debc168744fca7dc5180baa67672bd0e9f6968d6011aec99f23711660f8a535",
+      "bytes": 46351
+    },
+    {
+      "path": "evidence/screenshots/320-details.png",
+      "sha256": "9cc1059032033c70cae231dab8a71848a740616bffcc54abca794874e3fcf2e9",
+      "bytes": 56022
+    },
+    {
+      "path": "evidence/screenshots/375-opening.png",
+      "sha256": "e24681cd1923b8ccca2036830c5dc236d1fdc97c45e3c1b34eebbb2a56a789b1",
+      "bytes": 85130
+    },
+    {
+      "path": "evidence/screenshots/375-saved.png",
+      "sha256": "8b227a3fdb0d7540f0c23eb7bd1efdbde6d5e84dc9c6c764aa9757928773dddf",
+      "bytes": 46906
+    },
+    {
+      "path": "evidence/screenshots/375-details.png",
+      "sha256": "3b023a677c5cc1c37a54efc8ede495ff3644f2e2e737602cc524371aebfe258e",
+      "bytes": 60798
+    },
+    {
+      "path": "evidence/screenshots/768-opening.png",
+      "sha256": "25f471b97e922495a9150f2fdda32f512cfd78f1019220d4eb6b2180620f98b8",
+      "bytes": 132702
+    },
+    {
+      "path": "evidence/screenshots/768-saved.png",
+      "sha256": "1ce1619b77cc17daf72c3f389f2710009e5beab831d4bcec6a68f11d76382471",
+      "bytes": 78735
+    },
+    {
+      "path": "evidence/screenshots/768-details.png",
+      "sha256": "803512454c7be1beca51fb8e2c0343d2934a9ed73cd487a5f3745a8f6c8c837f",
+      "bytes": 93566
+    },
+    {
+      "path": "evidence/screenshots/1440-opening.png",
+      "sha256": "917b1ce293d26bafa0a0f328614fd544600349a202442ca2169a8871bcab6886",
+      "bytes": 203027
+    },
+    {
+      "path": "evidence/screenshots/1440-saved.png",
+      "sha256": "e46787c839ba8496b160f4f51f8735fc4f8180fd839ce5913edb982035d58dc5",
+      "bytes": 85426
+    },
+    {
+      "path": "evidence/screenshots/1440-details.png",
+      "sha256": "4da2fef40297b2641ebceb532703dca4e0f2c18be268708222d38cade5fb490f",
+      "bytes": 98915
+    },
+    {
+      "path": "evidence/screenshots/375-reduced-saved.png",
+      "sha256": "e94f6bee8d5357c19122c95d382e7320a999adcd714bb50f3f161f7a7c4988ef",
+      "bytes": 51204
+    }
+  ],
+  "checks": [
+    {
+      "name": "320: no page overflow",
+      "passed": true,
+      "observed": {
+        "scrollWidth": 305,
+        "bodyWidth": 305
+      }
+    },
+    {
+      "name": "320: all native controls have a name",
+      "passed": true,
+      "observed": [
+        "INPUT",
+        "INPUT",
+        "INPUT",
+        "SUMMARY",
+        "SUMMARY",
+        "INPUT",
+        "BUTTON"
+      ]
+    },
+    {
+      "name": "320: essential controls stay within horizontal viewport",
+      "passed": true,
+      "observed": [
+        {
+          "x": 30,
+          "y": 1229.90625,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 30,
+          "y": 1426.90625,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 30,
+          "y": 1641.5,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 20,
+          "y": 1996.015625,
+          "width": 265,
+          "height": 74.75
+        },
+        {
+          "x": 20,
+          "y": 2071.765625,
+          "width": 265,
+          "height": 74.75
+        },
+        {
+          "x": 45,
+          "y": 2506.875,
+          "width": 215,
+          "height": 46.796875
+        },
+        {
+          "x": 45,
+          "y": 2613.671875,
+          "width": 215,
+          "height": 54
+        }
+      ]
+    },
+    {
+      "name": "320: keyboard selects a complete readable value",
+      "passed": true
+    },
+    {
+      "name": "320: invalid name retains choice and gets focus",
+      "passed": true
+    },
+    {
+      "name": "320: keyboard reaches action with visible focus",
+      "passed": true
+    },
+    {
+      "name": "320: real local write reports stable pending state",
+      "passed": true,
+      "observed": {
+        "busy": "true",
+        "disabled": true,
+        "width": 215,
+        "height": 54,
+        "status": "Écriture du brouillon sur cet appareil… Aucun envoi en cours."
+      }
+    },
+    {
+      "name": "320: completion honestly distinguishes draft from booking",
+      "passed": true
+    },
+    {
+      "name": "320: local deletion and focus return work",
+      "passed": true
+    },
+    {
+      "name": "375: no page overflow",
+      "passed": true,
+      "observed": {
+        "scrollWidth": 360,
+        "bodyWidth": 360
+      }
+    },
+    {
+      "name": "375: all native controls have a name",
+      "passed": true,
+      "observed": [
+        "INPUT",
+        "INPUT",
+        "INPUT",
+        "SUMMARY",
+        "SUMMARY",
+        "INPUT",
+        "BUTTON"
+      ]
+    },
+    {
+      "name": "375: essential controls stay within horizontal viewport",
+      "passed": true,
+      "observed": [
+        {
+          "x": 30,
+          "y": 1248.09375,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 30,
+          "y": 1426.09375,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 30,
+          "y": 1623.09375,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 20,
+          "y": 1944.75,
+          "width": 320,
+          "height": 74.75
+        },
+        {
+          "x": 20,
+          "y": 2020.5,
+          "width": 320,
+          "height": 74.75
+        },
+        {
+          "x": 45,
+          "y": 2455.609375,
+          "width": 270,
+          "height": 46.796875
+        },
+        {
+          "x": 45,
+          "y": 2546.90625,
+          "width": 270,
+          "height": 54
+        }
+      ]
+    },
+    {
+      "name": "375: keyboard selects a complete readable value",
+      "passed": true
+    },
+    {
+      "name": "375: invalid name retains choice and gets focus",
+      "passed": true
+    },
+    {
+      "name": "375: keyboard reaches action with visible focus",
+      "passed": true
+    },
+    {
+      "name": "375: real local write reports stable pending state",
+      "passed": true,
+      "observed": {
+        "busy": "true",
+        "disabled": true,
+        "width": 270,
+        "height": 54,
+        "status": "Écriture du brouillon sur cet appareil… Aucun envoi en cours."
+      }
+    },
+    {
+      "name": "375: completion honestly distinguishes draft from booking",
+      "passed": true
+    },
+    {
+      "name": "375: local deletion and focus return work",
+      "passed": true
+    },
+    {
+      "name": "768: no page overflow",
+      "passed": true,
+      "observed": {
+        "scrollWidth": 753,
+        "bodyWidth": 753
+      }
+    },
+    {
+      "name": "768: all native controls have a name",
+      "passed": true,
+      "observed": [
+        "INPUT",
+        "INPUT",
+        "INPUT",
+        "SUMMARY",
+        "SUMMARY",
+        "INPUT",
+        "BUTTON"
+      ]
+    },
+    {
+      "name": "768: essential controls stay within horizontal viewport",
+      "passed": true,
+      "observed": [
+        {
+          "x": 44,
+          "y": 932.1875,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 44,
+          "y": 1075.1875,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 44,
+          "y": 1217.6875,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 32,
+          "y": 1493.28125,
+          "width": 337.25,
+          "height": 74.75
+        },
+        {
+          "x": 32,
+          "y": 1569.03125,
+          "width": 337.25,
+          "height": 74.75
+        },
+        {
+          "x": 442.46875,
+          "y": 1687.84375,
+          "width": 253.53125,
+          "height": 46.796875
+        },
+        {
+          "x": 442.46875,
+          "y": 1779.140625,
+          "width": 253.53125,
+          "height": 54
+        }
+      ]
+    },
+    {
+      "name": "768: keyboard selects a complete readable value",
+      "passed": true
+    },
+    {
+      "name": "768: invalid name retains choice and gets focus",
+      "passed": true
+    },
+    {
+      "name": "768: keyboard reaches action with visible focus",
+      "passed": true
+    },
+    {
+      "name": "768: real local write reports stable pending state",
+      "passed": true,
+      "observed": {
+        "busy": "true",
+        "disabled": true,
+        "width": 253.53125,
+        "height": 54,
+        "status": "Écriture du brouillon sur cet appareil… Aucun envoi en cours."
+      }
+    },
+    {
+      "name": "768: completion honestly distinguishes draft from booking",
+      "passed": true
+    },
+    {
+      "name": "768: local deletion and focus return work",
+      "passed": true
+    },
+    {
+      "name": "1440: no page overflow",
+      "passed": true,
+      "observed": {
+        "scrollWidth": 1425,
+        "bodyWidth": 1425
+      }
+    },
+    {
+      "name": "1440: all native controls have a name",
+      "passed": true,
+      "observed": [
+        "INPUT",
+        "INPUT",
+        "INPUT",
+        "SUMMARY",
+        "SUMMARY",
+        "INPUT",
+        "BUTTON"
+      ]
+    },
+    {
+      "name": "1440: essential controls stay within horizontal viewport",
+      "passed": true,
+      "observed": [
+        {
+          "x": 92.5,
+          "y": 1212.84375,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 92.5,
+          "y": 1355.84375,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 92.5,
+          "y": 1498.34375,
+          "width": 20,
+          "height": 20
+        },
+        {
+          "x": 72.5,
+          "y": 1782.40625,
+          "width": 592.84375,
+          "height": 74.75
+        },
+        {
+          "x": 72.5,
+          "y": 1858.15625,
+          "width": 592.84375,
+          "height": 74.75
+        },
+        {
+          "x": 849.9375,
+          "y": 1960.140625,
+          "width": 471.5625,
+          "height": 46.796875
+        },
+        {
+          "x": 849.9375,
+          "y": 2051.4375,
+          "width": 471.5625,
+          "height": 54
+        }
+      ]
+    },
+    {
+      "name": "1440: keyboard selects a complete readable value",
+      "passed": true
+    },
+    {
+      "name": "1440: invalid name retains choice and gets focus",
+      "passed": true
+    },
+    {
+      "name": "1440: keyboard reaches action with visible focus",
+      "passed": true
+    },
+    {
+      "name": "1440: real local write reports stable pending state",
+      "passed": true,
+      "observed": {
+        "busy": "true",
+        "disabled": true,
+        "width": 471.5625,
+        "height": 54,
+        "status": "Écriture du brouillon sur cet appareil… Aucun envoi en cours."
+      }
+    },
+    {
+      "name": "1440: completion honestly distinguishes draft from booking",
+      "passed": true
+    },
+    {
+      "name": "1440: local deletion and focus return work",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion removes spatial transitions",
+      "passed": true,
+      "observed": {
+        "press": "0s",
+        "disclosure": "0s"
+      }
+    },
+    {
+      "name": "Reduced motion retains feedback and selected value",
+      "passed": true
+    },
+    {
+      "name": "Storage denial preserves input and choice with honest recovery",
+      "passed": true
+    },
+    {
+      "name": "Storage retry succeeds without fabricated server acknowledgement",
+      "passed": true
+    },
+    {
+      "name": "Final exercised page makes no external asset requests",
+      "passed": true
+    },
+    {
+      "name": "Declared text token pairs meet 4.5:1",
+      "passed": true,
+      "observed": [
+        {
+          "pair": "ink/paper",
+          "ratio": 11.48319240007807
+        },
+        {
+          "pair": "accent/paper",
+          "ratio": 5.7656545536571615
+        },
+        {
+          "pair": "muted/paper",
+          "ratio": 5.788196534454779
+        }
+      ]
+    }
+  ],
+  "reducedMotion": {
+    "width": 375,
+    "height": 1000,
+    "scrollWidth": 360,
+    "bodyWidth": 360,
+    "title": "De l’encre.\nDu papier.\nVotre empreinte.",
+    "chosen": "Première empreinte",
+    "controls": [
+      {
+        "tag": "INPUT",
+        "name": "LINOGRAVURE · INITIATION\nPremière empreinte\nUne plaque, quelques outils, votre premier tirage.\n14 novembre 2026\n10:00–12:30 · 6 personnes max.\n45 €\nmatériel inclus\n✓",
+        "rect": {
+          "x": 30,
+          "y": 1248.09375,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "INPUT",
+        "name": "MONOTYPE · EXPLORATION\nLa couleur en partage\nSuperposer, révéler et accueillir les accidents heureux.\n21 novembre 2026\n14:00–17:00 · 6 personnes max.\n60 €\nmatériel inclus\n✓",
+        "rect": {
+          "x": 30,
+          "y": 1426.09375,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "INPUT",
+        "name": "TAMPONS · COMPOSITION\nUne affiche pour demain\nComposer des lettres et des formes, à votre rythme.\n28 novembre 2026\n10:00–12:00 · 8 personnes max.\n35 €\nmatériel inclus\n✓",
+        "rect": {
+          "x": 30,
+          "y": 1623.09375,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "tag": "SUMMARY",
+        "name": "Comment se déroule un atelier ?\n+",
+        "rect": {
+          "x": 20,
+          "y": 1944.75,
+          "width": 320,
+          "height": 74.75
+        }
+      },
+      {
+        "tag": "SUMMARY",
+        "name": "Et si j’ai besoin d’un aménagement ?\n+",
+        "rect": {
+          "x": 20,
+          "y": 2020.5,
+          "width": 320,
+          "height": 74.75
+        }
+      },
+      {
+        "tag": "INPUT",
+        "name": "Votre prénom (pour le brouillon)",
+        "rect": {
+          "x": 45,
+          "y": 2455.609375,
+          "width": 270,
+          "height": 46.796875
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Préparer mon brouillon\n↗",
+        "rect": {
+          "x": 45,
+          "y": 2546.90625,
+          "width": 270,
+          "height": 54
+        }
+      }
+    ],
+    "printVisible": true,
+    "motion": {
+      "press": "0s",
+      "disclosure": "0s"
+    },
+    "reduced": true
+  },
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/156.0.8078.47",
+    "revision": "@1d17a2e2ee147bb7d6ae2ab6abdb3a2510c17775",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "jsVersion": "15.6.75.19"
+  },
+  "externalRequests": [],
+  "contrast": [
+    {
+      "pair": "ink/paper",
+      "ratio": 11.48319240007807
+    },
+    {
+      "pair": "accent/paper",
+      "ratio": 5.7656545536571615
+    },
+    {
+      "pair": "muted/paper",
+      "ratio": 5.788196534454779
+    }
+  ],
+  "passed": 42,
+  "total": 42,
+  "sourceSha256": {
+    "index.html": "5aca8ee344dc4474900491e1dc02b58997b25ebcffb91fde18a584c822c77f6e",
+    "styles.css": "2ab0bf54106114138e88fe99184bab2a47fa40a129d179f133777880038d2ce8",
+    "app.js": "e6ceb7c1d8c6ca4ce0f0ee152abc8a3d171170cfc7651d2a883e16af7f362068"
+  }
+}

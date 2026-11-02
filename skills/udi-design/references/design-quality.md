@@ -49,3 +49,30 @@ At 375, 768 and 1440 CSS pixels, plus a short mobile viewport and enlarged text,
 **Warnings needing judgment:** wide table/hidden priority-column tradeoffs, an overflowing region without an obvious cue, concealed scrollbars with unclear alternative operation, multiple/nested owners, focus briefly on BODY during a native dialog cycle, sticky controls that may obscure content, visual/DOM order divergence. Test the actual task, keyboard, touch and assistive technology before promoting a warning to a confirmed failure. DOM dimensions or CSS alone cannot establish discoverability, user intent, occlusion or screen-reader usability.
 
 This is original UDI guidance (MIT), informed by reference-only consultation of [WAI Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html), [APG modal dialogs](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/), [MDN scrollbar-width](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width), and [WAI carousels](https://www.w3.org/WAI/tutorials/carousels/). No external text, implementation or asset is incorporated.
+
+## Experience critique within a time budget
+
+Review dimensions separately; do not sum them into a beauty score. Use concrete
+rendered observations and label measurements versus contextual visual judgments:
+
+| Dimension | Look for | Correct a weak result |
+| --- | --- | --- |
+| Clarity | Real action scope and honest result | Rename misleading actions; keep outcome/status visible |
+| Hierarchy | One focal task/idea and quieter support | Remove competing emphasis before adding decoration |
+| Composition | Sequence, aligned groups and purposeful density | Remove empty grid regions and repetitive framing |
+| Typography | Distinct levels, readable full selected values | Simplify scale/weights and wrap meaningful labels |
+| Color | Foundation/accent/semantic roles with rendered contrast | Reduce accents, avoid default gradients, test pairs |
+| Motion | Feedback or continuity with reduced-motion parity | Remove loops/delays; retain instant states and focus |
+| Trust | Accurate claims, feedback and recovery | Replace invented proof with honest scope and evidence |
+| Responsive | Reachable actions and intact meaning at 320px | Reorder around the task before shrinking controls |
+| Accessibility | Keyboard/names/states/recovery | Use native controls, visible focus and live status |
+| Distinctiveness | One recognizable content/brand-led choice | Replace generic dashboard chrome with relevant structure |
+| Polish | Consistent spacing/copy across real states | Fix the largest state/flow inconsistency, then refine rhythm |
+
+`QUA-CLARITY`, `QUA-HIERARCHY`, `QUA-COMPOSITION`, `QUA-TYPOGRAPHY`, `QUA-COLOR`,
+`QUA-MOTION`, `QUA-TRUST`, `QUA-RESPONSIVE`, `QUA-ACCESSIBILITY`,
+`QUA-DISTINCTIVENESS`, and `QUA-POLISH` provide inspectable indicators when supported.
+A clipped essential action or failed keyboard flow is a reproducible defect;
+balance, emotional tone and memorability require a contextual reviewer. Do not
+report the latter as objectively measured. Reserve validation/reporting time and
+perform one focused revision rather than endlessly fetching more guidance.

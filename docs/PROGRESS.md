@@ -1,8 +1,28 @@
 # UDI progress
 
-**Updated:** 2026-10-31
+**Updated:** 2026-11-02
 
 ## Completed
+
+### Mission 013 — Design direction and experience intelligence
+
+- Added isolated original direction/motion/critique knowledge and a compact offline
+  `direct` command using existing context 2.0. Existing v1/v2 packet samples remain
+  byte-identical; brand/required constraints bind suggestions, and irrelevant
+  contexts receive no decorative motion. No dependency or package version changes.
+- Fixed existing operational composition discovery for evidenced consult/compare
+  tasks while retaining application/collection/filter gates. Updated the canonical
+  skill for progressive disclosure, separate critique and final-report time.
+- Created original Morrow Print Room demo from actual retrieved direction/motion
+  guidance: **42/42 sampled Chrome checks**, four widths and reduced motion. Local
+  storage/feedback is honest; this controller example proves no comparative win.
+- New tests **16/16 passed**; full lint/types/build passed. Standard concurrent suite
+  **195/197 passed**, with two existing CLI timing failures. Sequential retry was
+  not executed because the automatic authorization-review service hit its usage
+  limit. This final test gate remains open, not silently marked passing.
+- All **1,003 recorded prior benchmark hashes** remain unchanged. See
+  [Mission 013](MISSION-013.md) for architecture audit, costs, evidence and limits.
+
 
 ### Mission 012 — Independent agent validation
 

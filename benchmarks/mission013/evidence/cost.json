@@ -1,0 +1,57 @@
+{
+  "protocol": "Five alternating fresh Node processes per command, launched by Python; warm filesystem cache, one host. Different commands/outputs, not a causal speedup experiment. measure.mjs provides the equivalent Node launcher.",
+  "environment": {
+    "node": "v22.23.1",
+    "platform": "Linux"
+  },
+  "records": {
+    "direction": {
+      "args": [
+        "direct",
+        "--context",
+        "benchmarks/mission013/protocol/context.json",
+        "--character",
+        "editorial",
+        "--interactions",
+        "press,feedback",
+        "--json"
+      ],
+      "samplesMs": [
+        182.54170799991698,
+        148.83728600034374,
+        154.18836400203872,
+        163.2479069994588,
+        148.03053599825944
+      ],
+      "bytes": 7743,
+      "sha256": "32f62dc93a34be29fdd116b5cabf43666419ffe8cd34f13ba5a5f73156e9ec0e",
+      "medianMs": 154.18836400203872
+    },
+    "components": {
+      "args": [
+        "recommend",
+        "--schema-version",
+        "2.1",
+        "--context",
+        "benchmarks/mission012/runs/C/design-context.json",
+        "--json"
+      ],
+      "samplesMs": [
+        254.38516900248942,
+        250.74435799979256,
+        262.3303129985288,
+        258.6330710000766,
+        237.23207900184207
+      ],
+      "bytes": 24246,
+      "sha256": "c9b1bab0a98986cc0b9cae7b0b0f4fe1536b409be68f0f763ee56baf54abd02c",
+      "medianMs": 254.38516900248942
+    }
+  },
+  "bundle": {
+    "bytes": 1307354,
+    "gzipBytes": 228068,
+    "previousFrozenBytes": 1266969,
+    "previousFrozenGzipBytes": 215329
+  }
+}

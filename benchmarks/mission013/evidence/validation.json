@@ -1,0 +1,41 @@
+{
+  "standardCheck": {
+    "command": "pnpm check",
+    "lint": "passed",
+    "typecheck": "passed",
+    "build": "passed",
+    "tests": {
+      "passed": 195,
+      "failed": 2,
+      "total": 197
+    },
+    "failures": [
+      {
+        "file": "packages/cli/test/cli.test.ts",
+        "test": "includes the executable and all progressive-disclosure assets in the npm tarball",
+        "kind": "timeout 15000ms"
+      },
+      {
+        "file": "packages/cli/test/components.test.ts",
+        "test": "uses opt-in output 2.1 with existing context 2.0, bounded expansion and readable explanations",
+        "kind": "timeout 5000ms"
+      }
+    ]
+  },
+  "targetedNewTests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "sequentialRetry": {
+    "executed": false,
+    "reason": "Automatic authorization review unavailable because its usage limit was reached; not a safety rejection. No bypass attempted."
+  },
+  "browser": {
+    "passed": 42,
+    "total": 42,
+    "screenshots": 13
+  },
+  "independentComparison": false,
+  "packageVersionsChanged": false,
+  "networkRetrieval": false
+}
