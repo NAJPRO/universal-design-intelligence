@@ -1,8 +1,16 @@
 # UDI progress
 
-**Updated:** 2026-10-30
+**Updated:** 2026-10-31
 
 ## Completed
+
+### Mission 012 — Independent agent validation
+
+- Froze a new fictional MIT-compatible inventory task, data, tokens, rubric, browser settings and three condition inputs. Executed fresh Codex CLI processes with filesystem/PID/IPC isolation, same gpt-6.1-sol/medium model setting and hard 900-second ceilings.
+- Preserved an invalid pilot with broken benchmark runtime packaging; corrected and preflighted tools before rerunning all conditions from clean inputs. Primary B/C independently discovered their advertised skill, retrieved schema 2.1 and inspected all three component contracts.
+- A/B completed; C reached its execution ceiling during verification and lacks a final report. Current guidance has corroborated implementation matches, including identity-adjacent actions; no composition retrieval or complete agent reporting is claimed.
+- Captured **69 actual controller screenshots** at 320/375/768/1440 plus short-height editing. All 51 sampled controller assertions pass. C avoids the tablet/comparison action travel found in A/B, but a separate label-blinded review finds mixed visual advantages and no overall winner.
+- Offline installation/build/lint/type checking succeeds. Standard concurrent check has two timing failures; **181/181 tests pass sequentially**, with failures preserved rather than hidden. Integrity checks preserve prior Mission 010/011 evidence. No package versions or Git state changed. See [Mission 012](MISSION-012.md).
 
 ### Mission 011 — Responsive component intelligence and scroll behavior
 

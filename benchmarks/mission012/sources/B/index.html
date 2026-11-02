@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#344e75"><title>Tern Works — Inventory</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="styles.css"></head>
+<body>
+<a class="skip" href="#inventory">Skip to inventory</a>
+<header class="masthead"><div class="brand"><span class="brand-mark" aria-hidden="true">T<span>↗</span></span><span>TERN WORKS<small>Operations workspace</small></span></div><span class="role">Inventory editor</span></header>
+<main id="app">
+<div class="page-heading"><div><p class="eyebrow">WORKSPACE / INVENTORY</p><h1>Inventory</h1><p class="intro">The parts, supplies and essentials that keep work moving.</p></div><span class="environment"><span aria-hidden="true">●</span> Local workspace</span></div>
+<div id="notice" role="status" aria-live="polite"></div>
+<section class="overview" aria-label="Inventory overview" id="overview"></section>
+<section class="workspace" aria-labelledby="inventory">
+<div class="collection-heading"><div><h2 id="inventory" tabindex="-1">Product directory</h2><p>Consult records, compare values and keep stock up to date.</p></div><div class="view-switch" role="group" aria-label="Product layout"><button type="button" id="adaptive-view" aria-pressed="true">Adaptive view</button><button type="button" id="table-view" aria-pressed="false">Compare table</button></div></div>
+<form class="filters" role="search" aria-label="Find inventory products" id="filters"><div class="search-field"><label for="search">Search products</label><div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" data-testid="search" type="search" placeholder="Search by product name or SKU" autocomplete="off"></div></div><div><label for="category">Category</label><select id="category"><option value="">All categories</option></select></div><div><label for="status">Lifecycle status</label><select id="status"><option value="">All statuses</option></select></div><div><label for="stock">Stock level</label><select id="stock"><option value="">All stock levels</option><option value="out">Out of stock · 0</option><option value="low">Low stock · 1–10</option><option value="available">In stock · 1+</option></select></div></form>
+<div class="result-toolbar"><p id="result-count" role="status" aria-live="polite"></p><div class="sort"><label for="sort">Sort by</label><select id="sort"><option value="original">Record ID</option><option value="name">Name A–Z</option><option value="stock">Stock: low to high</option><option value="price">Price: low to high</option></select></div></div>
+<div id="active-filters" class="active-filters"></div>
+<p class="scroll-hint" id="scroll-hint">↔ Compare all columns: scroll horizontally or use the arrow keys in the table.</p>
+<div id="results"></div>
+<footer class="collection-footer"><span>Fictional inventory · Prices in USD</span><span>Changes are kept for this session</span></footer>
+</section>
+<footer class="page-footer"><span>TERN WORKS</span><span>Built for the work ahead.</span></footer>
+</main>
+<dialog id="record-dialog" aria-labelledby="dialog-title"></dialog>
+<script type="module" src="app.js"></script>
+</body></html>

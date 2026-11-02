@@ -1,0 +1,307 @@
+--- initial/styles.css
++++ final/styles.css
+@@ -1 +1,7 @@
+-* { box-sizing: border-box; } body { margin: 0; } button,input,select,textarea { font: inherit; }
++*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}button,a,input,select{ -webkit-tap-highlight-color:transparent}button{cursor:pointer}a{color:var(--brand)}button:disabled{cursor:default}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:3px}button{border:1px solid var(--line);border-radius:6px;background:white;color:var(--ink);padding:9px 14px;font-weight:600;min-height:42px}button:hover{background:#edf1f6}button.primary{background:var(--brand);color:#fff;border-color:var(--brand)}button.primary:hover{background:#263d5d}button.quiet{border-color:transparent;background:transparent;color:var(--brand)}.skip{position:fixed;top:-80px;left:16px;background:white;padding:12px;z-index:10}.skip:focus{top:12px}.topbar{height:80px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:36px;padding:0 4%;}.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:17px;letter-spacing:2px;text-decoration:none;color:var(--ink)}.brand-mark{background:var(--brand);color:#fff;font-size:24px;letter-spacing:-4px;padding:4px 12px 6px 9px;border-radius:3px}.brand-mark span{font-size:22px;color:#e9ac86}.workspace{font-size:13px;color:var(--muted);border-left:1px solid var(--line);padding-left:28px}.role{margin-left:auto;font-size:12px;color:var(--muted)}.role span{color:var(--success);font-size:9px;margin-right:7px}main{max-width:1600px;margin:auto;padding:42px 4% 20px}.page-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:30px}.eyebrow{font-size:11px;font-weight:700;color:var(--accent);letter-spacing:1.7px;margin:0 0 12px}h1{font-size:36px;letter-spacing:-1.2px;margin:0 0 10px;font-weight:650;line-height:1.2}.intro{color:var(--muted);margin:0;font-size:14px}.session-note{font-size:12px;color:var(--ink);border-left:2px solid var(--accent);padding-left:14px;line-height:1.7}.session-note span{display:block;color:var(--muted)}.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:30px}.metric{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px 24px;display:flex;justify-content:space-between;align-items:center;gap:12px}.metric p{margin:0 0 8px;color:var(--muted);font-size:12px}.metric strong{font-size:28px;font-weight:650;letter-spacing:-.6px;font-variant-numeric:tabular-nums}.metric small{font-size:11px;color:var(--muted);display:block;margin-top:5px}.metric-symbol{width:38px;height:38px;background:#edf1f6;color:var(--brand);border-radius:50%;display:grid;place-items:center;font-size:18px}.metric.alert .metric-symbol{background:#fbefe8;color:var(--accent)}.inventory{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;scroll-margin-top:16px}.section-heading{padding:25px 26px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}h2{font-size:19px;letter-spacing:-.4px;margin:0 0 6px}.section-heading p{font-size:13px;margin:0;color:var(--muted)}.catalogue-label{font-size:10px;letter-spacing:1.6px;color:var(--muted)}.filters{padding:0 26px 20px;display:grid;grid-template-columns:2fr repeat(3,1fr);gap:16px}label{font-size:12px;font-weight:600;display:flex;flex-direction:column;gap:8px;color:var(--ink)}input,select{height:44px;border:1px solid #b9c4d1;border-radius:5px;color:var(--ink);background:white;padding:0 11px;min-width:0;width:100%;font-size:13px}input::placeholder{color:var(--muted)}.search-box{position:relative}.search-box>span{position:absolute;top:5px;left:12px;font-size:26px;color:var(--muted);line-height:30px}.search-box input{padding-left:39px}.active-filters{display:flex;gap:8px;flex-wrap:wrap;padding:0 26px}.active-filters:empty{display:none}.chip{font-size:11px;background:#edf1f6;color:var(--brand);padding:4px 10px;min-height:32px;max-width:100%;overflow-wrap:anywhere}.clear-filters{font-size:12px;padding:4px 10px;min-height:32px}.results-bar{display:flex;align-items:center;justify-content:space-between;padding:17px 26px 13px;gap:12px}.results-bar p{margin:0;font-size:12px;font-weight:600}.currency-note{font-size:11px;color:var(--muted)}.table-scroll{overflow:auto;max-height:650px;border-top:1px solid var(--line);scrollbar-color:#8c9bad #eef1f5;scrollbar-width:auto}table{border-collapse:separate;border-spacing:0;width:100%;font-size:12px;table-layout:fixed;min-width:980px}thead{position:sticky;top:0;z-index:1}th{background:#edf1f5;text-align:left;font-weight:600;color:var(--muted);font-size:10px;letter-spacing:.5px;text-transform:uppercase;padding:13px 12px;border-bottom:1px solid var(--line)}td{padding:18px 12px;border-bottom:1px solid #e5e9ef;vertical-align:top;line-height:1.6}th:first-child,td:first-child{padding-left:26px;width:30%}th:nth-child(2){width:10%}th:nth-child(3){width:9%}th:nth-child(4){width:8%}th:nth-child(5){width:9%}th:nth-child(6){width:14%}th:nth-child(7){width:8%}th:last-child{width:12%}tr:last-child td{border-bottom:0}tbody tr:hover{background:#fafbfd}.product-name{padding:0;border:0;background:transparent;text-align:left;font-size:13px;line-height:1.5;font-weight:600;color:var(--brand);min-height:0;display:block;overflow-wrap:anywhere}.product-name:hover{background:transparent;text-decoration:underline}.identity{display:block;color:var(--muted);font-size:10px;letter-spacing:.3px;margin-top:7px}.badge{display:inline-block;border-radius:4px;padding:2px 7px;font-size:10px;white-space:nowrap;background:#edf0f4;color:#546171}.badge.active{background:#e7f1eb;color:#28604b}.badge.draft{background:#f9efdf;color:#80541e}.number{font-variant-numeric:tabular-nums;white-space:nowrap}.stock-zero{color:var(--danger);font-weight:650}.stock-low{color:#8e4b25}.stock-caption{display:block;font-size:10px;color:var(--muted)}.stock-zero .stock-caption{color:var(--danger)}.edit-button{font-size:11px;padding:4px 12px;min-height:32px;color:var(--brand)}.view-only{font-size:10px;color:var(--muted);display:block;padding-top:6px}.mobile-label{display:none}.inventory-footer{padding:16px 26px;display:flex;justify-content:space-between;gap:12px;background:#fafbfd;border-top:1px solid var(--line);color:var(--muted);font-size:10px}.page-footer{display:flex;justify-content:space-between;padding:24px 0 4px;color:var(--muted);font-size:10px}.page-footer span:first-child{font-weight:700;letter-spacing:1.8px}.state{padding:55px 24px 60px;text-align:center;border-top:1px solid var(--line)}.state-symbol{font-size:26px;background:#edf1f6;color:var(--brand);border-radius:50%;width:56px;height:56px;display:grid;place-items:center;margin:0 auto 18px}.state h3{font-size:20px;margin:0 0 10px}.state p{font-size:13px;color:var(--muted);margin:0 auto 22px;max-width:380px;line-height:1.6}.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#203e32;color:white;padding:14px 22px;border-radius:6px;box-shadow:0 4px 20px #202b3926;z-index:5;font-size:13px;max-width:calc(100% - 32px);width:max-content}.toast[hidden]{display:none}dialog{padding:0;border:1px solid var(--line);border-radius:10px;width:min(580px,calc(100% - 32px));max-height:calc(100dvh - 32px);color:var(--ink);box-shadow:0 20px 80px #16233840;overflow:auto}dialog::backdrop{background:#16233899}.dialog-head{padding:25px 26px 20px;border-bottom:1px solid var(--line);display:flex;gap:20px;align-items:flex-start;justify-content:space-between}.dialog-head .eyebrow{margin-bottom:8px}.dialog-head h2{font-size:23px;margin:0;overflow-wrap:anywhere;line-height:1.35}.close{font-size:23px;line-height:1;padding:5px 10px;flex-shrink:0}.dialog-body{padding:24px 26px}.dialog-identity{color:var(--muted);font-size:12px;margin:0 0 20px}.details{display:grid;grid-template-columns:1fr 1fr;gap:22px 16px;margin:0}.details dt{color:var(--muted);font-size:11px;margin-bottom:6px}.details dd{margin:0;font-size:14px;overflow-wrap:anywhere}.permission{font-size:12px;color:var(--muted);line-height:1.7;padding:14px;background:#edf1f6;border-radius:6px;margin:24px 0 0}.permission strong{display:block;color:var(--ink)}.dialog-actions{padding:18px 26px;display:flex;justify-content:flex-end;gap:10px;border-top:1px solid var(--line);background:#fafbfd}.editor{display:flex;flex-direction:column;gap:20px}.editor textarea{font:inherit;resize:vertical;min-height:90px;max-height:240px;width:100%;padding:10px;border:1px solid #b9c4d1;border-radius:5px;font-size:14px;color:var(--ink)}textarea:focus-visible{outline:3px solid var(--accent);outline-offset:3px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.hint{font-size:11px;font-weight:400;color:var(--muted)}.field-error{color:var(--danger);font-size:12px;font-weight:500;line-height:1.5}.field-error:empty{display:none}[aria-invalid=true]{border-color:var(--danger)!important}.discard{background:#fff4e9;border:1px solid #e4bd96;border-radius:6px;padding:16px;margin:0 26px 20px;font-size:13px;line-height:1.5}.discard p{margin:0 0 12px}.discard div{display:flex;gap:10px;flex-wrap:wrap}.discard[hidden]{display:none}.scroll-hint{display:none}
++@media(min-width:1500px){th:first-child,td:first-child{width:33%}th:last-child{width:9%}}
++@media(max-width:1100px){.filters{grid-template-columns:1.5fr 1fr;gap:14px}.scroll-hint{display:block;padding:0 26px 10px;color:var(--muted);font-size:11px}.catalogue-label{display:none}.metric{padding:18px}.metric-symbol{display:none}.workspace{display:none}}
++@media(max-width:700px){.topbar{height:66px;padding:0 20px}.brand{font-size:14px;gap:9px;letter-spacing:1.5px}.brand-mark{font-size:20px;padding:3px 9px 5px 7px}.role{font-size:10px}.role span{display:none}main{padding:28px 16px 16px}.page-heading{margin-bottom:24px}.session-note{display:none}h1{font-size:29px;letter-spacing:-1px}.intro{font-size:13px;line-height:1.6}.eyebrow{font-size:10px}.summary{gap:8px;margin-bottom:24px}.metric{display:block;padding:13px 11px}.metric p{font-size:10px;line-height:1.4;min-height:28px;margin-bottom:6px}.metric strong{font-size:22px}.metric small{font-size:9px;line-height:1.4}.metric:last-child strong{font-size:18px}.section-heading{padding:20px 18px}.section-heading p{font-size:12px;line-height:1.6}h2{font-size:18px}.filters{padding:0 18px 16px;grid-template-columns:1fr 1fr;gap:14px 10px}.search-label{grid-column:1/-1}.filters>label:last-child{grid-column:1/-1}.active-filters{padding:0 18px}.results-bar{padding:17px 18px 13px;align-items:flex-start}.currency-note{font-size:10px}.table-scroll{max-height:none;overflow:visible;border:0}table{min-width:0;width:100%;display:block}thead{display:none}tbody{display:block}tr{display:grid;grid-template-columns:1fr 1fr;gap:14px 20px;padding:20px 18px;border-top:1px solid var(--line)}td,th:first-child,td:first-child{padding:0;border:0;width:auto}td{display:block;font-size:12px;line-height:1.5}td:first-child{grid-column:1/-1}.product-name{font-size:14px;line-height:1.6}.identity{margin-top:6px;font-size:10px}.mobile-label{display:block;color:var(--muted);font-size:10px;font-weight:500;margin-bottom:4px}.stock-caption{display:inline;margin-left:5px}.action-cell{align-self:end}.edit-button{min-height:38px;width:100%}.view-only{padding:10px 0}.badge{font-size:11px}.inventory-footer{padding:16px 18px;flex-direction:column;gap:5px;line-height:1.5}.scroll-hint{display:none}.page-footer{font-size:9px}.state{padding:40px 20px}.dialog-head{padding:20px}.dialog-head h2{font-size:20px}.dialog-body{padding:20px}.dialog-actions{padding:16px 20px}.discard{margin:0 20px 20px}.toast{bottom:16px}.role{max-width:95px;text-align:right}}
++@media(prefers-reduced-motion:no-preference){button,a{transition:background-color .15s}}
++.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
++@media(max-width:360px){.filters{grid-template-columns:1fr}.filters>label{grid-column:1}.summary{grid-template-columns:1fr 1fr}.metric p{min-height:0}.metric:last-child{grid-column:1/-1;display:flex;align-items:center}.metric:last-child strong{font-size:24px}.metric:last-child small{display:inline;margin-left:10px}.metric:last-child p{margin-bottom:8px}}
+--- initial/REPORT.md
++++ final/REPORT.md
+@@ -0,0 +1,32 @@
++# Tern Works implementation report
++
++## Delivered
++
++A dependency-free inventory interface using the original, unmodified [data.js](data.js) and [tokens.css](tokens.css). All newly written source is original and MIT-compatible. No remote assets, services, installed dependencies, Git commands, or delegation were used.
++
++## Decisions and assumptions
++
++- **Comparison and consultation:** [index.html](index.html), [app.js](app.js) and [styles.css](styles.css) provide an aligned desktop comparison table with wrapped, complete product names. The same records become labeled cards below 700px, preserving content and focused controls during resizing. Tablet tables have a visible scrolling instruction and a keyboard-focusable scroll region. Desktop table headers remain visible during internal scrolling.
++- **Complete records:** Every product name opens a detail dialog containing identity, SKU, category, lifecycle status, stock, price, supplier, lead time, and permission explanation. Supply fields also appear directly in the table/cards. Editor dialogs retain the product identity and explain editing permissions.
++- **Finding products:** [app.js](app.js) combines case-insensitive name/SKU substring search with category, status, and stock filters. Active chips can be removed individually or cleared together. Stock bands are explicitly defined as zero, 1–10, and 11+. Result counts describe the filtered catalogue; overview figures always describe the full catalogue.
++- **Editing:** [app.js](app.js) keeps permission authority and the current editing identity inside module scope, independently of DOM attributes and form fields. Both opening an editor and submitting changes check permission. Only name, stock, and price are editable. Stock must be a nonnegative safe integer written in digits; price must be finite and positive. Invalid values stay in the form with field-specific explanations. A save updates rows, overview totals, and a live acknowledgement.
++- **Cancellation and focus:** [app.js](app.js) uses native modal dialogs for keyboard focus containment. Cancel, close, and Escape request confirmation when the form is dirty. Keep editing retains all values. Closing returns focus to the original control, its replacement after rendering, or the inventory section if an edit removes the record from current results. Dirty edits also trigger the browser's normal navigation protection where supported.
++- **Data assumptions:** Prices are USD per unit; lead times are days; inventory value is stock multiplied by unit price across all lifecycle statuses. Changes last only in the current loaded tab and reset on reload; this is disclosed in the interface. No persistence or backend authorization service was requested or introduced. Client-side permission enforcement covers application interaction and DOM manipulation; it is not a security boundary against a user rewriting application JavaScript.
++- **States:** [app.js](app.js) renders deterministic `?state=empty`, `?state=loading`, and `?state=error` views. Loading waits for an explicit recovery action. Retry/load controls restore the fictional catalogue. Filtered zero-result views offer a clear-filters recovery.
++- **Visual/accessibility:** [styles.css](styles.css) builds on the supplied brand colors, uses native system fonts, visible keyboard focus, reduced-motion support, and scrollable dialogs bounded by viewport height. At 360px and narrower, filters stack and the value metric spans the overview to avoid cramped labels.
++
++## Verification actually run
++
++- `node --check app.js` — passed.
++- `node verify.mjs` — **44 checks passed**, rerun after the final responsive adjustment. The original verification script is [verify.mjs](verify.mjs); the complete list of passing checks is [verification.json](verification.json).
++- Checks cover initial row/edit counts; combined filters and counts; trimmed SKU search; removable chips; no-match recovery; restricted record detail access; forged restricted edit controls in both catalogue and dialog; retained invalid input and error focus; dirty cancellation/keep/discard; zero-stock save; acknowledgement; DOM identity tampering; focus return through detail-to-edit transitions and filtered-out saves; every deterministic state and recovery; persistent loading; responsive focus preservation; and reduced motion.
++- Browser geometry and real Escape key checks passed at **320×640, 375×667, 768×600, 1024×768, 1440×520, and 1920×1080**. No page-level horizontal overflow; editor bounds stayed inside each viewport.
++- Used the supplied capture tool and visually inspected [desktop.png](desktop.png), [mobile.png](mobile.png), [mobile-320.png](mobile-320.png), and [editor.png](editor.png). Capture runs reported no runtime exceptions. The 320px review prompted the final stacked-filter adjustment; its capture was regenerated afterward.
++
++## Remaining limitations
++
++Verification used the supplied local Chromium harness, not a cross-browser or assistive-technology matrix. The application intentionally has no durable storage, network synchronization, authentication, or server authorization. The demonstration error/loading states represent local fixtures rather than real network requests.
++
++## Knowledge provenance
++
++No knowledge IDs were supplied or used. Implementation choices came from TASK.md, AGENTS.md, the provided data/tokens and browser tools, and the local verification described above. No project skills or external references were consulted.
+--- initial/app.js
++++ final/app.js
+@@ -1,2 +1,171 @@
+ import { products } from './data.js';
+-console.log(`Local fictional inventory: ${products.length} records`);
++
++// Catalogue permissions are an authority separate from editable form values and DOM attributes.
++const permissions = new Map(products.map(p => [p.id, p.canEdit]));
++let records = products.map(p => ({ ...p }));
++const requestedState = new URLSearchParams(location.search).get('state');
++let state = ['empty', 'loading', 'error'].includes(requestedState) ? requestedState : 'ready';
++const filters = { search: '', category: '', status: '', stock: '' };
++const $ = selector => document.querySelector(selector);
++const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
++const money = value => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
++const dialog = $('#record-dialog');
++let editingId = null;
++let returnTarget = null;
++let originalValues = null;
++let noticeTimer;
++for (const key of ['category', 'status']) {
++  for (const value of [...new Set(products.map(p => p[key]))]) {
++    $(`#${key}`).add(new Option(value, value));
++  }
++}
++function notify(message) {
++  clearTimeout(noticeTimer);
++  $('#notice').textContent = message;
++  $('#notice').hidden = false;
++  noticeTimer = setTimeout(() => { $('#notice').hidden = true; }, 6500);
++}
++function matches(p) {
++  const query = filters.search.trim().toLowerCase();
++  return (!query || p.name.toLowerCase().includes(query) || p.sku.toLowerCase().includes(query)) &&
++    (!filters.category || p.category === filters.category) && (!filters.status || p.status === filters.status) &&
++    (!filters.stock || (filters.stock === 'out' ? p.stock === 0 : filters.stock === 'low' ? p.stock > 0 && p.stock <= 10 : p.stock > 10));
++}
++function stockLabel(stock) { return stock === 0 ? 'Out of stock' : stock <= 10 ? 'Low stock' : 'In stock'; }
++function badge(p) { return `<span class="badge ${p.status.toLowerCase()}">${escape(p.status)}</span>`; }
++function renderSummary() {
++  const available = state === 'ready' || state === 'empty';
++  const list = state === 'empty' ? [] : records;
++  const metrics = [
++    ['Catalogue products', list.length, 'Across all lifecycle statuses', '▦', ''],
++    ['Out of stock', list.filter(p => p.stock === 0).length, 'Products with no units on hand', '↘', 'alert'],
++    ['Inventory value', money(list.reduce((sum,p) => sum + p.stock * p.price, 0)), 'On-hand stock × unit price', '＄', '']
++  ];
++  $('#summary').innerHTML = metrics.map(([label,value,hint,symbol,kind]) => `<div class="metric ${kind}"><div><p>${label}</p><strong>${available ? value : '—'}</strong><small>${hint}</small></div><span class="metric-symbol" aria-hidden="true">${symbol}</span></div>`).join('');
++}
++function renderChips() {
++  const stockNames = {out:'Out of stock',low:'Low stock',healthy:'In stock'};
++  $('#active-filters').innerHTML = Object.entries(filters).filter(([,v]) => v).map(([key,value]) => `<button class="chip" data-remove="${key}" aria-label="Remove ${key} filter: ${escape(value)}">${key === 'search' ? 'Search: ' : key === 'stock' ? 'Stock: ' : ''}${escape(key === 'stock' ? stockNames[value] : value)} <span aria-hidden="true">×</span></button>`).join('') + (Object.values(filters).some(Boolean) ? '<button class="quiet clear-filters" data-clear>Clear all</button>' : '');
++}
++function render() {
++  renderSummary();
++  renderChips();
++  const visible = state === 'ready' ? records.filter(matches) : [];
++  const total = state === 'empty' ? 0 : records.length;
++  $('#result-count').textContent = state === 'loading' ? 'Loading inventory…' : state === 'error' ? 'Inventory unavailable' : `${visible.length} of ${total} products`;
++  if (state !== 'ready' || !visible.length) {
++    const content = state === 'loading' ? ['◌','Loading inventory','The catalogue is waiting to load. Load it when you’re ready.','Load inventory'] :
++      state === 'error' ? ['!','We couldn’t load the inventory','Your catalogue is unavailable. Try loading it again.','Try again'] :
++      state === 'empty' ? ['▦','Your catalogue is empty','There are no products in this workspace. Load the sample catalogue to get started.','Load sample catalogue'] :
++      ['⌕','No matching products','Try a different search or clear your filters to see the catalogue.','Clear all filters'];
++    $('#results').innerHTML = `<div class="state"><div class="state-symbol" aria-hidden="true">${content[0]}</div><h3>${content[1]}</h3><p>${content[2]}</p><button class="primary" ${state === 'ready' ? 'data-clear' : 'data-action="retry"'}>${content[3]}</button></div>`;
++    return;
++  }
++  $('#results').innerHTML = `<p class="scroll-hint" id="scroll-help">Scroll across to compare all fields. Scroll down for more products.</p><div class="table-scroll" tabindex="0" role="region" aria-label="Product comparison table; scroll for more products and columns"><table><caption class="sr-only">Product catalogue with stock, prices and supply details</caption><thead><tr><th scope="col">Product / SKU</th><th scope="col">Category</th><th scope="col">Status</th><th scope="col">Stock</th><th scope="col">Unit price</th><th scope="col">Supplier</th><th scope="col">Lead time</th><th scope="col">Access</th></tr></thead><tbody>${visible.map(p => `<tr data-record-id="${p.id}">
++    <td><button class="product-name" data-action="details" data-record-id="${p.id}">${escape(p.name)}</button><span class="identity">${p.sku} <span aria-hidden="true">/</span> ${p.id}</span></td>
++    <td><span class="mobile-label">Category</span>${escape(p.category)}</td>
++    <td><span class="mobile-label">Lifecycle status</span>${badge(p)}</td>
++    <td class="number ${p.stock === 0 ? 'stock-zero' : p.stock <= 10 ? 'stock-low' : ''}"><span class="mobile-label">Stock · units</span>${p.stock}<span class="stock-caption">${stockLabel(p.stock)}</span></td>
++    <td class="number"><span class="mobile-label">Unit price · USD</span>${money(p.price)}</td>
++    <td><span class="mobile-label">Supplier</span>${escape(p.supplier)}</td>
++    <td class="number"><span class="mobile-label">Lead time</span>${p.leadDays} days</td>
++    <td class="action-cell">${permissions.get(p.id) ? `<button class="edit-button" data-action="edit" data-record-id="${p.id}" aria-label="Edit ${escape(p.name)}">Edit <span aria-hidden="true">↗</span></button>` : '<span class="view-only">Consult only</span>'}</td>
++    </tr>`).join('')}</tbody></table></div>`;
++}
++function clearFilters() {
++  for (const key in filters) { filters[key] = ''; $(`#${key}`).value = ''; }
++  render();
++  $('#search').focus();
++}
++for (const key in filters) {
++  $(`#${key}`).addEventListener(key === 'search' ? 'input' : 'change', event => { filters[key] = event.target.value; render(); });
++}
++$('#app').addEventListener('click', event => {
++  const button = event.target.closest('button');
++  if (!button) return;
++  if (button.hasAttribute('data-clear')) return clearFilters();
++  if (button.dataset.remove) {
++    const key = button.dataset.remove;
++    filters[key] = ''; $(`#${key}`).value = ''; render(); $(`#${key}`).focus(); return;
++  }
++  if (button.dataset.action === 'retry') { state = 'ready'; render(); $('#inventory').focus(); notify('Catalogue loaded. 18 products available.'); return; }
++  if (['edit','details'].includes(button.dataset.action)) openRecord(button.dataset.recordId, button.dataset.action, button);
++});
++function openRecord(id, mode, trigger) {
++  const p = records.find(p => p.id === id);
++  if (!p) return;
++  if (mode === 'edit' && permissions.get(id) !== true) { notify('This record is managed by procurement and can only be consulted.'); return; }
++  returnTarget = { element: trigger, id, action: trigger.dataset.action };
++  editingId = mode === 'edit' ? id : null;
++  originalValues = {name:p.name,stock:String(p.stock),price:String(p.price)};
++  const heading = `<div class="dialog-head"><div><p class="eyebrow">${mode === 'edit' ? 'UPDATE PRODUCT' : 'PRODUCT DETAILS'}</p><h2 id="dialog-title">${mode === 'edit' ? 'Edit product' : escape(p.name)}</h2></div><button class="close" data-action="cancel" aria-label="Close dialog">×</button></div>`;
++  const permission = `<p class="permission"><strong>${permissions.get(id) ? 'Editing available' : 'Consult only'}</strong>${escape(p.permissionReason)}</p>`;
++  if (mode === 'edit') {
++    $('#dialog-content').innerHTML = `${heading}<form id="editor" novalidate><div class="dialog-body"><p class="dialog-identity">${p.sku} / ${p.id} · ${escape(p.category)} · ${escape(p.status)}</p><div class="editor"><label>Product name<textarea name="name" aria-describedby="name-error" required>${escape(p.name)}</textarea><span class="field-error" id="name-error"></span></label><div class="form-row"><label>Stock on hand<input name="stock" type="text" inputmode="numeric" value="${p.stock}" aria-describedby="stock-hint stock-error" required><span class="hint" id="stock-hint">Whole units, zero or more</span><span class="field-error" id="stock-error"></span></label><label>Unit price · USD<input name="price" type="text" inputmode="decimal" value="${p.price}" aria-describedby="price-hint price-error" required><span class="hint" id="price-hint">Greater than $0.00</span><span class="field-error" id="price-error"></span></label></div></div>${permission}</div><div class="dialog-actions"><button type="button" data-action="cancel">Cancel</button><button class="primary" type="submit" data-action="save">Save changes</button></div></form><div class="discard" hidden role="alert"><p>You have unsaved changes. Discard them?</p><div><button data-action="keep" class="primary">Keep editing</button><button data-action="discard">Discard changes</button></div></div>`;
++  } else {
++    $('#dialog-content').innerHTML = `${heading}<div class="dialog-body" data-record-id="${p.id}"><p class="dialog-identity">${p.sku} / ${p.id}</p><dl class="details"><div><dt>Category</dt><dd>${escape(p.category)}</dd></div><div><dt>Lifecycle status</dt><dd>${badge(p)}</dd></div><div><dt>Stock on hand</dt><dd>${p.stock} units · ${stockLabel(p.stock)}</dd></div><div><dt>Unit price · USD</dt><dd>${money(p.price)}</dd></div><div><dt>Supplier</dt><dd>${escape(p.supplier)}</dd></div><div><dt>Lead time</dt><dd>${p.leadDays} days</dd></div></dl>${permission}</div><div class="dialog-actions"><button data-action="cancel">Close</button>${permissions.get(id) ? `<button class="primary" data-action="edit" data-record-id="${id}">Edit product</button>` : ''}</div>`;
++  }
++  dialog.dataset.recordId = id;
++  if (!dialog.open) dialog.showModal();
++  if (mode === 'edit') $('[name="name"]').focus(); else $('.close').focus();
++}
++function dirty() {
++  const form = $('#editor');
++  return editingId && form && Object.keys(originalValues).some(key => form.elements[key].value !== originalValues[key]);
++}
++function closeDialog() {
++  dialog.close();
++  editingId = null;
++  const target = returnTarget;
++  if (target?.element?.isConnected && !dialog.contains(target.element)) target.element.focus();
++  else {
++    const replacement = target && document.querySelector(`#results [data-action="${target.action}"][data-record-id="${target.id}"]`);
++    (replacement || $('#inventory')).focus();
++  }
++}
++function requestClose() {
++  if (!dirty()) return closeDialog();
++  $('.discard').hidden = false;
++  $('[data-action="keep"]').focus();
++}
++dialog.addEventListener('cancel', event => { event.preventDefault(); requestClose(); });
++dialog.addEventListener('click', event => {
++  const button = event.target.closest('button');
++  if (!button) return;
++  const action = button.dataset.action;
++  if (action === 'cancel') { event.preventDefault(); requestClose(); }
++  if (action === 'discard') closeDialog();
++  if (action === 'keep') { $('.discard').hidden = true; $('[name="name"]').focus(); }
++  if (action === 'edit') {
++    // Keep the catalogue trigger for reliable focus restoration after switching dialog mode.
++    const previous = returnTarget;
++    openRecord(button.dataset.recordId, 'edit', previous.element);
++    returnTarget = previous;
++  }
++});
++dialog.addEventListener('submit', event => {
++  event.preventDefault();
++  const p = records.find(p => p.id === editingId);
++  if (!p || permissions.get(editingId) !== true) { notify('You do not have permission to update this product.'); return; }
++  const form = event.target;
++  const name = form.elements.name.value.trim();
++  const stockText = form.elements.stock.value.trim();
++  const priceText = form.elements.price.value.trim();
++  const stock = Number(stockText), price = Number(priceText);
++  const errors = {
++    name: name ? '' : 'Enter a product name.',
++    stock: stockText && /^\d+$/.test(stockText) && Number.isSafeInteger(stock) && stock >= 0 ? '' : 'Enter a whole number of units, zero or more.',
++    price: priceText && Number.isFinite(price) && price > 0 ? '' : 'Enter a finite price greater than zero.'
++  };
++  let firstInvalid;
++  for (const [key,message] of Object.entries(errors)) {
++    $(`#${key}-error`).textContent = message;
++    form.elements[key].setAttribute('aria-invalid', message ? 'true' : 'false');
++    if (message && !firstInvalid) firstInvalid = form.elements[key];
++  }
++  if (firstInvalid) { firstInvalid.focus(); return; }
++  p.name = name; p.stock = stock; p.price = price;
++  render(); closeDialog(); notify(`Saved ${p.sku}. Product updated for this session.`);
++});
++window.addEventListener('beforeunload', event => { if (dirty()) { event.preventDefault(); event.returnValue = ''; } });
++render();
+--- initial/FINAL.md
++++ final/FINAL.md
+@@ -0,0 +1,5 @@
++Implemented the responsive inventory interface with combined filters, complete product details, permission-protected editing, validation, safe cancellation, and recoverable states.
++
++All 44 browser checks passed across six viewport sizes. Changes are session-only.
++
++Details and verification: [REPORT.md](/work/REPORT.md).--- initial/verification.json
++++ final/verification.json
+@@ -0,0 +1,49 @@
++{
++  "passed": 44,
++  "checks": [
++    "18 records, 14 authorized edit controls",
++    "Combined category, status and stock filters, counts and chips",
++    "Trimmed case-insensitive SKU search combines with filters",
++    "Removing chip restores results and focus",
++    "No-match state and result count",
++    "Restricted details retain supply and permission information",
++    "Forged restricted dialog edit rejected",
++    "Details restores focus",
++    "Forged catalogue edit rejected",
++    "Invalid input retained with errors and focus",
++    "Dirty cancel offers discard choice",
++    "Keep editing retains invalid values",
++    "Escape cancellation and discard preserve record and restore focus",
++    "Save uses internal identity, accepts zero, updates data and acknowledges",
++    "Details to edit to cancel focus return",
++    "Filtered-out saved record returns focus to inventory",
++    "empty deterministic state",
++    "empty recovery",
++    "loading deterministic state",
++    "Loading persists",
++    "loading recovery",
++    "error deterministic state",
++    "error recovery",
++    "No page horizontal overflow 320x640",
++    "Editor fits viewport 320x640",
++    "Keyboard Escape and focus 320",
++    "No page horizontal overflow 375x667",
++    "Editor fits viewport 375x667",
++    "Keyboard Escape and focus 375",
++    "No page horizontal overflow 768x600",
++    "Editor fits viewport 768x600",
++    "Keyboard Escape and focus 768",
++    "No page horizontal overflow 1024x768",
++    "Editor fits viewport 1024x768",
++    "Keyboard Escape and focus 1024",
++    "No page horizontal overflow 1440x520",
++    "Editor fits viewport 1440x520",
++    "Keyboard Escape and focus 1440",
++    "No page horizontal overflow 1920x1080",
++    "Editor fits viewport 1920x1080",
++    "Keyboard Escape and focus 1920",
++    "Focus survives responsive layout change",
++    "Reduced motion removes transitions",
++    "No runtime exceptions in final navigation"
++  ]
++}
+--- initial/index.html
++++ final/index.html
+@@ -1 +1,23 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tern Works — Inventory</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="styles.css"></head><body><main id="app"><h1>Tern Works inventory</h1><p>Application implementation pending.</p></main><script type="module" src="app.js"></script></body></html>
++<!doctype html>
++<html lang="en">
++<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#344e75"><title>Tern Works — Inventory</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="styles.css"></head>
++<body>
++<a class="skip" href="#inventory">Skip to inventory</a>
++<header class="topbar"><a class="brand" href="index.html" aria-label="Tern Works inventory home"><span class="brand-mark" aria-hidden="true">T<span>↗</span></span> TERN WORKS</a><span class="workspace">Operations workspace</span><span class="role"><span aria-hidden="true">●</span> Inventory editor</span></header>
++<main id="app">
++<div class="page-heading"><div><p class="eyebrow">OPERATIONS / INVENTORY</p><h1>Every part, in place.</h1><p class="intro">Your product catalogue, stock levels and supply details.</p></div><span class="session-note">Session workspace <span>Changes stay in this tab</span></span></div>
++<section class="summary" aria-label="Inventory overview" id="summary"></section>
++<section class="inventory" id="inventory" aria-labelledby="inventory-title" tabindex="-1">
++<div class="section-heading"><div><h2 id="inventory-title">Product inventory</h2><p>Consult every record. Update the products you manage.</p></div><span class="catalogue-label">TERN / CATALOGUE</span></div>
++<div class="filters"><label class="search-label"><span>Search products</span><div class="search-box"><span aria-hidden="true">⌕</span><input type="search" data-testid="search" id="search" placeholder="Search by name or SKU" autocomplete="off"></div></label><label>Category<select id="category"><option value="">All categories</option></select></label><label>Lifecycle status<select id="status"><option value="">All statuses</option></select></label><label>Stock level<select id="stock"><option value="">All stock levels</option><option value="out">Out of stock · 0</option><option value="low">Low stock · 1–10</option><option value="healthy">In stock · 11+</option></select></label></div>
++<div id="active-filters" class="active-filters" aria-label="Active filters"></div>
++<div class="results-bar"><p id="result-count" role="status" aria-live="polite"></p><span class="currency-note">Prices in USD · per unit</span></div>
++<div id="results"></div>
++<div class="inventory-footer"><span>Fictional inventory · Tern Works</span><span>Restricted records are managed by procurement.</span></div>
++</section>
++<footer class="page-footer"><span>TERN WORKS</span><span>Built for the work ahead.</span></footer>
++</main>
++<div class="toast" id="notice" role="status" aria-live="polite" hidden></div>
++<dialog id="record-dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
++<script type="module" src="app.js"></script>
++</body></html>

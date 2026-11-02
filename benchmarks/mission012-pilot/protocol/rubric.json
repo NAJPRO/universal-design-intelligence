@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "separation": ["retrieval correctness", "evidenced application of guidance", "functional correctness", "responsive quality", "visual quality"],
+  "objective": ["no unintended page overflow", "essential edit action reachable in a visible representation", "critical record values accessible", "unauthorized edits blocked", "search filters and clear work", "valid save acknowledged", "invalid input retained", "unsaved cancel safe", "empty loading error recovery", "keyboard focus continuity", "short viewport actions revealable"],
+  "reviewWarnings": ["nested scroll owners without demonstrated harm", "unclear scroll discovery", "critical values requiring excessive navigation", "transient BODY focus stop", "density tradeoffs", "touch or assistive technology unverified"],
+  "visualJudgments": ["information hierarchy", "composition", "responsive density", "brand consistency", "state clarity"],
+  "evidenceRules": "Measure objective failures in context, inspect actual rendered interfaces and retain warnings separately. Hooks, skill calls and automated checks do not prove design quality. Link guidance use to both command evidence and implemented decisions; self-report alone is insufficient.",
+  "review": "Controller measurement/source inspection is unblinded. Attempt a separate label-blinded review of screenshots only; disclose same-model and single-rater limitations. No combined aesthetic/functional score.",
+  "sampling": "One independent generation per condition; exploratory paired comparison, no statistical or causal generalization."
+}

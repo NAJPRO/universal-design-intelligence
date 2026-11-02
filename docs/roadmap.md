@@ -80,3 +80,13 @@ Target release: **2026-10-31**. The deadline prioritizes an installable, tested 
 - [ ] Validate independent same-agent generation with measured budgets, physical touch and assistive technology.
 
 **Result:** targeted reference action access improves; no overall visual superiority or autonomous agent improvement is established. See [Mission 011](MISSION-011.md) and [reproduction](../benchmarks/mission011/README.md). Subsequent missions remain unstarted.
+
+## Mission 012 — Independent agent validation
+
+- [x] Freeze a new fictional starting application, task, data, rubric, captures and execution settings with hashes.
+- [x] Execute three fresh conditions with verified filesystem isolation, matching model/tools and 900-second ceilings; preserve failed pilot and verification attempts.
+- [x] Retain actual skill reads, CLI retrieval, inspected IDs, source diffs and execution evidence.
+- [x] Capture all four required widths and reduced-height editing; compare objective checks and obtain separate label-blinded visual review.
+- [ ] Obtain a completed enhanced-agent report within budget, repeated equal-token experiments, per-run network isolation and independent human/accessibility validation.
+
+**Result:** current guidance is retrieved and applied to observable responsive action access. C's submission is deadline-censored; mixed composition results do not establish overall visual or responsive superiority. See [Mission 012](MISSION-012.md) and [reproduction](../benchmarks/mission012/README.md). No subsequent mission started.

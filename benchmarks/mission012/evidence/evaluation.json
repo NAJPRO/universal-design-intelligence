@@ -1,0 +1,92 @@
+{
+  "scope": "Primary independent executions; invalid pilot excluded. One generation per arm, C deadline-censored. No aggregate quality score.",
+  "controllerScreenshots": 69,
+  "arms": {
+    "A": {
+      "execution": {
+        "exitCode": 0,
+        "timedOut": false,
+        "startedEpoch": 1793401870.4847493,
+        "elapsedSeconds": 631.8059327602386
+      },
+      "usage": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 490941,
+            "cached_input_tokens": 470528,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 17273,
+            "reasoning_output_tokens": 1659
+          }
+        }
+      ],
+      "controllerChecksPassed": 17,
+      "controllerChecksTotal": 17,
+      "maximumPageOverflow": 0,
+      "runtimeExceptions": 0,
+      "defaultActionHorizontalTravel": {
+        "320": 0,
+        "375": 0,
+        "768": 240.515625,
+        "1440": 0
+      },
+      "skillInvocationCount": 0,
+      "reportPresent": true
+    },
+    "B": {
+      "execution": {
+        "exitCode": 0,
+        "timedOut": false,
+        "startedEpoch": 1793401642.5883129,
+        "elapsedSeconds": 792.6881880760193
+      },
+      "usage": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 989401,
+            "cached_input_tokens": 939776,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 19677,
+            "reasoning_output_tokens": 1106
+          }
+        }
+      ],
+      "controllerChecksPassed": 17,
+      "controllerChecksTotal": 17,
+      "maximumPageOverflow": 0,
+      "runtimeExceptions": 0,
+      "defaultActionHorizontalTravel": {
+        "320": 0,
+        "375": 0,
+        "768": 323,
+        "1440": 0
+      },
+      "skillInvocationCount": 7,
+      "reportPresent": true
+    },
+    "C": {
+      "execution": {
+        "exitCode": -15,
+        "timedOut": true,
+        "startedEpoch": 1793401640.385525,
+        "elapsedSeconds": 900.0047078132629
+      },
+      "usage": [],
+      "controllerChecksPassed": 17,
+      "controllerChecksTotal": 17,
+      "maximumPageOverflow": 0,
+      "runtimeExceptions": 0,
+      "defaultActionHorizontalTravel": {
+        "320": 0,
+        "375": 0,
+        "768": 0,
+        "1440": 0
+      },
+      "skillInvocationCount": 7,
+      "reportPresent": false
+    }
+  },
+  "interpretation": "Current contracts were retrieved and implementation matches revised identity/action and scrolling guidance. Tablet action access differs in this sample, but overall responsive or visual superiority is not established; C did not complete reporting within budget. Blinded review finds mixed advantages."
+}

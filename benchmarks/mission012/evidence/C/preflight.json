@@ -1,0 +1,14 @@
+[
+  {
+    "tool": "runtime --version",
+    "code": 0,
+    "stdout": "0.1.0\n",
+    "stderr": ""
+  },
+  {
+    "tool": "browser capture",
+    "code": 0,
+    "stdout": "{\n  \"path\": \"/work/preflight.png\",\n  \"result\": null,\n  \"overflow\": 0,\n  \"exceptions\": []\n}\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,347 @@
+--- initial/styles.css
++++ final/styles.css
+@@ -1 +1,9 @@
+-* { box-sizing: border-box; } body { margin: 0; } button,input,select,textarea { font: inherit; }
++/* Original implementation, MIT-compatible. */
++*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button,a,input,select{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:default}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--brand);outline-offset:3px}button{min-height:40px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--brand);font-weight:600;padding:8px 14px}button:hover{background:#edf1f7}a{color:var(--brand)}.skip{position:fixed;top:-60px;left:16px;padding:12px;background:white;z-index:10}.skip:focus{top:10px}.topbar{height:80px;background:var(--surface);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 4vw;gap:16px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:2px;text-decoration:none;font-size:15px}.brand-mark{background:var(--brand);color:white;width:36px;height:36px;display:grid;place-items:center;position:relative;letter-spacing:0;font-size:23px}.brand-mark span{font-size:18px;position:absolute;right:1px;top:-1px;color:#fff}.brand-sub{font-weight:400;letter-spacing:0;color:var(--muted);margin-left:14px}.role{font-size:12px;border:1px solid var(--line);border-radius:30px;padding:7px 12px;color:var(--muted)}main{max-width:1600px;margin:auto;padding:38px 4vw 0}.page-heading{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:28px}.eyebrow{font-size:11px;letter-spacing:1.5px;font-weight:700;color:var(--accent);margin:0 0 10px}h1{font-size:36px;letter-spacing:-1.2px;line-height:1.2;margin:0 0 8px}p{margin:0}.intro{color:var(--muted);font-size:15px}.local-note{font-size:13px;color:var(--muted);text-align:right}.local-note small{display:block;margin-top:6px;font-size:11px}.dot{display:inline-block;background:var(--success);width:7px;height:7px;border-radius:50%;margin-right:6px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}.stat{background:var(--surface);padding:20px 24px;border:1px solid var(--line);border-radius:var(--radius);position:relative}.stat-label{color:var(--muted);font-size:12px;font-weight:600}.stat-value{font-size:30px;font-weight:650;letter-spacing:-1px;margin:8px 0 4px}.stat-note{font-size:12px;color:var(--muted)}.stat-index{position:absolute;right:20px;top:20px;color:var(--line);font-size:12px}.stat.attention{border-top:3px solid var(--accent);padding-top:18px}.workspace{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}.section-top{padding:24px;display:flex;justify-content:space-between;align-items:center;gap:20px}h2{font-size:18px;margin:0 0 6px;letter-spacing:-.3px}.section-top p{font-size:13px;color:var(--muted)}.view-switch{display:flex;gap:4px;padding:4px;border:1px solid var(--line);border-radius:8px;background:var(--canvas)}.view-switch button{font-size:12px;border:0;background:transparent;min-height:34px;padding:7px 10px;white-space:nowrap}.view-switch button[aria-pressed=true]{background:white;box-shadow:0 1px 3px #202b3920;color:var(--ink)}.filters{padding:0 24px 20px;display:grid;grid-template-columns:minmax(240px,2fr) repeat(3,minmax(140px,1fr));gap:16px}label{font-size:12px;font-weight:600;display:block;color:var(--ink)}input,select{display:block;width:100%;height:42px;border:1px solid #b9c3d0;border-radius:6px;background:var(--surface);color:var(--ink);padding:8px 11px;margin-top:7px;font-size:13px}input::placeholder{color:var(--muted)}.search-wrap{position:relative}.search-wrap>span{position:absolute;top:7px;left:12px;font-size:23px;color:var(--muted)}.search-wrap input{padding-left:37px}.active-filters{display:flex;gap:8px;flex-wrap:wrap;padding:0 24px}.active-filters:not(:empty){padding-bottom:16px}.chip{font-size:12px;background:#edf1f7;border-color:#d6deea;min-height:32px;padding:5px 10px;overflow-wrap:anywhere;max-width:100%;text-align:left}.clear{border:0;font-size:12px;min-height:32px;padding:5px 8px}.results-bar{border-top:1px solid var(--line);padding:15px 24px;display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:12px;color:var(--muted)}#result-count{font-weight:600;color:var(--ink)}#scroll-hint{font-size:11px}.table-region{overflow-x:auto;position:relative;scrollbar-gutter:stable}table{width:100%;min-width:1160px;border-collapse:separate;border-spacing:0;font-size:13px;table-layout:fixed}th{text-align:left;background:#f6f7f9;color:var(--muted);font-size:10px;letter-spacing:.6px;text-transform:uppercase;font-weight:650;padding:12px 14px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}td{padding:18px 14px;border-bottom:1px solid #e5e9ef;vertical-align:top;line-height:1.5}tbody tr:last-child td{border-bottom:0}tbody tr:hover td{background:#f9fafc}th:first-child,td:first-child{padding-left:24px;width:330px;position:sticky;left:0;background:white;z-index:1;border-right:1px solid #e5e9ef}th:first-child{background:#f6f7f9;z-index:2}th:nth-child(2){width:105px}th:nth-child(3){width:100px}th:nth-child(4){width:85px}th:nth-child(5){width:90px}th:nth-child(6){width:145px}th:nth-child(7){width:80px}th:nth-child(8){width:125px}.product-link{border:0;min-height:0;padding:0;background:transparent!important;text-align:left;color:var(--ink);font-size:13px;line-height:1.5;font-weight:600;text-decoration:underline;text-decoration-color:#c7d0dc;text-underline-offset:3px;overflow-wrap:anywhere}.sku{display:block;font-size:11px;color:var(--muted);margin-top:6px;letter-spacing:.4px}.badge{display:inline-block;border:1px solid #c6dacf;border-radius:4px;padding:2px 7px;font-size:11px;color:var(--success);background:#f0f7f3;white-space:nowrap}.badge.draft{color:#85531f;background:#fcf5e9;border-color:#e7d5b5}.badge.archived{color:var(--muted);background:#f1f3f6;border-color:var(--line)}.numeric{font-variant-numeric:tabular-nums;text-align:right}.stock-zero{color:var(--danger);font-weight:700}.stock-low{color:#85531f;font-weight:650}.stock-caption{display:block;font-size:10px;font-weight:400;white-space:nowrap}.access button{font-size:12px;min-height:34px;padding:5px 12px}.readonly{font-size:11px;color:var(--muted);display:block;margin-bottom:5px}.access .permission-link{border:0;padding:0;min-height:24px;text-decoration:underline;font-weight:400}.directory-footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);padding:16px 24px;font-size:11px;color:var(--muted)}.page-footer{padding:24px 0;font-size:10px;letter-spacing:1.5px;color:var(--muted);display:flex;justify-content:space-between}.page-footer span{letter-spacing:0}.state-panel{padding:62px 24px 70px;text-align:center;border-top:1px solid var(--line)}.state-icon{font-size:28px;color:var(--brand);margin-bottom:16px}.state-panel h3{font-size:20px;margin:0 0 10px}.state-panel p{font-size:14px;color:var(--muted);max-width:420px;margin:0 auto 22px;line-height:1.6}.primary{background:var(--brand);border-color:var(--brand);color:white}.primary:hover{background:#293f60}.danger-button{background:var(--danger);color:white;border-color:var(--danger)}dialog{border:1px solid var(--line);padding:0;border-radius:12px;width:min(600px,calc(100% - 32px));max-height:calc(100dvh - 32px);color:var(--ink);box-shadow:0 24px 100px #17243645}dialog::backdrop{background:#18253688}body.modal-open{overflow:hidden}#dialog-content{display:flex;flex-direction:column;max-height:calc(100dvh - 34px)}.dialog-head{padding:24px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.dialog-head h2{font-size:21px;margin:5px 0 0}.dialog-head .eyebrow{margin:0}.close{padding:3px 10px;font-size:22px;min-width:40px}.dialog-body{overflow-y:auto;padding:24px;min-height:0}.dialog-body h3{font-size:18px;line-height:1.5;margin:0 0 8px;overflow-wrap:anywhere}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 24px;margin:24px 0}.detail-grid dt{font-size:11px;color:var(--muted);margin-bottom:6px}.detail-grid dd{font-size:14px;margin:0;overflow-wrap:anywhere}.permission{padding:14px 16px;background:var(--canvas);border-left:3px solid var(--brand);font-size:12px;line-height:1.6}.permission strong{display:block}.dialog-foot{padding:16px 24px;border-top:1px solid var(--line);display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;background:white}.edit-form{display:flex;flex-direction:column;min-height:0;overflow:hidden}.edit-form .dialog-body{flex:1}.field{margin-bottom:20px}.field input{font-size:15px}.field-help{display:block;font-size:11px;color:var(--muted);margin-top:7px;line-height:1.5}.error{color:var(--danger);font-size:12px;margin-top:6px;line-height:1.5}.error:empty{display:none}[aria-invalid=true]{border-color:var(--danger);box-shadow:0 0 0 1px var(--danger)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.save-note{font-size:12px;color:var(--muted);margin-bottom:16px;line-height:1.6}.discard-panel{background:#fff5f2;padding:16px 24px;border-top:1px solid #e0b9ab}.discard-panel p{font-size:13px;line-height:1.5;margin-bottom:12px}.discard-actions{display:flex;gap:8px;flex-wrap:wrap}.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);z-index:5;background:var(--ink);color:white;max-width:calc(100% - 32px);border-radius:8px;padding:14px 20px;font-size:13px;box-shadow:0 5px 20px #0002}.toast:empty{display:none}
++@media(min-width:1600px){main{padding-left:64px;padding-right:64px}}@media(max-width:1000px){.filters{grid-template-columns:repeat(3,1fr)}.search-label{grid-column:1/-1}.brand-sub{display:none}.section-top{align-items:flex-start}.local-note{display:none}}@media(max-width:700px){.topbar{height:66px;padding:0 20px}.brand{font-size:12px;gap:9px}.role{font-size:10px;padding:6px 8px}main{padding:28px 16px 0}h1{font-size:32px}.page-heading{margin-bottom:24px}.stats{gap:8px;margin-bottom:24px}.stat{padding:14px 12px}.stat.attention{padding-top:12px}.stat-label{font-size:10px;line-height:1.5}.stat-value{font-size:26px}.stat-note{font-size:10px;line-height:1.5}.stat-index{display:none}.section-top{padding:20px 16px;display:block}.section-top p{line-height:1.6}.view-switch{display:inline-flex;margin-top:16px}.filters{padding:0 16px 20px;grid-template-columns:1fr 1fr;gap:14px 10px}.filters>label:last-child{grid-column:1/-1}.active-filters{padding-left:16px;padding-right:16px}.results-bar{padding:14px 16px;align-items:flex-start;flex-direction:column;gap:6px}#scroll-hint{display:none}.compare #scroll-hint{display:block}.directory-footer{padding:16px;line-height:1.6}.page-footer{gap:12px}.adaptive table,.adaptive tbody{display:block;min-width:0;width:100%}.adaptive thead{display:none}.adaptive tr{display:grid;grid-template-columns:1fr 1fr;padding:20px 16px;border-top:1px solid var(--line);gap:14px 16px}.adaptive td{display:block;border:0;padding:0!important;background:transparent!important;width:auto;position:static;min-width:0}.adaptive td:first-child{grid-column:1/-1;border:0}.adaptive .product-link{font-size:14px}.adaptive td:not(:first-child)::before{content:attr(data-label);display:block;font-size:10px;font-weight:400;color:var(--muted);margin-bottom:4px}.adaptive .numeric{text-align:left}.adaptive .access{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #edf0f4;padding-top:12px!important}.adaptive .access::before{display:none!important}.adaptive .readonly{margin:0}.adaptive .access .primary-access{margin-left:auto}.adaptive .access button{min-height:40px}.adaptive .table-region{overflow:visible}.compare th:first-child,.compare td:first-child{width:190px;padding-left:16px}.compare table{min-width:1020px}.compare .product-link{font-size:12px}.dialog-head{padding:20px}.dialog-body{padding:20px}.dialog-foot{padding:14px 20px}.detail-grid{gap:20px 16px}.form-grid{grid-template-columns:1fr;gap:0}.toast{bottom:16px;width:max-content}.state-panel{padding:42px 20px}}
++@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important}}
++.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
++/* Let enlarged text reflow within controls and summary columns. */
++.stats{grid-template-columns:repeat(3,minmax(0,1fr))}.stat{min-width:0;overflow-wrap:anywhere}.view-switch{max-width:100%;flex-wrap:wrap}.view-switch button{white-space:normal;min-width:0}input,select,.filters>label{min-width:0}.filters>label{overflow-wrap:anywhere}
++@media(max-width:700px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}}
++@media(max-width:700px){.stats{grid-template-columns:repeat(auto-fit,minmax(min(100%,6em),1fr))}}
+--- initial/app.js
++++ final/app.js
+@@ -1,2 +1,119 @@
++// Original implementation, MIT-compatible. Data and brand tokens remain immutable.
+ import { products } from './data.js';
+-console.log(`Local fictional inventory: ${products.length} records`);
++const records = products.map(p => ({ ...p }));
++const permissions = new Map(products.map(p => [p.id, p.canEdit]));
++const $ = s => document.querySelector(s);
++const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
++const money = n => new Intl.NumberFormat('en-US', {style:'currency',currency:'USD'}).format(n);
++let state = ['empty','loading','error'].includes(new URLSearchParams(location.search).get('state')) ? new URLSearchParams(location.search).get('state') : 'populated';
++let mode = 'adaptive', current = null, editing = false, initial = null, invoker = null;
++const filters = {search:'',category:'',status:'',stock:''};
++const dialog = $('#record-dialog');
++const authorized = id => permissions.get(id) === true;
++const getRecord = id => records.find(p => p.id === id);
++function announce(message) { $('#announcement').textContent = message; }
++function badge(p) { return `<span class="badge ${p.status.toLowerCase()}">${escape(p.status)}</span>`; }
++function filtered() { return records.filter(p => (!filters.search || `${p.name} ${p.sku}`.toLowerCase().includes(filters.search.toLowerCase().trim())) && (!filters.category || p.category === filters.category) && (!filters.status || p.status === filters.status) && (!filters.stock || (filters.stock === 'out' ? p.stock === 0 : filters.stock === 'low' ? p.stock > 0 && p.stock <= 10 : p.stock > 0))); }
++function renderStats() {
++ const available = state === 'populated';
++ const total = available ? records.length : state === 'empty' ? 0 : '—';
++ const units = available ? records.reduce((sum,p) => sum+p.stock,0).toLocaleString() : state === 'empty' ? 0 : '—';
++ const out = available ? records.filter(p => p.stock===0).length : state === 'empty' ? 0 : '—';
++ $('#stats').innerHTML = [[total,'Products','Across the catalog'],[units,'Units on hand','All lifecycle statuses'],[out,'Out of stock','Review replenishment']].map(([value,label,note],i) => `<div class="stat ${i===2?'attention':''}"><span class="stat-index">0${i+1}</span><p class="stat-label">${label}</p><p class="stat-value">${value}</p><p class="stat-note">${note}</p></div>`).join('');
++}
++function renderFilters() {
++ const labels = {search:'Search',category:'Category',status:'Status',stock:'Stock'};
++ const stockLabels = {in:'In stock',low:'Low stock (1–10)',out:'Out of stock'};
++ const active = Object.entries(filters).filter(([,v])=>v);
++ $('#active-filters').innerHTML = active.map(([key,value])=>`<button class="chip" data-remove="${key}" aria-label="Remove ${labels[key]} filter: ${escape(stockLabels[value]||value)}">${labels[key]}: ${escape(stockLabels[value]||value)} <span aria-hidden="true">×</span></button>`).join('')+(active.length?'<button class="clear" data-clear>Clear all filters</button>':'');
++}
++function statePanel(icon,title,description,action,retry=false) {
++ return `<div class="state-panel"><div class="state-icon" aria-hidden="true">${icon}</div><h3>${title}</h3><p>${description}</p><button class="primary" ${retry?'data-action="retry"':'data-clear'}>${action}</button></div>`;
++}
++function renderResults() {
++ const result = $('#results'); result.className = mode;
++ $('#scroll-hint').hidden = state !== 'populated';
++ if(state !== 'populated') {
++  $('#result-count').textContent = state==='loading'?'Loading inventory…':state==='error'?'Inventory unavailable':'0 products';
++  result.innerHTML = state === 'loading' ? statePanel('◷','Preparing your inventory','The loading preview is paused. Load the catalog whenever you’re ready.','Load inventory',true) : state === 'error' ? statePanel('!','We couldn’t load inventory','Your records haven’t been changed. Try loading the catalog again.','Try again',true) : statePanel('□','Your catalog is empty','There are no products in this preview. Load the sample catalog to explore the workspace.','Load sample catalog',true);
++  return;
++ }
++ const rows = filtered(); $('#result-count').textContent = `${rows.length} of ${records.length} products`;
++ if(!rows.length) { result.innerHTML = statePanel('⌕','No matching products','Try a different name or SKU, or clear your filters to see the full catalog.','Clear all filters'); return; }
++ result.innerHTML = `<div class="table-region" role="region" aria-label="Product comparison. Scroll horizontally for more columns." tabindex="0"><table><caption class="sr-only">Inventory products and operational details</caption><thead><tr><th scope="col">Product / SKU</th><th scope="col">Category</th><th scope="col">Status</th><th scope="col" class="numeric">Stock</th><th scope="col" class="numeric">Unit price</th><th scope="col">Supplier</th><th scope="col">Lead time</th><th scope="col">Access</th></tr></thead><tbody>${rows.map(p=>`<tr data-record-id="${p.id}"><td><button class="product-link" data-action="details" data-record-id="${p.id}" aria-label="View ${escape(p.name)}">${escape(p.name)}</button><span class="sku">${p.sku} · ${p.id}</span></td><td data-label="Category">${p.category}</td><td data-label="Lifecycle status">${badge(p)}</td><td data-label="Stock · units" class="numeric ${p.stock===0?'stock-zero':p.stock<=10?'stock-low':''}">${p.stock}<span class="stock-caption">${p.stock===0?'Out of stock':p.stock<=10?'Low stock':'In stock'}</span></td><td data-label="Unit price" class="numeric">${money(p.price)}</td><td data-label="Supplier">${p.supplier}</td><td data-label="Lead time">${p.leadDays} days</td><td class="access" data-label="Access">${authorized(p.id)?`<span class="readonly">Can edit</span><button class="primary-access" data-action="edit" data-record-id="${p.id}" aria-label="Edit ${escape(p.name)}">Edit</button>`:`<span class="readonly">View only</span><button class="permission-link" data-action="details" data-record-id="${p.id}" aria-label="View permission for ${escape(p.name)}">Permission info</button>`}</td></tr>`).join('')}</tbody></table></div>`;
++}
++function render() { renderStats(); renderFilters(); renderResults(); }
++function refreshFilters() { renderFilters(); renderResults(); }
++for (const key of Object.keys(filters)) $('#'+key).addEventListener(key==='search'?'input':'change',e=> { filters[key]=e.target.value; refreshFilters(); });
++function clearFilters(key) {
++ if(key) { filters[key]=''; $('#'+key).value=''; } else for(const k of Object.keys(filters)) { filters[k]=''; $('#'+k).value=''; }
++ refreshFilters(); (key ? $('#'+key) : $('#search')).focus();
++}
++$('#auto-view').addEventListener('click',()=>setMode('adaptive'));
++$('#table-view').addEventListener('click',()=>setMode('compare'));
++function setMode(value) {mode=value; $('#auto-view').setAttribute('aria-pressed',String(value==='adaptive')); $('#table-view').setAttribute('aria-pressed',String(value==='compare')); $('#results').className=value; $('#inventory').classList.toggle('compare',value==='compare');}
++function head(title,p) { return `<div class="dialog-head"><div><p class="eyebrow">${p.sku} / ${p.id}</p><h2 id="dialog-title">${title}</h2></div><button class="close" data-action="cancel" aria-label="Close ${editing?'editor':'product details'}">×</button></div>`; }
++function openRecord(id,edit,source) {
++ const p=getRecord(id); if(!p) return;
++ if(edit && !authorized(id)) { announce('This record is managed by procurement and cannot be edited.'); return; }
++ if(!dialog.open) invoker=source || document.activeElement;
++ current=id; editing=edit; initial=null;
++ if(edit) {
++  initial={name:p.name,stock:String(p.stock),price:String(p.price)};
++  $('#dialog-content').innerHTML = `${head('Edit product',p)}<form class="edit-form" novalidate><div class="dialog-body"><p class="save-note">Update the name, stock and unit price. Other product details are managed separately.</p><div class="field"><label for="edit-name">Product name</label><input id="edit-name" name="name" value="${escape(p.name)}" aria-describedby="name-error" required><p class="error" id="name-error"></p></div><div class="form-grid"><div class="field"><label for="edit-stock">Stock · units</label><input id="edit-stock" name="stock" inputmode="numeric" value="${p.stock}" aria-describedby="stock-help stock-error" required><small class="field-help" id="stock-help">Whole number, zero or greater.</small><p class="error" id="stock-error"></p></div><div class="field"><label for="edit-price">Unit price · USD</label><input id="edit-price" name="price" inputmode="decimal" value="${p.price}" aria-describedby="price-help price-error" required><small class="field-help" id="price-help">A number greater than zero.</small><p class="error" id="price-error"></p></div></div><div class="permission"><strong>Editing permitted</strong>${p.permissionReason}</div><p class="error" id="form-error" role="alert"></p></div><div id="discard-slot"></div><div class="dialog-foot"><button type="button" data-action="cancel">Cancel</button><button type="submit" class="primary" data-action="save">Save changes</button></div></form>`;
++  $('.edit-form').addEventListener('submit',save);
++ } else {
++  $('#dialog-content').innerHTML = `${head('Product details',p)}<div class="dialog-body" data-record-id="${p.id}"><h3>${escape(p.name)}</h3>${badge(p)}<dl class="detail-grid">${[['SKU',p.sku],['Record ID',p.id],['Category',p.category],['Lifecycle status',p.status],['Stock',`${p.stock} units${p.stock===0?' · Out of stock':''}`],['Unit price',money(p.price)],['Supplier',p.supplier],['Lead time',`${p.leadDays} days`]].map(([k,v])=>`<div><dt>${k}</dt><dd>${escape(v)}</dd></div>`).join('')}</dl><div class="permission"><strong>${authorized(p.id)?'Can edit':'View only'}</strong>${p.permissionReason}</div></div><div class="dialog-foot"><button data-action="cancel">Close</button>${authorized(p.id)?`<button class="primary" data-action="edit" data-record-id="${p.id}">Edit product</button>`:''}</div>`;
++ }
++ if(!dialog.open) {dialog.showModal();document.body.classList.add('modal-open');}
++ if(edit) $('#edit-name').focus(); else $('.close').focus();
++}
++function draft() {return Object.fromEntries(['name','stock','price'].map(k=>[k,dialog.querySelector(`[name="${k}"]`)?.value??'']));}
++function dirty() {if(!editing||!initial)return false; const d=draft();return Object.keys(initial).some(k=>d[k]!==initial[k]);}
++function cancel() {
++ if(dirty()) {
++  $('#discard-slot').innerHTML='<div class="discard-panel" role="group" aria-label="Unsaved changes"><p><strong>Discard unsaved changes?</strong><br>Your edits will be lost if you leave this editor.</p><div class="discard-actions"><button type="button" data-action="keep">Keep editing</button><button type="button" class="danger-button" data-action="discard">Discard changes</button></div></div>';
++  dialog.querySelector('[data-action="keep"]').focus();return;
++ } closeDialog();
++}
++function closeDialog() {
++ dialog.close();document.body.classList.remove('modal-open');editing=false;initial=null;
++ if(invoker?.isConnected) invoker.focus(); else {
++  const fallback=[...document.querySelectorAll('#results [data-record-id]')].find(el=>el.dataset.recordId===current && el.tagName==='BUTTON');
++  (fallback || $('#search')).focus();
++ }
++}
++function save(event) {
++ event.preventDefault(); if(!editing || !authorized(current)) { announce('You do not have permission to edit this product.'); return; }
++ const p=getRecord(current); if(!p)return;
++ const d=draft(), errors={};
++ if(!d.name.trim()) errors.name='Enter a product name.';
++ if(!d.stock.trim() || !Number.isSafeInteger(Number(d.stock)) || Number(d.stock)<0) errors.stock='Enter a whole number of units, zero or greater.';
++ if(!d.price.trim() || !Number.isFinite(Number(d.price)) || Number(d.price)<=0) errors.price='Enter a finite price greater than zero.';
++ for(const k of ['name','stock','price']) { $('#'+k+'-error').textContent=errors[k]||''; $('#edit-'+k).setAttribute('aria-invalid',String(Boolean(errors[k]))); }
++ if(Object.keys(errors).length) { $('#form-error').textContent='Changes not saved. Correct the highlighted fields.'; $('#edit-'+Object.keys(errors)[0]).focus();return; }
++ Object.assign(p,{name:d.name.trim(),stock:Number(d.stock),price:Number(d.price)});
++ render();closeDialog();announce(`${p.sku} saved. Product details are up to date for this session.`);
++}
++dialog.addEventListener('keydown',event=>{
++ if(event.key !== 'Tab') return;
++ const controls=[...dialog.querySelectorAll('button:not(:disabled),input:not(:disabled),select:not(:disabled),[tabindex="0"]')].filter(el=>el.getClientRects().length);
++ const first=controls[0],last=controls.at(-1);
++ if(event.shiftKey && document.activeElement===first){event.preventDefault();last?.focus();}
++ else if(!event.shiftKey && document.activeElement===last){event.preventDefault();first?.focus();}
++});
++dialog.addEventListener('cancel',event=>{event.preventDefault();cancel();});
++document.addEventListener('click',event=>{
++ const button=event.target.closest('button'); if(!button)return;
++ if(button.hasAttribute('data-clear'))return clearFilters();
++ if(button.dataset.remove)return clearFilters(button.dataset.remove);
++ const action=button.dataset.action;
++ if(action==='retry'){state='populated';render();$('#search').focus();announce('Inventory loaded. All products are available.');}
++ if(action==='edit')openRecord(button.dataset.recordId,true,button);
++ if(action==='details')openRecord(button.dataset.recordId,false,button);
++ if(action==='cancel')cancel();
++ if(action==='discard')closeDialog();
++ if(action==='keep'){ $('#discard-slot').innerHTML='';$('#edit-name').focus(); }
++});
++window.addEventListener('beforeunload',event=>{if(dirty()){event.preventDefault();event.returnValue='';}});
++render();
+--- initial/index.html
++++ final/index.html
+@@ -1 +1,10 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tern Works — Inventory</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="styles.css"></head><body><main id="app"><h1>Tern Works inventory</h1><p>Application implementation pending.</p></main><script type="module" src="app.js"></script></body></html>
++<!doctype html>
++<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#344e75"><title>Tern Works — Inventory</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="styles.css"></head>
++<body><a class="skip" href="#inventory">Skip to inventory</a><header class="topbar"><a class="brand" href="./" aria-label="Tern Works inventory home"><span class="brand-mark" aria-hidden="true">T<span>↗</span></span>TERN WORKS<span class="brand-sub"> / Operations</span></a><span class="role">Inventory editor</span></header>
++<main id="app"><div class="page-heading"><div><p class="eyebrow">OPERATIONS / CATALOG</p><h1>Inventory</h1><p class="intro">The parts that keep work moving.</p></div><div class="local-note"><span class="dot"></span> Local workspace <small>Changes last for this session</small></div></div>
++<section class="stats" aria-label="Inventory overview" id="stats"></section>
++<section class="workspace" id="inventory" aria-labelledby="inventory-title"><div class="section-top"><div><h2 id="inventory-title">Product directory</h2><p>Find a part, check availability, or update a record.</p></div><div class="view-switch" role="group" aria-label="Product layout"><button type="button" id="auto-view" aria-pressed="true">Adaptive</button><button type="button" id="table-view" aria-pressed="false">Compare table</button></div></div>
++<div class="filters"><label class="search-label"><span>Search products</span><div class="search-wrap"><span aria-hidden="true">⌕</span><input type="search" data-testid="search" id="search" placeholder="Search by product name or SKU" autocomplete="off"></div></label><label>Category<select id="category"><option value="">All categories</option><option>Hardware</option><option>Inspection</option><option>Storage</option></select></label><label>Lifecycle status<select id="status"><option value="">All statuses</option><option>Active</option><option>Draft</option><option>Archived</option></select></label><label>Stock level<select id="stock"><option value="">All stock levels</option><option value="in">In stock</option><option value="low">Low stock (1–10)</option><option value="out">Out of stock</option></select></label></div>
++<div id="active-filters" class="active-filters"></div><div class="results-bar"><p id="result-count" role="status" aria-live="polite"></p><span id="scroll-hint">Compare columns · Scroll horizontally if needed →</span></div><div id="results"></div><footer class="directory-footer"><span>All prices in USD · Stock in units</span><span>Procurement-managed records are view only.</span></footer></section><p class="page-footer">TERN WORKS <span>Built for the everyday work.</span></p></main>
++<div id="announcement" class="toast" role="status" aria-live="polite"></div>
++<dialog id="record-dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog><script type="module" src="app.js"></script></body></html>
+--- initial/verification/results.json
++++ final/verification/results.json
+@@ -0,0 +1,138 @@
++[
++  {
++    "name": "375: populated",
++    "result": true
++  },
++  {
++    "name": "375: no page overflow",
++    "result": true
++  },
++  {
++    "name": "768: populated",
++    "result": true
++  },
++  {
++    "name": "768: no page overflow",
++    "result": true
++  },
++  {
++    "name": "1440: populated",
++    "result": true
++  },
++  {
++    "name": "1440: no page overflow",
++    "result": true
++  },
++  {
++    "name": "Combined category status stock filters",
++    "result": true
++  },
++  {
++    "name": "Search SKU combines with filters",
++    "result": true
++  },
++  {
++    "name": "Clear all restores records",
++    "result": true
++  },
++  {
++    "name": "No matches state",
++    "result": true
++  },
++  {
++    "name": "Restricted edit control injection denied",
++    "result": true
++  },
++  {
++    "name": "Full restricted detail + permission",
++    "result": true
++  },
++  {
++    "name": "Invalid fields retained and identified",
++    "result": true
++  },
++  {
++    "name": "Unsaved cancel stays open",
++    "result": true
++  },
++  {
++    "name": "Keep editing retains draft",
++    "result": true
++  },
++  {
++    "name": "Save updates and announces success",
++    "result": true
++  },
++  {
++    "name": "Discard leaves data unchanged",
++    "result": true
++  },
++  {
++    "name": "empty 375: no overflow",
++    "result": true
++  },
++  {
++    "name": "empty 768: no overflow",
++    "result": true
++  },
++  {
++    "name": "empty 1440: no overflow",
++    "result": true
++  },
++  {
++    "name": "empty: recovery",
++    "result": true
++  },
++  {
++    "name": "loading 375: no overflow",
++    "result": true
++  },
++  {
++    "name": "loading 768: no overflow",
++    "result": true
++  },
++  {
++    "name": "loading 1440: no overflow",
++    "result": true
++  },
++  {
++    "name": "loading: recovery",
++    "result": true
++  },
++  {
++    "name": "error 375: no overflow",
++    "result": true
++  },
++  {
++    "name": "error 768: no overflow",
++    "result": true
++  },
++  {
++    "name": "error 1440: no overflow",
++    "result": true
++  },
++  {
++    "name": "error: recovery",
++    "result": true
++  },
++  {
++    "name": "Resize preserves draft and focus",
++    "result": true
++  },
++  {
++    "name": "Short editor save reachable",
++    "result": true
++  },
++  {
++    "name": "Comparison horizontal scroll operable",
++    "result": true
++  },
++  {
++    "name": "No browser exceptions",
++    "result": true
++  },
++  {
++    "name": "Browser runtime exceptions",
++    "result": []
++  }
++]--- initial/verification/keyboard-results.json
++++ final/verification/keyboard-results.json
+@@ -0,0 +1,54 @@
++[
++  {
++    "name": "Keyboard Enter opens editor and focuses name",
++    "result": true
++  },
++  {
++    "name": "Tab wraps within native dialog",
++    "result": true
++  },
++  {
++    "name": "Escape closes unchanged editor and returns invoker",
++    "result": true
++  },
++  {
++    "name": "Escape protects unsaved draft",
++    "result": true
++  },
++  {
++    "name": "Keep editing keyboard action",
++    "result": true
++  },
++  {
++    "name": "375x400: Save and Cancel visible",
++    "result": true
++  },
++  {
++    "name": "375x400: price correction reachable",
++    "result": true
++  },
++  {
++    "name": "375x400: discard choices reachable",
++    "result": true
++  },
++  {
++    "name": "320px: no page overflow",
++    "result": true
++  },
++  {
++    "name": "Keyboard horizontal comparison scrolling",
++    "result": true
++  },
++  {
++    "name": "Touch swipe scrolls comparison",
++    "result": true
++  },
++  {
++    "name": "Enlarged text: no page overflow",
++    "result": true
++  },
++  {
++    "name": "Runtime exceptions",
++    "result": []
++  }
++]

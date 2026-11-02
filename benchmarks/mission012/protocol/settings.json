@@ -1,0 +1,43 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "agent": "codex-cli 0.164.0",
+  "budget": {
+    "hardWallSeconds": 900,
+    "softTargetSeconds": 720,
+    "tokenCap": null,
+    "tokenAccounting": "Retain actual turn.completed usage. Equal wall ceilings, no claim of equal tokens or pricing."
+  },
+  "browser": {
+    "product": "Chrome/156.0.8078.47",
+    "widths": [
+      320,
+      375,
+      768,
+      1440
+    ],
+    "height": 1000,
+    "shortViewport": [
+      375,
+      320
+    ],
+    "dpr": 1,
+    "states": [
+      "populated",
+      "empty",
+      "loading",
+      "error",
+      "edit"
+    ]
+  },
+  "conditions": {
+    "A": "No design skill or UDI runtime",
+    "B": "Frozen enhanced Mission 010 skill and pre-Mission-011 runtime",
+    "C": "Current canonical skill and runtime"
+  },
+  "isolation": "Fresh codex exec processes with isolated HOME/CODEX_HOME and bubblewrap mount+PID+IPC namespaces. Only own /work mounted; host repository, prior outputs and rubric not mounted. Network retained for model API; no reference browsing permitted. No inherited user configuration, MCP or plugins.",
+  "order": "Start A, B, C without inspecting implementation outputs; independent processes may overlap.",
+  "skillRouting": "Project AGENTS.md presents available skill metadata for B/C with optional selection. No explicit command to invoke it. This tests project-catalog-assisted discovery, not all installed host discovery paths.",
+  "freeze": "SHA256 all fixture, skill/runtime and protocol files before launch; final sources hashed after submission. Preserve earlier mission trees with a separate inventory. No controller edits to generated interfaces.",
+  "attempt": "Primary corrected experiment; invalid pilot retained separately in ../mission012-pilot. Runtime packaging and browser routing corrected before freezing; all conditions rerun."
+}

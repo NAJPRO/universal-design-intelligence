@@ -1,0 +1,182 @@
+{
+  "A": {
+    "skillReads": [],
+    "knowledge": [],
+    "reportPresent": true
+  },
+  "B": {
+    "skillReads": [
+      {
+        "eventId": "item_3",
+        "command": "/usr/bin/bash -lc 'ls -la /work && cat /work/.agents/skills/udi-design/SKILL.md'"
+      },
+      {
+        "eventId": "item_7",
+        "command": "/usr/bin/bash -lc 'cat tools/browser.mjs .agents/skills/udi-design/references/design-quality.md'"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "CMP-FILTER-WORKSPACE",
+        "timestamp": "2026-10-30T23:14:03.256Z",
+        "responsive": [
+          {
+            "condition": "Inline facets crowd search or leave too little room for results.",
+            "restructure": "Move advanced facets to a labeled panel or modal sheet while leaving active count, query summary and reset accessible.",
+            "preservedInformation": [
+              "Active query",
+              "Draft changes indicator",
+              "Result count meaning",
+              "Clear/reset scope"
+            ],
+            "focusContinuity": "Return to the same filter trigger on close; result replacement does not steal input focus."
+          }
+        ],
+        "revision": 1
+      },
+      {
+        "id": "CMP-OPERATIONAL-TABLE",
+        "timestamp": "2026-10-30T23:14:03.846Z",
+        "responsive": [
+          {
+            "condition": "Columns no longer fit at readable size or text is enlarged.",
+            "restructure": "Choose labeled scoped horizontal scrolling for comparison, or labeled stacked records for task scanning; expose all secondary values in reachable detail.",
+            "preservedInformation": [
+              "Record identity",
+              "Status and units",
+              "Selected count and selection scope",
+              "Authorized actions and all column values"
+            ],
+            "focusContinuity": "Keep selected IDs and sort state; restore focus to the same record action after detail navigation, or the collection heading if removed."
+          }
+        ],
+        "revision": 1
+      },
+      {
+        "id": "CMP-RECOVERABLE-FORM",
+        "timestamp": "2026-10-30T23:14:04.699Z",
+        "responsive": [
+          {
+            "condition": "Columns would separate labels from controls or create cramped fields.",
+            "restructure": "Stack task groups in reading order; keep actions reachable without a sticky region obscuring focused inputs or errors.",
+            "preservedInformation": [
+              "Required/optional meaning",
+              "All entered values",
+              "Server errors",
+              "Save scope and revision"
+            ],
+            "focusContinuity": "Keep the same field focused on resize; reveal hidden sections before error-link focus."
+          }
+        ],
+        "revision": 1
+      }
+    ],
+    "reportPresent": true
+  },
+  "C": {
+    "skillReads": [
+      {
+        "eventId": "item_2",
+        "command": "/usr/bin/bash -lc 'ls -la; cat .agents/skills/udi-design/SKILL.md; cat data.js; cat tokens.css; ls tools'"
+      },
+      {
+        "eventId": "item_4",
+        "command": "/usr/bin/bash -lc 'cat .agents/skills/udi-design/references/udi-cli.md .agents/skills/udi-design/references/design-quality.md tools/capture.mjs tools/browser.mjs package.json index.html'"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "CMP-OPERATIONAL-TABLE",
+        "timestamp": "2026-10-30T23:09:06.485Z",
+        "responsive": [
+          {
+            "condition": "Column comparison is the primary task and readable columns exceed available width, including tablet or enlarged text.",
+            "restructure": "Keep a semantic table in one named horizontal scroll region with native scrollbar visibility (auto); preserve row identity and place the frequent authorized action beside the identity or in a persistent, non-overlapping action area without horizontal travel. Do not convert comparison tasks to cards automatically.",
+            "preservedInformation": [
+              "Record identity and full name access",
+              "Critical status, permission and units",
+              "Every comparable column and selected scope",
+              "Prioritized authorized action without horizontal travel"
+            ],
+            "focusContinuity": "Retain record IDs, query and sort; reveal focused cells/controls without obscuring them. Restore the same record action after details."
+          },
+          {
+            "condition": "Individual record lookup or editing matters more than simultaneous column comparison on a narrow screen.",
+            "restructure": "Use a task-focused row summary with identity, critical status/value and authorized primary action; disclose labeled secondary fields on demand. A summary is not a forced card layout. Keep one active semantic representation and offer comparison when the task still requires it.",
+            "preservedInformation": [
+              "Stable identity",
+              "Critical values and units",
+              "Explicit read-only permission reason",
+              "All secondary values through a named details control"
+            ],
+            "focusContinuity": "Details return to the same record; do not duplicate tabbable controls or lose selection on layout changes."
+          },
+          {
+            "condition": "No records are displayed: initial empty, zero matches, loading or error.",
+            "restructure": "Keep query, scope and recovery meaningful; do not create an empty horizontal scroll track from a minimum-width header. Hide or constrain the unused table region while preserving loading/status announcements and Clear or Retry.",
+            "preservedInformation": [
+              "Query and result meaning",
+              "Recovery actions and permission context"
+            ],
+            "focusContinuity": "Keep focus on the initiating query/control, or move deliberately to an announced recovery destination."
+          }
+        ],
+        "revision": 2
+      },
+      {
+        "id": "CMP-FILTER-WORKSPACE",
+        "timestamp": "2026-10-30T23:09:06.893Z",
+        "responsive": [
+          {
+            "condition": "Facets crowd search/results at narrow or tablet widths, or selected values are long.",
+            "restructure": "Move advanced facets into a named disclosure or one focus-managed sheet. Keep query, result meaning, active conditions and Clear reachable; prefer wrapping chips. Horizontal chip scrolling is conditional: show an edge cue or previous/next controls, reveal focused removals and never silently clip selected scope.",
+            "preservedInformation": [
+              "Active query and applied conditions",
+              "Unapplied draft meaning when applicable",
+              "Result count and reset scope"
+            ],
+            "focusContinuity": "Closing returns to the trigger; removing a chip moves focus to the next relevant chip or Clear/search. Result updates do not steal typing focus."
+          },
+          {
+            "condition": "A filter sheet is shorter than its fields, especially with an on-screen keyboard.",
+            "restructure": "Use one vertical body scroll owner, with Apply/reset reachable by scrolling or non-obscuring actions. Avoid an independently scrolling chip rail nested inside the sheet when wrapping suffices. Scrollbar auto is default; conceal only with equivalent discoverable operation.",
+            "preservedInformation": [
+              "Draft values and active query distinction",
+              "All filter options and labels",
+              "Apply/clear actions"
+            ],
+            "focusContinuity": "Bring focused options into the usable viewport and return to the same trigger; preserve drafts on resize according to the declared policy."
+          }
+        ],
+        "revision": 2
+      },
+      {
+        "id": "CMP-RECOVERABLE-FORM",
+        "timestamp": "2026-10-30T23:09:07.338Z",
+        "responsive": [
+          {
+            "condition": "Fields or actions no longer fit readable columns, including narrow, tablet, enlarged text or short usable viewport.",
+            "restructure": "Stack related fields in reading order. For an overlay, give its body one vertical scroll owner constrained by the usable viewport; keep Save/Cancel reachable without clipping and reveal focused inputs/errors above any sticky actions. Use native scrollbar auto by default, not global overflow locking.",
+            "preservedInformation": [
+              "Identity, labels and entered values",
+              "Validation/server errors and unsaved status",
+              "Save scope, permissions and revision"
+            ],
+            "focusContinuity": "Retain the same field across resize. Error links reveal the containing section and scroll the target clear of fixed chrome; close returns to the invoker."
+          },
+          {
+            "condition": "The page or another overlay already owns scrolling.",
+            "restructure": "Choose page editing or one modal focus owner deliberately; avoid simultaneously scrolling form, dialog and page for the same task. A temporary modal background lock must be scoped, preserve page position and restore scrolling on every exit.",
+            "preservedInformation": [
+              "Dirty data and recoverable outcome",
+              "Reachable submit, cancel and close"
+            ],
+            "focusContinuity": "Test Tab and Shift+Tab, Escape and error focus in a short viewport; do not treat a transient BODY stop alone as proof of background control access."
+          }
+        ],
+        "revision": 2
+      }
+    ],
+    "reportPresent": false
+  }
+}

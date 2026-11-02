@@ -1,0 +1,158 @@
+[
+  {
+    "name": "18 products and 14 authorized editors",
+    "pass": true
+  },
+  {
+    "name": "Case-insensitive SKU search",
+    "pass": true
+  },
+  {
+    "name": "AND filters and removable chips",
+    "pass": true
+  },
+  {
+    "name": "Filtered empty state retains active criteria",
+    "pass": true
+  },
+  {
+    "name": "Clear restores data and focus",
+    "pass": true
+  },
+  {
+    "name": "Editor name receives focus",
+    "pass": true
+  },
+  {
+    "name": "Three validation errors retain input and focus summary",
+    "pass": true
+  },
+  {
+    "name": "Error link focuses field",
+    "pass": true
+  },
+  {
+    "name": "Unsaved cancel offers safe choice",
+    "pass": true
+  },
+  {
+    "name": "Escape keeps unsaved input",
+    "pass": true
+  },
+  {
+    "name": "Save updates values and acknowledges",
+    "pass": true
+  },
+  {
+    "name": "Save restores edit focus",
+    "pass": true
+  },
+  {
+    "name": "Discard preserves saved record",
+    "pass": true
+  },
+  {
+    "name": "Restricted detail provides reason and sourcing",
+    "pass": true
+  },
+  {
+    "name": "Forged restricted edit blocked",
+    "pass": true
+  },
+  {
+    "name": "DOM mutation cannot retarget save",
+    "pass": true
+  },
+  {
+    "name": "Keyboard tab order from search to category",
+    "pass": true
+  },
+  {
+    "name": "No page overflow at 320",
+    "pass": true
+  },
+  {
+    "name": "Focus and input survive resize from 320",
+    "pass": true
+  },
+  {
+    "name": "Save reachable at 320x480",
+    "pass": true
+  },
+  {
+    "name": "No page overflow at 375",
+    "pass": true
+  },
+  {
+    "name": "Focus and input survive resize from 375",
+    "pass": true
+  },
+  {
+    "name": "Save reachable at 375x480",
+    "pass": true
+  },
+  {
+    "name": "No page overflow at 768",
+    "pass": true
+  },
+  {
+    "name": "Focus and input survive resize from 768",
+    "pass": true
+  },
+  {
+    "name": "Save reachable at 768x480",
+    "pass": true
+  },
+  {
+    "name": "No page overflow at 1440",
+    "pass": true
+  },
+  {
+    "name": "Focus and input survive resize from 1440",
+    "pass": true
+  },
+  {
+    "name": "Save reachable at 1440x480",
+    "pass": true
+  },
+  {
+    "name": "Comparison scroll is local",
+    "pass": true
+  },
+  {
+    "name": "Arrow key scrolls comparison region",
+    "pass": true
+  },
+  {
+    "name": "empty deterministic state",
+    "pass": true
+  },
+  {
+    "name": "empty recovery",
+    "pass": true
+  },
+  {
+    "name": "loading deterministic state",
+    "pass": true
+  },
+  {
+    "name": "Loading remains pending",
+    "pass": true
+  },
+  {
+    "name": "loading recovery",
+    "pass": true
+  },
+  {
+    "name": "error deterministic state",
+    "pass": true
+  },
+  {
+    "name": "error recovery",
+    "pass": true
+  },
+  {
+    "name": "Runtime exceptions on final navigation",
+    "pass": true
+  }
+]

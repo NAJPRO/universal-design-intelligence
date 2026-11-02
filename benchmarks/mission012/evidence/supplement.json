@@ -1,0 +1,1955 @@
+{
+  "checks": [
+    {
+      "arm": "A",
+      "name": "combined filters retain matching SKU and exclude nonmatch",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "A",
+      "name": "active criteria have removal controls",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "A",
+      "name": "forged restricted edit does not expose save",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "A",
+      "name": "empty has explicit recovery",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "A",
+      "name": "empty recovery restores catalogue",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "A",
+      "name": "loading has explicit recovery",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "A",
+      "name": "loading recovery restores catalogue",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "A",
+      "name": "dirty cancel retains draft with explicit choice",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "B",
+      "name": "combined filters retain matching SKU and exclude nonmatch",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "B",
+      "name": "active criteria have removal controls",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "B",
+      "name": "forged restricted edit does not expose save",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "B",
+      "name": "empty has explicit recovery",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "B",
+      "name": "empty recovery restores catalogue",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "B",
+      "name": "loading has explicit recovery",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "B",
+      "name": "loading recovery restores catalogue",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "B",
+      "name": "dirty cancel retains draft with explicit choice",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "C",
+      "name": "combined filters retain matching SKU and exclude nonmatch",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "C",
+      "name": "active criteria have removal controls",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "C",
+      "name": "forged restricted edit does not expose save",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "C",
+      "name": "empty has explicit recovery",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "C",
+      "name": "empty recovery restores catalogue",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "C",
+      "name": "loading has explicit recovery",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "C",
+      "name": "loading recovery restores catalogue",
+      "passed": true,
+      "observed": true
+    },
+    {
+      "arm": "C",
+      "name": "dirty cancel retains draft with explicit choice",
+      "passed": true,
+      "observed": true
+    }
+  ],
+  "comparisons": [
+    {
+      "arm": "A",
+      "width": 320,
+      "explicitComparisonControl": false,
+      "certainty": "review-warning",
+      "reason": "No separate aligned-comparison override found in source; default responsive representation retained."
+    },
+    {
+      "arm": "A",
+      "width": 375,
+      "explicitComparisonControl": false,
+      "certainty": "review-warning",
+      "reason": "No separate aligned-comparison override found in source; default responsive representation retained."
+    },
+    {
+      "arm": "A",
+      "width": 768,
+      "explicitComparisonControl": false,
+      "certainty": "review-warning",
+      "reason": "No separate aligned-comparison override found in source; default responsive representation retained."
+    },
+    {
+      "arm": "B",
+      "width": 320,
+      "explicitComparisonControl": true,
+      "path": "screenshots/B-320x1000-forced-comparison.png",
+      "sha256": "a145c0a41a879a2a57a3b2246358304e869d23a9a69c64be39961dd818916414",
+      "observation": {
+        "width": 320,
+        "height": 1000,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "TW-2101",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1027.1875
+          },
+          {
+            "id": "TW-2102",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1146.1875
+          },
+          {
+            "id": "TW-2103",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1237.6875
+          },
+          {
+            "id": "TW-2105",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1428.6875
+          },
+          {
+            "id": "TW-2106",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1528.1875
+          },
+          {
+            "id": "TW-2107",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1619.6875
+          },
+          {
+            "id": "TW-2109",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1796.6875
+          },
+          {
+            "id": "TW-2110",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1888.1875
+          },
+          {
+            "id": "TW-2111",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1979.6875
+          },
+          {
+            "id": "TW-2112",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 2079.1875
+          },
+          {
+            "id": "TW-2114",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 2256.1875
+          },
+          {
+            "id": "TW-2115",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 2347.6875
+          },
+          {
+            "id": "TW-2116",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 2447.1875
+          },
+          {
+            "id": "TW-2118",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 763,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 2624.1875
+          }
+        ],
+        "regions": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "role": "region",
+            "label": "Product comparison, scroll for more records and columns",
+            "axis": "horizontal",
+            "scrollWidth": 1050,
+            "clientWidth": 256,
+            "track": "auto",
+            "tabIndex": 0
+          }
+        ],
+        "records": [
+          {
+            "id": "TW-2101",
+            "text": "Precision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\nTRN-0140 · Hardware\n\tActive\t37\t$12.50\t\nAlder Fabrication\n3-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2101",
+            "text": "Precision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners",
+            "left": 41,
+            "right": 368.5
+          },
+          {
+            "id": "TW-2102",
+            "text": "Workshop calibration kit, compact edition\nTRN-0141 · Inspection\n\tDraft\t0\nOut of stock\n\t$19.85\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2103",
+            "text": "Reusable transit case / midnight blue\nTRN-0142 · Storage\n\tArchived\t4\t$27.20\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2104",
+            "text": "Adjustable inspection light with articulated arm and replaceable lens\nTRN-0143 · Hardware\n\tActive\t112\t$34.55\t\nAlder Fabrication\n28-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2105",
+            "text": "Protective sensor housing — very long technical revision description for difficult storage locations\nTRN-0144 · Inspection\n\tDraft\t8\t$41.90\t\nKite Instruments\n3-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2105",
+            "text": "Protective sensor housing — very long technical revision description for difficult storage locations",
+            "left": 41,
+            "right": 368.5
+          },
+          {
+            "id": "TW-2106",
+            "text": "Cable routing clips, pack of twelve\nTRN-0145 · Storage\n\tArchived\t0\nOut of stock\n\t$49.25\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2107",
+            "text": "Portable assembly mat\nTRN-0146 · Hardware\n\tActive\t37\t$56.60\t\nAlder Fabrication\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2108",
+            "text": "Refillable inspection marker\nTRN-0147 · Inspection\n\tDraft\t0\nOut of stock\n\t$63.95\t\nKite Instruments\n28-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2109",
+            "text": "Replacement hinge, left-hand\nTRN-0148 · Storage\n\tArchived\t4\t$71.30\t\nJuniper Logistics\n3-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2110",
+            "text": "Replacement hinge, right-hand\nTRN-0149 · Hardware\n\tActive\t112\t$78.65\t\nAlder Fabrication\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2111",
+            "text": "Bench organiser with removable small-parts compartments\nTRN-0150 · Inspection\n\tDraft\t8\t$86.00\t\nKite Instruments\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2112",
+            "text": "Torque reference card\nTRN-0151 · Storage\n\tArchived\t0\nOut of stock\n\t$93.35\t\nJuniper Logistics\n28-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2113",
+            "text": "Weather-sealed label carrier\nTRN-0152 · Hardware\n\tActive\t37\t$100.70\t\nAlder Fabrication\n3-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2114",
+            "text": "Foldaway measuring guide\nTRN-0153 · Inspection\n\tDraft\t0\nOut of stock\n\t$108.05\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2115",
+            "text": "Universal mounting plate — extra-wide configuration\nTRN-0154 · Storage\n\tArchived\t4\t$115.40\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2116",
+            "text": "Service seal set\nTRN-0155 · Hardware\n\tActive\t112\t$122.75\t\nAlder Fabrication\n28-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2117",
+            "text": "Magnetic retrieval tool\nTRN-0156 · Inspection\n\tDraft\t8\t$130.10\t\nKite Instruments\n3-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2118",
+            "text": "Reusable dispatch envelope\nTRN-0157 · Storage\n\tArchived\t0\nOut of stock\n\t$137.45\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          }
+        ],
+        "focus": {
+          "tag": "BODY",
+          "id": ""
+        },
+        "bodyText": "Skip to inventory\nT\n↗\nTERN WORKS\nOperations workspace\nInventory editor\n\nWORKSPACE / INVENTORY\n\nInventory\n\nThe parts, supplies and essentials that keep work moving.\n\nTotal products\n18\nAcross all categories\nUnits on hand\n483\nAll lifecycle statuses\nOut of stock\n6\nRecords with zero units\nProduct directory\n\nConsult records, compare values and keep stock up to date.\n\nAdaptive view\nCompare table\nSearch products\n⌕\nCategory\nAll categories\nHardware\nInspection\nStorage\nLifecycle status\nAll statuses\nActive\nDraft\nArchived\nStock level\nAll stock levels\nOut of stock · 0\nLow stock · 1–10\nIn stock · 1+\n\n18 of 18 products\n\nSort by\nRecord ID\nName A–Z\nStock: low to high\nPrice: low to high\n\n↔ Compare all columns: scroll horizontally or use the arrow keys in the table.\n\nInventory products. Prices in USD; stock in units.\nPRODUCT / CATEGORY\tSTATUS\tSTOCK\tUNIT PRICE\tSUPPLIER / LEAD TIME\tACCESS / ACTION\n\nPrecision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\nTRN-0140 · Hardware\n\tActive\t37\t$12.50\t\nAlder Fabrication\n3-day lead time\n\t\nEditable\nEdit\n\nWorkshop calibration kit, compact edition\nTRN-0141 · Inspection\n\tDraft\t0\nOut of stock\n\t$19.85\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit\n\nReusable transit case / midnight blue\nTRN-0142 · Storage\n\tArchived\t4\t$27.20\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit\n\nAdjustable inspection light with articulated arm and replaceable lens\nTRN-0143 · Hardware\n\tActive\t112\t$34.55\t\nAlder Fabrication\n28-day lead time\n\t\nRead only\nWhy read only?\n\nProtective sensor housing — very long technical revision description for difficult storage locations\nTRN-0144 · Inspection\n\tDraft\t8\t$41.90\t\nKite Instruments\n3-day lead time\n\t\nEditable\nEdit\n\nCable routing clips, pack of twelve\nTRN-0145 · Storage\n\tArchived\t0\nOut of stock\n\t$49.25\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit\n\nPortable assembly mat\nTRN-0146 · Hardware\n\tActive\t37\t$56.60\t\nAlder Fabrication\n7-day lead time\n\t\nEditable\nEdit\n\nRefillable inspection marker\nTRN-0147 · Inspection\n\tDraft\t0\nOut of stock\n\t$63.95\t\nKite Instruments\n28-day lead time\n\t\nRead only\nWhy read only?\n\nReplacement hinge, left-hand\nTRN-0148 · Storage\n\tArchived\t4\t$71.30\t\nJuniper Logistics\n3-day lead time\n\t\nEditable\nEdit\n\nReplacement hinge, right-hand\nTRN-0149 · Hardware\n\tActive\t112\t$78.65\t\nAlder Fabrication\n14-day lead time\n\t\nEditable\nEdit\n\nBench organiser with removable small-parts compartments\nTRN-0150 · Inspection\n\tDraft\t8\t$86.00\t\nKite Instruments\n7-day lead time\n\t\nEditable\nEdit\n\nTorque reference card\nTRN-0151 · Storage\n\tArchived\t0\nOut of stock\n\t$93.35\t\nJuniper Logistics\n28-day lead time\n\t\nEditable\nEdit\n\nWeather-sealed label carrier\nTRN-0152 · Hardware\n\tActive\t37\t$100.70\t\nAlder Fabrication\n3-day lead time\n\t\nRead only\nWhy read only?\n\nFoldaway measuring guide\nTRN-0153 · Inspection\n\tDraft\t0\nOut of stock\n\t$108.05\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit\n\nUniversal mounting plate — extra-wide configuration\nTRN-0154 · Storage\n\tArchived\t4\t$115.40\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit\n\nService seal set\nTRN-0155 · Hardware\n\tActive\t112\t$122.75\t\nAlder Fabrication\n28-day lead time\n\t\nEditable\nEdit\n\nMagnetic retrieval tool\nTRN-0156 · Inspection\n\tDraft\t8\t$130.10\t\nKite Instruments\n3-day lead time\n\t\nRead only\nWhy read only?\n\nReusable dispatch envelope\nTRN-0157 · Storage\n\tArchived\t0\nOut of stock\n\t$137.45\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit\nFictional inventory · Prices in USD\nChanges are kept for this session\nTERN WORKS\nBuilt for the work ahead."
+      },
+      "region": {
+        "scroll": 0,
+        "label": "Product comparison, scroll for more records and columns"
+      },
+      "keyboardScrolled": true
+    },
+    {
+      "arm": "B",
+      "width": 375,
+      "explicitComparisonControl": true,
+      "path": "screenshots/B-375x1000-forced-comparison.png",
+      "sha256": "26638c4a234498f56199f791cb63001b901b9be85b92cea990e6fa064463fa87",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "TW-2101",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 994.1875
+          },
+          {
+            "id": "TW-2102",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1113.1875
+          },
+          {
+            "id": "TW-2103",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1204.6875
+          },
+          {
+            "id": "TW-2105",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1395.6875
+          },
+          {
+            "id": "TW-2106",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1495.1875
+          },
+          {
+            "id": "TW-2107",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1586.6875
+          },
+          {
+            "id": "TW-2109",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1763.6875
+          },
+          {
+            "id": "TW-2110",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1855.1875
+          },
+          {
+            "id": "TW-2111",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 1946.6875
+          },
+          {
+            "id": "TW-2112",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 2046.1875
+          },
+          {
+            "id": "TW-2114",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 2223.1875
+          },
+          {
+            "id": "TW-2115",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 2314.6875
+          },
+          {
+            "id": "TW-2116",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 2414.1875
+          },
+          {
+            "id": "TW-2118",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 708,
+            "left": 999.8125,
+            "right": 1051,
+            "top": 2591.1875
+          }
+        ],
+        "regions": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "role": "region",
+            "label": "Product comparison, scroll for more records and columns",
+            "axis": "horizontal",
+            "scrollWidth": 1050,
+            "clientWidth": 311,
+            "track": "auto",
+            "tabIndex": 0
+          }
+        ],
+        "records": [
+          {
+            "id": "TW-2101",
+            "text": "Precision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\nTRN-0140 · Hardware\n\tActive\t37\t$12.50\t\nAlder Fabrication\n3-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2101",
+            "text": "Precision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners",
+            "left": 41,
+            "right": 368.5
+          },
+          {
+            "id": "TW-2102",
+            "text": "Workshop calibration kit, compact edition\nTRN-0141 · Inspection\n\tDraft\t0\nOut of stock\n\t$19.85\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2103",
+            "text": "Reusable transit case / midnight blue\nTRN-0142 · Storage\n\tArchived\t4\t$27.20\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2104",
+            "text": "Adjustable inspection light with articulated arm and replaceable lens\nTRN-0143 · Hardware\n\tActive\t112\t$34.55\t\nAlder Fabrication\n28-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2105",
+            "text": "Protective sensor housing — very long technical revision description for difficult storage locations\nTRN-0144 · Inspection\n\tDraft\t8\t$41.90\t\nKite Instruments\n3-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2105",
+            "text": "Protective sensor housing — very long technical revision description for difficult storage locations",
+            "left": 41,
+            "right": 368.5
+          },
+          {
+            "id": "TW-2106",
+            "text": "Cable routing clips, pack of twelve\nTRN-0145 · Storage\n\tArchived\t0\nOut of stock\n\t$49.25\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2107",
+            "text": "Portable assembly mat\nTRN-0146 · Hardware\n\tActive\t37\t$56.60\t\nAlder Fabrication\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2108",
+            "text": "Refillable inspection marker\nTRN-0147 · Inspection\n\tDraft\t0\nOut of stock\n\t$63.95\t\nKite Instruments\n28-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2109",
+            "text": "Replacement hinge, left-hand\nTRN-0148 · Storage\n\tArchived\t4\t$71.30\t\nJuniper Logistics\n3-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2110",
+            "text": "Replacement hinge, right-hand\nTRN-0149 · Hardware\n\tActive\t112\t$78.65\t\nAlder Fabrication\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2111",
+            "text": "Bench organiser with removable small-parts compartments\nTRN-0150 · Inspection\n\tDraft\t8\t$86.00\t\nKite Instruments\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2112",
+            "text": "Torque reference card\nTRN-0151 · Storage\n\tArchived\t0\nOut of stock\n\t$93.35\t\nJuniper Logistics\n28-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2113",
+            "text": "Weather-sealed label carrier\nTRN-0152 · Hardware\n\tActive\t37\t$100.70\t\nAlder Fabrication\n3-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2114",
+            "text": "Foldaway measuring guide\nTRN-0153 · Inspection\n\tDraft\t0\nOut of stock\n\t$108.05\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2115",
+            "text": "Universal mounting plate — extra-wide configuration\nTRN-0154 · Storage\n\tArchived\t4\t$115.40\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2116",
+            "text": "Service seal set\nTRN-0155 · Hardware\n\tActive\t112\t$122.75\t\nAlder Fabrication\n28-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2117",
+            "text": "Magnetic retrieval tool\nTRN-0156 · Inspection\n\tDraft\t8\t$130.10\t\nKite Instruments\n3-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2118",
+            "text": "Reusable dispatch envelope\nTRN-0157 · Storage\n\tArchived\t0\nOut of stock\n\t$137.45\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 17,
+            "right": 1067
+          }
+        ],
+        "focus": {
+          "tag": "BODY",
+          "id": ""
+        },
+        "bodyText": "Skip to inventory\nT\n↗\nTERN WORKS\nOperations workspace\nInventory editor\n\nWORKSPACE / INVENTORY\n\nInventory\n\nThe parts, supplies and essentials that keep work moving.\n\nTotal products\n18\nAcross all categories\nUnits on hand\n483\nAll lifecycle statuses\nOut of stock\n6\nRecords with zero units\nProduct directory\n\nConsult records, compare values and keep stock up to date.\n\nAdaptive view\nCompare table\nSearch products\n⌕\nCategory\nAll categories\nHardware\nInspection\nStorage\nLifecycle status\nAll statuses\nActive\nDraft\nArchived\nStock level\nAll stock levels\nOut of stock · 0\nLow stock · 1–10\nIn stock · 1+\n\n18 of 18 products\n\nSort by\nRecord ID\nName A–Z\nStock: low to high\nPrice: low to high\n\n↔ Compare all columns: scroll horizontally or use the arrow keys in the table.\n\nInventory products. Prices in USD; stock in units.\nPRODUCT / CATEGORY\tSTATUS\tSTOCK\tUNIT PRICE\tSUPPLIER / LEAD TIME\tACCESS / ACTION\n\nPrecision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\nTRN-0140 · Hardware\n\tActive\t37\t$12.50\t\nAlder Fabrication\n3-day lead time\n\t\nEditable\nEdit\n\nWorkshop calibration kit, compact edition\nTRN-0141 · Inspection\n\tDraft\t0\nOut of stock\n\t$19.85\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit\n\nReusable transit case / midnight blue\nTRN-0142 · Storage\n\tArchived\t4\t$27.20\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit\n\nAdjustable inspection light with articulated arm and replaceable lens\nTRN-0143 · Hardware\n\tActive\t112\t$34.55\t\nAlder Fabrication\n28-day lead time\n\t\nRead only\nWhy read only?\n\nProtective sensor housing — very long technical revision description for difficult storage locations\nTRN-0144 · Inspection\n\tDraft\t8\t$41.90\t\nKite Instruments\n3-day lead time\n\t\nEditable\nEdit\n\nCable routing clips, pack of twelve\nTRN-0145 · Storage\n\tArchived\t0\nOut of stock\n\t$49.25\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit\n\nPortable assembly mat\nTRN-0146 · Hardware\n\tActive\t37\t$56.60\t\nAlder Fabrication\n7-day lead time\n\t\nEditable\nEdit\n\nRefillable inspection marker\nTRN-0147 · Inspection\n\tDraft\t0\nOut of stock\n\t$63.95\t\nKite Instruments\n28-day lead time\n\t\nRead only\nWhy read only?\n\nReplacement hinge, left-hand\nTRN-0148 · Storage\n\tArchived\t4\t$71.30\t\nJuniper Logistics\n3-day lead time\n\t\nEditable\nEdit\n\nReplacement hinge, right-hand\nTRN-0149 · Hardware\n\tActive\t112\t$78.65\t\nAlder Fabrication\n14-day lead time\n\t\nEditable\nEdit\n\nBench organiser with removable small-parts compartments\nTRN-0150 · Inspection\n\tDraft\t8\t$86.00\t\nKite Instruments\n7-day lead time\n\t\nEditable\nEdit\n\nTorque reference card\nTRN-0151 · Storage\n\tArchived\t0\nOut of stock\n\t$93.35\t\nJuniper Logistics\n28-day lead time\n\t\nEditable\nEdit\n\nWeather-sealed label carrier\nTRN-0152 · Hardware\n\tActive\t37\t$100.70\t\nAlder Fabrication\n3-day lead time\n\t\nRead only\nWhy read only?\n\nFoldaway measuring guide\nTRN-0153 · Inspection\n\tDraft\t0\nOut of stock\n\t$108.05\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit\n\nUniversal mounting plate — extra-wide configuration\nTRN-0154 · Storage\n\tArchived\t4\t$115.40\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit\n\nService seal set\nTRN-0155 · Hardware\n\tActive\t112\t$122.75\t\nAlder Fabrication\n28-day lead time\n\t\nEditable\nEdit\n\nMagnetic retrieval tool\nTRN-0156 · Inspection\n\tDraft\t8\t$130.10\t\nKite Instruments\n3-day lead time\n\t\nRead only\nWhy read only?\n\nReusable dispatch envelope\nTRN-0157 · Storage\n\tArchived\t0\nOut of stock\n\t$137.45\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit\nFictional inventory · Prices in USD\nChanges are kept for this session\nTERN WORKS\nBuilt for the work ahead."
+      },
+      "region": {
+        "scroll": 0,
+        "label": "Product comparison, scroll for more records and columns"
+      },
+      "keyboardScrolled": true
+    },
+    {
+      "arm": "B",
+      "width": 768,
+      "explicitComparisonControl": true,
+      "path": "screenshots/B-768x1000-forced-comparison.png",
+      "sha256": "311d9af20a5a8f68fb9c2cac7dd9377e4ab5c2840e52ac8288fb1a2387c389f6",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "TW-2101",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 903.1875
+          },
+          {
+            "id": "TW-2102",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 1022.1875
+          },
+          {
+            "id": "TW-2103",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 1113.6875
+          },
+          {
+            "id": "TW-2105",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 1304.6875
+          },
+          {
+            "id": "TW-2106",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 1404.1875
+          },
+          {
+            "id": "TW-2107",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 1495.6875
+          },
+          {
+            "id": "TW-2109",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 1672.6875
+          },
+          {
+            "id": "TW-2110",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 1764.1875
+          },
+          {
+            "id": "TW-2111",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 1855.6875
+          },
+          {
+            "id": "TW-2112",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 1955.1875
+          },
+          {
+            "id": "TW-2114",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 2132.1875
+          },
+          {
+            "id": "TW-2115",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 2223.6875
+          },
+          {
+            "id": "TW-2116",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 2323.1875
+          },
+          {
+            "id": "TW-2118",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 323,
+            "left": 1003.8125,
+            "right": 1055,
+            "top": 2500.1875
+          }
+        ],
+        "regions": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "role": "region",
+            "label": "Product comparison, scroll for more records and columns",
+            "axis": "horizontal",
+            "scrollWidth": 1050,
+            "clientWidth": 696,
+            "track": "auto",
+            "tabIndex": 0
+          }
+        ],
+        "records": [
+          {
+            "id": "TW-2101",
+            "text": "Precision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\nTRN-0140 · Hardware\n\tActive\t37\t$12.50\t\nAlder Fabrication\n3-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2101",
+            "text": "Precision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners",
+            "left": 45,
+            "right": 372.5
+          },
+          {
+            "id": "TW-2102",
+            "text": "Workshop calibration kit, compact edition\nTRN-0141 · Inspection\n\tDraft\t0\nOut of stock\n\t$19.85\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2103",
+            "text": "Reusable transit case / midnight blue\nTRN-0142 · Storage\n\tArchived\t4\t$27.20\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2104",
+            "text": "Adjustable inspection light with articulated arm and replaceable lens\nTRN-0143 · Hardware\n\tActive\t112\t$34.55\t\nAlder Fabrication\n28-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2105",
+            "text": "Protective sensor housing — very long technical revision description for difficult storage locations\nTRN-0144 · Inspection\n\tDraft\t8\t$41.90\t\nKite Instruments\n3-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2105",
+            "text": "Protective sensor housing — very long technical revision description for difficult storage locations",
+            "left": 45,
+            "right": 372.5
+          },
+          {
+            "id": "TW-2106",
+            "text": "Cable routing clips, pack of twelve\nTRN-0145 · Storage\n\tArchived\t0\nOut of stock\n\t$49.25\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2107",
+            "text": "Portable assembly mat\nTRN-0146 · Hardware\n\tActive\t37\t$56.60\t\nAlder Fabrication\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2108",
+            "text": "Refillable inspection marker\nTRN-0147 · Inspection\n\tDraft\t0\nOut of stock\n\t$63.95\t\nKite Instruments\n28-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2109",
+            "text": "Replacement hinge, left-hand\nTRN-0148 · Storage\n\tArchived\t4\t$71.30\t\nJuniper Logistics\n3-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2110",
+            "text": "Replacement hinge, right-hand\nTRN-0149 · Hardware\n\tActive\t112\t$78.65\t\nAlder Fabrication\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2111",
+            "text": "Bench organiser with removable small-parts compartments\nTRN-0150 · Inspection\n\tDraft\t8\t$86.00\t\nKite Instruments\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2112",
+            "text": "Torque reference card\nTRN-0151 · Storage\n\tArchived\t0\nOut of stock\n\t$93.35\t\nJuniper Logistics\n28-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2113",
+            "text": "Weather-sealed label carrier\nTRN-0152 · Hardware\n\tActive\t37\t$100.70\t\nAlder Fabrication\n3-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2114",
+            "text": "Foldaway measuring guide\nTRN-0153 · Inspection\n\tDraft\t0\nOut of stock\n\t$108.05\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2115",
+            "text": "Universal mounting plate — extra-wide configuration\nTRN-0154 · Storage\n\tArchived\t4\t$115.40\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2116",
+            "text": "Service seal set\nTRN-0155 · Hardware\n\tActive\t112\t$122.75\t\nAlder Fabrication\n28-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2117",
+            "text": "Magnetic retrieval tool\nTRN-0156 · Inspection\n\tDraft\t8\t$130.10\t\nKite Instruments\n3-day lead time\n\t\nRead only\nWhy read only?",
+            "left": 21,
+            "right": 1071
+          },
+          {
+            "id": "TW-2118",
+            "text": "Reusable dispatch envelope\nTRN-0157 · Storage\n\tArchived\t0\nOut of stock\n\t$137.45\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit",
+            "left": 21,
+            "right": 1071
+          }
+        ],
+        "focus": {
+          "tag": "BODY",
+          "id": ""
+        },
+        "bodyText": "Skip to inventory\nT\n↗\nTERN WORKS\nOperations workspace\nInventory editor\n\nWORKSPACE / INVENTORY\n\nInventory\n\nThe parts, supplies and essentials that keep work moving.\n\n● Local workspace\nTotal products\n18\nAcross all categories\nUnits on hand\n483\nAll lifecycle statuses\nOut of stock\n6\nRecords with zero units\nProduct directory\n\nConsult records, compare values and keep stock up to date.\n\nAdaptive view\nCompare table\nSearch products\n⌕\nCategory\nAll categories\nHardware\nInspection\nStorage\nLifecycle status\nAll statuses\nActive\nDraft\nArchived\nStock level\nAll stock levels\nOut of stock · 0\nLow stock · 1–10\nIn stock · 1+\n\n18 of 18 products\n\nSort by\nRecord ID\nName A–Z\nStock: low to high\nPrice: low to high\n\n↔ Compare all columns: scroll horizontally or use the arrow keys in the table.\n\nInventory products. Prices in USD; stock in units.\nPRODUCT / CATEGORY\tSTATUS\tSTOCK\tUNIT PRICE\tSUPPLIER / LEAD TIME\tACCESS / ACTION\n\nPrecision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\nTRN-0140 · Hardware\n\tActive\t37\t$12.50\t\nAlder Fabrication\n3-day lead time\n\t\nEditable\nEdit\n\nWorkshop calibration kit, compact edition\nTRN-0141 · Inspection\n\tDraft\t0\nOut of stock\n\t$19.85\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit\n\nReusable transit case / midnight blue\nTRN-0142 · Storage\n\tArchived\t4\t$27.20\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit\n\nAdjustable inspection light with articulated arm and replaceable lens\nTRN-0143 · Hardware\n\tActive\t112\t$34.55\t\nAlder Fabrication\n28-day lead time\n\t\nRead only\nWhy read only?\n\nProtective sensor housing — very long technical revision description for difficult storage locations\nTRN-0144 · Inspection\n\tDraft\t8\t$41.90\t\nKite Instruments\n3-day lead time\n\t\nEditable\nEdit\n\nCable routing clips, pack of twelve\nTRN-0145 · Storage\n\tArchived\t0\nOut of stock\n\t$49.25\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit\n\nPortable assembly mat\nTRN-0146 · Hardware\n\tActive\t37\t$56.60\t\nAlder Fabrication\n7-day lead time\n\t\nEditable\nEdit\n\nRefillable inspection marker\nTRN-0147 · Inspection\n\tDraft\t0\nOut of stock\n\t$63.95\t\nKite Instruments\n28-day lead time\n\t\nRead only\nWhy read only?\n\nReplacement hinge, left-hand\nTRN-0148 · Storage\n\tArchived\t4\t$71.30\t\nJuniper Logistics\n3-day lead time\n\t\nEditable\nEdit\n\nReplacement hinge, right-hand\nTRN-0149 · Hardware\n\tActive\t112\t$78.65\t\nAlder Fabrication\n14-day lead time\n\t\nEditable\nEdit\n\nBench organiser with removable small-parts compartments\nTRN-0150 · Inspection\n\tDraft\t8\t$86.00\t\nKite Instruments\n7-day lead time\n\t\nEditable\nEdit\n\nTorque reference card\nTRN-0151 · Storage\n\tArchived\t0\nOut of stock\n\t$93.35\t\nJuniper Logistics\n28-day lead time\n\t\nEditable\nEdit\n\nWeather-sealed label carrier\nTRN-0152 · Hardware\n\tActive\t37\t$100.70\t\nAlder Fabrication\n3-day lead time\n\t\nRead only\nWhy read only?\n\nFoldaway measuring guide\nTRN-0153 · Inspection\n\tDraft\t0\nOut of stock\n\t$108.05\t\nKite Instruments\n14-day lead time\n\t\nEditable\nEdit\n\nUniversal mounting plate — extra-wide configuration\nTRN-0154 · Storage\n\tArchived\t4\t$115.40\t\nJuniper Logistics\n7-day lead time\n\t\nEditable\nEdit\n\nService seal set\nTRN-0155 · Hardware\n\tActive\t112\t$122.75\t\nAlder Fabrication\n28-day lead time\n\t\nEditable\nEdit\n\nMagnetic retrieval tool\nTRN-0156 · Inspection\n\tDraft\t8\t$130.10\t\nKite Instruments\n3-day lead time\n\t\nRead only\nWhy read only?\n\nReusable dispatch envelope\nTRN-0157 · Storage\n\tArchived\t0\nOut of stock\n\t$137.45\t\nJuniper Logistics\n14-day lead time\n\t\nEditable\nEdit\nFictional inventory · Prices in USD\nChanges are kept for this session\nTERN WORKS\nBuilt for the work ahead."
+      },
+      "region": {
+        "scroll": 0,
+        "label": "Product comparison, scroll for more records and columns"
+      },
+      "keyboardScrolled": true
+    },
+    {
+      "arm": "C",
+      "width": 320,
+      "explicitComparisonControl": true,
+      "path": "screenshots/C-320x1000-forced-comparison.png",
+      "sha256": "627c93f8e9a7e8f57225f1e906265d24d2f075429a8a4f1cc2ab9228d8c9f118",
+      "observation": {
+        "width": 320,
+        "height": 1000,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "TW-2101",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 1231.84375
+          },
+          {
+            "id": "TW-2102",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 1377.984375
+          },
+          {
+            "id": "TW-2103",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 1524.125
+          },
+          {
+            "id": "TW-2105",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 1918.359375
+          },
+          {
+            "id": "TW-2106",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2064.5
+          },
+          {
+            "id": "TW-2107",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2190.25
+          },
+          {
+            "id": "TW-2109",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2482.53125
+          },
+          {
+            "id": "TW-2110",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2628.671875
+          },
+          {
+            "id": "TW-2111",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2795.203125
+          },
+          {
+            "id": "TW-2112",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2920.953125
+          },
+          {
+            "id": "TW-2114",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 3213.234375
+          },
+          {
+            "id": "TW-2115",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 3379.765625
+          },
+          {
+            "id": "TW-2116",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 3505.515625
+          },
+          {
+            "id": "TW-2118",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 3777.40625
+          }
+        ],
+        "regions": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "role": "region",
+            "label": "Product comparison, horizontally scrollable",
+            "axis": "horizontal",
+            "scrollWidth": 1050,
+            "clientWidth": 271,
+            "track": "auto",
+            "tabIndex": 0
+          }
+        ],
+        "records": [
+          {
+            "id": "TW-2101",
+            "text": "Precision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\n\nTRN-0140 / TW-2101\n\nDetails\nEdit\n\tHardware\tActive\t37\t$12.50\tAlder Fabrication\t3\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2102",
+            "text": "Workshop calibration kit, compact edition\n\nTRN-0141 / TW-2102\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$19.85\tKite Instruments\t14\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2103",
+            "text": "Reusable transit case / midnight blue\n\nTRN-0142 / TW-2103\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$27.20\tJuniper Logistics\t7\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2104",
+            "text": "Adjustable inspection light with articulated arm and replaceable lens\n\nTRN-0143 / TW-2104\n\nDetails\nView only\n\tHardware\tActive\t112\t$34.55\tAlder Fabrication\t28\tManaged by procurement; inventory role can consult only.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2105",
+            "text": "Protective sensor housing — very long technical revision description for difficult storage locations\n\nTRN-0144 / TW-2105\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$41.90\tKite Instruments\t3\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2106",
+            "text": "Cable routing clips, pack of twelve\n\nTRN-0145 / TW-2106\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$49.25\tJuniper Logistics\t14\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2107",
+            "text": "Portable assembly mat\n\nTRN-0146 / TW-2107\n\nDetails\nEdit\n\tHardware\tActive\t37\t$56.60\tAlder Fabrication\t7\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2108",
+            "text": "Refillable inspection marker\n\nTRN-0147 / TW-2108\n\nDetails\nView only\n\tInspection\tDraft\t0\nOut of stock\n\t$63.95\tKite Instruments\t28\tManaged by procurement; inventory role can consult only.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2109",
+            "text": "Replacement hinge, left-hand\n\nTRN-0148 / TW-2109\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$71.30\tJuniper Logistics\t3\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2110",
+            "text": "Replacement hinge, right-hand\n\nTRN-0149 / TW-2110\n\nDetails\nEdit\n\tHardware\tActive\t112\t$78.65\tAlder Fabrication\t14\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2111",
+            "text": "Bench organiser with removable small-parts compartments\n\nTRN-0150 / TW-2111\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$86.00\tKite Instruments\t7\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2112",
+            "text": "Torque reference card\n\nTRN-0151 / TW-2112\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$93.35\tJuniper Logistics\t28\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2113",
+            "text": "Weather-sealed label carrier\n\nTRN-0152 / TW-2113\n\nDetails\nView only\n\tHardware\tActive\t37\t$100.70\tAlder Fabrication\t3\tManaged by procurement; inventory role can consult only.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2114",
+            "text": "Foldaway measuring guide\n\nTRN-0153 / TW-2114\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$108.05\tKite Instruments\t14\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2115",
+            "text": "Universal mounting plate — extra-wide configuration\n\nTRN-0154 / TW-2115\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$115.40\tJuniper Logistics\t7\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2116",
+            "text": "Service seal set\n\nTRN-0155 / TW-2116\n\nDetails\nEdit\n\tHardware\tActive\t112\t$122.75\tAlder Fabrication\t28\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2117",
+            "text": "Magnetic retrieval tool\n\nTRN-0156 / TW-2117\n\nDetails\nView only\n\tInspection\tDraft\t8\t$130.10\tKite Instruments\t3\tManaged by procurement; inventory role can consult only.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2118",
+            "text": "Reusable dispatch envelope\n\nTRN-0157 / TW-2118\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$137.45\tJuniper Logistics\t14\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          }
+        ],
+        "focus": {
+          "tag": "BODY",
+          "id": ""
+        },
+        "bodyText": "Skip to inventory\nT/W\nTERN WORKS\nInventory editor\n\nOPERATIONS / INVENTORY\n\nEvery part, in place.\n\nConsult your catalogue, compare stock and keep product records current.\n\nTotal products\n\n18\n\nUnits on hand\n\n483\n\nOut of stock\n\n6\n\nInventory\n\nProducts across your supply network\n\nView\nResponsive\nCompare table\nProduct list\nSearch products\n⌕\nCategory\nAll categories\nHardware\nInspection\nStorage\nLifecycle\nAll statuses\nActive\nDraft\nArchived\nStock level\nAll stock levels\nOut of stock · 0\nLow stock · 1–10\nIn stock · 1+\n\n18 of 18 products\n\nCompare all fields · scroll horizontally for more ↔\n←\n→\nProduct inventory. Prices in USD; stock in units; lead time in days.\nPRODUCT / SKU\tCATEGORY\tLIFECYCLE\tSTOCK · UNITS\tPRICE · USD\tSUPPLIER\tLEAD · DAYS\tACCESS\n\n\nPrecision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\n\nTRN-0140 / TW-2101\n\nDetails\nEdit\n\tHardware\tActive\t37\t$12.50\tAlder Fabrication\t3\tInventory editors may update this record.\n\n\nWorkshop calibration kit, compact edition\n\nTRN-0141 / TW-2102\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$19.85\tKite Instruments\t14\tInventory editors may update this record.\n\n\nReusable transit case / midnight blue\n\nTRN-0142 / TW-2103\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$27.20\tJuniper Logistics\t7\tInventory editors may update this record.\n\n\nAdjustable inspection light with articulated arm and replaceable lens\n\nTRN-0143 / TW-2104\n\nDetails\nView only\n\tHardware\tActive\t112\t$34.55\tAlder Fabrication\t28\tManaged by procurement; inventory role can consult only.\n\n\nProtective sensor housing — very long technical revision description for difficult storage locations\n\nTRN-0144 / TW-2105\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$41.90\tKite Instruments\t3\tInventory editors may update this record.\n\n\nCable routing clips, pack of twelve\n\nTRN-0145 / TW-2106\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$49.25\tJuniper Logistics\t14\tInventory editors may update this record.\n\n\nPortable assembly mat\n\nTRN-0146 / TW-2107\n\nDetails\nEdit\n\tHardware\tActive\t37\t$56.60\tAlder Fabrication\t7\tInventory editors may update this record.\n\n\nRefillable inspection marker\n\nTRN-0147 / TW-2108\n\nDetails\nView only\n\tInspection\tDraft\t0\nOut of stock\n\t$63.95\tKite Instruments\t28\tManaged by procurement; inventory role can consult only.\n\n\nReplacement hinge, left-hand\n\nTRN-0148 / TW-2109\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$71.30\tJuniper Logistics\t3\tInventory editors may update this record.\n\n\nReplacement hinge, right-hand\n\nTRN-0149 / TW-2110\n\nDetails\nEdit\n\tHardware\tActive\t112\t$78.65\tAlder Fabrication\t14\tInventory editors may update this record.\n\n\nBench organiser with removable small-parts compartments\n\nTRN-0150 / TW-2111\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$86.00\tKite Instruments\t7\tInventory editors may update this record.\n\n\nTorque reference card\n\nTRN-0151 / TW-2112\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$93.35\tJuniper Logistics\t28\tInventory editors may update this record.\n\n\nWeather-sealed label carrier\n\nTRN-0152 / TW-2113\n\nDetails\nView only\n\tHardware\tActive\t37\t$100.70\tAlder Fabrication\t3\tManaged by procurement; inventory role can consult only.\n\n\nFoldaway measuring guide\n\nTRN-0153 / TW-2114\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$108.05\tKite Instruments\t14\tInventory editors may update this record.\n\n\nUniversal mounting plate — extra-wide configuration\n\nTRN-0154 / TW-2115\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$115.40\tJuniper Logistics\t7\tInventory editors may update this record.\n\n\nService seal set\n\nTRN-0155 / TW-2116\n\nDetails\nEdit\n\tHardware\tActive\t112\t$122.75\tAlder Fabrication\t28\tInventory editors may update this record.\n\n\nMagnetic retrieval tool\n\nTRN-0156 / TW-2117\n\nDetails\nView only\n\tInspection\tDraft\t8\t$130.10\tKite Instruments\t3\tManaged by procurement; inventory role can consult only.\n\n\nReusable dispatch envelope\n\nTRN-0157 / TW-2118\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$137.45\tJuniper Logistics\t14\tInventory editors may update this record.\nTERN WORKS / Inventory operations\nSession workspace · changes reset on reload"
+      },
+      "region": {
+        "scroll": 0,
+        "label": "Product comparison, horizontally scrollable"
+      },
+      "keyboardScrolled": true
+    },
+    {
+      "arm": "C",
+      "width": 375,
+      "explicitComparisonControl": true,
+      "path": "screenshots/C-375x1000-forced-comparison.png",
+      "sha256": "79ca985ce5433df9cd615334bcc4609ca182fae3c587f1498fab58739b052ed9",
+      "observation": {
+        "width": 375,
+        "height": 1000,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "TW-2101",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 1106.25
+          },
+          {
+            "id": "TW-2102",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 1252.390625
+          },
+          {
+            "id": "TW-2103",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 1398.53125
+          },
+          {
+            "id": "TW-2105",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 1792.765625
+          },
+          {
+            "id": "TW-2106",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 1938.90625
+          },
+          {
+            "id": "TW-2107",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2064.65625
+          },
+          {
+            "id": "TW-2109",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2356.9375
+          },
+          {
+            "id": "TW-2110",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2503.078125
+          },
+          {
+            "id": "TW-2111",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2669.609375
+          },
+          {
+            "id": "TW-2112",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 2795.359375
+          },
+          {
+            "id": "TW-2114",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 3087.640625
+          },
+          {
+            "id": "TW-2115",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 3254.171875
+          },
+          {
+            "id": "TW-2116",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 3379.921875
+          },
+          {
+            "id": "TW-2118",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 103.03125,
+            "right": 147.28125,
+            "top": 3651.8125
+          }
+        ],
+        "regions": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "role": "region",
+            "label": "Product comparison, horizontally scrollable",
+            "axis": "horizontal",
+            "scrollWidth": 1050,
+            "clientWidth": 326,
+            "track": "auto",
+            "tabIndex": 0
+          }
+        ],
+        "records": [
+          {
+            "id": "TW-2101",
+            "text": "Precision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\n\nTRN-0140 / TW-2101\n\nDetails\nEdit\n\tHardware\tActive\t37\t$12.50\tAlder Fabrication\t3\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2102",
+            "text": "Workshop calibration kit, compact edition\n\nTRN-0141 / TW-2102\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$19.85\tKite Instruments\t14\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2103",
+            "text": "Reusable transit case / midnight blue\n\nTRN-0142 / TW-2103\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$27.20\tJuniper Logistics\t7\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2104",
+            "text": "Adjustable inspection light with articulated arm and replaceable lens\n\nTRN-0143 / TW-2104\n\nDetails\nView only\n\tHardware\tActive\t112\t$34.55\tAlder Fabrication\t28\tManaged by procurement; inventory role can consult only.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2105",
+            "text": "Protective sensor housing — very long technical revision description for difficult storage locations\n\nTRN-0144 / TW-2105\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$41.90\tKite Instruments\t3\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2106",
+            "text": "Cable routing clips, pack of twelve\n\nTRN-0145 / TW-2106\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$49.25\tJuniper Logistics\t14\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2107",
+            "text": "Portable assembly mat\n\nTRN-0146 / TW-2107\n\nDetails\nEdit\n\tHardware\tActive\t37\t$56.60\tAlder Fabrication\t7\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2108",
+            "text": "Refillable inspection marker\n\nTRN-0147 / TW-2108\n\nDetails\nView only\n\tInspection\tDraft\t0\nOut of stock\n\t$63.95\tKite Instruments\t28\tManaged by procurement; inventory role can consult only.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2109",
+            "text": "Replacement hinge, left-hand\n\nTRN-0148 / TW-2109\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$71.30\tJuniper Logistics\t3\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2110",
+            "text": "Replacement hinge, right-hand\n\nTRN-0149 / TW-2110\n\nDetails\nEdit\n\tHardware\tActive\t112\t$78.65\tAlder Fabrication\t14\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2111",
+            "text": "Bench organiser with removable small-parts compartments\n\nTRN-0150 / TW-2111\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$86.00\tKite Instruments\t7\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2112",
+            "text": "Torque reference card\n\nTRN-0151 / TW-2112\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$93.35\tJuniper Logistics\t28\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2113",
+            "text": "Weather-sealed label carrier\n\nTRN-0152 / TW-2113\n\nDetails\nView only\n\tHardware\tActive\t37\t$100.70\tAlder Fabrication\t3\tManaged by procurement; inventory role can consult only.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2114",
+            "text": "Foldaway measuring guide\n\nTRN-0153 / TW-2114\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$108.05\tKite Instruments\t14\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2115",
+            "text": "Universal mounting plate — extra-wide configuration\n\nTRN-0154 / TW-2115\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$115.40\tJuniper Logistics\t7\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2116",
+            "text": "Service seal set\n\nTRN-0155 / TW-2116\n\nDetails\nEdit\n\tHardware\tActive\t112\t$122.75\tAlder Fabrication\t28\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2117",
+            "text": "Magnetic retrieval tool\n\nTRN-0156 / TW-2117\n\nDetails\nView only\n\tInspection\tDraft\t8\t$130.10\tKite Instruments\t3\tManaged by procurement; inventory role can consult only.",
+            "left": 17,
+            "right": 1067
+          },
+          {
+            "id": "TW-2118",
+            "text": "Reusable dispatch envelope\n\nTRN-0157 / TW-2118\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$137.45\tJuniper Logistics\t14\tInventory editors may update this record.",
+            "left": 17,
+            "right": 1067
+          }
+        ],
+        "focus": {
+          "tag": "BODY",
+          "id": ""
+        },
+        "bodyText": "Skip to inventory\nT/W\nTERN WORKS\nInventory editor\n\nOPERATIONS / INVENTORY\n\nEvery part, in place.\n\nConsult your catalogue, compare stock and keep product records current.\n\nTotal products\n\n18\n\nUnits on hand\n\n483\n\nOut of stock\n\n6\n\nInventory\n\nProducts across your supply network\n\nView\nResponsive\nCompare table\nProduct list\nSearch products\n⌕\nCategory\nAll categories\nHardware\nInspection\nStorage\nLifecycle\nAll statuses\nActive\nDraft\nArchived\nStock level\nAll stock levels\nOut of stock · 0\nLow stock · 1–10\nIn stock · 1+\n\n18 of 18 products\n\nCompare all fields · scroll horizontally for more ↔\n←\n→\nProduct inventory. Prices in USD; stock in units; lead time in days.\nPRODUCT / SKU\tCATEGORY\tLIFECYCLE\tSTOCK · UNITS\tPRICE · USD\tSUPPLIER\tLEAD · DAYS\tACCESS\n\n\nPrecision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\n\nTRN-0140 / TW-2101\n\nDetails\nEdit\n\tHardware\tActive\t37\t$12.50\tAlder Fabrication\t3\tInventory editors may update this record.\n\n\nWorkshop calibration kit, compact edition\n\nTRN-0141 / TW-2102\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$19.85\tKite Instruments\t14\tInventory editors may update this record.\n\n\nReusable transit case / midnight blue\n\nTRN-0142 / TW-2103\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$27.20\tJuniper Logistics\t7\tInventory editors may update this record.\n\n\nAdjustable inspection light with articulated arm and replaceable lens\n\nTRN-0143 / TW-2104\n\nDetails\nView only\n\tHardware\tActive\t112\t$34.55\tAlder Fabrication\t28\tManaged by procurement; inventory role can consult only.\n\n\nProtective sensor housing — very long technical revision description for difficult storage locations\n\nTRN-0144 / TW-2105\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$41.90\tKite Instruments\t3\tInventory editors may update this record.\n\n\nCable routing clips, pack of twelve\n\nTRN-0145 / TW-2106\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$49.25\tJuniper Logistics\t14\tInventory editors may update this record.\n\n\nPortable assembly mat\n\nTRN-0146 / TW-2107\n\nDetails\nEdit\n\tHardware\tActive\t37\t$56.60\tAlder Fabrication\t7\tInventory editors may update this record.\n\n\nRefillable inspection marker\n\nTRN-0147 / TW-2108\n\nDetails\nView only\n\tInspection\tDraft\t0\nOut of stock\n\t$63.95\tKite Instruments\t28\tManaged by procurement; inventory role can consult only.\n\n\nReplacement hinge, left-hand\n\nTRN-0148 / TW-2109\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$71.30\tJuniper Logistics\t3\tInventory editors may update this record.\n\n\nReplacement hinge, right-hand\n\nTRN-0149 / TW-2110\n\nDetails\nEdit\n\tHardware\tActive\t112\t$78.65\tAlder Fabrication\t14\tInventory editors may update this record.\n\n\nBench organiser with removable small-parts compartments\n\nTRN-0150 / TW-2111\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$86.00\tKite Instruments\t7\tInventory editors may update this record.\n\n\nTorque reference card\n\nTRN-0151 / TW-2112\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$93.35\tJuniper Logistics\t28\tInventory editors may update this record.\n\n\nWeather-sealed label carrier\n\nTRN-0152 / TW-2113\n\nDetails\nView only\n\tHardware\tActive\t37\t$100.70\tAlder Fabrication\t3\tManaged by procurement; inventory role can consult only.\n\n\nFoldaway measuring guide\n\nTRN-0153 / TW-2114\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$108.05\tKite Instruments\t14\tInventory editors may update this record.\n\n\nUniversal mounting plate — extra-wide configuration\n\nTRN-0154 / TW-2115\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$115.40\tJuniper Logistics\t7\tInventory editors may update this record.\n\n\nService seal set\n\nTRN-0155 / TW-2116\n\nDetails\nEdit\n\tHardware\tActive\t112\t$122.75\tAlder Fabrication\t28\tInventory editors may update this record.\n\n\nMagnetic retrieval tool\n\nTRN-0156 / TW-2117\n\nDetails\nView only\n\tInspection\tDraft\t8\t$130.10\tKite Instruments\t3\tManaged by procurement; inventory role can consult only.\n\n\nReusable dispatch envelope\n\nTRN-0157 / TW-2118\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$137.45\tJuniper Logistics\t14\tInventory editors may update this record.\nTERN WORKS / Inventory operations\nSession workspace · changes reset on reload"
+      },
+      "region": {
+        "scroll": 0,
+        "label": "Product comparison, horizontally scrollable"
+      },
+      "keyboardScrolled": true
+    },
+    {
+      "arm": "C",
+      "width": 768,
+      "explicitComparisonControl": true,
+      "path": "screenshots/C-768x1000-forced-comparison.png",
+      "sha256": "d64e11f2e09c956af086b99d2e0f782f8248e88f46b897713b09be77305775d3",
+      "observation": {
+        "width": 768,
+        "height": 1000,
+        "pageOverflow": 0,
+        "ordinaryOverflowNodes": [],
+        "actions": [
+          {
+            "id": "TW-2101",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 933.28125
+          },
+          {
+            "id": "TW-2102",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 1059.03125
+          },
+          {
+            "id": "TW-2103",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 1184.78125
+          },
+          {
+            "id": "TW-2105",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 1497.453125
+          },
+          {
+            "id": "TW-2106",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 1623.203125
+          },
+          {
+            "id": "TW-2107",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 1748.953125
+          },
+          {
+            "id": "TW-2109",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 2000.453125
+          },
+          {
+            "id": "TW-2110",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 2126.203125
+          },
+          {
+            "id": "TW-2111",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 2272.34375
+          },
+          {
+            "id": "TW-2112",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 2398.09375
+          },
+          {
+            "id": "TW-2114",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 2649.59375
+          },
+          {
+            "id": "TW-2115",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 2795.734375
+          },
+          {
+            "id": "TW-2116",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 2921.484375
+          },
+          {
+            "id": "TW-2118",
+            "text": "Edit",
+            "disabled": false,
+            "horizontalTravel": 0,
+            "left": 117.140625,
+            "right": 161.390625,
+            "top": 3172.984375
+          }
+        ],
+        "regions": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "role": "region",
+            "label": "Product comparison, horizontally scrollable",
+            "axis": "horizontal",
+            "scrollWidth": 1190,
+            "clientWidth": 691,
+            "track": "auto",
+            "tabIndex": 0
+          }
+        ],
+        "records": [
+          {
+            "id": "TW-2101",
+            "text": "Precision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\n\nTRN-0140 / TW-2101\n\nDetails\nEdit\n\tHardware\tActive\t37\t$12.50\tAlder Fabrication\t3\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2102",
+            "text": "Workshop calibration kit, compact edition\n\nTRN-0141 / TW-2102\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$19.85\tKite Instruments\t14\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2103",
+            "text": "Reusable transit case / midnight blue\n\nTRN-0142 / TW-2103\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$27.20\tJuniper Logistics\t7\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2104",
+            "text": "Adjustable inspection light with articulated arm and replaceable lens\n\nTRN-0143 / TW-2104\n\nDetails\nView only\n\tHardware\tActive\t112\t$34.55\tAlder Fabrication\t28\tManaged by procurement; inventory role can consult only.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2105",
+            "text": "Protective sensor housing — very long technical revision description for difficult storage locations\n\nTRN-0144 / TW-2105\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$41.90\tKite Instruments\t3\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2106",
+            "text": "Cable routing clips, pack of twelve\n\nTRN-0145 / TW-2106\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$49.25\tJuniper Logistics\t14\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2107",
+            "text": "Portable assembly mat\n\nTRN-0146 / TW-2107\n\nDetails\nEdit\n\tHardware\tActive\t37\t$56.60\tAlder Fabrication\t7\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2108",
+            "text": "Refillable inspection marker\n\nTRN-0147 / TW-2108\n\nDetails\nView only\n\tInspection\tDraft\t0\nOut of stock\n\t$63.95\tKite Instruments\t28\tManaged by procurement; inventory role can consult only.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2109",
+            "text": "Replacement hinge, left-hand\n\nTRN-0148 / TW-2109\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$71.30\tJuniper Logistics\t3\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2110",
+            "text": "Replacement hinge, right-hand\n\nTRN-0149 / TW-2110\n\nDetails\nEdit\n\tHardware\tActive\t112\t$78.65\tAlder Fabrication\t14\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2111",
+            "text": "Bench organiser with removable small-parts compartments\n\nTRN-0150 / TW-2111\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$86.00\tKite Instruments\t7\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2112",
+            "text": "Torque reference card\n\nTRN-0151 / TW-2112\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$93.35\tJuniper Logistics\t28\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2113",
+            "text": "Weather-sealed label carrier\n\nTRN-0152 / TW-2113\n\nDetails\nView only\n\tHardware\tActive\t37\t$100.70\tAlder Fabrication\t3\tManaged by procurement; inventory role can consult only.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2114",
+            "text": "Foldaway measuring guide\n\nTRN-0153 / TW-2114\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$108.05\tKite Instruments\t14\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2115",
+            "text": "Universal mounting plate — extra-wide configuration\n\nTRN-0154 / TW-2115\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$115.40\tJuniper Logistics\t7\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2116",
+            "text": "Service seal set\n\nTRN-0155 / TW-2116\n\nDetails\nEdit\n\tHardware\tActive\t112\t$122.75\tAlder Fabrication\t28\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2117",
+            "text": "Magnetic retrieval tool\n\nTRN-0156 / TW-2117\n\nDetails\nView only\n\tInspection\tDraft\t8\t$130.10\tKite Instruments\t3\tManaged by procurement; inventory role can consult only.",
+            "left": 31.109375,
+            "right": 1221.109375
+          },
+          {
+            "id": "TW-2118",
+            "text": "Reusable dispatch envelope\n\nTRN-0157 / TW-2118\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$137.45\tJuniper Logistics\t14\tInventory editors may update this record.",
+            "left": 31.109375,
+            "right": 1221.109375
+          }
+        ],
+        "focus": {
+          "tag": "BODY",
+          "id": ""
+        },
+        "bodyText": "Skip to inventory\nT/W\nTERN WORKS\nInventory editor\n\nOPERATIONS / INVENTORY\n\nEvery part, in place.\n\nConsult your catalogue, compare stock and keep product records current.\n\nTotal products\n\n18\n\nUnits on hand\n\n483\n\nOut of stock\n\n6\n\nInventory\n\nProducts across your supply network\n\nView\nResponsive\nCompare table\nProduct list\nSearch products\n⌕\nCategory\nAll categories\nHardware\nInspection\nStorage\nLifecycle\nAll statuses\nActive\nDraft\nArchived\nStock level\nAll stock levels\nOut of stock · 0\nLow stock · 1–10\nIn stock · 1+\n\n18 of 18 products\n\nCompare all fields · scroll horizontally for more ↔\n←\n→\nProduct inventory. Prices in USD; stock in units; lead time in days.\nPRODUCT / SKU\tCATEGORY\tLIFECYCLE\tSTOCK · UNITS\tPRICE · USD\tSUPPLIER\tLEAD · DAYS\tACCESS\n\n\nPrecision alignment bracket — corrosion-resistant marine-grade steel, extended mounting pattern and paired fasteners\n\nTRN-0140 / TW-2101\n\nDetails\nEdit\n\tHardware\tActive\t37\t$12.50\tAlder Fabrication\t3\tInventory editors may update this record.\n\n\nWorkshop calibration kit, compact edition\n\nTRN-0141 / TW-2102\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$19.85\tKite Instruments\t14\tInventory editors may update this record.\n\n\nReusable transit case / midnight blue\n\nTRN-0142 / TW-2103\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$27.20\tJuniper Logistics\t7\tInventory editors may update this record.\n\n\nAdjustable inspection light with articulated arm and replaceable lens\n\nTRN-0143 / TW-2104\n\nDetails\nView only\n\tHardware\tActive\t112\t$34.55\tAlder Fabrication\t28\tManaged by procurement; inventory role can consult only.\n\n\nProtective sensor housing — very long technical revision description for difficult storage locations\n\nTRN-0144 / TW-2105\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$41.90\tKite Instruments\t3\tInventory editors may update this record.\n\n\nCable routing clips, pack of twelve\n\nTRN-0145 / TW-2106\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$49.25\tJuniper Logistics\t14\tInventory editors may update this record.\n\n\nPortable assembly mat\n\nTRN-0146 / TW-2107\n\nDetails\nEdit\n\tHardware\tActive\t37\t$56.60\tAlder Fabrication\t7\tInventory editors may update this record.\n\n\nRefillable inspection marker\n\nTRN-0147 / TW-2108\n\nDetails\nView only\n\tInspection\tDraft\t0\nOut of stock\n\t$63.95\tKite Instruments\t28\tManaged by procurement; inventory role can consult only.\n\n\nReplacement hinge, left-hand\n\nTRN-0148 / TW-2109\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$71.30\tJuniper Logistics\t3\tInventory editors may update this record.\n\n\nReplacement hinge, right-hand\n\nTRN-0149 / TW-2110\n\nDetails\nEdit\n\tHardware\tActive\t112\t$78.65\tAlder Fabrication\t14\tInventory editors may update this record.\n\n\nBench organiser with removable small-parts compartments\n\nTRN-0150 / TW-2111\n\nDetails\nEdit\n\tInspection\tDraft\t8\t$86.00\tKite Instruments\t7\tInventory editors may update this record.\n\n\nTorque reference card\n\nTRN-0151 / TW-2112\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$93.35\tJuniper Logistics\t28\tInventory editors may update this record.\n\n\nWeather-sealed label carrier\n\nTRN-0152 / TW-2113\n\nDetails\nView only\n\tHardware\tActive\t37\t$100.70\tAlder Fabrication\t3\tManaged by procurement; inventory role can consult only.\n\n\nFoldaway measuring guide\n\nTRN-0153 / TW-2114\n\nDetails\nEdit\n\tInspection\tDraft\t0\nOut of stock\n\t$108.05\tKite Instruments\t14\tInventory editors may update this record.\n\n\nUniversal mounting plate — extra-wide configuration\n\nTRN-0154 / TW-2115\n\nDetails\nEdit\n\tStorage\tArchived\t4\t$115.40\tJuniper Logistics\t7\tInventory editors may update this record.\n\n\nService seal set\n\nTRN-0155 / TW-2116\n\nDetails\nEdit\n\tHardware\tActive\t112\t$122.75\tAlder Fabrication\t28\tInventory editors may update this record.\n\n\nMagnetic retrieval tool\n\nTRN-0156 / TW-2117\n\nDetails\nView only\n\tInspection\tDraft\t8\t$130.10\tKite Instruments\t3\tManaged by procurement; inventory role can consult only.\n\n\nReusable dispatch envelope\n\nTRN-0157 / TW-2118\n\nDetails\nEdit\n\tStorage\tArchived\t0\nOut of stock\n\t$137.45\tJuniper Logistics\t14\tInventory editors may update this record.\nTERN WORKS / Inventory operations\nSession workspace · changes reset on reload"
+      },
+      "region": {
+        "scroll": 0,
+        "label": "Product comparison, horizontally scrollable"
+      },
+      "keyboardScrolled": true
+    }
+  ],
+  "shortEditors": [
+    {
+      "arm": "A",
+      "width": 375,
+      "height": 320,
+      "fields": [
+        {
+          "name": "name",
+          "rect": {
+            "top": 189,
+            "bottom": 279
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "stock",
+          "rect": {
+            "top": 138,
+            "bottom": 182
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "price",
+          "rect": {
+            "top": 138,
+            "bottom": 182
+          },
+          "centreHit": true,
+          "focus": true
+        }
+      ]
+    },
+    {
+      "arm": "B",
+      "width": 375,
+      "height": 320,
+      "fields": [
+        {
+          "name": "name",
+          "rect": {
+            "top": 203,
+            "bottom": 303
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "stock",
+          "rect": {
+            "top": 138.5,
+            "bottom": 180.5
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "price",
+          "rect": {
+            "top": 138.5,
+            "bottom": 180.5
+          },
+          "centreHit": true,
+          "focus": true
+        }
+      ]
+    },
+    {
+      "arm": "C",
+      "width": 375,
+      "height": 320,
+      "fields": [
+        {
+          "name": "name",
+          "rect": {
+            "top": 125.328125,
+            "bottom": 213.328125
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "stock",
+          "rect": {
+            "top": 136.328125,
+            "bottom": 180.328125
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "price",
+          "rect": {
+            "top": 136.328125,
+            "bottom": 180.328125
+          },
+          "centreHit": true,
+          "focus": true
+        }
+      ]
+    }
+  ]
+}

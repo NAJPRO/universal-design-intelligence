@@ -1,0 +1,8 @@
+[
+  {
+    "tool": "browser capture",
+    "code": 0,
+    "stdout": "{\n  \"path\": \"/work/preflight.png\",\n  \"result\": null,\n  \"overflow\": 0,\n  \"exceptions\": []\n}\n",
+    "stderr": ""
+  }
+]

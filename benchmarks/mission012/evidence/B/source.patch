@@ -1,0 +1,391 @@
+--- initial/styles.css
++++ final/styles.css
+@@ -1 +1,2 @@
+-* { box-sizing: border-box; } body { margin: 0; } button,input,select,textarea { font: inherit; }
++/* Original Tern Works interface, MIT. */
++*{box-sizing:border-box}body{margin:0;font-size:14px;line-height:1.5}button,input,select,textarea{font:inherit}button,input,select{min-height:42px}button{cursor:pointer;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--brand);padding:8px 14px;font-weight:600}button:hover{background:#edf1f6;border-color:var(--brand)}button:disabled{cursor:not-allowed;color:var(--muted);background:var(--canvas)}:focus-visible{outline:3px solid var(--accent);outline-offset:3px}input,select,textarea{border:1px solid #aeb9c7;border-radius:6px;padding:9px 11px;background:var(--surface);color:var(--ink);width:100%}input::placeholder{color:var(--muted)}label{display:block;font-size:12px;font-weight:650;margin-bottom:6px}h1,h2,h3,p{margin:0}h1{font-size:36px;line-height:1.2;letter-spacing:-1px}h2{font-size:20px;letter-spacing:-.4px}small{font-size:12px}.masthead{min-height:88px;background:var(--brand);color:white;padding:20px max(32px,calc((100vw - 1440px)/2));display:flex;align-items:center;justify-content:space-between}.brand{display:flex;gap:14px;align-items:center;font-weight:750;letter-spacing:2px;font-size:17px}.brand small{display:block;font-weight:400;letter-spacing:.4px;color:#e0e7f0;margin-top:2px}.brand-mark{border:1px solid #899ab3;width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:25px;letter-spacing:-2px}.brand-mark span{font-size:19px;margin-top:-14px}.role{font-size:12px;border:1px solid #899ab3;border-radius:30px;padding:7px 12px}.skip{position:fixed;top:-100px;left:16px;background:white;color:var(--brand);padding:12px;z-index:10}.skip:focus{top:8px}main{max-width:1504px;padding:36px 32px 20px;margin:auto}.page-heading{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:28px}.eyebrow{font-size:10px;letter-spacing:1.8px;color:var(--muted);font-weight:700;margin-bottom:12px}.intro{color:var(--muted);margin-top:9px}.environment{font-size:12px;color:var(--muted);white-space:nowrap}.environment span{color:var(--success);margin-right:5px}.overview{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}.metric{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:19px 22px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:3px 16px}.metric .metric-label{font-size:12px;color:var(--muted)}.metric strong{font-size:28px;grid-column:1;line-height:1.3;font-variant-numeric:tabular-nums}.metric small{grid-column:1;color:var(--muted)}.metric .metric-icon{grid-column:2;grid-row:1 / 4;color:var(--brand);font-size:24px;background:var(--canvas);width:44px;height:44px;display:grid;place-items:center;border-radius:50%}.metric.attention{border-top:3px solid var(--accent);padding-top:17px}.workspace{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}.collection-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px}.collection-heading p{color:var(--muted);font-size:13px;margin-top:3px}.view-switch{display:flex;flex-shrink:0}.view-switch button{font-size:12px;border-radius:0;min-height:38px;padding:7px 12px}.view-switch button:first-child{border-radius:6px 0 0 6px}.view-switch button:last-child{border-radius:0 6px 6px 0;margin-left:-1px}.view-switch [aria-pressed=true]{background:var(--brand);color:white;border-color:var(--brand);position:relative}.filters{display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(140px,1fr));gap:16px;padding:20px 24px;background:#f8f9fb;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.search-wrap{position:relative}.search-wrap span{position:absolute;left:12px;top:2px;font-size:25px;color:var(--muted)}.search-wrap input{padding-left:39px}.result-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 24px}#result-count{font-weight:600;font-size:13px}.sort{display:flex;align-items:center;gap:9px}.sort label{margin:0;white-space:nowrap;color:var(--muted);font-weight:400}.sort select{font-size:12px;min-height:34px;width:auto;padding:6px 25px 6px 9px}.active-filters{display:flex;flex-wrap:wrap;gap:8px;padding:0 24px}.active-filters:not(:empty){padding-bottom:16px}.chip{font-size:12px;padding:4px 10px;min-height:32px;background:#edf1f6;border-color:#cad4e3}.clear{font-size:12px;min-height:32px;padding:4px 8px;border-color:transparent;text-decoration:underline}.table-scroll{overflow:auto;max-height:650px;scrollbar-gutter:stable;scrollbar-width:auto;border-top:1px solid var(--line)}table{border-collapse:separate;border-spacing:0;width:100%;min-width:1050px;text-align:left;font-size:13px}caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}th,td{padding:18px 16px;border-bottom:1px solid var(--line);vertical-align:top}thead th{position:sticky;top:0;background:#f2f4f7;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);z-index:1;padding-top:12px;padding-bottom:12px;font-weight:650}th:first-child,td:first-child{padding-left:24px}tbody th{font-weight:400;width:35%;min-width:290px}tbody tr:last-child>*{border-bottom:0}tbody tr:hover{background:#fafbfd}.product-name{border:0;padding:0;min-height:0;background:transparent!important;text-align:left;font-weight:650;line-height:1.5;color:var(--brand);display:block;overflow-wrap:anywhere}.product-name:hover{text-decoration:underline}.meta{color:var(--muted);font-size:11px;display:block;margin-top:6px}.sku{font-family:ui-monospace,monospace;letter-spacing:.4px}.badge{font-size:11px;display:inline-flex;gap:5px;align-items:center;padding:3px 9px;border-radius:20px;background:#edf4f0;color:var(--success);font-weight:600;white-space:nowrap}.badge.draft{background:#f8eee7;color:#8a4424}.badge.archived{background:#edf0f4;color:var(--muted)}.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}.zero{color:var(--danger);font-weight:700}.stock-note{font-size:10px;color:var(--danger);display:block;white-space:nowrap;margin-top:4px}.supplier{min-width:150px}.access{min-width:115px;text-align:right}.edit-button{font-size:12px;min-height:34px;padding:5px 13px}.readonly{display:block;font-size:11px;color:var(--muted);margin-bottom:4px;white-space:nowrap}.access .text-button{font-size:11px}.text-button{border:0;padding:0;min-height:28px;text-decoration:underline;background:none}.mobile-label{display:none}.scroll-hint{font-size:12px;color:var(--muted);padding:0 24px 12px;display:none}.collection-footer{padding:14px 24px;display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:11px;border-top:1px solid var(--line);background:#fafbfd}.page-footer{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:24px}.page-footer span:first-child{letter-spacing:2px;font-weight:700}.state{padding:64px 24px;text-align:center;border-top:1px solid var(--line)}.state-icon{display:grid;place-items:center;width:52px;height:52px;background:var(--canvas);color:var(--brand);font-size:24px;border-radius:50%;margin:0 auto 18px}.state h3{font-size:19px}.state p{color:var(--muted);margin:8px auto 22px;max-width:410px}.primary{background:var(--brand);color:white;border-color:var(--brand)}.primary:hover{background:#293f60;color:white}#notice:not(:empty){padding:12px 16px;border:1px solid #b8d1c5;background:#edf4f0;border-radius:6px;margin-bottom:20px;color:var(--success)}dialog{width:min(600px,calc(100% - 32px));max-height:calc(100dvh - 32px);border:1px solid var(--line);border-radius:12px;padding:0;color:var(--ink);box-shadow:0 20px 90px #202b3940;overflow:auto}dialog::backdrop{background:#17243799}.dialog-heading{padding:24px 24px 18px;border-bottom:1px solid var(--line);display:flex;gap:20px;align-items:flex-start}.dialog-heading h2{font-size:23px}.dialog-heading .meta{font-size:12px}.close{margin-left:auto;font-size:22px;min-width:42px;padding:0 8px}.dialog-body{padding:24px}.detail-name{font-size:18px;line-height:1.5;margin-bottom:20px;overflow-wrap:anywhere}.details-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:0}.details-grid dt{font-size:12px;color:var(--muted);margin-bottom:3px}.details-grid dd{margin:0;font-weight:600;overflow-wrap:anywhere}.permission{padding:14px 16px;border-left:3px solid var(--brand);background:var(--canvas);margin-top:24px;font-size:13px}.permission strong{display:block;margin-bottom:3px}.dialog-actions{display:flex;justify-content:flex-end;gap:10px;padding:18px 24px;border-top:1px solid var(--line);background:#fafbfd}.form-field{margin-bottom:20px}.form-field label{font-size:13px}.form-field textarea{resize:vertical;min-height:100px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.hint{font-size:12px;color:var(--muted);margin-top:5px}.error{color:var(--danger);font-size:12px;margin-top:5px}.error:empty{display:none}[aria-invalid=true]{border:2px solid var(--danger)}.error-summary{background:#fbf0f1;border:1px solid var(--danger);padding:12px;margin-bottom:20px;color:var(--danger)}.error-summary:empty{display:none}.error-summary a{display:block;color:var(--danger);font-size:13px;margin-top:4px}.unsaved{font-size:12px;color:var(--muted);margin-top:16px}.confirm{padding:18px;background:#fff7ee;border:1px solid var(--accent);border-radius:6px;margin:0 24px 24px}.confirm p{margin:6px 0 14px}.confirm div{display:flex;gap:10px;flex-wrap:wrap}.danger{color:var(--danger);border-color:var(--danger)}[hidden]{display:none!important}@media(min-width:701px) and (max-width:1200px){.scroll-hint{display:block}}.force-table .scroll-hint{display:block}@media(min-width:1600px){.table-scroll{max-height:720px}}@media(max-width:900px){main{padding:28px 20px 20px}.filters{grid-template-columns:repeat(3,1fr)}.search-field{grid-column:1/-1}.collection-heading{align-items:flex-start;flex-direction:column;gap:16px}.overview{gap:10px}.metric{padding:16px}.metric.attention{padding-top:14px}.metric .metric-icon{display:none}.metric strong{font-size:25px}}@media(max-width:700px){.masthead{min-height:76px;padding:16px}.brand{font-size:14px;gap:10px}.brand-mark{width:36px;height:36px}.brand small{font-size:10px}.role{font-size:10px;padding:5px 8px}main{padding:24px 16px 16px}h1{font-size:30px}.page-heading{margin-bottom:22px}.intro{font-size:13px;max-width:280px}.environment{display:none}.overview{gap:8px;margin-bottom:22px}.metric{padding:12px 10px;display:block}.metric.attention{padding-top:10px}.metric .metric-label{font-size:10px;display:block}.metric strong{font-size:24px;display:block;margin-top:6px}.metric small{font-size:10px;display:block;margin-top:3px}.collection-heading{padding:20px 16px}.collection-heading p{font-size:12px}.filters{padding:16px;gap:14px 10px;grid-template-columns:1fr 1fr}.filters>div:last-child{grid-column:1/-1}.result-toolbar{padding:16px;align-items:flex-start}#result-count{font-size:12px;padding-top:7px}.sort{gap:5px}.sort label{font-size:11px}.sort select{max-width:145px}.active-filters{padding-left:16px;padding-right:16px}.collection-footer{padding:12px 16px;flex-direction:column;gap:2px}.scroll-hint{padding:0 16px 12px}.workspace:not(.force-table) .table-scroll{max-height:none;overflow:visible;border:0}.workspace:not(.force-table) table{display:block;min-width:0}.workspace:not(.force-table) thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.workspace:not(.force-table) tbody{display:block}.workspace:not(.force-table) tbody tr{display:grid;grid-template-columns:1fr 1fr;margin:0 16px;padding:20px 0;border-top:1px solid var(--line);gap:16px 20px}.workspace:not(.force-table) tbody tr>*{display:block;border:0;padding:0;min-width:0;text-align:left;width:auto}.workspace:not(.force-table) tbody th{grid-column:1/-1}.workspace:not(.force-table) .mobile-label{display:block;text-transform:uppercase;letter-spacing:.6px;font-size:10px;color:var(--muted);font-weight:600;margin-bottom:5px}.workspace:not(.force-table) .access{display:flex;grid-column:1/-1;align-items:center;justify-content:space-between;border-top:1px dashed var(--line);padding-top:12px;gap:12px}.workspace:not(.force-table) .access .readonly{margin:0}.workspace:not(.force-table) .access .mobile-label{display:none}.workspace:not(.force-table) .edit-button{margin-left:auto;min-height:38px}.workspace:not(.force-table) .supplier{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:16px}.workspace:not(.force-table) .supplier .meta{margin:0}.workspace:not(.force-table) .stock-note{display:inline;margin-left:6px}.workspace:not(.force-table) .product-name{font-size:14px}.page-footer{font-size:10px;gap:12px}.dialog-body{padding:20px}.dialog-heading{padding:20px}.dialog-actions{padding:16px 20px}.confirm{margin:0 20px 20px}.state{padding:44px 20px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+--- initial/REPORT.md
++++ final/REPORT.md
+@@ -0,0 +1,49 @@
++# Tern Works implementation report
++
++Implemented the dependency-free inventory workspace in [index.html](index.html), [styles.css](styles.css), and [app.js](app.js). The provided data.js and tokens.css were not edited. No dependencies, remote assets, external services, Git commands, or delegation were used. Generated source is original MIT-compatible work.
++
++## Decisions and assumptions
++
++- Desktop uses a semantic table with complete product names, SKU/category metadata, status, stock, price, supplier, lead time, and contextual actions. All 18 records are available without pagination. Numeric columns align right. The table has native scrollbars and keyboard scrolling.
++- Below 701px, the same record nodes become readable cards. Compare table restores horizontally scrollable comparison at any width. CSS changes preserve DOM identity and focused controls during resize.
++- Search matches name or SKU without case sensitivity. Category, status, and stock filters combine with AND. Stock options explicitly define zero, 1–10 and 1+. Conditions can be removed individually or cleared together. Counts describe matching versus total records; overview figures always describe the entire inventory.
++- Product-name buttons open complete details including record ID and the exact permission explanation. Authorized editing covers name, stock and price. Category, lifecycle and sourcing fields remain read only; this scope follows the task's three validation requirements.
++- Stock must be a nonnegative safe whole number. Price must be finite and greater than zero. Linked summary and field errors retain entered values. Successful saves update records and overview, acknowledge the SKU, and restore the originating control or collection heading if the record leaves the filtered result.
++- Unsaved Cancel, close, and Escape offer explicit discard or keep editing. Escape in confirmation preserves input. A native before-unload warning protects dirty edits when leaving the page.
++- Permission and editor identity are held in application state independently of editable DOM hooks. Entry and save both check the original permission map. A forged restricted edit action is rejected, and changing the form's record ID cannot retarget saving.
++- Prices are USD. Changes and filters last for the current page session, as stated in the interface. Reload restores the provided fixture; no persistence or backend was requested.
++- Empty, loading and error query states are deterministic. Loading waits for user recovery. Recovery loads the local inventory. Empty collection and no filter matches have distinct explanations and recovery actions.
++
++## Knowledge applied
++
++The local udi-design launcher reported version 0.1.0 and advertised schema 2.1 and inspect support. [design-context.json](design-context.json) records evidence and [design-guidance.json](design-guidance.json) preserves the bounded recommendation. All three selected component contracts were inspected locally. No external reference links were visited.
++
++| Knowledge ID | Specific implementation informed |
++| --- | --- |
++| CMP-OPERATIONAL-TABLE; UDI-DAT-001; UDI-DAT-004 | app.js renderResults(): semantic headers, stable record identity, comparable values and contextual actions. Pagination omitted for 18 local records. |
++| UDI-RSP-004; PAT-RESPONSIVE-TABLE; UDI-ANT-009 | styles.css mobile cards, force-table override and labeled focusable table-scroll region. |
++| CMP-FILTER-WORKSPACE; UDI-SAA-002 | app.js filtered(), renderChips() and renderResults(): immediate criteria, visible scope, removable conditions, result counts and recovery. No URL persistence or advanced filter modal was needed. |
++| CMP-RECOVERABLE-FORM; UDI-FOR-001; UDI-FOR-002; UDI-FOR-004; PAT-VALIDATED-FORM | app.js openEdit(), save() and cancellation: labels, linked errors, preserved input, unsaved status and explicit discard. |
++| UDI-ACC-002 | Native modal, focus indicators, validation focus, Escape handling, return focus and same-node responsive layout. |
++| UDI-COL-002; UDI-INT-001 | Text lifecycle/status labels, out-of-stock/read-only explanations, pressed layout controls and hover/focus treatments. |
++| UDI-SAA-004; UDI-INT-003 | app.js stateMarkup() and state branches: explanatory loading/empty/error states with recovery. |
++| UDI-SYS-001; UDI-SYS-005 | Existing brand and semantic tokens reused in styles.css, system font and original local wordmark. |
++
++The recommendation reported no conflicts, but marked domain-task coverage unsupported: generic contracts and heuristics do not establish domain completeness. Task-specific implementation and browser verification provide the additional evidence here.
++
++## Checks actually run
++
++- node --check app.js passed after an initial template-string syntax error was corrected.
++- node verify.mjs passed all 39 checks. Source: [verify.mjs](verify.mjs). Results: [verification.json](verification.json).
++- Checks cover 18 products/14 edit controls, case-insensitive SKU search, combined facets, active chips, empty-result recovery, editor focus, blank name/negative fractional stock/infinite price rejection, retained values, error links, unsaved cancellation, Escape, successful zero-stock save, acknowledgement, return focus, discard, restricted detail explanations, forged edit rejection and DOM record-ID tampering.
++- At 320, 375, 768 and 1440px: no horizontal page overflow, input/focus continuity through resize, and Save reachable at 480px height. Mobile comparison scroll was exercised with ArrowRight; Tab from search to category passed.
++- All deterministic empty/loading/error states and recovery routes passed. Loading remained pending after an additional wait. Capture outputs reported no runtime exceptions; the final-navigation exception check passed as well.
++- Visually reviewed browser captures: [desktop.png](desktop.png), [tablet.png](tablet.png), [mobile.png](mobile.png), [mobile-record.png](mobile-record.png), [editor.png](editor.png), and [error.png](error.png). Also captured [empty.png](empty.png) and [loading.png](loading.png).
++- Keyboard testing found Escape could close the dialog during confirmation. An explicit key handler now prevents native dismissal and preserves input. The complete suite passed after correction.
++- tools is read only; an attempted test-file creation there failed without changing it. The verification script was created in the workspace root instead.
++
++## Remaining limitations
++
++- Storage is in memory for the page session. There is no server authorization boundary or durable persistence. Permission checks protect against UI manipulation, not arbitrary replacement of application code.
++- Verification used local headless Chrome. No screen reader, other browser engine, real touch device or automated accessibility audit was run. This is not a claim of full accessibility conformance.
++- Saving is synchronous and local, so there is no simulated network save failure. Required inventory error and retry states are implemented and tested.
+--- initial/app.js
++++ final/app.js
+@@ -1,2 +1,126 @@
++// Original Tern Works application, MIT. Session-only edits; no external services.
+ import { products } from './data.js';
+-console.log(`Local fictional inventory: ${products.length} records`);
++const records = products.map(p => ({ ...p }));
++const permissions = new Map(products.map(p => [p.id, Object.freeze({allowed:p.canEdit, reason:p.permissionReason})]));
++const $ = s => document.querySelector(s);
++const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
++const money = value => new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(value);
++let state = new URLSearchParams(location.search).get('state');
++if (!['empty','loading','error'].includes(state)) state='ready';
++let visible = [], currentId=null, mode=null, returnControl=null, origin='list', confirming=false;
++const dialog = $('#record-dialog');
++const filters = ['search','category','status','stock'];
++for (const key of ['category','status']) {
++  for (const value of [...new Set(records.map(p=>p[key]))]) $(`#${key}`).insertAdjacentHTML('beforeend',`<option>${escape(value)}</option>`);
++}
++const values = () => Object.fromEntries(filters.map(key=>[key,$(`#${key}`).value]));
++function filtered() {
++  const v=values(), term=v.search.trim().toLowerCase();
++  return records.filter(p=>(!term || `${p.name} ${p.sku}`.toLowerCase().includes(term)) && (!v.category || p.category===v.category) && (!v.status || p.status===v.status) && (!v.stock || (v.stock==='out' ? p.stock===0 : v.stock==='low' ? p.stock>0 && p.stock<=10 : p.stock>0))).sort((a,b)=>{
++    const order=$('#sort').value;
++    return order==='name' ? a.name.localeCompare(b.name) : order==='stock' ? a.stock-b.stock || a.id.localeCompare(b.id) : order==='price' ? a.price-b.price : a.id.localeCompare(b.id);
++  });
++}
++function announce(message){$('#notice').textContent=message;}
++function badge(p){return `<span class="badge ${p.status.toLowerCase()}">${escape(p.status)}</span>`;}
++function renderOverview(){
++  const ready=state==='ready';
++  const entries=[['Total products',ready?records.length:state==='empty'?0:'—','Across all categories','▦',''],['Units on hand',ready?records.reduce((n,p)=>n+p.stock,0).toLocaleString():state==='empty'?0:'—','All lifecycle statuses','≡',''],['Out of stock',ready?records.filter(p=>p.stock===0).length:state==='empty'?0:'—','Records with zero units','!','attention']];
++  $('#overview').innerHTML=entries.map(([title,n,sub,icon,cls])=>`<div class="metric ${cls}"><span class="metric-label">${title}</span><strong>${n}</strong><small>${sub}</small><span class="metric-icon" aria-hidden="true">${icon}</span></div>`).join('');
++}
++function renderChips(){
++  const v=values(), labels={search:'Search',category:'Category',status:'Status',stock:'Stock'}, stockLabels={out:'Out of stock',low:'Low stock',available:'In stock'};
++  $('#active-filters').innerHTML=filters.filter(key=>v[key]).map(key=>`<button type="button" class="chip" data-remove="${key}" aria-label="Remove ${labels[key]} filter: ${escape(key==='stock'?stockLabels[v[key]]:v[key])}">${labels[key]}: ${escape(key==='stock'?stockLabels[v[key]]:v[key])} <span aria-hidden="true">×</span></button>`).join('')+(filters.some(key=>v[key])?'<button type="button" class="clear" data-action="clear">Clear all</button>':'');
++}
++function stateMarkup(icon,title,description,action,label){return `<div class="state"><span class="state-icon" aria-hidden="true">${icon}</span><h3>${title}</h3><p>${description}</p><button type="button" class="primary" data-action="${action}">${label}</button></div>`;}
++function renderResults(){
++  renderOverview();renderChips();
++  const disabled=state!=='ready';
++  $('#filters').querySelectorAll('input,select').forEach(el=>el.disabled=disabled);$('#sort').disabled=disabled;
++  const results=$('#results');results.setAttribute('aria-busy',String(state==='loading'));
++  if(state!=='ready'){
++    $('#result-count').textContent=state==='empty'?'0 products':state==='loading'?'Loading products…':'Products unavailable';
++    const states={empty:['▦','No products in this inventory','There are no records in this collection. Load the sample inventory to explore the workspace.','retry','Load sample inventory'],loading:['…','Loading inventory','Product records are pending. Load the local inventory when you’re ready.','retry','Load inventory now'],error:['!','Inventory couldn’t be loaded','The records are unavailable. Try again to reload the local inventory.','retry','Retry loading']};
++    results.innerHTML=stateMarkup(...states[state]);return;
++  }
++  visible=filtered();$('#result-count').textContent=`${visible.length} of ${records.length} products`;
++  if(!visible.length){results.innerHTML=stateMarkup('⌕','No matching products','Try another name or SKU, remove a filter, or clear all filters to see the full inventory.','clear','Clear all filters');return;}
++  results.innerHTML=`<div class="table-scroll" tabindex="0" role="region" aria-label="Product comparison, scroll for more records and columns" aria-describedby="scroll-hint"><table role="table"><caption>Inventory products. Prices in USD; stock in units.</caption><thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Product / category</th><th scope="col" role="columnheader">Status</th><th scope="col" role="columnheader" class="num">Stock</th><th scope="col" role="columnheader" class="num">Unit price</th><th scope="col" role="columnheader">Supplier / lead time</th><th scope="col" role="columnheader" class="access">Access / action</th></tr></thead><tbody role="rowgroup">${visible.map(p=>`<tr role="row" data-record-id="${p.id}"><th scope="row" role="rowheader"><button type="button" class="product-name" data-action="details" data-record-id="${p.id}">${escape(p.name)}</button><span class="meta"><span class="sku">${p.sku}</span> <span aria-hidden="true">·</span> ${p.category}</span></th><td role="cell"><span class="mobile-label" aria-hidden="true">Lifecycle status</span>${badge(p)}</td><td role="cell" class="num"><span class="mobile-label" aria-hidden="true">Stock · units</span><span class="${p.stock===0?'zero':''}">${p.stock}</span>${p.stock===0?'<span class="stock-note">Out of stock</span>':''}</td><td role="cell" class="num"><span class="mobile-label" aria-hidden="true">Unit price · USD</span>${money(p.price)}</td><td role="cell" class="supplier"><div><span class="mobile-label" aria-hidden="true">Supplier</span>${escape(p.supplier)}</div><span class="meta">${p.leadDays}-day lead time</span></td><td role="cell" class="access">${permissions.get(p.id).allowed?`<span class="readonly">Editable</span><button type="button" class="edit-button" data-action="edit" data-record-id="${p.id}" aria-label="Edit ${p.sku}">Edit</button>`:`<span class="readonly">Read only</span><button type="button" class="text-button" data-action="details" data-record-id="${p.id}" aria-label="View permission details for ${p.sku}">Why read only?</button>`}</td></tr>`).join('')}</tbody></table></div>`;
++}
++function header(title,p){return `<div class="dialog-heading"><div><p class="eyebrow">PRODUCT RECORD</p><h2 id="dialog-title">${title}</h2><span class="meta"><span class="sku">${p.sku}</span> · ${p.id}</span></div><button type="button" class="close" data-action="cancel" aria-label="Close ${title.toLowerCase()}">×</button></div>`;}
++function showDetails(id,trigger){
++  const p=records.find(p=>p.id===id);if(!p)return;
++  if(!dialog.open){returnControl=trigger;dialog.showModal();}
++  currentId=id;mode='details';confirming=false;
++  dialog.innerHTML=header('Product details',p)+`<div class="dialog-body" data-record-id="${p.id}"><h3 class="detail-name">${escape(p.name)}</h3><dl class="details-grid"><div><dt>Category</dt><dd>${p.category}</dd></div><div><dt>Lifecycle status</dt><dd>${badge(p)}</dd></div><div><dt>Stock on hand</dt><dd>${p.stock} units${p.stock===0?' · Out of stock':''}</dd></div><div><dt>Unit price · USD</dt><dd>${money(p.price)}</dd></div><div><dt>Supplier</dt><dd>${p.supplier}</dd></div><div><dt>Lead time</dt><dd>${p.leadDays} days</dd></div></dl><div class="permission"><strong>${permissions.get(id).allowed?'Editing permitted':'Read only · Procurement managed'}</strong>${escape(permissions.get(id).reason)}</div></div><div class="dialog-actions"><button type="button" data-action="cancel">Close</button>${permissions.get(id).allowed?`<button type="button" class="primary" data-action="edit" data-record-id="${id}">Edit product</button>`:''}</div>`;
++  dialog.querySelector('.close').focus();dialog.scrollTop=0;
++}
++function openEdit(id,trigger){
++  const p=records.find(p=>p.id===id);
++  if(!p || !permissions.get(id)?.allowed){announce('This record is read only. Managed by procurement; inventory role can consult only.');return;}
++  origin=dialog.open?'details':'list';if(!dialog.open){returnControl=trigger;dialog.showModal();}
++  currentId=id;mode='edit';confirming=false;
++  dialog.innerHTML=header('Edit product',p)+`<form id="editor" novalidate data-record-id="${id}"><div class="dialog-body"><p class="hint" style="margin:0 0 20px">Update name, stock and price. All fields are required.</p><div class="error-summary" id="error-summary" tabindex="-1" role="alert"></div><div class="form-field"><label for="edit-name">Product name</label><textarea id="edit-name" name="name" required aria-describedby="name-error">${escape(p.name)}</textarea><p class="error" id="name-error"></p></div><div class="form-row"><div class="form-field"><label for="edit-stock">Stock on hand</label><input id="edit-stock" name="stock" type="text" inputmode="numeric" required value="${p.stock}" aria-describedby="stock-hint stock-error"><p class="hint" id="stock-hint">Whole units, zero or more.</p><p class="error" id="stock-error"></p></div><div class="form-field"><label for="edit-price">Unit price · USD</label><input id="edit-price" name="price" type="text" inputmode="decimal" required value="${p.price}" aria-describedby="price-hint price-error"><p class="hint" id="price-hint">A number greater than zero.</p><p class="error" id="price-error"></p></div></div><div class="permission"><strong>Editing permitted</strong>${escape(permissions.get(id).reason)} Category, status and sourcing details are read only.</div><p class="unsaved" id="edit-status" role="status">No unsaved changes.</p></div><div class="dialog-actions"><button type="button" data-action="cancel">Cancel</button><button type="submit" class="primary" data-action="save">Save changes</button></div></form><section class="confirm" id="discard-confirm" aria-labelledby="discard-title" hidden><h3 id="discard-title">Discard unsaved changes?</h3><p>Your changes to this product haven’t been saved.</p><div><button type="button" class="primary" data-action="stay">Keep editing</button><button type="button" class="danger" data-action="discard">Discard changes</button></div></section>`;
++  $('#edit-name').focus();dialog.scrollTop=0;
++}
++function dirty(){
++  if(mode!=='edit')return false;
++  const p=records.find(p=>p.id===currentId),f=$('#editor');
++  return f && (f.elements.name.value!==p.name || f.elements.stock.value!==String(p.stock) || f.elements.price.value!==String(p.price));
++}
++function closeDialog(){
++  dialog.close();mode=null;currentId=null;confirming=false;
++  const id=returnControl?.dataset.recordId,action=returnControl?.dataset.action;
++  const target=returnControl?.isConnected?returnControl:document.querySelector(`#results [data-action="${action}"][data-record-id="${id}"]`);
++  (target || $('#inventory')).focus();
++}
++function finishCancel(){
++  if(mode==='edit' && origin==='details'){showDetails(currentId);return;}
++  closeDialog();
++}
++function requestCancel(){
++  if(confirming){stay();return;}
++  if(dirty()){
++    confirming=true;$('#discard-confirm').hidden=false;$('#editor').inert=true;
++    dialog.querySelector('[data-action="stay"]').focus();$('#discard-confirm').scrollIntoView({block:'nearest'});
++  }else finishCancel();
++}
++function stay(){confirming=false;$('#discard-confirm').hidden=true;$('#editor').inert=false;$('#editor [data-action="cancel"]').focus();}
++function save(){
++  if(mode!=='edit'||confirming)return;
++  const p=records.find(p=>p.id===currentId);
++  if(!p||!permissions.get(currentId)?.allowed){announce('Save blocked: this product is read only.');return;}
++  const f=$('#editor'),name=f.elements.name.value.trim(),stockText=f.elements.stock.value.trim(),priceText=f.elements.price.value.trim(),stock=Number(stockText),price=Number(priceText),errors={};
++  if(!name)errors.name='Enter a product name.';
++  if(!/^\d+$/.test(stockText)||!Number.isSafeInteger(stock)||stock<0)errors.stock='Enter a whole number of units, zero or more.';
++  if(!priceText||!Number.isFinite(price)||price<=0)errors.price='Enter a finite price greater than zero.';
++  for(const key of ['name','stock','price']){f.elements[key].setAttribute('aria-invalid',String(!!errors[key]));$(`#${key}-error`).textContent=errors[key]||'';}
++  $('#error-summary').innerHTML=Object.keys(errors).length?`<strong>Check the following fields</strong>${Object.entries(errors).map(([key,message])=>`<a href="#edit-${key}">${message}</a>`).join('')}`:'';
++  if(Object.keys(errors).length){$('#error-summary').focus();return;}
++  p.name=name;p.stock=stock;p.price=price;renderResults();announce(`Saved ${p.sku}. Product name, stock and price are up to date for this session.`);
++  closeDialog();
++}
++$('#filters').addEventListener('submit',e=>e.preventDefault());
++filters.forEach(key=>$(`#${key}`).addEventListener(key==='search'?'input':'change',renderResults));
++$('#sort').addEventListener('change',renderResults);
++$('#adaptive-view').addEventListener('click',()=>setView(false));$('#table-view').addEventListener('click',()=>setView(true));
++function setView(table){$('.workspace').classList.toggle('force-table',table);$('#adaptive-view').setAttribute('aria-pressed',String(!table));$('#table-view').setAttribute('aria-pressed',String(table));}
++document.addEventListener('click',e=>{
++  const button=e.target.closest('button');if(!button)return;
++  if(button.dataset.remove){$(`#${button.dataset.remove}`).value='';renderResults();$(`#${button.dataset.remove}`).focus();return;}
++  const action=button.dataset.action;
++  if(action==='edit')openEdit(button.dataset.recordId,button);
++  if(action==='details')showDetails(button.dataset.recordId,button);
++  if(action==='cancel')requestCancel();
++  if(action==='discard')finishCancel();
++  if(action==='stay')stay();
++  if(action==='clear'){filters.forEach(key=>$(`#${key}`).value='');renderResults();$('#search').focus();}
++  if(action==='retry'){state='ready';renderResults();announce('Local inventory loaded.');$('#inventory').focus();}
++});
++dialog.addEventListener('submit',e=>{e.preventDefault();save();});
++dialog.addEventListener('input',()=>{if(mode==='edit')$('#edit-status').textContent=dirty()?'Unsaved changes.':'No unsaved changes.';});
++dialog.addEventListener('click',e=>{const link=e.target.closest('#error-summary a');if(link){e.preventDefault();$(link.getAttribute('href')).focus();}});
++dialog.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();e.stopPropagation();requestCancel();}});
++dialog.addEventListener('cancel',e=>{e.preventDefault();requestCancel();});
++window.addEventListener('beforeunload',e=>{if(dirty()){e.preventDefault();e.returnValue='';}});
++renderResults();
+--- initial/FINAL.md
++++ final/FINAL.md
+@@ -0,0 +1,5 @@
++Implemented the responsive inventory interface with filtering, comparison views, product details, validated editing, permission enforcement, and recovery states.
++
++Verification: 39 checks passed, including mobile layouts, keyboard behavior, and unsaved-change handling. Provided data and tokens remain unchanged.
++
++Details and limitations: [REPORT.md](/work/REPORT.md).--- initial/verification.json
++++ final/verification.json
+@@ -0,0 +1,158 @@
++[
++  {
++    "name": "18 products and 14 authorized editors",
++    "pass": true
++  },
++  {
++    "name": "Case-insensitive SKU search",
++    "pass": true
++  },
++  {
++    "name": "AND filters and removable chips",
++    "pass": true
++  },
++  {
++    "name": "Filtered empty state retains active criteria",
++    "pass": true
++  },
++  {
++    "name": "Clear restores data and focus",
++    "pass": true
++  },
++  {
++    "name": "Editor name receives focus",
++    "pass": true
++  },
++  {
++    "name": "Three validation errors retain input and focus summary",
++    "pass": true
++  },
++  {
++    "name": "Error link focuses field",
++    "pass": true
++  },
++  {
++    "name": "Unsaved cancel offers safe choice",
++    "pass": true
++  },
++  {
++    "name": "Escape keeps unsaved input",
++    "pass": true
++  },
++  {
++    "name": "Save updates values and acknowledges",
++    "pass": true
++  },
++  {
++    "name": "Save restores edit focus",
++    "pass": true
++  },
++  {
++    "name": "Discard preserves saved record",
++    "pass": true
++  },
++  {
++    "name": "Restricted detail provides reason and sourcing",
++    "pass": true
++  },
++  {
++    "name": "Forged restricted edit blocked",
++    "pass": true
++  },
++  {
++    "name": "DOM mutation cannot retarget save",
++    "pass": true
++  },
++  {
++    "name": "Keyboard tab order from search to category",
++    "pass": true
++  },
++  {
++    "name": "No page overflow at 320",
++    "pass": true
++  },
++  {
++    "name": "Focus and input survive resize from 320",
++    "pass": true
++  },
++  {
++    "name": "Save reachable at 320x480",
++    "pass": true
++  },
++  {
++    "name": "No page overflow at 375",
++    "pass": true
++  },
++  {
++    "name": "Focus and input survive resize from 375",
++    "pass": true
++  },
++  {
++    "name": "Save reachable at 375x480",
++    "pass": true
++  },
++  {
++    "name": "No page overflow at 768",
++    "pass": true
++  },
++  {
++    "name": "Focus and input survive resize from 768",
++    "pass": true
++  },
++  {
++    "name": "Save reachable at 768x480",
++    "pass": true
++  },
++  {
++    "name": "No page overflow at 1440",
++    "pass": true
++  },
++  {
++    "name": "Focus and input survive resize from 1440",
++    "pass": true
++  },
++  {
++    "name": "Save reachable at 1440x480",
++    "pass": true
++  },
++  {
++    "name": "Comparison scroll is local",
++    "pass": true
++  },
++  {
++    "name": "Arrow key scrolls comparison region",
++    "pass": true
++  },
++  {
++    "name": "empty deterministic state",
++    "pass": true
++  },
++  {
++    "name": "empty recovery",
++    "pass": true
++  },
++  {
++    "name": "loading deterministic state",
++    "pass": true
++  },
++  {
++    "name": "Loading remains pending",
++    "pass": true
++  },
++  {
++    "name": "loading recovery",
++    "pass": true
++  },
++  {
++    "name": "error deterministic state",
++    "pass": true
++  },
++  {
++    "name": "error recovery",
++    "pass": true
++  },
++  {
++    "name": "Runtime exceptions on final navigation",
++    "pass": true
++  }
++]--- initial/index.html
++++ final/index.html
+@@ -1 +1,24 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tern Works — Inventory</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="styles.css"></head><body><main id="app"><h1>Tern Works inventory</h1><p>Application implementation pending.</p></main><script type="module" src="app.js"></script></body></html>
++<!doctype html>
++<html lang="en">
++<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#344e75"><title>Tern Works — Inventory</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="styles.css"></head>
++<body>
++<a class="skip" href="#inventory">Skip to inventory</a>
++<header class="masthead"><div class="brand"><span class="brand-mark" aria-hidden="true">T<span>↗</span></span><span>TERN WORKS<small>Operations workspace</small></span></div><span class="role">Inventory editor</span></header>
++<main id="app">
++<div class="page-heading"><div><p class="eyebrow">WORKSPACE / INVENTORY</p><h1>Inventory</h1><p class="intro">The parts, supplies and essentials that keep work moving.</p></div><span class="environment"><span aria-hidden="true">●</span> Local workspace</span></div>
++<div id="notice" role="status" aria-live="polite"></div>
++<section class="overview" aria-label="Inventory overview" id="overview"></section>
++<section class="workspace" aria-labelledby="inventory">
++<div class="collection-heading"><div><h2 id="inventory" tabindex="-1">Product directory</h2><p>Consult records, compare values and keep stock up to date.</p></div><div class="view-switch" role="group" aria-label="Product layout"><button type="button" id="adaptive-view" aria-pressed="true">Adaptive view</button><button type="button" id="table-view" aria-pressed="false">Compare table</button></div></div>
++<form class="filters" role="search" aria-label="Find inventory products" id="filters"><div class="search-field"><label for="search">Search products</label><div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" data-testid="search" type="search" placeholder="Search by product name or SKU" autocomplete="off"></div></div><div><label for="category">Category</label><select id="category"><option value="">All categories</option></select></div><div><label for="status">Lifecycle status</label><select id="status"><option value="">All statuses</option></select></div><div><label for="stock">Stock level</label><select id="stock"><option value="">All stock levels</option><option value="out">Out of stock · 0</option><option value="low">Low stock · 1–10</option><option value="available">In stock · 1+</option></select></div></form>
++<div class="result-toolbar"><p id="result-count" role="status" aria-live="polite"></p><div class="sort"><label for="sort">Sort by</label><select id="sort"><option value="original">Record ID</option><option value="name">Name A–Z</option><option value="stock">Stock: low to high</option><option value="price">Price: low to high</option></select></div></div>
++<div id="active-filters" class="active-filters"></div>
++<p class="scroll-hint" id="scroll-hint">↔ Compare all columns: scroll horizontally or use the arrow keys in the table.</p>
++<div id="results"></div>
++<footer class="collection-footer"><span>Fictional inventory · Prices in USD</span><span>Changes are kept for this session</span></footer>
++</section>
++<footer class="page-footer"><span>TERN WORKS</span><span>Built for the work ahead.</span></footer>
++</main>
++<dialog id="record-dialog" aria-labelledby="dialog-title"></dialog>
++<script type="module" src="app.js"></script>
++</body></html>
+--- initial/design-context.json
++++ final/design-context.json
+@@ -0,0 +1 @@
++{"schemaVersion":"2.0","applicationType":{"value":"operations-workspace","status":"observed","evidenceRefs":["TASK.md"]},"tasks":{"primary":{"value":"consult and compare inventory products","status":"explicit","evidenceRefs":["TASK.md"]},"secondary":[{"value":"search and filter products table","status":"explicit","evidenceRefs":["TASK.md"]},{"value":"edit product form with permissions and validation","status":"explicit","evidenceRefs":["TASK.md"]}]},"brand":{"preserve":true}}
+--- initial/design-guidance.json
++++ final/design-guidance.json
+@@ -0,0 +1 @@
++{"schemaVersion":"2.1","catalogVersion":"1.0.0","engineVersion":"2.1.0-experimental.1","engine":"udi-deterministic","context":{"schemaVersion":"2.0","industry":{"value":null,"status":"unknown","evidenceRefs":[],"alternatives":[]},"applicationType":{"value":"operations-workspace","status":"observed","evidenceRefs":["TASK.md"],"alternatives":[]},"roles":[],"tasks":{"primary":{"value":"consult and compare inventory products","status":"explicit","evidenceRefs":["TASK.md"],"alternatives":[]},"secondary":[{"value":"edit product form with permissions and validation","status":"explicit","evidenceRefs":["TASK.md"],"alternatives":[]},{"value":"search and filter products table","status":"explicit","evidenceRefs":["TASK.md"],"alternatives":[]}]},"framework":{"value":null,"status":"unknown","evidenceRefs":[],"alternatives":[]},"designSystem":{"value":null,"status":"unknown","evidenceRefs":[],"alternatives":[]},"brand":{"identity":{"value":null,"status":"unknown","evidenceRefs":[],"alternatives":[]},"preserve":true,"tokens":[]},"components":[],"query":"","observations":[],"uncertainty":[],"constraints":[]},"evidenceLevel":"strong","rankMargin":0,"profileCandidates":[{"id":"PRO-ADMIN-CONSOLE","name":"Administration console","score":41.92307692307692,"contributions":{"application":40,"task":1.9230769230769231,"industry":0,"role":0},"reason":"Eligible application and industry policy; task/role contributions are lexical overlap, not semantic confidence."},{"id":"PRO-B2B-SAAS","name":"Professional B2B SaaS","score":41.92307692307692,"contributions":{"application":40,"task":1.9230769230769231,"industry":0,"role":0},"reason":"Eligible application and industry policy; task/role contributions are lexical overlap, not semantic confidence."},{"id":"PRO-ENTERPRISE-DASHBOARD","name":"Enterprise dashboard","score":40,"contributions":{"application":40,"task":0,"industry":0,"role":0},"reason":"Eligible application and industry policy; task/role contributions are lexical overlap, not semantic confidence."}],"entities":[{"id":"UDI-ACC-002","kind":"rule","title":"Make keyboard focus visible and predictable","category":"accessibility","guidance":["Provide a visible focus indicator with sufficient distinction from surrounding states and avoid removing browser focus without a replacement.","Keep tab order aligned with reading order and ensure overlays manage entry, dismissal, and focus return."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.019226775956284158,"reasons":["Coverage query: accessibility.","Linked by eligible profile PRO-ADMIN-CONSOLE; lower weight than lexical coverage.","Linked by eligible profile PRO-B2B-SAAS; lower weight than lexical coverage.","Linked by eligible profile PRO-ENTERPRISE-DASHBOARD; lower weight than lexical coverage."]},{"id":"UDI-INT-001","kind":"rule","title":"Design default, hover, focus, active, and disabled states","category":"interaction-states","guidance":["Define state treatments for pointer, keyboard, pressed, loading, and unavailable conditions as appropriate.","Keep state changes perceivable without relying on color alone and preserve layout stability during loading."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0,"reasons":["Required rule reference of selected component knowledge."]},{"id":"CMP-FILTER-WORKSPACE","kind":"component","title":"Advanced Filter Workspace","category":"interaction-states","guidance":["Make a collection query explicit, reversible and understandable while distinguishing edited filters from the results currently displayed.","Scope and text search lead; frequent facets precede advanced criteria; active conditions remain visible beside result count.","Inspect CMP-FILTER-WORKSPACE for states, variants, keyboard, recovery, visual checks and anti-pattern references."],"ruleIds":["UDI-ACC-002","UDI-INT-001"],"sourceIds":["SRC-UDI-COMPONENTS"],"score":40,"reasons":["Application gate: observed operations-workspace.","Task evidence: explicit search and filter products table.","Original generic contract; no domain workflow or rendered quality is claimed."]},{"id":"UDI-DAT-001","kind":"rule","title":"Use tables when precise comparison matters","category":"tables-data-visualization","guidance":["Provide clear column headers and keep units, labels, and actions associated with their row or column.","Use a chart for patterns or trends and a table when users need exact lookup or comparison."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.013528455284552847,"reasons":["Linked by eligible profile PRO-ADMIN-CONSOLE; lower weight than lexical coverage.","Linked by eligible profile PRO-ENTERPRISE-DASHBOARD; lower weight than lexical coverage.","User task/component query."]},{"id":"UDI-RSP-004","kind":"rule","title":"Make dense data views adapt intentionally","category":"responsive-design","guidance":["Prioritize the columns required for the mobile task, allow horizontal scrolling when comparison requires it, or provide a stacked row presentation.","Keep row identity and action relationships clear in alternate views and announce table headers semantically."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.028910593998775262,"reasons":["Coverage query: responsive.","Linked by eligible profile PRO-ENTERPRISE-DASHBOARD; lower weight than lexical coverage.","User task/component query."]},{"id":"CMP-OPERATIONAL-TABLE","kind":"component","title":"Operational Data Table","category":"tables-data-visualization","guidance":["Compare identifiable records and act on an explicitly scoped result set without confusing missing data, permission or selection.","Collection identity and current scope precede column headings; record identifier anchors each row before secondary metadata.","Inspect CMP-OPERATIONAL-TABLE for states, variants, keyboard, recovery, visual checks and anti-pattern references."],"ruleIds":["UDI-ACC-002","UDI-DAT-001","UDI-RSP-004"],"sourceIds":["SRC-UDI-COMPONENTS"],"score":40,"reasons":["Application gate: observed operations-workspace.","Task evidence: explicit search and filter products table.","Original generic contract; no domain workflow or rendered quality is claimed."]},{"id":"UDI-FOR-001","kind":"rule","title":"Label every form control persistently","category":"forms","guidance":["Associate a visible label with each field and keep examples or formats in supporting text.","Use placeholders only for short examples, never as the only label or essential instruction."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.015625,"reasons":["User task/component query."]},{"id":"UDI-FOR-002","kind":"rule","title":"Validate at the point of need with actionable messages","category":"forms","guidance":["Explain the problem in plain language beside the field, describe the expected correction, and associate the message programmatically.","Avoid clearing valid input or showing an error before the user has a fair chance to complete the field."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.015873015873015872,"reasons":["User task/component query."]},{"id":"UDI-FOR-004","kind":"rule","title":"Preserve user input through recoverable errors","category":"forms","guidance":["Keep valid values after a failed submission and identify which fields need attention.","For sensitive values that cannot safely be retained, explain the limitation and narrow the re-entry request to those fields."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0,"reasons":["Required reference of PAT-VALIDATED-FORM."]},{"id":"CMP-RECOVERABLE-FORM","kind":"component","title":"Recoverable Form","category":"forms","guidance":["Collect or edit meaningful input with clear grouping, honest save state and a recovery route that retains valid user work.","Task and entity identity lead; group headings organize decisions; labels stay closer to controls than adjacent groups.","Inspect CMP-RECOVERABLE-FORM for states, variants, keyboard, recovery, visual checks and anti-pattern references."],"ruleIds":["UDI-FOR-001","UDI-FOR-002","UDI-FOR-004"],"sourceIds":["SRC-UDI-COMPONENTS"],"score":40,"reasons":["Application gate: observed operations-workspace.","Task evidence: explicit edit product form with permissions and validation.","Original generic contract; no domain workflow or rendered quality is claimed."]},{"id":"UDI-INT-003","kind":"rule","title":"Communicate progress for actions that take time","category":"interaction-states","guidance":["Show a concise pending state, prevent accidental duplicate actions, and restore a usable state if the operation fails.","For indeterminate work, explain what is happening without inventing a percentage or blocking unrelated navigation."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.016726775956284155,"reasons":["Coverage query: recovery.","Linked by eligible profile PRO-ENTERPRISE-DASHBOARD; lower weight than lexical coverage."]},{"id":"UDI-SYS-001","kind":"rule","title":"Reuse the project’s established design tokens","category":"design-systems","guidance":["Inspect the project’s current color, typography, spacing, radius, and elevation tokens before adding styles.","Extend the existing token model with the smallest justified addition instead of introducing a competing palette."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.031213788943297145,"reasons":["Coverage query: brand-preservation.","Linked by eligible profile PRO-ADMIN-CONSOLE; lower weight than lexical coverage.","Linked by eligible profile PRO-B2B-SAAS; lower weight than lexical coverage.","Linked by eligible profile PRO-ENTERPRISE-DASHBOARD; lower weight than lexical coverage.","User task/component query."]},{"id":"UDI-NAV-005","kind":"rule","title":"Make mobile navigation operable and stateful","category":"navigation","guidance":["Give the menu trigger an accessible name and expanded state, and make dismissal and focus return predictable.","Avoid hiding the only route to a critical action or relying on hover to reveal destinations."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0,"reasons":["Required reference of PAT-MOBILE-NAV."]},{"id":"UDI-RSP-003","kind":"rule","title":"Keep primary tasks reachable on small screens","category":"responsive-design","guidance":["Identify the highest-value task for each screen and keep its entry point visible in the narrow layout.","Move secondary controls into a discoverable menu, but preserve labels, keyboard access, and clear open/close states."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.02749719416386083,"reasons":["Coverage query: responsive.","User task/component query."]},{"id":"PAT-MOBILE-NAV","kind":"pattern","title":"Accessible compact navigation","category":"navigation","guidance":["Use a named button with expanded state.","Keep destinations reachable with keyboard and touch.","Return focus to the trigger when a dismissible menu closes."],"ruleIds":["UDI-ACC-002","UDI-NAV-005","UDI-RSP-003"],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.03252247488101534,"reasons":["Coverage query: accessibility.","Coverage query: responsive."]},{"id":"UDI-ANT-009","kind":"rule","title":"Avoid shrinking desktop tables to fit mobile screens","category":"anti-patterns","guidance":["Choose a mobile-specific presentation or a clearly bounded horizontal scroll region with row identity preserved.","Keep the most important values visible and provide access to secondary columns."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.013157894736842105,"reasons":["User task/component query."]},{"id":"UDI-ANTI-006","kind":"anti-pattern","title":"Compressed mobile data table","category":"anti-patterns","guidance":["Columns become ambiguous or clipped.","Small targets increase interaction errors.","Use a deliberate responsive row layout or a scoped horizontal scroll region.","Keep row identity clear and provide the most important data first."],"ruleIds":["UDI-ANT-009","UDI-RSP-004"],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.032266458495966696,"reasons":["Coverage query: responsive.","User task/component query."]},{"id":"UDI-DAT-004","kind":"rule","title":"Keep row actions attached to a recognizable record","category":"tables-data-visualization","guidance":["Include a stable row identifier and accessible action names that provide context when repeated.","Group infrequent actions in a labeled menu and keep destructive actions distinct from routine navigation."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.013333333333333334,"reasons":["User task/component query."]},{"id":"PAT-RESPONSIVE-TABLE","kind":"pattern","title":"Responsive data table","category":"tables-data-visualization","guidance":["Keep semantic headers and row identity intact.","Use a labeled horizontal scroll region or a task-focused stacked row layout.","Prioritize essential columns and retain access to secondary values."],"ruleIds":["UDI-DAT-001","UDI-DAT-004","UDI-RSP-004"],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.03252247488101534,"reasons":["Coverage query: responsive.","User task/component query."]},{"id":"UDI-ANT-002","kind":"rule","title":"Do not use vague errors that blame the user","category":"anti-patterns","guidance":["Name the field, explain the unmet requirement, and show an acceptable example when format matters.","Keep the value the user entered unless clearing it is necessary for safety."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0,"reasons":["Required reference of UDI-ANTI-002."]},{"id":"UDI-ANTI-002","kind":"anti-pattern","title":"Generic or blame-oriented validation","category":"anti-patterns","guidance":["Users must guess which input failed.","The same value may be repeatedly submitted without a useful correction path.","Explain the requirement beside the field and identify the affected value.","Preserve valid input and provide a clear route to retry."],"ruleIds":["UDI-ANT-002","UDI-FOR-002","UDI-FOR-004"],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.01639344262295082,"reasons":["User task/component query."]},{"id":"PAT-VALIDATED-FORM","kind":"pattern","title":"Recoverable form validation","category":"forms","guidance":["Associate persistent labels and field-level error text with controls.","Preserve valid input after submission errors.","Announce status updates and move focus only when needed to support recovery."],"ruleIds":["UDI-FOR-001","UDI-FOR-002","UDI-FOR-004"],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.01639344262295082,"reasons":["User task/component query."]},{"id":"UDI-ANT-001","kind":"rule","title":"Do not use placeholders as the only field labels","category":"anti-patterns","guidance":["Add a persistent visible label and move examples or formats to supporting text.","Keep programmatic labels associated with the control even when a compact visual layout is required."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0,"reasons":["Required reference of UDI-ANTI-001."]},{"id":"UDI-ANTI-001","kind":"anti-pattern","title":"Placeholder-only form labels","category":"anti-patterns","guidance":["Users may forget what a field requests after typing.","Low-contrast placeholder text can be difficult to read.","Keep a visible label associated with the field and use helper text for examples.","Use a compact floating label only if it remains readable and semantically associated."],"ruleIds":["UDI-ANT-001","UDI-FOR-001"],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.016129032258064516,"reasons":["User task/component query."]},{"id":"UDI-SAA-002","kind":"rule","title":"Keep dashboard filters visible and interpretable","category":"saas-dashboards","guidance":["Show active filters near the data they affect and provide a clear way to reset or adjust them.","Persist filter state only when it helps the workflow, and make the resulting scope visible after navigation or refresh."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.016484848484848488,"reasons":["Linked by eligible profile PRO-ADMIN-CONSOLE; lower weight than lexical coverage.","Linked by eligible profile PRO-ENTERPRISE-DASHBOARD; lower weight than lexical coverage.","User task/component query."]},{"id":"UDI-SAA-004","kind":"rule","title":"Explain empty and first-use dashboard states","category":"saas-dashboards","guidance":["Describe why no data is shown and give a relevant next action such as connecting a source or changing a filter.","Keep empty states specific to the current task instead of using generic celebratory artwork."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.013888888888888888,"reasons":["User task/component query."]},{"id":"UDI-VIS-003","kind":"rule","title":"Make the next action visually unambiguous","category":"visual-hierarchy","guidance":["Use one prominent primary action per task region and style secondary actions with lower visual emphasis.","Keep action labels specific about outcomes, such as “Create report” instead of “Continue” when the outcome is known."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0,"reasons":["Required reference of PAT-DASHBOARD-EMPTY."]},{"id":"PAT-DASHBOARD-EMPTY","kind":"pattern","title":"Task-oriented empty dashboard","category":"saas-dashboards","guidance":["Name the current empty condition.","Offer the most relevant next action.","Keep filter reset or data connection actions visible when applicable."],"ruleIds":["UDI-SAA-002","UDI-SAA-004","UDI-VIS-003"],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.015873015873015872,"reasons":["User task/component query."]},{"id":"UDI-ANT-007","kind":"rule","title":"Do not rely on color alone for chart series or status","category":"anti-patterns","guidance":["Add direct labels, shapes, patterns, or textual state and keep the mapping consistent across the chart.","Verify the chart remains understandable in grayscale and with assistive technology."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0,"reasons":["Required reference of UDI-ANTI-003."]},{"id":"UDI-COL-002","kind":"rule","title":"Never encode status with color alone","category":"color-contrast","guidance":["Pair status colors with text, an icon, or another clear shape cue that carries the same meaning.","Keep status wording explicit in tables, charts, alerts, and form validation messages."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.01639344262295082,"reasons":["User task/component query."]},{"id":"UDI-DAT-003","kind":"rule","title":"Provide a non-visual route to chart values","category":"tables-data-visualization","guidance":["Pair the visualization with a concise textual summary and accessible data labels or an equivalent table when detail matters.","Make series names, values, and units available to assistive technology without flooding the tab order with every mark."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.014285714285714285,"reasons":["User task/component query."]},{"id":"UDI-ANTI-003","kind":"anti-pattern","title":"Color-only status and chart encodings","category":"anti-patterns","guidance":["Users may not distinguish states in grayscale or with color-vision differences.","Assistive technology may not expose the intended comparison.","Pair color with labels, shapes, patterns, or direct values.","Provide a textual summary or data table for important visualizations."],"ruleIds":["UDI-ANT-007","UDI-COL-002","UDI-DAT-003"],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.015625,"reasons":["User task/component query."]},{"id":"UDI-SYS-005","kind":"rule","title":"Preserve brand decisions as an explicit constraint","category":"design-systems","guidance":["When brand preservation is requested, reuse approved assets and tokens and limit changes to layout, clarity, and accessible pairings.","If a necessary improvement would change a brand decision, explain the trade-off and request approval before replacing it."],"ruleIds":[],"sourceIds":["SRC-UDI-ORIGINAL"],"score":0.017962365591397852,"reasons":["Coverage query: brand-preservation.","Linked by eligible profile PRO-ADMIN-CONSOLE; lower weight than lexical coverage.","Linked by eligible profile PRO-B2B-SAAS; lower weight than lexical coverage.","Linked by eligible profile PRO-ENTERPRISE-DASHBOARD; lower weight than lexical coverage."]}],"coverage":[{"requirement":"accessibility","status":"covered","entityIds":["UDI-ACC-002"],"reason":"Selected applicable guidance covers this general category; no domain completeness is implied."},{"requirement":"responsive","status":"covered","entityIds":["UDI-RSP-004","UDI-RSP-003"],"reason":"Selected applicable guidance covers this general category; no domain completeness is implied."},{"requirement":"recovery","status":"covered","entityIds":["UDI-INT-003"],"reason":"Selected applicable guidance covers this general category; no domain completeness is implied."},{"requirement":"brand-preservation","status":"covered","entityIds":["UDI-SYS-001","UDI-SYS-005"],"reason":"Selected applicable guidance covers this general category; no domain completeness is implied."},{"requirement":"task:consult and compare inventory products","status":"unsupported","entityIds":[],"reason":"No reviewed task coverage policy; only general and lexical guidance is available."},{"requirement":"task:edit product form with permissions and validation","status":"unsupported","entityIds":[],"reason":"No reviewed task coverage policy; only general and lexical guidance is available."},{"requirement":"task:search and filter products table","status":"unsupported","entityIds":[],"reason":"No reviewed task coverage policy; only general and lexical guidance is available."},{"requirement":"spec:CMP-FILTER-WORKSPACE","status":"covered","entityIds":["CMP-FILTER-WORKSPACE"],"reason":"Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."},{"requirement":"spec:CMP-OPERATIONAL-TABLE","status":"covered","entityIds":["CMP-OPERATIONAL-TABLE"],"reason":"Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."},{"requirement":"spec:CMP-RECOVERABLE-FORM","status":"covered","entityIds":["CMP-RECOVERABLE-FORM"],"reason":"Applicable specification summary and all required component/rule dependencies are selected; inspect the ID for its full contract."}],"coverageComplete":false,"conflicts":[],"sources":[{"sourceId":"SRC-UDI-COMPONENTS","sourceName":"UDI original professional component contracts","organization":"UDI contributors","license":"MIT","attribution":"Original UDI Mission 009 specifications; external documentation cited for comparison only, no code, assets or documentation reproduced.","references":[{"name":"Carbon table task boundaries","url":"https://www.carbondesignsystem.com/building-blocks/core/components/data-table/guidelines"},{"name":"PatternFly operational table reference","url":"https://www.patternfly.org/components/table/design-guidelines/"},{"name":"WAI APG table and grid distinction","url":"https://www.w3.org/WAI/ARIA/apg/patterns/table/"}],"reviewedBy":["UDI author (automated structural review; no independent expert sign-off)"],"reviewStatus":"pending","reviewedAt":"2026-10-28"},{"sourceId":"SRC-UDI-ORIGINAL","sourceName":"UDI editorial synthesis","organization":"Universal Design Intelligence maintainers","license":"MIT","attribution":"Original, independently authored UDI guidance; not reproduced from cited reference material.","references":[{"name":"W3C WAI: Forms Tutorial","url":"https://www.w3.org/WAI/tutorials/forms/"},{"name":"W3C WAI: Reflow","url":"https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"},{"name":"W3C WAI: Tables Tutorial","url":"https://www.w3.org/WAI/tutorials/tables/"},{"name":"W3C Web Content Accessibility Guidelines (WCAG) 2.2","url":"https://www.w3.org/TR/WCAG22/"}],"reviewedBy":["UDI maintainers"],"reviewStatus":"reviewed","reviewedAt":"2026-10-26"}],"assumptions":["Scores and evidence bands are deterministic heuristics, not calibrated probabilities.","Framework is unknown; only framework-agnostic rules and compatible references are eligible.","Three original generic component families and one conditional composition are available; no domain packs are installed.","Component entries are summaries; inspect their stable ID for the complete specification. Contracts do not prove rendered visual quality."],"expansion":{"key":"v21:e9b559d5df29f702:32","omittedCount":22},"budget":{"maxBytes":24576,"usedBytes":24387},"componentCatalogVersion":"1.0.0"}

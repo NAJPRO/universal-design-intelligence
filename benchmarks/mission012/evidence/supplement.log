@@ -1,0 +1,108 @@
+{
+  "checks": 24,
+  "comparisons": 9,
+  "shortEditors": [
+    {
+      "arm": "A",
+      "width": 375,
+      "height": 320,
+      "fields": [
+        {
+          "name": "name",
+          "rect": {
+            "top": 189,
+            "bottom": 279
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "stock",
+          "rect": {
+            "top": 138,
+            "bottom": 182
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "price",
+          "rect": {
+            "top": 138,
+            "bottom": 182
+          },
+          "centreHit": true,
+          "focus": true
+        }
+      ]
+    },
+    {
+      "arm": "B",
+      "width": 375,
+      "height": 320,
+      "fields": [
+        {
+          "name": "name",
+          "rect": {
+            "top": 203,
+            "bottom": 303
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "stock",
+          "rect": {
+            "top": 138.5,
+            "bottom": 180.5
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "price",
+          "rect": {
+            "top": 138.5,
+            "bottom": 180.5
+          },
+          "centreHit": true,
+          "focus": true
+        }
+      ]
+    },
+    {
+      "arm": "C",
+      "width": 375,
+      "height": 320,
+      "fields": [
+        {
+          "name": "name",
+          "rect": {
+            "top": 125.328125,
+            "bottom": 213.328125
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "stock",
+          "rect": {
+            "top": 136.328125,
+            "bottom": 180.328125
+          },
+          "centreHit": true,
+          "focus": true
+        },
+        {
+          "name": "price",
+          "rect": {
+            "top": 136.328125,
+            "bottom": 180.328125
+          },
+          "centreHit": true,
+          "focus": true
+        }
+      ]
+    }
+  ]
+}

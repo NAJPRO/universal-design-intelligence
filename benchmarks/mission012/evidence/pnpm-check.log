@@ -1,0 +1,174 @@
+$ pnpm lint && pnpm typecheck && pnpm test
+$ eslint packages/*/src packages/*/test
+$ pnpm build && pnpm --recursive --if-present typecheck
+$ pnpm --recursive --if-present build
+packages/cli build$ tsc -p tsconfig.json --noEmit && node scripts/bundle.mjs && node scripts/copy-assets.mjs
+packages/knowledge build$ tsc -p tsconfig.json && node scripts/validate-catalog.mjs
+packages/knowledge build: Validated catalog: 80 rules, 17 profiles, 8 patterns, 8 anti-patterns.
+packages/knowledge build: Validated component pack: 3 families, 1 composition.
+packages/knowledge build: Done
+packages/core build$ tsc -p tsconfig.json
+packages/cli build: Done
+packages/core build: Done
+packages/knowledge typecheck$ tsc -p tsconfig.json --noEmit
+packages/cli typecheck$ tsc -p tsconfig.json --noEmit
+packages/knowledge typecheck: Done
+packages/core typecheck$ tsc -p tsconfig.json --noEmit
+packages/cli typecheck: Done
+packages/core typecheck: Done
+$ pnpm build && vitest run packages/cli/test packages/core/test packages/knowledge/test
+$ pnpm --recursive --if-present build
+packages/knowledge build$ tsc -p tsconfig.json && node scripts/validate-catalog.mjs
+packages/cli build$ tsc -p tsconfig.json --noEmit && node scripts/bundle.mjs && node scripts/copy-assets.mjs
+packages/knowledge build: Validated catalog: 80 rules, 17 profiles, 8 patterns, 8 anti-patterns.
+packages/knowledge build: Validated component pack: 3 families, 1 composition.
+packages/knowledge build: Done
+packages/core build$ tsc -p tsconfig.json
+packages/cli build: Done
+packages/core build: Done
+
+ RUN  v3.2.7 /home/audin/PRIVE/PERSO/NextJs/universal-design-intelligence
+
+ ✓ packages/core/test/responsive.test.ts (14 tests) 2326ms
+   ✓ Mission 011 responsive retrieval compatibility > preserves specification IDs, schema and selection while revising content  1186ms
+   ✓ Mission 011 responsive retrieval compatibility > invalidates old content-bound expansion while leaving schema 2.0 independent  848ms
+ ✓ packages/core/test/v2.test.ts (16 tests) 2250ms
+   ✓ evidence-aware v2 > packs task/accessibility coverage before optional guidance, measures exact bytes, and bounds expansion  521ms
+   ✓ evidence-aware v2 > returns byte-identical results for repeated and reordered equivalent input/catalogs  352ms
+ ✓ packages/core/test/recommend.test.ts (6 tests) 611ms
+   ✓ recommendation engine > selects distinct profiles for different product contexts  309ms
+ ✓ packages/knowledge/test/components.test.ts (21 tests) 471ms
+ ✓ packages/core/test/components.test.ts (36 tests) 12266ms
+   ✓ Mission 009 component selection > selects only labeled applicable knowledge: 'commerce-operations'  754ms
+   ✓ Mission 009 component selection > selects only labeled applicable knowledge: 'healthcare-operations'  360ms
+   ✓ Mission 009 component selection > selects only labeled applicable knowledge: 'property-operations'  471ms
+   ✓ Mission 009 component selection > selects only labeled applicable knowledge: 'unsupported-calendar'  369ms
+   ✓ Mission 009 component selection > preserves strict schema 2.0 and exact v2 output after enhanced calls  909ms
+   ✓ Mission 009 component selection > keeps uncertainty and role contributions honest  451ms
+   ✓ Mission 009 component selection > never returns specifications whose referenced rules fail framework or conflict gates  582ms
+   ✓ Mission 009 component selection > is deterministic for repeated and reordered catalogs/context arrays  984ms
+   ✓ Mission 009 component selection > inspects full records without exposing mutable singletons and invalidates stale expansion keys  470ms
+   ✓ Mission 009 component selection > bounds pages, accounts for omission and makes expansion progress  1162ms
+   ✓ Mission 009 component selection > observes modified supplied catalogs without stale results  731ms
+   ✓ Mission 009 component selection > rejects incompatible independent component selections deterministically  365ms
+   ✓ Mission 009 component selection > retrieves summaries independently and reports unsupported explicit component requirements  333ms
+stdout | packages/core/test/benchmark.test.ts > retrieval benchmark > measures Recall@5 and MRR@10 across realistic product queries
+Retrieval baseline (16 queries): Recall@5=0.941, MRR@10=0.969
+
+ ✓ packages/core/test/benchmark.test.ts (1 test) 233ms
+ ✓ packages/core/test/retrieval.test.ts (7 tests) 294ms
+ ✓ packages/knowledge/test/catalog.test.ts (4 tests) 115ms
+ ❯ packages/cli/test/components.test.ts (7 tests | 1 failed) 17187ms
+   ✓ component CLI > runs enhanced recommendations and full inspection from a standalone offline tarball  7146ms
+   ✓ component CLI > inspects complete local specification CMP-OPERATIONAL-TABLE  949ms
+   ✓ component CLI > inspects complete local specification CMP-FILTER-WORKSPACE  574ms
+   ✓ component CLI > inspects complete local specification CMP-RECOVERABLE-FORM  603ms
+   ✓ component CLI > inspects complete local specification COM-OPERATIONAL-MANAGEMENT  683ms
+   ✓ component CLI > rejects missing specifications with no partial JSON  681ms
+   × component CLI > uses opt-in output 2.1 with existing context 2.0, bounded expansion and readable explanations 6540ms
+     → Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ✓ packages/knowledge/test/v2-schemas.test.ts (2 tests) 26ms
+ ✓ packages/knowledge/test/schemas.test.ts (4 tests) 23ms
+ ✓ packages/cli/test/v2.test.ts (20 tests) 19102ms
+   ✓ v2 CLI and legacy compatibility > matches preimplementation v1 stdout byte-for-byte: [ 'recommend', '--json' ]  1442ms
+   ✓ v2 CLI and legacy compatibility > matches preimplementation v1 stdout byte-for-byte: [ 'recommend', '--type', …(4) ]  1544ms
+   ✓ v2 CLI and legacy compatibility > matches preimplementation v1 stdout byte-for-byte: [ 'recommend', '--type', …(7) ]  1337ms
+   ✓ v2 CLI and legacy compatibility > matches preimplementation v1 stdout byte-for-byte: [ 'recommend', '--type', …(4) ]  1059ms
+   ✓ v2 CLI and legacy compatibility > matches preimplementation v1 stdout byte-for-byte: [ Array(3) ]  424ms
+   ✓ v2 CLI and legacy compatibility > matches preimplementation v1 stdout byte-for-byte: [ 'search', 'mobile table', …(7) ]  741ms
+   ✓ v2 CLI and legacy compatibility > matches preimplementation v1 stdout byte-for-byte: [ Array(3) ]  695ms
+   ✓ v2 CLI and legacy compatibility > runs v2 offline with schema-valid output, exact byte accounting and explanation  2258ms
+   ✓ v2 CLI and legacy compatibility > runs the standalone bundle outside the workspace with network tripwires and no dependencies  1036ms
+   ✓ v2 CLI and legacy compatibility > rejects mixed/invalid options without partial JSON: [ 'recommend', '--context', …(2) ]  401ms
+   ✓ v2 CLI and legacy compatibility > rejects mixed/invalid options without partial JSON: [ 'recommend', …(3) ]  454ms
+   ✓ v2 CLI and legacy compatibility > rejects mixed/invalid options without partial JSON: [ 'recommend', …(7) ]  356ms
+   ✓ v2 CLI and legacy compatibility > rejects mixed/invalid options without partial JSON: [ 'recommend', …(7) ]  814ms
+   ✓ v2 CLI and legacy compatibility > rejects mixed/invalid options without partial JSON: [ 'recommend', …(7) ]  646ms
+   ✓ v2 CLI and legacy compatibility > rejects mixed/invalid options without partial JSON: [ 'recommend', …(7) ]  590ms
+   ✓ v2 CLI and legacy compatibility > rejects mixed/invalid options without partial JSON: [ 'recommend', …(7) ]  568ms
+   ✓ v2 CLI and legacy compatibility > rejects mixed/invalid options without partial JSON: [ 'recommend', …(7) ]  637ms
+   ✓ v2 CLI and legacy compatibility > expands a bounded packet with a context-bound cursor  2108ms
+   ✓ v2 CLI and legacy compatibility > rejects malformed, oversized, non-file and symlink contexts  1702ms
+ ✓ packages/cli/test/readiness.test.ts (19 tests) 22465ms
+   ✓ Mission 008.1 release readiness > preserves pre-optimization output/error behavior: [ 'recommend', …(5) ]  746ms
+   ✓ Mission 008.1 release readiness > preserves pre-optimization output/error behavior: [ 'recommend', …(5) ]  756ms
+   ✓ Mission 008.1 release readiness > preserves pre-optimization output/error behavior: [ 'recommend', …(5) ]  914ms
+   ✓ Mission 008.1 release readiness > preserves pre-optimization output/error behavior: [ 'recommend', …(5) ]  964ms
+   ✓ Mission 008.1 release readiness > preserves pre-optimization output/error behavior: [ 'recommend', …(5) ]  1006ms
+   ✓ Mission 008.1 release readiness > preserves pre-optimization output/error behavior: [ 'recommend', …(5) ]  696ms
+   ✓ Mission 008.1 release readiness > preserves pre-optimization output/error behavior: [ 'recommend', …(5) ]  386ms
+   ✓ Mission 008.1 release readiness > preserves pre-optimization output/error behavior: [ 'recommend', …(3) ]  576ms
+   ✓ Mission 008.1 release readiness > preserves pre-optimization output/error behavior: [ 'search', 'focus', '--limit', …(2) ]  389ms
+   ✓ Mission 008.1 release readiness > preserves pre-optimization output/error behavior: [ 'recommend', …(7) ]  728ms
+   ✓ Mission 008.1 release readiness > initializes only the selected command's schemas: [ Array(3) ]  842ms
+   ✓ Mission 008.1 release readiness > initializes only the selected command's schemas: [ 'recommend', '--type', …(2) ]  730ms
+   ✓ Mission 008.1 release readiness > initializes only the selected command's schemas: [ 'recommend', …(5) ]  1025ms
+   ✓ Mission 008.1 release readiness > initializes only the selected command's schemas: [ 'recommend', …(5) ]  1613ms
+   ✓ Mission 008.1 release readiness > never overwrites an existing v0.1.0 runtime and preserves pinned launchers across versions  3627ms
+   ✓ Mission 008.1 release readiness > runs all retrieval paths from an offline tarball without workspace dependencies  6715ms
+ ❯ packages/cli/test/cli.test.ts (16 tests | 1 failed) 23967ms
+   ✓ UDI CLI > prints its package version  367ms
+   ✓ UDI CLI > searches locally and prints structured results with filters  520ms
+   ✓ UDI CLI > prints readable search output and a useful empty-result message  874ms
+   ✓ UDI CLI > recommends a context-aware direction and emits versioned JSON  636ms
+   ✓ UDI CLI > rejects invalid filters and limits with actionable errors  702ms
+   ✓ UDI CLI > includes the canonical design skill as a runtime asset 1ms
+   ✓ UDI CLI > includes the project license in the distributable assets 1ms
+   × UDI CLI > includes the executable and all progressive-disclosure assets in the npm tarball 16901ms
+     → Test timed out in 15000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+   ✓ UDI CLI > installs a project-local skill and the bundled CLI runtime  804ms
+   ✓ UDI CLI > keeps repeated installation idempotent and previews without writing  736ms
+   ✓ UDI CLI > refuses modified skill files unless force is explicit  1077ms
+   ✓ UDI CLI > does not let force overwrite unowned files in the runtime directory 196ms
+   ✓ UDI CLI > installs multiple agents without duplicate shared files 196ms
+   ✓ UDI CLI > reports missing skill references and offers remediation  398ms
+   ✓ UDI CLI > requires an explicit agent when detection is absent or ambiguous  514ms
+   ✓ UDI CLI > rejects symlinked installation parents and missing package assets before writing 18ms
+ ✓ packages/cli/test/installation.test.ts (8 tests) 26966ms
+   ✓ decoupled installations > requires an explicit runtime choice and keeps dry runs read-only  1085ms
+   ✓ decoupled installations > installs all global agents sharing one runtime and reuses it in projects  3962ms
+   ✓ decoupled installations > supports global defaults and explicit user-runtime creation  1214ms
+   ✓ decoupled installations > uses ~/.udi by default without requiring a published package  537ms
+   ✓ decoupled installations > keeps portable projects offline and movable without any user runtime  1277ms
+   ✓ decoupled installations > detects runtime version mismatch and missing runtime without executing either  2033ms
+   ✓ decoupled installations > preserves modified and unowned skills, even with force for unowned files  1853ms
+   ✓ decoupled installations > runs an offline tarball outside the monorepo without installing application dependencies  14992ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/cli/test/cli.test.ts > UDI CLI > includes the executable and all progressive-disclosure assets in the npm tarball
+Error: Test timed out in 15000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ packages/cli/test/cli.test.ts:107:3
+    105|   });
+    106| 
+    107|   it("includes the executable and all progressive-disclosure assets in…
+       |   ^
+    108|     const result = spawnSync("npm", ["pack", "--dry-run", "--json"], {…
+    109|     expect(result.error).toBeUndefined();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  packages/cli/test/components.test.ts > component CLI > uses opt-in output 2.1 with existing context 2.0, bounded expansion and readable explanations
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ packages/cli/test/components.test.ts:44:3
+     42|     expect(result.status).toBe(1); expect(result.stdout).toBe(""); exp…
+     43|   });
+     44|   it("uses opt-in output 2.1 with existing context 2.0, bounded expans…
+       |   ^
+     45|     const root = mkdtempSync(join(tmpdir(), "udi009-cli-"));
+     46|     try {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  2 failed | 13 passed (15)
+      Tests  2 failed | 179 passed (181)
+   Start at  00:30:15
+   Duration  28.20s (transform 3.92s, setup 0ms, collect 12.19s, tests 128.30s, environment 33ms, prepare 5.04s)
+
+[ELIFECYCLE] Test failed. See above for more details.
+[ELIFECYCLE] Command failed with exit code 1.
